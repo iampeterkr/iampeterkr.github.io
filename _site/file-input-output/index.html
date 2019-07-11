@@ -1,0 +1,1591 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>File Input/Output -  Peter’s github.io Blog</title>
+<meta name="description" content="We learn about File input/output Syntax.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="File Input/Output">
+<meta property="og:url" content="http://localhost:4000/codecademy/file-input-output/">
+
+
+  <meta property="og:description" content="We learn about File input/output Syntax.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-07-11T14:01:22+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/codecademy/file-input-output/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/codecademy",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/codecademy/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/codecademy/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/codecademy/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/codecademy/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/codecademy/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/connect/" class="">Connect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/signin/" class="">SignIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/login/" class="">LogIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/bk-syllabus/" class="">Syllabus</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How to use</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/explain-screen/" class="">Explain Screen</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/learn/" class=""> • Learn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/instructions/" class=""> • Instructions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/stuck-get-a-hint/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/solution/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Solution?</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/community-forums/" class=""> • Community Forums</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/report-bug/" class=""> • Report a Bug</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/file-input-output/" class="active"> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python3</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="File Input/Output">
+    <meta itemprop="description" content="We learn about File input/output Syntax.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">File Input/Output
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-see-it-to-believe-it">1. See It to Believe It</a></li>
+  <li><a href="#2-the-open-function">2. The open() Function</a></li>
+  <li><a href="#3-writing">3. Writing</a></li>
+  <li><a href="#4-reading">4. Reading</a></li>
+  <li><a href="#5-reading-between-the-lines">5. Reading Between the Lines</a></li>
+  <li><a href="#6-psa-buffering-data">6. PSA: Buffering Data</a></li>
+  <li><a href="#7-the-with-and-as-keywords">7. The ‘with’ and ‘as’ Keywords</a></li>
+  <li><a href="#8-try-it-yourself">8. Try It Yourself</a></li>
+  <li><a href="#9-case-closed">9. Case Closed?</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>Now that you understand Python syntax and have been introduced to some Python best practices, let’s apply what you’ve learned to a real-world application: writing data to a file.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
+이 장에서는 Python 을 활용한 File 입/출력 구조를 학습한다.  <br />
+그 외 지금까지 배워온 Python 문법을 이해하고 연습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="1-see-it-to-believe-it">1. See It to Believe It</h3>
+
+<p>Until now, the Python code you’ve been writing comes from one source and only goes to one place: you type it in at the keyboard and its results are displayed in the console. But what if you want to read information from a file on your computer, and/or write that information to another file?</p>
+
+<p>This process is called file I/O (the “I/O” stands for “input/output”), and Python has a number of built-in functions that handle this for you.</p>
+
+<p>Check out the code in the editor to the right.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ] <br />
+• Ch1. See It to Believe It 에서는 File I/O 를 학습한다.    <br />
+• 지금까지는 코딩을 editor 화면에서 하고, 그 결과를 console 에서 보여주었다.   <br />
+• 실상은 컴퓨터가 파일에서 정보를 읽어서 처리후 그 결과를 파일에 저장하여 보여준다.  <br />
+• 이러한 파일 처리 절차를 File I/O 라고 부른다.   <br />
+• Python에서는 이러한 File I/O를 관리하는 여러가지 내부 함수를 제공한다.  <br />
+• Editor 화면에 있는 소스를 보고, 이해해 보자.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Click Run! You just wrote all the contents of <code class="highlighter-rouge">my_list</code> to a text file called <code class="highlighter-rouge">output.txt</code>.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 리스트 my_list 의 내용들을 파일 output.txt 에 저장하는 것이다.  <br />
+• 실행 해보고, 어떻게 동작되는지 이해해 보자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="o">**</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)]</span>
+<span class="c1"># Generates a list of squares of the numbers 1 - 10
+</span>
+<span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"output.txt"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">my_list</span><span class="p">:</span>
+  <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">)</span> <span class="o">+</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+
+<span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 리스트 my_list 에 list comphresion을 이용하여 1부터 10까지의 제곱을 구한다.  <br />
+• 파일 output.txt 파일을 쓰기 모드로 연다.<br />
+• 그리고 그 주소를 변수 f 에 저장한다.     <br />
+• for 문을 통하여 리스트 my_list 값을 하나씩 추출하여, 변수 f 에 값을 저장한다.  <br />
+• for 문이 종료되면, 변수 f 를 종료한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="2-the-open-function">2. The open() Function</h3>
+
+<p>Let’s walk through the process of writing to a file one step at a time.</p>
+
+<p>The first code that you saw executed in the previous exercise was this:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"output.txt"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This told Python to open <code class="highlighter-rouge">output.txt</code> in “w” mode (“w” stands for “write”). We stored the result of this operation in a file object, <code class="highlighter-rouge">f</code>.</p>
+
+<p>Doing this opens the file in write-mode and prepares Python to send data into the file.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch2. The open() Function 에서는 파일 함수 open() 을 학습한다.  <br />
+• 파일을 쓴다는 것이 어떻게 진행되는지 하나하나씩 이해해 보자.  <br />
+• 첫번째로, 파일을 쓰기 위해서는 해당 파일을 열어야 한다.   <br />
+• Python 문법은 open 이라는 함수를 사용해서 연다.  <br />
+• 함수 open() 은 2개의 parameter를 가진다.  <br />
+• 첫번째 매개변수는 파일의 위치와 이름을 적는다.  <br />
+• 두번째 매개변수는 파일을 어떻게 할지(e.g. 읽을지, 쓸지, 읽고/쓸지)를 결정한다.  <br />
+• 파일이 정상적으로 open 되면 그 File object 가 반환된다.  <br />
+• 그 반환값 File object 값을 변수 f 에 저장한다.  <br />
+• 이후, 파일에 접근할때, File object f 를 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Create a variable, <code class="highlighter-rouge">my_file</code>, and set it equal to calling the <code class="highlighter-rouge">open()</code> function on <code class="highlighter-rouge">output.txt</code>.</li>
+  <li>In this case, pass “r+” as a second argument to the function so the file will allow you to read and write to it! (See the Hint for details.)</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 my_file 을 작성하라.  <br />
+• 파일 output.txt 을 open() 함수를 사용하여 오픈한다.  <br />
+• 반환받은 File object 값을 저장한다.  <br />
+• 함수 open(“output.txt”, “r+”)을 할때, r+ 모드로 오픈한다.  <br />
+• 모드 ( r+ ) 는 읽고, 쓰기 모드이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>You can open files in any of the following modes:</p>
+
+    <ul>
+      <li>write-only mode (“w”)</li>
+      <li>read-only mode (“r”)</li>
+      <li>read and write mode (“r+”)</li>
+      <li>append mode (“a”), which adds any new data you write to the file to the end of the file.</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• File 모드 에 대해서 알아보자.  <br />
+• 쓰기만 가능 ( “w” )  <br />
+• 읽기만 가능 ( “r” )   <br />
+• 읽기, 쓰기 모두 가능 ( “r+” )  <br />
+• 덧붙이기 ( “a” )</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"output.txt"</span><span class="p">,</span> <span class="s">"r+"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• File object my_file 은 output.txt 파일을 읽기/쓰기 모드로 오픈한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip 
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="3-writing">3. Writing</h3>
+
+<p>Good work! Now it’s time to write some data to a new <code class="highlighter-rouge">.txt</code> file.</p>
+
+<p>We added the list comprehension from the first exercise to the code in the editor. Our goal in this exercise will be to write each element of that list to a file called <code class="highlighter-rouge">output.txt</code>. The <code class="highlighter-rouge">output.txt</code> file that you write to will be created in your current folder - for simplicity, the folder has been hidden. <code class="highlighter-rouge">output.txt</code> will list each number on its own line.</p>
+
+<p>We can write to a Python file like so:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">"Data to be written"</span><span class="p">)</span>
+</code></pre></div></div>
+<p>The <code class="highlighter-rouge">.write()</code> method takes a string argument, so we’ll need to do a few things here:</p>
+
+<p>You must close the file. You do this simply by calling <code class="highlighter-rouge">my_file.close()</code> (we did this for you in the last exercise). If you don’t close your file, Python won’t write to it properly. From here on out, you gotta close your files!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch3. Writing 에서는 쓰기를 학습한다.      <br />
+• 파일 output.txt 를 오픈하고, 반환된 값 object를 my_file 에 저장되어 있다. <br />
+• 지금부터, 파일에 저장하기 위해선, File object my_file 을 통하여 저장한다. <br />
+• 메서드 .write() 를 사용하여, 다음과 같이 문자열을 저장한다.  <br />
+• e.g.  my_file.write(“Data to be written”)  <br />
+• 파일을 모두 사용한 후, 마지막에는 my_file.close() 를 호출하여, 정리한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Iterate over <code class="highlighter-rouge">my_list</code> to get each value.</p>
+  </li>
+  <li>
+    <p>Use <code class="highlighter-rouge">my_file.write()</code> to write each value to a text file called, <code class="highlighter-rouge">output.txt</code>.</p>
+  </li>
+  <li>
+    <p>Make sure to call <code class="highlighter-rouge">str()</code> on the iterating data so <code class="highlighter-rouge">.write()</code> will accept it.</p>
+  </li>
+  <li>
+    <p>Make sure to add a newline (+ “\n”) after each element to ensure each will appear on its own line.</p>
+  </li>
+  <li>
+    <p>Use <code class="highlighter-rouge">my_file.close()</code> to close the file when you’re done.</p>
+  </li>
+  <li>
+    <p>Passing the exercise means that you successfully wrote <code class="highlighter-rouge">my_list</code> to <code class="highlighter-rouge">output.txt</code>!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• File object my_list 에 있는 값을 반복적으로 추출한다.  <br />
+• my_file.write() 를 사용하여, output.txt. 파일에 my_list 값의 내용을 저장한다.  <br />
+• 함수 str() 을 사용하여 저장하라.  <br />
+• 저장할때, ( \n ) 을 추가하여, 새로운 줄에 저장하라.  <br />
+• 마지막에 my_file.close() 호출하여, 파일을 닫아라. <br />
+• File object my_list 값을 output.txt 에 정상적으로 저장되면 성공이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember, the syntax for iterating over a list looks like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">:</span>
+  <span class="c1"># Do something
+</span></code></pre></div></div>
+
+<ul>
+  <li>
+    <p>You should write to the file inside your iterator, but you should close the file outside your iterator—otherwise, you’ll attempt to close the file after you write each line!</p>
+  </li>
+  <li>
+    <p>And the syntax for calling <code class="highlighter-rouge">str()</code> looks like this:</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">str</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="c1"># =&gt; "42"
+</span></code></pre></div></div>
+
+<ul>
+  <li>Make sure to add a newline (+ “\n”)</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• for 문을 사용하여 저장한다.     <br />
+• for 문이 완료되고, 파일 close() 한다.  <br />
+• 숫자는 함수 str() 을 사용하여 문자열로 만든다.  <br />
+• NewLine ( \n ) 을 확실히 하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="o">**</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)]</span>
+
+<span class="n">my_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"output.txt"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">)</span>
+
+<span class="c1"># Add your code below!
+</span><span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">my_list</span><span class="p">:</span>
+  <span class="n">my_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">+</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+  
+<span class="n">my_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• for 문을 돌면서 아래 작업을 진행한다.  <br />
+• 변수 value 에 my_list 값을 하나씩 추출한다.  <br />
+• 변수 value 값을 함수 str() 을 활용하여 문자열로 만든다.   <br />
+• 변수 value 끝에 ( \n ) 을 추가한다.  <br />
+• File object my_file 에 value 값을 저장한다.  <br />
+• for 문이 완료되면, my_file 을 close() 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="4-reading">4. Reading</h3>
+
+<p>Excellent! You’re a pro.</p>
+
+<p>Finally, we want to know how to read from our <code class="highlighter-rouge">output.txt</code> file. As you might expect, we do this with the <code class="highlighter-rouge">read()</code> function, like so:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="n">my_file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch4. Reading 에서는 파일을 읽는 방법을 학습한다.   <br />
+• 파일 output.txt 을 읽기 위해서는 File object my_file에 read() 함수를 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Declare a variable, <code class="highlighter-rouge">my_file</code>, and set it equal to the file object returned by calling <code class="highlighter-rouge">open()</code> with both <code class="highlighter-rouge">"output.txt"</code> and <code class="highlighter-rouge">"r"</code>.</p>
+  </li>
+  <li>
+    <p>Next, print the result of using <code class="highlighter-rouge">.read()</code> on <code class="highlighter-rouge">my_file</code>, like the example above.</p>
+  </li>
+  <li>
+    <p>Make sure to <code class="highlighter-rouge">.close()</code> your file when you’re done with it! All kinds of doom will happen if you don’t.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• my_file = open(“output.txt”, “r”) 을 정의하라.  <br />
+• File object my_file 을 메서드 .read() 를 사용하여 읽어라. 그리고 출력하라.<br />
+• 파일을 사용후에는 File object my_file 을 메서드 .close() 로 닫아라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember, the syntax for opening a file looks like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">variable</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"filename"</span><span class="p">,</span> <span class="s">"mode"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• 파일을 오픈하는 방법을 참조하자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"output.txt"</span><span class="p">,</span> <span class="s">"r"</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">my_file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<span class="n">my_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 파일 output.txt 를 read 모드로 오픈하여, File object my_file 에 저장한다.  <br />
+• File object my_file 을 읽어서 출력한다. <br />
+• File object my_file 을 닫는다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="5-reading-between-the-lines">5. Reading Between the Lines</h3>
+
+<p>What if we want to read from a file line by line, rather than pulling the entire file in at once. Thankfully, Python includes a <code class="highlighter-rouge">.readline()</code> method that does exactly that.</p>
+
+<p>If you open a file and call <code class="highlighter-rouge">.readline()</code> on the file object, you’ll get the first line of the file; subsequent calls to <code class="highlighter-rouge">.readline()</code> will return successive lines.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch5. Reading Between the Lines 에서는 파일 함수 readline() 을 학습한다.    <br />
+• Python에서 .readline() 을 사용하면, 파일을 한번에 한 줄씩 읽을 수 있다.  <br />
+• 파일을 오픈후, 메서드 .readline() 을 사용하면 순차적으로 파일의 내용을 한 줄씩 읽는다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Declare a new variable <code class="highlighter-rouge">my_file</code> and store the result of calling <code class="highlighter-rouge">open()</code> on the “text.txt” file in “r”ead-only mode.</p>
+  </li>
+  <li>
+    <p>On three separate lines, print out the result of calling <code class="highlighter-rouge">my_file.readline()</code>.</p>
+  </li>
+  <li>
+    <p>See how it gets the next line each time?</p>
+  </li>
+  <li>
+    <p>Don’t forget to <code class="highlighter-rouge">.close()</code> your file when you’re done with it!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 my_file 에 파일 “text.txt” 을 읽기 모드로 오픈하라.  <br />
+• File object my_file.readline() 을 호출하여, 파일의 내용을 읽어 출력하라.  <br />
+• 한줄은 읽었는데, 다음줄은 어떻게 할지를 고민해 보라. <br />
+• 파일을 다 사용후에는 꼭 메서드 .close() 로 닫아야 한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember, to open a file:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">variable</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"filename"</span><span class="p">,</span> <span class="s">"mode"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>To read from the file, you can just call <code class="highlighter-rouge">variable.readline()</code>.</li>
+  <li>Make sure to close your file once you’re done reading from it!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• Python 문법중 다음 예제의 File I/O 문법을 상기한다.  <br />
+• e.g. variable = open(“filename”, “mode”)   <br />
+• 파일을 한 줄씩 읽을때는 variable.readline() 를 사용한다.  <br />
+• 파일을 다 쓴 후에는 닫는 것을 잊지말라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"text.txt"</span><span class="p">,</span> <span class="s">"r"</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">my_file</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span>
+<span class="k">print</span> <span class="n">my_file</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span>
+<span class="k">print</span> <span class="n">my_file</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span>
+<span class="n">my_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 파일 text.txt 을 read 모드로 오픈 후, File object my_file 에 저장한다.   <br />
+• File object my_file 에 readline() 으로 한 라인씩 출력한다.  <br />
+• File object my_file 을 close() 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I'm the first line of the file!
+I'm the second line.
+Third line here, boss.
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="6-psa-buffering-data">6. PSA: Buffering Data</h3>
+
+<p>We keep telling you that you always need to close your files after you’re done writing to them. Here’s why!</p>
+
+<p>During the I/O process, data is buffered: this means that it is held in a temporary location before being written to the file.</p>
+
+<p>Python doesn’t flush the buffer—that is, write data to the file—until it’s sure you’re done writing. One way to do this is to close the file. If you write to a file without closing, the data won’t make it to the target file.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch6. PSA: Buffering Data 에서는 버퍼링에 관하여 학습한다.   <br />
+• 파일 write 작업이 끝나면 항상 닫아야 한다.   <br />
+• 이유는, 파일 write I/O 작업하는 동안 데이타가 버퍼링에 남아 있기 때문이다.  <br />
+• 파일을 정상적으로 닫아야 실질적인 파일 저장이 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Check out our extremely bad code in the editor.</li>
+  <li>
+    <p>Click Run—you’ll note that our <code class="highlighter-rouge">read_file.read()</code> didn’t read any data back!</p>
+  </li>
+  <li>
+    <p>Add a <code class="highlighter-rouge">write_file.close()</code> call after writing to the file but before reading it.</p>
+  </li>
+  <li>
+    <p>Add a <code class="highlighter-rouge">read_file.close()</code> call after the print <code class="highlighter-rouge">read_file.read()</code> line
+Run the code again.</p>
+  </li>
+  <li>This time, you’ll see the data come through!</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• Editor 화면에 있는 코드는 좋은 코드가 아니다.  <br />
+• print read_file.read() 소스에서 어떤 데이타도 읽지 못할 것이다.  <br />
+• 이유는 파일을 쓰고, .Close() 를 하지 않았다.  <br />
+• 파일을 write 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라.   <br />
+• e.g. write_file.close()  <br />
+• 파일을 read 한 후, 다음 라인에 아래와 같이 파일을 close 하는 것을 추가하라.  <br />
+• e.g. read_file.close()</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Use a file handler to open a file for writing
+</span><span class="n">write_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"text.txt"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">)</span>
+
+<span class="c1"># Open the file for reading
+</span><span class="n">read_file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"text.txt"</span><span class="p">,</span> <span class="s">"r"</span><span class="p">)</span>
+
+<span class="c1"># Write to the file
+</span><span class="n">write_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">"Not closing files is VERY BAD."</span><span class="p">)</span>
+
+<span class="n">write_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="c1"># Try to read from the file
+</span><span class="k">print</span> <span class="n">read_file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+<span class="n">read_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 파일을 write 한 후 더 이상 사용할 일이 없으면 해당 파일을 .close() 해야 한다.   <br />
+• 파일을 read 한 후 더 이상 사용할 일이 없으면 해당 파일을 .close() 해야 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Not closing files is VERY BAD.
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="7-the-with-and-as-keywords">7. The ‘with’ and ‘as’ Keywords</h3>
+
+<p>Programming is all about getting the computer to do the work. Is there a way to get Python to automatically close our files for us?</p>
+
+<p>Of course there is. This is Python.</p>
+
+<p>You may not know this, but file objects contain a special pair of built-in methods: <code class="highlighter-rouge">__enter__()</code> and <code class="highlighter-rouge">__exit__()</code>. The details aren’t important, but what is important is that when a file object’s <code class="highlighter-rouge">__exit__()</code> method is invoked, it automatically closes the file. How do we invoke this method? With with and as.</p>
+
+<p>The syntax looks like this:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">"file"</span><span class="p">,</span> <span class="s">"mode"</span><span class="p">)</span> <span class="k">as</span> <span class="n">variable</span><span class="p">:</span>
+  <span class="c1"># Read or write to the file
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch7. The ‘with’ and ‘as’ Keywords 에서는 자동 close 함수를 학습한다.  <br />
+• Python 에서는 자동으로 파일을 종료 시켜 주는 기능이 있다.  <br />
+• 함수 <code class="highlighter-rouge">__enter__()</code>, <code class="highlighter-rouge">__exit__()</code> 을 사용하면 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Check out the example in the editor.</li>
+  <li>Note that we don’t explicitly <code class="highlighter-rouge">close()</code> our file, and remember that if we don’t close a file, our data will get stuck in the buffer. Click Run!</li>
+  <li>Success! is written to a file called <code class="highlighter-rouge">text.txt</code>.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• Editor 화면에 있는 내용을 실행후 살펴보라.  <br />
+• 메서드 .close() 를 하지 않았음에도 정상적으로 text.txt 파일에 저장이 되었다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">"text.txt"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">)</span> <span class="k">as</span> <span class="n">textfile</span><span class="p">:</span>
+  <span class="n">textfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">"Success!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 메서드 .close() 가 없음에도 정상적으로 파일이 저장된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Success!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="8-try-it-yourself">8. Try It Yourself</h3>
+
+<p>It worked! Our Python program successfully wrote to text.txt.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch8. Try It Yourself 에서는 자동 저장에 관하여 추가 학습한다.   <br />
+• 파일 text.txt 가 정상적으로 저장 되었다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Now you try: write any data you like to a file called <code class="highlighter-rouge">text.txt</code> using with…as. Give your file object the usual name: <code class="highlighter-rouge">my_file</code>.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 파일 text.txt 을 with…as 를 사용하여 아무 데이타를 저장하라.   <br />
+• File object 는 my_file 로 하여라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember your syntax:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">"file"</span><span class="p">,</span><span class="s">"mode"</span><span class="p">)</span> <span class="k">as</span> <span class="n">variable</span><span class="p">:</span>
+  <span class="c1"># Read or write to the file
+</span></code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• with…as 문법을 기억하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">"text.txt"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">)</span> <span class="k">as</span> <span class="n">my_file</span><span class="p">:</span>
+  <span class="n">my_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">"cheapter 8 "</span><span class="p">)</span>
+  
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 문법 with … as 을 사용하여 파일을 오픈하여 저장하였다.  <br />
+• 메서드 .close() 를 사용하지 않았지만, 자동으로 저장되었다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cheapter 8 
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">FILE INPUT/OUTPUT</font>
+<h3 id="9-case-closed">9. Case Closed?</h3>
+
+<p>Finally, we’ll want a way to test whether a file we’ve opened is closed. Sometimes we’ll have a lot of file objects open, and if we’re not careful, they won’t all be closed. How can we test this?</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"bg.txt"</span><span class="p">)</span>
+<span class="n">f</span><span class="o">.</span><span class="n">closed</span>
+<span class="c1"># False
+</span><span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="n">f</span><span class="o">.</span><span class="n">closed</span>
+<span class="c1"># True
+</span></code></pre></div></div>
+<p>Python file objects have a closed attribute which is True when the file is closed and False otherwise.</p>
+
+<p>By checking <code class="highlighter-rouge">file_object.closed</code>, we’ll know whether our file is closed and can call <code class="highlighter-rouge">close()</code> on it if it’s still open.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch9. Case Closed? 에서는 파일 close 점검하는 법을 학습한다.  <br />
+• 파일이 닫혔는지 열렸는지를 확인해 주는 함수는 file_object.closed 이다. <br />
+• file_object.closed 를 호출하여 False가 반환되면 아직 열려 있는 상태이다.  <br />
+• 반대로, True 이면 닫힌 상태이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Below your <code class="highlighter-rouge">with...as</code> code, do two things:</p>
+  </li>
+  <li>
+    <p>Check <code class="highlighter-rouge">if</code> the <code class="highlighter-rouge">my_file</code> is not closed.</p>
+  </li>
+  <li>
+    <p>If that’s the case, call <code class="highlighter-rouge">.close()</code> on it.</p>
+  </li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>(You don’t need an else here, since your if statement should do nothing if closed is True.)</p>
+  </li>
+  <li>
+    <p>After your <code class="highlighter-rouge">if</code> statement, print out the value of <code class="highlighter-rouge">my_file.closed</code> to make sure your file is really closed.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 문법 with … as 밑에 두개의 코딩 작업을 하라.  <br />
+• 만약에 my_file 이 닫히지 않았으면, 임의로 닫아라.  <br />
+• 마지막 라인에 my_file.closed 값을 출력하여라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember, if statements look like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">expression</span><span class="p">:</span>
+  <span class="c1"># Do something
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• if 문을 사용하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">"text.txt"</span><span class="p">,</span> <span class="s">"w"</span><span class="p">)</span> <span class="k">as</span> <span class="n">my_file</span><span class="p">:</span>
+  <span class="n">my_file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">"My Data!"</span><span class="p">)</span>
+  
+<span class="k">if</span> <span class="ow">not</span> <span class="n">my_file</span><span class="o">.</span><span class="n">closed</span><span class="p">:</span>
+  <span class="n">my_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="k">print</span> <span class="n">my_file</span><span class="o">.</span><span class="n">closed</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• my_file.closed 호출하였다.  <br />
+• 만약 파일이 닫혀 있으면 False가 반환된다.  <br />
+• 현재 소스에서는 자동으로 닫히기에 my_file.closed 가 True가 반환된다. <br />
+• <code class="highlighter-rouge">if not True</code> -&gt; <code class="highlighter-rouge">if Fasle</code> 의미이다.<br />
+• 즉, False, 열려 있으면 닫아라는 의미이다.   <br />
+• File object my_file는 이미 닫혀 있다.  <br />
+• 즉, my_file.closed 를 출력하면 True가 반환된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
+</code></pre></div></div>
+
+<p><br />
+<br />  <br />
+<br /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/codecademy/classes/" class="pagination--pager" title="Classes
+">Previous</a>
+    
+    
+      <a href="/codecademy/python-final-project/" class="pagination--pager" title="PYTHON FINAL PROJECT
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/codecademy/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/codecademy/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+  </script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7193702121518663",
+    enable_page_level_ads: true
+    });
+  </script>
+
+</html>

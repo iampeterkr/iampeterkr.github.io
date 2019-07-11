@@ -1,0 +1,869 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>[Solution] 정답 확인 방법!! -  Peter’s github.io Blog</title>
+<meta name="description" content="[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="[Solution] 정답 확인 방법!!">
+<meta property="og:url" content="http://localhost:4000/codecademy/00-6-3-solution/">
+
+
+  <meta property="og:description" content="[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-07-01T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/codecademy/00-6-3-solution/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/codecademy",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/codecademy/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/codecademy/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--posts">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/codecademy/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/codecademy/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/codecademy/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/codecademy/assets/images/bio-pic.png" alt="Peter Lee" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Peter Lee</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        I am a programmer, skier, road cyclist, golfer and good lecturer.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Korea, Seoul</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:i.am.peter.kr@gmail.com"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          
+        
+          
+            <li><a href="https://iampeterkr.github.io/codecademy/about/"><i class="fas fa-fw fa-link" aria-hidden="true"></i> About</a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">[Solution] 정답 확인 방법!!</h1>
+    
+    <p>[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]</p>
+
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-00.png" alt="codecademy" /></p>
+
+<h3 id="solution">Solution</h3>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 여러차레 <code class="highlighter-rouge">Run</code>을 시도후에, 지시사항(Instruction)을 실패하면, <code class="highlighter-rouge">Solution</code> 버튼이 나타난다.</p>
+
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-01.png" alt="codecademy" /></p>
+<hr />
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• <code class="highlighter-rouge">Solution</code> 버튼을 클릭하면, 수정된 Python 소스가 Editor 화면에 나타난다.  <br />
+• e.g. print “Hello “ + “Ishmael”</p>
+
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-02.png" alt="codecademy" /></p>
+<hr />
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• <code class="highlighter-rouge">Run</code> 버튼을 다시 클릭하면, <code class="highlighter-rouge">Display</code> 화면에 정상적인 결과를 보여준다. <br />
+  »»  ⓐ <code class="highlighter-rouge">Solution</code> 클릭 -&gt; 수정된 Python 소스 확인  <br />
+  »»  ⓑ <code class="highlighter-rouge">Run</code> 클릭      -&gt; 정상적인 결과 확인</p>
+
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2019">
+        <strong>2019</strong> <span class="taxonomy__count">17</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+  <section id="2019" class="taxonomy__section">
+    <h2 class="archive__subtitle">2019</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/03-2-pyglatin/" rel="permalink">[Pyglatin] Pyglatin 복습!!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  17 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#2)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/03-1-conditionals-control-flow/" rel="permalink">[conditionals-control-flow] 파이썬 조건절에 대한 설명!!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  20 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#1)]
+
+
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/02-1-date-and-time/" rel="permalink">[Date and Time] 파이썬 날짜와 시간!!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/02-0-string-console-output/" rel="permalink">[String &amp; Console Output] 문자열과 콘솔 출력에 대한 설명!!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  21 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-3-syllabus/" rel="permalink">[Syllabus] Python 공부 스케쥴 안내 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)]
+
+
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/01-0-python-syntax/" rel="permalink">[Python Syntax] Python 기초 문법 설명 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  27 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (01-#0)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-8-report-bug/" rel="permalink">[Report a bug] Bug 보고서를 작성하는 방법 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-7-community-forum/" rel="permalink">[Community and Forums] Python의 커뮤니티와 포럼에 참영하는 방법!!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#7)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-6-3-solution/" rel="permalink">[Solution] 정답 확인 방법!!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-6-2-run-error/" rel="permalink">[Run and display Error] Run 실행방법과 Error 확인 방법 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-6-1-stuck-get-a-hint/" rel="permalink">[Stuck? Get a hint] Hint 항목 설명 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-6-0-instructions/" rel="permalink">[Instructions] 과제를 처리하는 방법 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-0)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-5-learn/" rel="permalink">[Learn] Learn 항목 설명 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#5)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-4-explain-screen/" rel="permalink">[Explain Screen] 기본 화면 설명 !!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#4)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-1-signin/" rel="permalink">[SignIn] Python 공부를 하기 위해서 사시트에 가입하는 방법 안내
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#1)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/00-0-connect/" rel="permalink">[Connect] Python을 공부하는 위한 첫번째 접속하는 방법 안내
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)]
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/codecademy/welcome-to-lls/" rel="permalink">[Introduce Blog] Python Codecademy 한글설명 가이드 프로젝트 블로그 안내!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)]
+
+</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/codecademy/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/codecademy/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+  </script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7193702121518663",
+    enable_page_level_ads: true
+    });
+  </script>
+
+</html>

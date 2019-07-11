@@ -1,0 +1,16 @@
+current directory: /Users/peterLee/iampeterkr.github.io/codecademy/vendor/cache/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20181112-72560-1robl2y.rb extconf.rb
+creating Makefile
+
+current directory: /Users/peterLee/iampeterkr.github.io/codecademy/vendor/cache/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/peterLee/iampeterkr.github.io/codecademy/vendor/cache/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/peterLee/iampeterkr.github.io/codecademy/vendor/cache/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20181112-72560-jwgvw3

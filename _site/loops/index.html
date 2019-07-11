@@ -1,0 +1,2424 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Loops -  Peter’s github.io Blog</title>
+<meta name="description" content="We learn about loops Syntax.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="Loops">
+<meta property="og:url" content="http://localhost:4000/codecademy/loops/">
+
+
+  <meta property="og:description" content="We learn about loops Syntax.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-07-11T14:01:22+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/codecademy/loops/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/codecademy",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/codecademy/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/codecademy/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/codecademy/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/codecademy/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/codecademy/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/connect/" class="">Connect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/signin/" class="">SignIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/login/" class="">LogIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/bk-syllabus/" class="">Syllabus</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How to use</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/explain-screen/" class="">Explain Screen</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/learn/" class=""> • Learn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/instructions/" class=""> • Instructions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/stuck-get-a-hint/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/solution/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Solution?</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/community-forums/" class=""> • Community Forums</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/report-bug/" class=""> • Report a Bug</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/loops/" class="active"> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python3</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/codecademy/p3-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Loops">
+    <meta itemprop="description" content="We learn about loops Syntax.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Loops
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-while-youre-here">1. While you’re here</a></li>
+  <li><a href="#2-condition">2. Condition</a></li>
+  <li><a href="#3-while-youre-at-it">3. While you’re at it</a></li>
+  <li><a href="#4-simple-errors">4. Simple errors</a></li>
+  <li><a href="#5-infinite-loops">5. Infinite loops</a></li>
+  <li><a href="#6-break">6. Break</a></li>
+  <li><a href="#7-while--else">7. While / else</a></li>
+  <li><a href="#8-your-own-while--else">8. Your own while / else</a></li>
+  <li><a href="#9-for-your-health">9. For your health</a></li>
+  <li><a href="#10-for-your-hobbies">10. For your hobbies</a></li>
+  <li><a href="#11-for-your-strings">11. For your strings</a></li>
+  <li><a href="#12-for-your-a">12. For your A</a></li>
+  <li><a href="#13-for-your-lists">13. For your lists</a></li>
+  <li><a href="#14-looping-over-a-dictionary">14. Looping over a dictionary</a></li>
+  <li><a href="#15-counting-as-you-go">15. Counting as you go</a></li>
+  <li><a href="#16-multiple-lists">16. Multiple lists</a></li>
+  <li><a href="#17-for--else">17. For / else</a></li>
+  <li><a href="#18-change-it-up">18. Change it up</a></li>
+  <li><a href="#19-create-your-own">19. Create your own</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>Loops allow you to quickly iterate over information in Python. In this lesson, we’ll cover two types of loop: ‘while’ and ‘for’.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
+이 장에서는 while 문과, for 문을 학습한다.   <br />
+반복문을 활용하여 데이타를 신속하게 처리하는 방법을 학습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+<h3 id="1-while-youre-here">1. While you’re here</h3>
+
+<p>The <code class="highlighter-rouge">while</code> loop is similar to an if statement: it executes the code inside of it if some condition is true. The difference is that the while loop will continue to execute as long as the condition is true. In other words, instead of executing if something is true, it executes while that thing is true.</p>
+
+<p>Line 6 decides when the loop will be executed. So, “as long as count is less than 5,” the loop will continue to execute. Line 8 increases count by 1. This happens over and over until count equals 5.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch1. While you’re here 에서는 while 문을 학습한다.  <br />
+• while 문은 if 문과 비슷하다.   <br />
+• while 문의 조건절이 True 이면, while 문 내부 구간이 실행 되는 구조이다.  <br />
+• if 문과 다른점은 while 문은 조건절 값이 True 이면, 계속 실행된다.  <br />
+• if 문은 조건절 값이 완료되면 끝난다.  <br />
+• e.g. 3번 실행하라고 하면 3번만 실행하고 종료  <br />
+• while 문은 조건절 상태가 Ture(예를 들면, 0 &lt; 5 )가 되면 무한대로 실행한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Change the loop so that it counts <strong>from 0 up to 9</strong> (inclusive).</p>
+  </li>
+  <li>
+    <p>Be careful not to alter or remove the count += 1 statement. If your program has no way to increase count, your loop could go on forever and become an infinite loop which could crash your computer/browser!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 반복문을 9(포함)까지 세는 프로그램으로 변경하라. (현재는 4까지 셈) <br />
+• 변수 count 가 증가하지 않으면, 무한대로 반복되는 프로그램이 될 수 있다.  <br />
+• 이럴 경우 컴퓨터에 문제가 발생할 수 있으니 주의하라.</p>
+
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>To make sure your loop counts up to 9, your condition should be ‘count &lt; 10’ (or count &lt;= 9).</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• 9 까지만 실행되는 조건문을 만든다. ( count &lt; 10 또는 count &lt;= 9 )</p>
+
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">if</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"Hello, I am an if statement and count is"</span><span class="p">,</span> <span class="n">count</span>
+
+<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"Hello, I am a while and count is"</span><span class="p">,</span> <span class="n">count</span>
+  <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• if 문은 1 번 출력한다.(조건문이 변수 count 가 10 보다 작은지만 비교)  <br />
+• while 문은 9 번 출력한다.(조건문이 변수 count 가 9 일때 까지, True 이다.)</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello, I am an if statement and count is 0
+Hello, I am a while and count is 0
+Hello, I am a while and count is 1
+Hello, I am a while and count is 2
+Hello, I am a while and count is 3
+Hello, I am a while and count is 4
+Hello, I am a while and count is 5
+Hello, I am a while and count is 6
+Hello, I am a while and count is 7
+Hello, I am a while and count is 8
+Hello, I am a while and count is 9
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="2-condition">2. Condition</h3>
+
+<p>The condition is the expression that decides whether the loop is going to continue being executed or not. There are 5 steps to this program:</p>
+
+<ol>
+  <li>
+    <p>The loop_condition variable is set to True</p>
+  </li>
+  <li>
+    <p>The while loop checks to see if loop_condition is True. It is, so the loop is entered.</p>
+  </li>
+  <li>
+    <p>The print statement is executed.</p>
+  </li>
+  <li>
+    <p>The variable loop_condition is set to False.</p>
+  </li>
+  <li>
+    <p>The while loop again checks to see if loop_condition is True. It is not, so the loop is not executed a second time.</p>
+  </li>
+</ol>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch2. Condition 에서는 조건절을 학습한다.  <br />
+• 조건절(loop_condition)은 반복(loop)을 계속할지 그만 할지를 결정하는 표현이다.   <br />
+• 다음 5단계로 진행된다.   <br />
+• ① 조건절의 변수값을 True 로 설정한다.     <br />
+• ② 조건절의 상태가 True 이면, 반복문 안으로 들어간다.  <br />
+• ③ print문을 출력한다.   <br />
+• ④ 조건절의 상태를 False 로 설정한다.  <br />
+• ⑤ while 문의 조건절을 다시 True 인지 확인한다.(True가 아니면 반복 종료 )</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>See how the loop checks its condition, and when it stops executing? When you think you’ve got the hang of it, click Run to continue.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 실행이 멈췄을때, 반복문의 상태를 어떻게 확인 하는지 살펴보라.  <br />
+• 예상 한대로 실행되는지 Run 을 실행해 보자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>See how the source works.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 소스가 어떻게 동작하는지 확인하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">loop_condition</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="k">while</span> <span class="n">loop_condition</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"I am a loop"</span>
+  <span class="n">loop_condition</span> <span class="o">=</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 loop_condition 을 True 로 설정한다.  <br />
+• 조건문이 True 이기에 while 문에 진입한다.  <br />
+• ( print “I am a loop” ) 를 출력한다.  <br />
+• 변수 loop_condition 을 강제로 False 로 변경한다.  <br />
+• 다시 while 문의 조건절 loop_condition 이 True 인지 확인한다.  <br />
+• 조건문이 True 이면, while 문의 블럭문이 실행된다.  <br />
+• 조건문이 False 이면, while 문을 빠져나간다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I am a loop
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="3-while-youre-at-it">3. While you’re at it</h3>
+
+<p>Inside a while loop, you can do anything you could do elsewhere, including arithmetic operations.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]       <br />
+• Ch3. While you’re at it 에서는 while 문의 조건문을 추가 학습한다.  <br />
+• while 조건문 에는 사칙연산을 비롯하여 다른 곳에서 사용했던 어떤 것이든 들어갈수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Create a while loop that prints out all the numbers from 1 to 10 squared (1, 4, 9, 16, … , 100), each on their own line.</li>
+  <li>Fill in the blank space so that our while loop goes from 1 to 10 inclusive.</li>
+  <li>Inside the loop, print the value of num squared. The syntax for squaring a number is num ** 2.</li>
+  <li>Increment num.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• while 문을 사용하여 1 부터 10 까지 값의 제곱 값을 출력하라.  <br />
+• while 문의 조건문을 넣는 곳에 1 부터 10 까지 반복적으로 실행하도록 작성하라.     <br />
+• while 문의 내부실행 블럭에서는 ( num ** 2 ) 제곱 값을 출력하라.     <br />
+• 변수 num 을 1 씩 증가 시켜라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>Your condition will have to be num &lt;= 10 (or num &lt; 11) so that the loop will always print until num is 11.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 조건문 num &lt;= 10 또는 num &lt; 11 로 10 이하 인지를 확인한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">num</span> <span class="o">=</span> <span class="mi">1</span>
+
+<span class="k">while</span> <span class="p">(</span><span class="n">num</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">):</span>  <span class="c1"># Fill in the condition
+</span>  <span class="c1"># Print num squared
+</span>  	<span class="k">print</span> <span class="p">(</span><span class="n">num</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+  <span class="c1"># Increment num (make sure to do this!)
+</span>  	<span class="n">num</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 num 에 값 1 로 초기화 한다.  <br />
+• while 문에서 조건문 num &lt;= 10 으로 정의 하였다.  <br />
+• while 문 조건은 변수 num 이 10 이하 일때까지 실행한다(True).    <br />
+• while 실행 블럭에서는 num ** 2 하여 제곱을 구하고 출력한다.   <br />
+• 마지막으로 변수 num 을 값 1 을 증가 시킨다.   <br />
+• 다시, while 조건문에서 변수 num 이 10 보다 같거나 작으면 실행블럭이 동작한다(True).</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="4-simple-errors">4. Simple errors</h3>
+
+<p>A common application of a while loop is to check user input to see if it is valid. For example, if you ask the user to enter y or n and they instead enter 7, then you should re-prompt them for input.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]       <br />
+• Ch4. Simple errors 에서는 연산자 같다( == ), 틀리다( != ) 를 학습한다.  <br />
+• 주로 while 조건문에서 사용한다. <br />
+• 사용자가 입력한 값이 유효 한지를 체크하는 기능이다.  <br />
+• 예를들면, 당신은 사용자가 y 또는 n 을 입력하길 기대하고 있다.  <br />
+• 그런데, 사용자가 7 을 입력하면, 당신은 다시 입력하는 단계로 되돌아 갈 것이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Fill in the loop condition so the user will be prompted for a choice over and over while choice does not equal ‘y’ and choice does not equal ‘n’.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• Prompt 창에서 입력값이 y 또는 n 만 입력 되도록 하라.  <br />
+• while 조건문에서 통제 하도록 하라.  <br />
+• 만약 y 또는 n 이외의 값이 입력되면 다시 입력하도록 반복하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>Remember, use the != operator to test if two things are different, such as choice != “y”, and the and operator to check more than one thing, such as A and B.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• 조건문에 연산자 ( != ) 를 사용한다. <br />
+• y 또는 n 이외에는 True(참) 가 되지 않도록 한다.  <br />
+• 입력받은 비교 변수가 y 와 같지 않는지를 비교하는 것은 (e.g. !=”y” ) 이다.  <br />
+• 연산자 ( and ) 는 A, B 모두 True(참) 이어야 한다(e.g. A and B ).</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">choice</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Enjoying the course? (y/n)'</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="n">choice</span> <span class="o">!=</span> <span class="s">'y'</span> <span class="ow">and</span> <span class="n">choice</span> <span class="o">!=</span> <span class="s">'n'</span><span class="p">:</span>  <span class="c1"># Fill in the condition (before the colon)
+</span>  <span class="n">choice</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Sorry, I didn't catch that. Enter again: "</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 choice 에 입력값을 받아 저장한다.  <br />
+• while 문에서 변수 choice 가 y 도 아니고, n 도 아니다 를 비교한다.  <br />
+• 조건문이 True(참) 이면, 다시 입력문을 받는다.  <br />
+• 조건문이 False(거짓) 이면, while 문을 실행하지 않고 빠져나간다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enjoying the course? (y/n)x
+Sorry, I didn't catch that. Enter again: z
+Sorry, I didn't catch that. Enter again: y
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="5-infinite-loops">5. Infinite loops</h3>
+
+<p>An infinite loop is a loop that never exits. This can happen for a few reasons:</p>
+
+<ol>
+  <li>
+    <p>The loop condition cannot possibly be false (e.g. while 1 != 2)</p>
+  </li>
+  <li>
+    <p>The logic of the loop prevents the loop condition from becoming false.</p>
+  </li>
+</ol>
+
+<p>Example:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="k">while</span> <span class="n">count</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+  <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span> <span class="c1"># Instead of count -= 1
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch5. Infinite loops 에서는 무한반복(loop)을 방지하는 방법을 학습한다.  <br />
+• 무한 loop 는 프로그램을 빠져 나가지 않고 계속 반복되는 것이다.  <br />
+• 문한 loop 가 발생하는 원인은 다음과 같이 여러가지 이유가 있다.  <br />
+• ① 조건문 결과가 무조건 True 일때 ( while 1 !=2 )  <br />
+• ② 프로그램 로직상 false 가 발생할 수 없는 경우</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>The loop in the editor has <strong>two problems</strong>: it’s missing a colon (a syntax error) and count is never incremented (logical error). The latter will result in an infinite loop, so be sure to <strong>fix</strong> both before running!</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• while 반복문에 2 개의 문제가 있다.  <br />
+• 첫째는 문법적으로 ( : ) 이 빠져 있다.  <br />
+• 둘째는 로직적으로 무한 반복이 되는 것이다.  <br />
+• 프로그램을 실행하기 전에 수정하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Since count is never incremented (count += 1), count is always 0, and since zero is less than ten, 0 will be printed over and over again forever.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 변수 count 가 증가하지 않으면 count 값은 항상 0 이다. <br />
+• while 조건문이 항상 10 보다 작게 되며, 이경우는 조건문이 무조건 True 가 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span> <span class="c1"># Add a colon
+</span>  <span class="k">print</span> <span class="n">count</span>
+  <span class="c1"># Increment count
+</span>  <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 count 가 0 부터 10 보다 작을때까지 변수 count를 출력하는 프로그램이다.  <br />
+• 변수 count 에 값 1 을 증가 시켜준다. <br />
+• 변수 count 가 10 이 되면 while 조건문을 빠져 나간다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="6-break">6. Break</h3>
+
+<p>The <strong>break</strong> is a one-line statement that means “exit the current loop.” An alternate way to make our counting loop exit and stop executing is with the <code class="highlighter-rouge">break</code> statement.</p>
+
+<ul>
+  <li>
+    <p>First, create a while with a condition that is always <strong>true</strong>. The simplest way is shown.</p>
+  </li>
+  <li>
+    <p>Using an <code class="highlighter-rouge">if</code> statement, you define the stopping condition. Inside the if, you write break, meaning “exit the loop.”</p>
+  </li>
+</ul>
+
+<p>The difference here is that this loop is guaranteed to run at least once.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch6. Break 에서는 break 문을 학습한다.  <br />
+• 반복문에서는 break 문을 만나면 현재 loop 를 빠져나간다.  <br />
+• while 문은 조건문에서 항상 True 인지를 확인한다. True가 아니면 loop 를 빠져나간다.  <br />
+• while 문 내부블럭에서 if 문을 사용해서 빠져나가도 된다.  <br />
+• if 문에 조건을 걸어서 해당 조건이 되면 break 사용하여 해당 loop 를 빠져나간다.   <br />
+• while 문과 if 문의 break 차이점은, while 문은 내부블럭이 1 번은 실행된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>See what the break does? Feel free to mess around with it (but make sure you don’t cause an infinite loop)! Click Run when you’re ready to continue.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• break 문이 무슨일을 하는지 살펴보라.  <br />
+• 가볍게 살펴보고, 실행 시켜라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• skip</p>
+
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">count</span>
+  <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">if</span> <span class="n">count</span> <span class="o">&gt;=</span> <span class="mi">10</span><span class="p">:</span>
+    <span class="k">break</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• While 문의 조건문이 항상 True 이다.  <br />
+• 변수 count 를 출력한다.  <br />
+• 변수 count 를 값 1 을 증가한다.  <br />
+• 변수 count 가 10 보다 같거나 크면 break 문이 동작된다. while 문을 빠져나간다.  <br />
+• 변수 count 가 10 보다 작으면 while 문이 다시 반복 실행된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="7-while--else">7. While / else</h3>
+
+<p>Something completely different about Python is the <code class="highlighter-rouge">while/else</code> construction. <code class="highlighter-rouge">while/else</code> is similar to <code class="highlighter-rouge">if/else</code>, but there is a difference: the <strong>else</strong> block will execute anytime the loop condition is evaluated to False. This means that it will execute if the loop is never entered or if the loop exits normally. If the loop exits as the result of a break, the else will not be executed.</p>
+
+<p>In this example, the loop will break if a 5 is generated, and the else will not execute. Otherwise, after 3 numbers are generated, the loop condition will become false and the else will execute.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch7. While / else 에서는 while/else 문을 학습한다. <br />
+• while/else 문은 python에 사용되는 독특한 구조이다.  <br />
+• if/else 의 else 와 비슷하다.  <br />
+• 차이는, if/else 는 if 문이 실행되면 else 문은 실행되지 않는다.  <br />
+• while/else 는  while 문이 flase 되어 빠져 나오면 반드시 else 문이 동작된다.  <br />
+• 실습을 통해서 이해하자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Click Run to see while/else in action!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• Run 실행후, 소스가 어떻게 동작 되는지를 확인하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">print</span> <span class="s">"Lucky Numbers! 3 numbers will be generated."</span>
+<span class="k">print</span> <span class="s">"If one of them is a '5', you lose!"</span>
+
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+  <span class="n">num</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+  <span class="k">print</span> <span class="n">num</span>
+  <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"Sorry, you lose!"</span>
+    <span class="k">break</span>
+  <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"You win!"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• while 문은 변수 count 가 3 보다 작을 때까지 내부블럭이 실행된다.  <br />
+• 변수 count 가 3보다 크면 while 문을 빠져나온다. 그리고 else 문이 실행된다.  <br />
+• else 문의 <em>You win!</em> 이 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lucky Numbers! 3 numbers will be generated.
+If one of them is a '5', you lose!
+1
+6
+1
+You win!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="8-your-own-while--else">8. Your own while / else</h3>
+
+<p>Now you should be able to make a game similar to the one in the last exercise. The code from the last exercise is below:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+  <span class="n">num</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+  <span class="k">print</span> <span class="n">num</span>
+  <span class="k">if</span> <span class="n">num</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"Sorry, you lose!"</span>
+    <span class="k">break</span>
+  <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"You win!"</span>
+</code></pre></div></div>
+<p>In this exercise, allow the user to guess what the number is 3 times.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">guess</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">raw_input</span><span class="p">(</span><span class="s">"Your guess: "</span><span class="p">))</span>
+</code></pre></div></div>
+<p>Remember, <code class="highlighter-rouge">raw_input</code> turns user input into a <strong>string</strong>, so we use <code class="highlighter-rouge">int()</code> to make it a number again.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch8. Your own while / else 에서는 while/else 의 사용법을 학습한다.  <br />
+• while/else 문이 어떤 경우에 사용 되는지는 살펴보자.   <br />
+• 참고로, 함수 raw_input() 는 return 값이 문자열(string)이다.  <br />
+• 즉, 입력을 숫자로 입력해도 내부적으로는 문자열로 취급된다.  <br />
+• 함수 int() 를 사용하여, int(raw_input(“Your guess: “)) 숫자로 바꿔줘야 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>Use a while loop to let the user keep guessing so long as guesses_left is greater than zero.</li>
+  <li>Ask the user for their guess, just like the second example above.</li>
+  <li>If they guess correctly, print “You win!” and break.</li>
+  <li>Decrement guesses_left by one.</li>
+  <li>Use an else: case after your while loop to print “You lose.”.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 사용자가 계속 질문하는 while 문을 만들어라.  <br />
+• 조건문은 변수 guesses_left &gt; 0 큰 경우다.  <br />
+• Learn 단계에서 설명하였던 내용을 참조하여 질문하는 문장을 만들어라.      <br />
+• 질문한 값이 맞으면 <em>You win!</em> 이라고 출력하고, break 문으로 빠져나온다.      <br />
+• 변수 guess_left 를 값 1 씩 줄여 나간다. (e.g. guess_left -= 1 )  <br />
+• else 문을 사용하여 while 문을 빠져나오면 <em>You lose.</em> 라고 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>This game will have a very similar structure to the example, but instead of losing right before the break, the user should win.</p>
+  </li>
+  <li>
+    <p>The if should check if guess == random_number. If it does, then it’s the winning guess!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 앞의 예제와 비슷하지만, break 문이 걸리는게 승리 했을때 이다.  <br />
+• 승리의 조건은 다음과 같다.  <br />
+• e.g. if guess == random_number  <br />
+• Random 값은 while 문 시작 하기전에 산출된다.   <br />
+• break 문이 실행되어 while 문을 빠져나갈때, else 문은 실행되지 않는다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">random</span> <span class="kn">import</span> <span class="n">randint</span>
+
+<span class="c1"># Generates a number from 1 through 10 inclusive
+</span><span class="n">random_number</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+
+<span class="n">guesses_left</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="c1"># Start your game!
+</span><span class="k">while</span> <span class="n">guesses_left</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+  <span class="n">guess</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">raw_input</span><span class="p">(</span><span class="s">"Your guess: "</span><span class="p">))</span>
+  <span class="k">if</span> <span class="n">guess</span> <span class="o">==</span> <span class="n">random_number</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"You win!"</span>
+    <span class="k">break</span>
+  <span class="n">guesses_left</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"You lose."</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 미리 변수 random_number 에 임의의 값을 생성한다.   <br />
+• while 문이 True (변수 guess_left &gt; 0) 인경우 진행된다.   <br />
+• Prompt 창에서  Your guess: 로 임의의 숫자를 입력 받는다.  <br />
+• 입력받은 값은 변수 guess 에 저장된다.    <br />
+• 변수 guess 값이 미리 산출한 변수 random_number 와 같은지 비교한다.  <br />
+• 같으면, <em>You win!</em> 을 출력한다. 그리고 break 문이 작동되어 loop를 빠져나온다.  <br />
+• 틀리면 변수 guess_left 에 1 을 차감한다. 다시 while 문을 돈다.  <br />
+• 변수 guesses_left 의 값이 0 이 되면  <br />
+• while 문의 조건문은 False 가 된다. 그리고 while 문을 빠져나온다.  <br />
+• 이때, else 문이 실행되고, ( print “You lose” ) 가 출력된다.  <br />
+• 강제로 break 문이 실행되어 while 문을 빠져나오면 else 문이 실행 안된다.  <br />
+• while 문의 조건문이 True 에서 False 로 변경되어 while 문을 빠져나오면 else 문이 실행된다.</p>
+
+<p><strong>결과</strong>  <br />
+<code class="highlighter-rouge">#</code> case : fail</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Your guess: 2
+Your guess: 2
+Your guess: 2
+You lose.
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">#</code> case : correct</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Your guess: 2
+Your guess: 1
+Your guess: 3
+You win!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="9-for-your-health">9. For your health</h3>
+
+<p>An alternative way to loop is the for loop. The syntax is as shown in the code editor. This example means “for each number i in the range 0 - 9, print i”.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch9. For your health 에서는 for 문을 학습한다.  <br />
+• Editor 화면에 있는 소스는, 0 부터 9 까지 산출하여 반복적으로 돌면서 산출하는 소스이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Make the loop print the numbers from 0 to 19 instead of 0 to 9.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 0 부터 19 까지 숫자를 출력하는 반복문으로 변경하라.  <br />
+• ( 기존 0 부터 9 까지 산출하는 소스를 변경한다. )</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<p>• Make sure to change the number inside of <code class="highlighter-rouge">range</code>.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 내부 함수 range() 를 사용한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Counting..."</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">20</span><span class="p">):</span>
+  <span class="k">print</span> <span class="n">i</span>
+  
+  
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 함수 range(20) 는 20 미만의 숫자를 0 부터 20 개 산출한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Counting...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="10-for-your-hobbies">10. For your hobbies</h3>
+
+<p>This kind of loop is useful when you want to do something a <strong>certain number of times</strong>, such as append something to the end of a list.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• for 문은 내가 몇번 loop 를 돌려야 하는지를 정확히 알때 사용한다.   <br />
+• 예를 들면, 리스트의 끝에 항목값을 추가할때 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Create a <code class="highlighter-rouge">for</code> loop that prompts the user for a <strong>hobby 3 times</strong>.</li>
+  <li>
+    <p>Save the result of each prompt in a <code class="highlighter-rouge">hobby</code> variable</p>
+  </li>
+  <li>
+    <p>append each one to <code class="highlighter-rouge">hobbies[]</code>.</p>
+  </li>
+  <li>
+    <p>print hobbies after your for loop</p>
+  </li>
+  <li>Make sure to answer the prompts in the terminal when testing your code!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• for 문을 사용하여 취미를 3 번 묻는 프로그램을 작성하라.  <br />
+• 변수 hobby 에 prompt 에서 입력받은 값을 저장하라.    <br />
+• 변수 hobby 의 값을 리스트 hobbies 에 추가하라.  <br />
+• for 문을 빠져나온다.  <br />
+• 리스트 hobbies 값을 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Your for loop should use range(3). You should use the <code class="highlighter-rouge">raw_input()</code> function to get info from the user and <code class="highlighter-rouge">hobbies.append(hobby)</code> to add the <code class="highlighter-rouge">hobby</code> to the list.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 함수 raw_input() 를 사용하라.   <br />
+• 리스트에 추가하는 방법은 다음과 같다.  <br />
+• e.g. hobbies.append(hobby)</p>
+
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">hobbies</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Add your code below!
+</span>
+<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+  <span class="n">hobby</span> <span class="o">=</span>  <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Tell me one of your favorite hobbies: "</span><span class="p">)</span>
+  <span class="n">hobbies</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">hobby</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="n">hobbies</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• for 문에서 3 번 돌도록 산출된다.(e.g. range(3))  <br />
+• 함수 raw_input() 으로 입력값을 받아서, 변수 hobby 에 저장한다.  <br />
+• 리스트 hobbies 에 변수 hobby 의 값을 추가한다.  <br />
+• 3번 입력이 끝나고, for 문을 빠져나온다.  <br />
+• 리스트 hobbies 를 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Tell me one of your favorite hobbies: swim
+Tell me one of your favorite hobbies: ski
+Tell me one of your favorite hobbies: cycle
+[u'swim', u'ski', u'cycle']
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="11-for-your-strings">11. For your strings</h3>
+
+<p>Using a for loop, you can print out each individual character in a string.</p>
+
+<p>The example in the editor is almost plain English: “for each character c in thing, print c”.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch11. For your strings 에서는 반복문으로 문자열을 관리하는 방법을 학습한다.  <br />
+• loop 반복을 통하여 문자열을 문자 단위로 나눌수 있다.   <br />
+• Editor 화면에 있는 소스는 문자열 단어를 스펠링으로 나누는 소스이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Add a second for loop so that each character in <code class="highlighter-rouge">word</code> is printed one at a time.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• for 문을 추가하여, 변수 word 에 담겨 있는 문자열 eggs 를 문자 하나씩 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Use the example on lines 3 - 4 as a model.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 3, 4 라인에 있는 for 문을 참조하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">thing</span> <span class="o">=</span> <span class="s">"spam!"</span>
+
+<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">thing</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">c</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s">"eggs!"</span>
+
+<span class="c1"># Your code here!
+</span><span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">word</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">character</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 word 에 있는 문자열 <em>eggs!</em> 를 알파벳 하나씩 읽어서 출력한다.   <br />
+• 문자열도 문자별 index 를 가지고 있다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s
+p
+a
+m
+!
+e
+g
+g
+s
+!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="12-for-your-a">12. For your A</h3>
+
+<p>String manipulation is useful in for loops if you want to modify some content in a string.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">word</span> <span class="o">=</span> <span class="s">"Marble"</span>
+<span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">word</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">char</span><span class="p">,</span>
+</code></pre></div></div>
+<p>The example above iterates through each character in word and, in the end, prints out M a r b l e.</p>
+
+<p>The <code class="highlighter-rouge">,</code> character after our print statement means that our next print statement <strong>keeps</strong> printing on <strong>the same line</strong>.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch12. For your A 에서는 문자열의 문자를 비교하는 방법을 학습한다.  <br />
+• for 문은 문자열을 조작하기 편리하다.  <br />
+• 예제에서 Marble 가 M a r b l e 로 출력된다.  <br />
+• 문자열이 새로운 줄에서 출력되는 것이 아니라,   <br />
+• 같은 라인에서 출력되게는 다음과 같이 한다.  <br />
+• e.g. print char ,   –&gt; ( , ) comma 를 해준다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Python3 ]        <br />
+• Python2 에서는 줄을 바꾸지 않고 출력하려면 comma ( , )를 사용한다.  <br />
+• Python3 에서는 다음과 같이 키워드 인자 end=”” 사용해야 한다.  <br />
+• e.g print(“Hello”, end=””)</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Let’s filter out the letter “A” from our string.</p>
+  </li>
+  <li>Do the following for each character in the <code class="highlighter-rouge">phrase</code>.</li>
+  <li>If char is an “A” or char is an “a”, print “X”, instead of char. Make sure to include the trailing comma.</li>
+  <li>Otherwise (else:), please print char, with the trailing comma.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 문자열 중 A 를 걸러내자.       <br />
+• 변수 phrase 에 들어있는 문자열을 이용한다.  <br />
+• 문자열 중 A 또는 a 는 해당 문자를 X 로 출력 되도록 수정한다.  <br />
+• ( , ) 를 사용하여 한 줄에 출력하라.      <br />
+• 그 외 문자는 는 ( , ) 를 사용하여, 문자열 그대로 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>You can use the same for syntax, for c in s, as before. Use an if to compare c to ‘a’ and ‘A’. Print an ‘X’ in that case, and use an else to print the character otherwise.</p>
+  </li>
+  <li>
+    <p>Include a comma after the character to be printed in order to ensure it’s not printed on its own line, like so:</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">c</span> <span class="o">==</span> <span class="s">"A"</span> <span class="ow">or</span> <span class="n">c</span> <span class="o">==</span> <span class="s">"a"</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"X"</span><span class="p">,</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• for 문을 돌면서 문자를 하나씩 추출한다. <br />
+• 해당 문자가 A 또는 a 이면 문자열 X 를 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">phrase</span> <span class="o">=</span> <span class="s">"A bird in the hand..."</span>
+
+<span class="c1"># Add your for loop
+</span><span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">phrase</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">char</span> <span class="o">==</span> <span class="s">"A"</span> <span class="ow">or</span> <span class="n">char</span> <span class="o">==</span> <span class="s">'a'</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">'X'</span><span class="p">,</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">char</span><span class="p">,</span>
+
+<span class="c1">#Don't delete this print statement!
+</span><span class="k">print</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]    <br />
+• 변수 phrase 에 문자열 <em>A bird in the hand…</em> 가 저장되어 있다.  <br />
+• for 문으로 변수 phrase 의 문자를 하나씩 추출하여 변수 char 에 저장한다.  <br />
+• 변수 char 에 A 또는 a 가 들어 있으면 문자 X 를 출력한다.  <br />
+• 그렇지 않으면 변수 char 를 출력한다.  <br />
+• 출력할때, ( , )를 사용하여 한줄에 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>X   b i r d   i n   t h e   h X n d . . .
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="13-for-your-lists">13. For your lists</h3>
+
+<p>Perhaps the most useful (and most common) use of for loops is to go through a list.</p>
+
+<p>On each iteration, the variable <code class="highlighter-rouge">num</code> will be the next value in the list. So, the first time through, it will be 7, the second time it will be 9, then 12, 54, 99, and then the loop will exit when there are no more values in the list.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]       <br />
+• Ch13. For your lists 에서는 리스트의 활용을 학습한다.  <br />
+• 리스트를 사용할때 for 문이 많이 유용하다.   <br />
+• for 문으로 리스트 numbers 의 값들을 하나식 추출할 수 있다.  <br />
+• 변수 num 에는 그 추출된 값들이 하나씩 들어 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Write a second for loop that goes through the numbers list and prints each element squared, each on its own line.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 두번째 for 문을 통하여, numbers 의 값들을 꺼내어 그 값의 제곱을 구하여 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Use the <code class="highlighter-rouge">**</code> operator for exponentiation.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>The rest of the loop should be very similar to the first one.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• ( ** ) 를 사용하여 제곱을 구하라.   <br />
+• for 문 사용법은 첫번째 for 문과 비슷하다.</p>
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">numbers</span>  <span class="o">=</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">99</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="s">"This list contains: "</span>
+
+<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">num</span>
+
+<span class="c1"># Add your loop below!
+</span><span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">num</span> <span class="o">**</span> <span class="mi">2</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 numbers 에 있는 값을 변수 num 에 대입하라.  <br />
+• 변수 num 의 제곱을 구하여 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This list contains: 
+7
+9
+12
+54
+99
+49
+81
+144
+2916
+9801
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="14-looping-over-a-dictionary">14. Looping over a dictionary</h3>
+
+<p>You may be wondering how looping over a dictionary would work. Would you get the key or the value?</p>
+
+<p>The short answer is: you get the key which you can use to get the value.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s">'x'</span><span class="p">:</span> <span class="mi">9</span><span class="p">,</span> <span class="s">'y'</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">'z'</span><span class="p">:</span> <span class="mi">20</span><span class="p">}</span>
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">d</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">d</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">==</span> <span class="mi">10</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"This dictionary has the value 10!"</span>
+</code></pre></div></div>
+
+<ol>
+  <li>First, we create a dictionary with strings as the keys and numbers as the values.</li>
+  <li>Then, we iterate through the dictionary, each time storing the key in key.</li>
+  <li>Next, we check if that key’s value is equal to 10.</li>
+  <li>If so, we print “This dictionary has the value 10!”</li>
+</ol>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch14. Looping over a dictionary 에서는 딕셔너리 반복을 학습한다.  <br />
+• 딕셔너리의 경우 반복문을 어떻게 사용하는지를 알아보자.   <br />
+• 먼저 간단하게 이야기하면, key 로 값을 얻어 낼수 있다.<br />
+• 먼저, key 와 value 로 구성된 딕셔너리를 만든다.    <br />
+• 딕셔너리의 key 를 반복적으로 꺼낸다.  <br />
+• 꺼낸 key 의 value 값이 10 인지를 비교한다.  <br />
+• value 값이 10 이면 <em>This dictionary has the value 10!</em> 을 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>On line 5, print the <strong>key</strong>, followed by a space, followed by the value associated with that key.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 5 라인에서, key 를 출력하고, 공백을 하나 뛰고 key 의 value 를 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>An easy way to print in the requested format is to use the , character, like so:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">greeting</span> <span class="o">=</span> <span class="s">"Hello"</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">"World"</span>
+
+<span class="k">print</span> <span class="n">greeting</span><span class="p">,</span> <span class="n">name</span>
+<span class="c1"># prints "Hello World"
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• ( , ) 를 사용하면, 같은 줄에 출력할 수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s">'a'</span><span class="p">:</span> <span class="s">'apple'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">:</span> <span class="s">'berry'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">:</span> <span class="s">'cherry'</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">d</span><span class="p">:</span>
+  <span class="c1"># Your code here!
+</span>  <span class="k">print</span> <span class="n">key</span><span class="p">,</span> <span class="n">d</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• key 는 문자열 ‘a’ 이고, 그 값은 d[key] 로 나타낼 수 있다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a apple
+c cherry
+b berry
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="15-counting-as-you-go">15. Counting as you go</h3>
+
+<p>A weakness of using this for-each style of iteration is that <strong>you don’t know the index</strong> of the thing you’re looking at. Generally this isn’t an issue, but at times it is useful to know how far into the list you are. Thankfully the built-in <code class="highlighter-rouge">enumerate</code> function helps with this.</p>
+
+<p><code class="highlighter-rouge">enumerate</code> works by supplying a corresponding index to each element in the list that you pass it. Each time you go through the loop, index will be one greater, and item will be the next item in the sequence. It’s very similar to using a normal for loop with a list, except this gives us an easy way to count how many items we’ve seen so far.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch15. Counting as you go 에서는 리스트의 인덱스 값을 관리하는 방법을 학습한다.   <br />
+• for 문을 돌려 리스트의 항목을 추출하더라도, 그 항목의 인덱스는 알려주지 않는다.  <br />
+• 다만 그 값만 추출한다.  <br />
+• 이러한 약점은 함수 enumerate 를 사용하면 해당 값의 인덱스 값을 알수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>We don’t want the user to see things listed from index 0, since this looks unnatural. Instead, the items should appear to start at index 1. Modify the print statement to reflect this behavior. See the Hint for help.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 리스트의 index 를 출력하면 0 부터 출력된다.  <br />
+• 우리는 리스트 번호를 1 번 부터 번호를 매기는게 더 자연스럽다.  <br />
+• 비록 index 값이 0 부터 출력되지만, print 할때는 1 부터 하는것처럼 보이게 하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Instead of just printing index, print index + 1 !</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 출력할때, index 값에 +1 을 하여라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">choices</span> <span class="o">=</span> <span class="p">[</span><span class="s">'pizza'</span><span class="p">,</span> <span class="s">'pasta'</span><span class="p">,</span> <span class="s">'salad'</span><span class="p">,</span> <span class="s">'nachos'</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="s">'Your choices are:'</span>
+<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">choices</span><span class="p">):</span>
+  <span class="k">print</span> <span class="n">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">item</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• index 값에 +1 을 하여 1 부터 보이게 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Your choices are:
+1 pizza
+2 pasta
+3 salad
+4 nachos
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="16-multiple-lists">16. Multiple lists</h3>
+
+<p>It’s also common to need to iterate over <strong>two lists at once</strong>. This is where the built-in <code class="highlighter-rouge">zip</code> function comes in handy.</p>
+
+<p><code class="highlighter-rouge">zip</code> will create pairs of elements when passed two lists, and will <strong>stop at the end of the shorter list</strong>.</p>
+
+<p><code class="highlighter-rouge">zip</code> can handle three or more lists as well!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch16. Multiple lists 에서는 리스트 끼리 곱하는것을 학습한다.  <br />
+• 한번에 두개의 리스트를 반복적으로 사용해야 할 경우에,  <br />
+• 우리는 함수 zip() 를 이용할수 있다.   <br />
+• 함수 zip() 은 2개의 리스트를 쌍으로 만들어주고, 잛은 리스트의 기준에 맞춰진다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Compare each pair of elements and print the larger of the two.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 각 원소들의 쌍을 비교하고, 두개중 더 큰것을 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><code class="highlighter-rouge">a</code> is an element from <code class="highlighter-rouge">list_a</code> and <code class="highlighter-rouge">b</code>is an element of <code class="highlighter-rouge">list_b</code>.</p>
+
+<p>You have two options: Use an <code class="highlighter-rouge">if/else</code> statement to compare the two and print whichever is larger. Alternatively, you can use the <code class="highlighter-rouge">max</code> function that you learned in unit 4.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• list_a를 변수 a로 받고, list_b를 변수 b로 값을 받는다.  <br />
+• 그리고 각각의 변수를 if/else 를 사용하여 어느것이 더 큰지를 비교한다.   <br />
+• 또는 내장함수 max() 를 활용해도 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">list_a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
+<span class="n">list_b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">90</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">list_a</span><span class="p">,</span> <span class="n">list_b</span><span class="p">):</span>
+  <span class="c1"># Add your code here!
+</span>    <span class="k">print</span> <span class="nb">max</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 각각의 리스트를 변수 a, b로 받아서, 함수 max(a,b) 를 비교하여 큰값을 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>3
+9
+17
+15
+30
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="17-for--else">17. For / else</h3>
+
+<p>Just like with <code class="highlighter-rouge">while</code>, <code class="highlighter-rouge">for</code> loops may have an else associated with them.</p>
+
+<p>In this case, the <code class="highlighter-rouge">else</code> statement is executed after the <code class="highlighter-rouge">for</code>, but only <code class="highlighter-rouge">if</code> the <code class="highlighter-rouge">for</code> ends normally—that is, not with a <code class="highlighter-rouge">break</code>. This code will break when it hits ‘tomato’, so the <code class="highlighter-rouge">else</code> block won’t be executed.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch17. For / else 에서는 for 문에 else 문 사용을 학습한다.  <br />
+• for 반복문은 else 문을 가질수 있다.  <br />
+• for 문이 다 실행되고, 빠져 나오면 마지막으로 else 문이 실행된다.  <br />
+• 단, for 문에서 break 가 발생되면, else 문은 실행되지 않는다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Click Run to see how for and else work together.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• Run 을 실행시켜, 소스가 어떻게 동작되는지 확인한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">'banana'</span><span class="p">,</span> <span class="s">'apple'</span><span class="p">,</span> <span class="s">'orange'</span><span class="p">,</span> <span class="s">'tomato'</span><span class="p">,</span> <span class="s">'pear'</span><span class="p">,</span> <span class="s">'grape'</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="s">'You have...'</span>
+<span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">f</span> <span class="o">==</span> <span class="s">'tomato'</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">'A tomato is not a fruit!'</span> <span class="c1"># (It actually is.)
+</span>    <span class="k">break</span>
+  <span class="k">print</span> <span class="s">'A'</span><span class="p">,</span> <span class="n">f</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">'A fine selection of fruits!'</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• for 문을 돌면서, 리스트 fruits 의 값이 <em>tomato</em> 이면,  <br />
+• <em>A tomato is not a fruit!</em> 가 출력되고 break 가 실행된다.  <br />
+• 이 경우는 else 가 실행되지 않는다.  <br />
+• 만약에 for 문에서 break 가 안걸리고 정상적으로 다 돌게 되면,  <br />
+• else 문이 마지막에 실행된다.</p>
+
+<p><strong>결과 1</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># break 문을 만난 경우 
+You have...
+A banana
+A apple
+A orange
+A tomato is not a fruit!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과 2</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># break 문을 만나지 못한  경우 
+You have...
+A banana
+A apple
+A orange
+A tomato
+A pear
+A grape
+A fine selection of fruits!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+<h3 id="18-change-it-up">18. Change it up</h3>
+
+<p>As mentioned, the <code class="highlighter-rouge">else</code> block won’t run in this case, since break executes when it hits <strong>‘tomato’</strong>.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch18. Change it up 에서는 for/else 를 계속 학습한다.  <br />
+• break 문이 실행되면(즉, <em>tomato</em> 가 있으면),  <br />
+• for/else 문의 else 문은 실행되지 않는다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Modify the code in the editor such that the <code class="highlighter-rouge">for</code> loop’s <code class="highlighter-rouge">else</code> statement is executed.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• for 문의  else 문이 동작 되도록 소스를 수정하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>You can change the contents of fruits or the contents of the for statement such that the loop doesn’t break on “tomato”.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• else 문이 실행되게 하려면 다음과 같이 하면 된다.  <br />
+• 리스트 fruits 의 내용이 <em>tomato</em> 가 없게 하거나,  <br />
+• if 문에서 <em>tomato</em> 가 일치 하지 않게 만들어, break 문이 작동하지 않게 만들면,  <br />
+• else 문이 실행된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">'banana'</span><span class="p">,</span> <span class="s">'apple'</span><span class="p">,</span> <span class="s">'orange'</span><span class="p">,</span> <span class="s">'tomato'</span><span class="p">,</span> <span class="s">'pear'</span><span class="p">,</span> <span class="s">'grape'</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="s">'You have...'</span>
+<span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">f</span> <span class="o">==</span> <span class="s">'tomato'</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">'A tomato is not a fruit!'</span> <span class="c1"># (It actually is.)
+</span>  <span class="k">print</span> <span class="s">'A'</span><span class="p">,</span> <span class="n">f</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">'A fine selection of fruits!'</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 이 경우엔, break 문을 삭제 했다.  <br />
+• for 문이 실행되고, else 문도 실행 된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You have...
+A banana
+A apple
+A orange
+A tomato is not a fruit!
+A tomato
+A pear
+A grape
+A fine selection of fruits!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="/codecademy/assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="/codecademy/assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">LOOPS</font>
+
+<h3 id="19-create-your-own">19. Create your own</h3>
+
+<p>To wrap up this lesson, let’s create our own <code class="highlighter-rouge">for/else</code> statement from scratch.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch19. Create your own 에서는 for/else 문을 활용하는 방법을 학습한다.  <br />
+• 지금까지 배운것을 종합하여, for/else 문을 활용하여 자신만의 소스를 만들어 보자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Build your <code class="highlighter-rouge">for/else</code> statement in the editor. Execution of the <code class="highlighter-rouge">else</code> branch is optional, but your code should print a string of your choice to the editor regardless.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• for/else 문을 사용하여 프로그램을 작성하라.  <br />
+• else 문이 실행되고 안되고는 자유다.  <br />
+• 하지만, 당신이 원하는대로 출력이 되어야 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• skip</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="/codecademy/assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">test</span> <span class="o">=</span> <span class="p">[</span><span class="s">"bleh"</span><span class="p">,</span> <span class="s">"blah"</span><span class="p">,</span> <span class="s">"bloh"</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">test</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">x</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"ok"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 리스트 test 에 3 개의 값을 넣고, for/else 문을 돌린다.   <br />
+• 변수 x 에 리스트 test 의 값을 하나씩 추출하여, 출력한다.  <br />
+• for 문이 다 돌고 나면, 마지막에 else 문이 실행된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bleh
+blah
+bloh
+ok
+</code></pre></div></div>
+
+<p><br />
+<br />  <br />
+<br /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/codecademy/battleship/" class="pagination--pager" title="Battleship!
+">Previous</a>
+    
+    
+      <a href="/codecademy/practice-makes-perfect/" class="pagination--pager" title="Practice Makes Perfect
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/codecademy/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/codecademy/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+  </script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7193702121518663",
+    enable_page_level_ads: true
+    });
+  </script>
+
+</html>
