@@ -111,7 +111,7 @@ author:
       url: mailto:i.am.peter.kr@gmail.com
     - label: "About"
       icon: "fas fa-fw fa-link"
-      url: "https://iampeterkr.github.io/codecademy/about/"
+      url: "https://iampeterkr.github.io/about/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -129,7 +129,7 @@ author:
       #url: "www.linkedin.com/in/wonyoung-lee"
     - label: "About"
       icon: "fas fa-fw fa-link"
-      #url: "https://iampeterkr.github.io/codecademy/about/"
+      #url: "https://iampeterkr.github.io/about/"
 
 # Site Footer
 footer:

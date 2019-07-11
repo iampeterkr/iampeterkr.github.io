@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/codecademy/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/codecademy/" rel="alternate" type="text/html" /><updated>2019-07-11T14:01:22+09:00</updated><id>http://localhost:4000/codecademy/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Pyglatin] Pyglatin 복습!!</title><link href="http://localhost:4000/codecademy/03-2-pyglatin/" rel="alternate" type="text/html" title="[Pyglatin] Pyglatin 복습!!" /><published>2019-07-07T00:00:00+09:00</published><updated>2019-07-07T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/03-#2-pyglatin</id><content type="html" xml:base="http://localhost:4000/codecademy/03-2-pyglatin/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#2)]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-12T07:17:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Pyglatin] Pyglatin 복습!!</title><link href="http://localhost:4000/03-2-pyglatin/" rel="alternate" type="text/html" title="[Pyglatin] Pyglatin 복습!!" /><published>2019-07-07T00:00:00+09:00</published><updated>2019-07-07T00:00:00+09:00</updated><id>http://localhost:4000/03-#2-pyglatin</id><content type="html" xml:base="http://localhost:4000/03-2-pyglatin/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#2)]&lt;/p&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
@@ -11,7 +11,7 @@
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 &lt;h3 id=&quot;1--break-it-down&quot;&gt;1.  Break It Down&lt;/h3&gt;
 
@@ -37,7 +37,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;When you’re ready to get coding, click &lt;code class=&quot;highlighter-rouge&quot;&gt;Next&lt;/code&gt;. Since we took the time to write out the steps for our solution, you’ll know what’s coming!&lt;/li&gt;
@@ -49,7 +49,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;skip&lt;/li&gt;
 &lt;/ul&gt;
@@ -60,7 +60,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;skip&lt;/li&gt;
 &lt;/ul&gt;
@@ -77,9 +77,9 @@
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;2-ahoy-or-should-i-say-ahoyay&quot;&gt;2. Ahoy! (or Should I Say Ahoyay!)&lt;/h3&gt;
@@ -92,7 +92,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Please &lt;strong&gt;print&lt;/strong&gt; the phrase “Pig Latin”.&lt;/li&gt;
@@ -104,7 +104,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; Hello World&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -115,7 +115,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Pig Latin&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -129,9 +129,9 @@
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;3-input&quot;&gt;3. Input!&lt;/h3&gt;
@@ -165,7 +165,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -186,7 +186,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Your code should look something like this:&lt;/li&gt;
@@ -210,7 +210,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Welcome to the Pig Latin Translator!'&lt;/span&gt;
 
@@ -227,9 +227,9 @@
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;4-check-yourself&quot;&gt;4. Check Yourself!&lt;/h3&gt;
@@ -255,7 +255,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -288,7 +288,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Don’t forget that &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; is the greater than operator!&lt;/p&gt;
@@ -306,7 +306,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Welcome to the Pig Latin Translator!'&lt;/span&gt;
 
@@ -339,9 +339,9 @@ empty
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;5-check-yourself-some-more&quot;&gt;5. Check Yourself… Some More&lt;/h3&gt;
@@ -369,7 +369,7 @@ empty
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use and to add a second condition to your &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; statement.&lt;/li&gt;
@@ -389,7 +389,7 @@ empty
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;To combine multiple conditions in one &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt;, you can use and between the two conditions, like this:&lt;/li&gt;
 &lt;/ul&gt;
@@ -407,7 +407,7 @@ empty
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Welcome to the Pig Latin Translator!'&lt;/span&gt;
 
@@ -436,9 +436,9 @@ Hello
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;6-pop-quiz&quot;&gt;6. Pop Quiz!&lt;/h3&gt;
@@ -452,7 +452,7 @@ Hello
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Take some time to &lt;strong&gt;test your current code&lt;/strong&gt;.&lt;/li&gt;
@@ -473,7 +473,7 @@ Hello
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;No trick here! Just test your code to make sure it works as expected.&lt;/li&gt;
@@ -485,7 +485,7 @@ Hello
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Welcome to the Pig Latin Translator!'&lt;/span&gt;
 
@@ -515,9 +515,9 @@ abcd
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;7-ay-b-c&quot;&gt;7. Ay B C&lt;/h3&gt;
@@ -538,7 +538,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Create a variable named &lt;code class=&quot;highlighter-rouge&quot;&gt;pyg&lt;/code&gt; and set it equal to the suffix ‘ay’.&lt;/li&gt;
@@ -551,7 +551,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Remember to use a single equal sign to do the assignment and to put quotation marks around the string ‘ay’!&lt;/li&gt;
@@ -563,7 +563,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pyg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ay'&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -577,9 +577,9 @@ abcd
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;8-word-up&quot;&gt;8. Word Up&lt;/h3&gt;
@@ -612,7 +612,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -634,7 +634,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Use a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;word&lt;/code&gt; to store the result of &lt;code class=&quot;highlighter-rouge&quot;&gt;original.lower()&lt;/code&gt;.&lt;/p&gt;
@@ -670,7 +670,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pyg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ay'&lt;/span&gt;
 
@@ -696,9 +696,9 @@ abcd
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;9-move-it-on-back&quot;&gt;9. Move it on Back&lt;/h3&gt;
@@ -719,7 +719,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -739,7 +739,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; to concatenate (put together) two strings, like this:&lt;/li&gt;
@@ -754,7 +754,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pyg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ay'&lt;/span&gt;
 
@@ -778,9 +778,9 @@ abcd
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;10-ending-up&quot;&gt;10. Ending Up&lt;/h3&gt;
@@ -822,7 +822,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;new_word&lt;/code&gt; equal to the slice from the 1st index all the way to the end of &lt;code class=&quot;highlighter-rouge&quot;&gt;new_word&lt;/code&gt;.&lt;/li&gt;
@@ -836,7 +836,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -872,7 +872,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pyg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ay'&lt;/span&gt;
 
@@ -901,9 +901,9 @@ abcd
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYGLATIN&lt;/font&gt;
 
 &lt;h3 id=&quot;11-testing-testing-is-this-thing-on&quot;&gt;11. Testing, Testing, is This Thing On?&lt;/h3&gt;
@@ -921,7 +921,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;When you’re sure your translator is working just the way you want it, click Run Code to finish this project.&lt;/li&gt;
@@ -934,7 +934,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;skip&lt;/li&gt;
@@ -946,7 +946,7 @@ abcd
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pyg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ay'&lt;/span&gt;
 
@@ -982,7 +982,7 @@ abcd
 a
 abcdefaay
 bcdefaay
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#2)]</summary></entry><entry><title type="html">[conditionals-control-flow] 파이썬 조건절에 대한 설명!!</title><link href="http://localhost:4000/codecademy/03-1-conditionals-control-flow/" rel="alternate" type="text/html" title="[conditionals-control-flow] 파이썬 조건절에 대한 설명!!" /><published>2019-07-06T00:00:00+09:00</published><updated>2019-07-06T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/03-#1-conditionals-control-flow</id><content type="html" xml:base="http://localhost:4000/codecademy/03-1-conditionals-control-flow/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#1)]&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#2)]</summary></entry><entry><title type="html">[conditionals-control-flow] 파이썬 조건절에 대한 설명!!</title><link href="http://localhost:4000/03-1-conditionals-control-flow/" rel="alternate" type="text/html" title="[conditionals-control-flow] 파이썬 조건절에 대한 설명!!" /><published>2019-07-06T00:00:00+09:00</published><updated>2019-07-06T00:00:00+09:00</updated><id>http://localhost:4000/03-#1-conditionals-control-flow</id><content type="html" xml:base="http://localhost:4000/03-1-conditionals-control-flow/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#1)]&lt;/p&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
@@ -995,7 +995,7 @@ bcdefaay
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 &lt;h3 id=&quot;1-go-with-the-flow&quot;&gt;1. Go With the Flow&lt;/h3&gt;
 
@@ -1013,7 +1013,7 @@ bcdefaay
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Check out the code in the editor.&lt;/li&gt;
@@ -1027,7 +1027,7 @@ bcdefaay
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;skip&lt;/li&gt;
 &lt;/ul&gt;
@@ -1039,7 +1039,7 @@ bcdefaay
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;clinic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;You've just entered the clinic!&quot;&lt;/span&gt;
@@ -1068,9 +1068,9 @@ Type left or right and hit 'Enter'.
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;2--compare-closely&quot;&gt;2.  Compare Closely!&lt;/h3&gt;
@@ -1142,7 +1142,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Set each variable to &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt; depending on what you think the result will be.&lt;/li&gt;
@@ -1167,7 +1167,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Remember, you set variables like this:&lt;/li&gt;
 &lt;/ul&gt;
@@ -1189,7 +1189,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Assign True or False as appropriate on the lines below!
 &lt;/span&gt;
@@ -1218,9 +1218,9 @@ Type left or right and hit 'Enter'.
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;3-compare-closelier&quot;&gt;3. Compare… Closelier!&lt;/h3&gt;
@@ -1237,7 +1237,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1257,7 +1257,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;An Expression &lt;code class=&quot;highlighter-rouge&quot;&gt;(20-10) &amp;gt; 15&lt;/code&gt; is &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1272,7 +1272,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Assign True or False as appropriate on the lines below!
 &lt;/span&gt;
@@ -1305,9 +1305,9 @@ Type left or right and hit 'Enter'.
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;4-how-the-tables-have-turned&quot;&gt;4. How the Tables Have Turned&lt;/h3&gt;
@@ -1330,7 +1330,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;For each boolean value in the editor, write an expression that evaluates to that value.&lt;/li&gt;
@@ -1353,7 +1353,7 @@ Type left or right and hit 'Enter'.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bool_two&lt;/code&gt; should store a false expression, so you could try:&lt;/li&gt;
 &lt;/ul&gt;
@@ -1366,7 +1366,7 @@ Type left or right and hit 'Enter'.
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Create comparative statements as appropriate on the lines below!
 &lt;/span&gt;
@@ -1396,9 +1396,9 @@ Type left or right and hit 'Enter'.
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;5-to-be-andor-not-to-be&quot;&gt;5. To Be and/or Not to Be&lt;/h3&gt;
@@ -1415,13 +1415,13 @@ We’ll go through the operators one by one.&lt;/p&gt;
 • Boolean 에는 and , or , not 이 있다.   &lt;br /&gt;
 • 아래의 boolean 표를 참조하자.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/03-boolean-00.svg&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/03-boolean-00.svg&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Check out the truth tables to the right.&lt;/li&gt;
@@ -1436,7 +1436,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;skip&lt;/li&gt;
 &lt;/ul&gt;
@@ -1446,7 +1446,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;skip&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1460,9 +1460,9 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;6-and&quot;&gt;6. AND&lt;/h3&gt;
@@ -1482,7 +1482,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Let’s practice with &lt;code class=&quot;highlighter-rouge&quot;&gt;and&lt;/code&gt;.&lt;/li&gt;
@@ -1532,7 +1532,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;bool_one&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -1544,7 +1544,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;bool_one&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
 
@@ -1568,9 +1568,9 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;7-or&quot;&gt;7. OR&lt;/h3&gt;
@@ -1588,7 +1588,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1638,7 +1638,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Remember, or is True when either (or both!) of the expressions involved are true.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1649,7 +1649,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;bool_one&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;108&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Cleese'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'King Arthur'&lt;/span&gt;
 
@@ -1674,9 +1674,9 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;8-not&quot;&gt;8. Not&lt;/h3&gt;
@@ -1698,7 +1698,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1746,7 +1746,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Remember, not True is False and not False is True. So, for example, bool_one should be:&lt;/li&gt;
 &lt;/ul&gt;
@@ -1760,7 +1760,7 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;bool_one&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
 
@@ -1784,9 +1784,9 @@ We’ll go through the operators one by one.&lt;/p&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;9-this-and-that-or-this-but-not-that&quot;&gt;9. This and That (or This, But Not That!)&lt;/h3&gt;
@@ -1813,7 +1813,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1861,7 +1861,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;True or not False and False.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1882,7 +1882,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;bool_one&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
 
@@ -1907,9 +1907,9 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;10-mix-n-match&quot;&gt;10. Mix ‘n’ Match&lt;/h3&gt;
@@ -1927,7 +1927,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -1947,7 +1947,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Make sure to use at least one &lt;code class=&quot;highlighter-rouge&quot;&gt;and&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;or&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;not&lt;/code&gt;.&lt;/li&gt;
@@ -1959,7 +1959,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Use boolean expressions as appropriate on the lines below!
 &lt;/span&gt;
@@ -1988,9 +1988,9 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;11-conditional-statement-syntax&quot;&gt;11. Conditional Statement Syntax&lt;/h3&gt;
@@ -2024,7 +2024,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;If you think the &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; statement will print to the console, set &lt;code class=&quot;highlighter-rouge&quot;&gt;response&lt;/code&gt; equal to ‘Y’; otherwise, set response equal to ‘N’.&lt;/li&gt;
@@ -2037,7 +2037,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Make sure to set response to “Y” or “N”!&lt;/li&gt;
 &lt;/ul&gt;
@@ -2048,7 +2048,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'N'&lt;/span&gt;
 
@@ -2071,9 +2071,9 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;12-if-youre-having&quot;&gt;12. If You’re Having…&lt;/h3&gt;
@@ -2104,7 +2104,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;In the editor you’ll see two functions.&lt;/li&gt;
@@ -2121,7 +2121,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Here’s an example to remind you of the syntax:&lt;/li&gt;
@@ -2143,7 +2143,7 @@ For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; o
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;using_control_once&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -2168,9 +2168,9 @@ Success #2
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;13-else-problems-i-feel-bad-for-you-son&quot;&gt;13. Else Problems, I Feel Bad for You, Son…&lt;/h3&gt;
@@ -2193,7 +2193,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Complete the &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt; statements to the right. Note the indentation for each line!&lt;/li&gt;
@@ -2206,7 +2206,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;To complete your &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt; statement lines, the only thing you need to do is add &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt; after the returns on lines 7 and 13.&lt;/li&gt;
@@ -2218,7 +2218,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;'Tis but aa scratch!&quot;&lt;/span&gt;
 
@@ -2256,9 +2256,9 @@ Success #2
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;14-i-got-99-problems-but-a-switch-aint-one&quot;&gt;14. I Got 99 Problems, But a Switch Ain’t One&lt;/h3&gt;
@@ -2284,7 +2284,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -2305,7 +2305,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -2331,7 +2331,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;greater_less_equal_5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -2360,9 +2360,9 @@ Success #2
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;CONDITIONALS &amp;amp; CONTROL FLOW&lt;/font&gt;
 
 &lt;h3 id=&quot;15-the-big-if&quot;&gt;15. The Big If&lt;/h3&gt;
@@ -2400,7 +2400,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -2433,7 +2433,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -2457,7 +2457,7 @@ Success #2
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Complete the if and elif statements!
 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;grade_converter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grade&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
@@ -2492,7 +2492,7 @@ Success #2
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A
 C
 F
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#1)]</summary></entry><entry><title type="html">[Date and Time] 파이썬 날짜와 시간!!</title><link href="http://localhost:4000/codecademy/02-1-date-and-time/" rel="alternate" type="text/html" title="[Date and Time] 파이썬 날짜와 시간!!" /><published>2019-07-05T00:00:00+09:00</published><updated>2019-07-05T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/02-#1-date-and-time</id><content type="html" xml:base="http://localhost:4000/codecademy/02-1-date-and-time/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#1)]</summary></entry><entry><title type="html">[Date and Time] 파이썬 날짜와 시간!!</title><link href="http://localhost:4000/02-1-date-and-time/" rel="alternate" type="text/html" title="[Date and Time] 파이썬 날짜와 시간!!" /><published>2019-07-05T00:00:00+09:00</published><updated>2019-07-05T00:00:00+09:00</updated><id>http://localhost:4000/02-#1-date-and-time</id><content type="html" xml:base="http://localhost:4000/02-1-date-and-time/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]&lt;/p&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
@@ -2506,7 +2506,7 @@ F
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;DATA AND TIME&lt;/font&gt;
 &lt;h3 id=&quot;1-the-datetime-library&quot;&gt;1. The datetime Library&lt;/h3&gt;
 
@@ -2522,7 +2522,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Click &lt;code class=&quot;highlighter-rouge&quot;&gt;Run&lt;/code&gt; to continue.&lt;/li&gt;
@@ -2534,7 +2534,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;skip&lt;/li&gt;
 &lt;/ul&gt;
@@ -2545,7 +2545,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -2559,7 +2559,7 @@ F
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 
 &lt;h3 id=&quot;2-getting-the-current-date-and-time&quot;&gt;2. Getting the Current Date and Time&lt;/h3&gt;
@@ -2582,7 +2582,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -2602,7 +2602,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Remember that you can assign a value to the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;now&lt;/code&gt; using the assignment operator &lt;code class=&quot;highlighter-rouge&quot;&gt;=&lt;/code&gt;&lt;/p&gt;
@@ -2621,7 +2621,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;
 
@@ -2641,9 +2641,9 @@ F
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 
 &lt;h3 id=&quot;3-extracting-information&quot;&gt;3. Extracting Information&lt;/h3&gt;
@@ -2670,7 +2670,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;On a new line, print &lt;code class=&quot;highlighter-rouge&quot;&gt;now.year&lt;/code&gt;.&lt;/li&gt;
@@ -2688,7 +2688,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Remember, to print out the &lt;code class=&quot;highlighter-rouge&quot;&gt;current year&lt;/code&gt;, you can type:&lt;/li&gt;
 &lt;/ul&gt;
@@ -2702,7 +2702,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -2723,9 +2723,9 @@ F
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 
 &lt;h3 id=&quot;4-hot-date&quot;&gt;4. Hot Date&lt;/h3&gt;
@@ -2753,7 +2753,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -2770,7 +2770,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Don’t forget to &lt;code class=&quot;highlighter-rouge&quot;&gt;import datetime&lt;/code&gt;. The example code above shows you how to do so.&lt;/p&gt;
@@ -2787,7 +2787,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -2804,9 +2804,9 @@ F
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 
 &lt;h3 id=&quot;5-pretty-time&quot;&gt;5. Pretty Time&lt;/h3&gt;
@@ -2829,7 +2829,7 @@ F
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -2850,7 +2850,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;To get the hour, you can type:&lt;/li&gt;
 &lt;/ul&gt;
@@ -2865,7 +2865,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -2882,9 +2882,9 @@ F
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 
 &lt;h3 id=&quot;6-grand-finale&quot;&gt;6. Grand Finale&lt;/h3&gt;
@@ -2908,7 +2908,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Print the date and time together in the form: &lt;code class=&quot;highlighter-rouge&quot;&gt;mm/dd/yyyy hh:mm:ss&lt;/code&gt;.&lt;/li&gt;
@@ -2924,7 +2924,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Don’t forget to &lt;code class=&quot;highlighter-rouge&quot;&gt;import datetime&lt;/code&gt;. Look at the example code above if you need help doing so.&lt;/li&gt;
 &lt;/ul&gt;
@@ -2935,7 +2935,7 @@ F
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -2948,7 +2948,7 @@ F
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;11/27/2018 20:59:59
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]</summary></entry><entry><title type="html">[String &amp;amp; Console Output] 문자열과 콘솔 출력에 대한 설명!!</title><link href="http://localhost:4000/codecademy/02-0-string-console-output/" rel="alternate" type="text/html" title="[String &amp; Console Output] 문자열과 콘솔 출력에 대한 설명!!" /><published>2019-07-04T00:00:00+09:00</published><updated>2019-07-04T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/02-#0-string-console-output</id><content type="html" xml:base="http://localhost:4000/codecademy/02-0-string-console-output/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]</summary></entry><entry><title type="html">[String &amp;amp; Console Output] 문자열과 콘솔 출력에 대한 설명!!</title><link href="http://localhost:4000/02-0-string-console-output/" rel="alternate" type="text/html" title="[String &amp; Console Output] 문자열과 콘솔 출력에 대한 설명!!" /><published>2019-07-04T00:00:00+09:00</published><updated>2019-07-04T00:00:00+09:00</updated><id>http://localhost:4000/02-#0-string-console-output</id><content type="html" xml:base="http://localhost:4000/02-0-string-console-output/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]&lt;/p&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
@@ -2962,7 +2962,7 @@ F
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -2987,7 +2987,7 @@ Strings need to be within quotes.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Create a new variable &lt;code class=&quot;highlighter-rouge&quot;&gt;brian&lt;/code&gt; and assign it the string &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Hello life!&quot;&lt;/code&gt;.&lt;/li&gt;
@@ -2999,7 +2999,7 @@ Strings need to be within quotes.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Do you remember how to declare and assign variables in Python? If not, refresh your memory here!&lt;/li&gt;
 &lt;/ul&gt;
@@ -3027,7 +3027,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brian&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello life!&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -3042,9 +3042,9 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3058,7 +3058,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3081,7 +3081,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Make sure you use exactly the capitalization shown! Python takes things very literally.&lt;/li&gt;
 &lt;/ul&gt;
@@ -3092,7 +3092,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Assign your variables below, each on its own line!
 &lt;/span&gt;
@@ -3117,9 +3117,9 @@ Teresa
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3145,7 +3145,7 @@ Teresa
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Fix the string in the editor!&lt;/li&gt;
 &lt;/ul&gt;
@@ -3162,7 +3162,7 @@ Teresa
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3181,7 +3181,7 @@ Teresa
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# The string below is broken. Fix it using the escape backslash!
 &lt;/span&gt;
@@ -3210,9 +3210,9 @@ This isn't flying, this is falling with style!
 
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3268,7 +3268,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3284,7 +3284,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The letter you want is &lt;em&gt;Y&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -3296,7 +3296,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
 The string &quot;PYTHON&quot; has six characters,
@@ -3326,9 +3326,9 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3355,7 +3355,7 @@ So if you wanted &quot;Y&quot;, you could just type
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3373,7 +3373,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Use the function &lt;code class=&quot;highlighter-rouge&quot;&gt;len()&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -3384,7 +3384,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Norwegian Blue&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -3404,9 +3404,9 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;   &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;   &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3427,7 +3427,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Call &lt;code class=&quot;highlighter-rouge&quot;&gt;lower()&lt;/code&gt; on parrot (after print) on line 3 in the editor.&lt;/li&gt;
@@ -3440,7 +3440,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Your code should look something like this:&lt;/li&gt;
@@ -3455,7 +3455,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Norwegian Blue&quot;&lt;/span&gt;
 
@@ -3472,9 +3472,9 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3488,7 +3488,7 @@ So if you wanted &quot;Y&quot;, you could just type
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Call &lt;code class=&quot;highlighter-rouge&quot;&gt;upper()&lt;/code&gt; on parrot (after print on line 3) in order to capitalize all the characters in the string!&lt;/li&gt;
@@ -3500,7 +3500,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use the same syntax as the previous exercise! Last time, you used:&lt;/li&gt;
@@ -3515,7 +3515,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;parrot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;norwegian blue&quot;&lt;/span&gt;
 
@@ -3532,9 +3532,9 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3556,7 +3556,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3575,7 +3575,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;str()&lt;/code&gt; syntax is like the &lt;code class=&quot;highlighter-rouge&quot;&gt;len()&lt;/code&gt; syntax:&lt;/li&gt;
 &lt;/ul&gt;
@@ -3589,7 +3589,7 @@ So if you wanted &quot;Y&quot;, you could just type
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Declare and assign your variable on line 4,
 then call your method on line 5!&quot;&quot;&quot;&lt;/span&gt;
@@ -3608,9 +3608,9 @@ then call your method on line 5!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3634,7 +3634,7 @@ then call your method on line 5!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3653,7 +3653,7 @@ then call your method on line 5!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;skip&lt;/li&gt;
@@ -3665,7 +3665,7 @@ then call your method on line 5!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ministry&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;The Ministry of Silly Walks&quot;&lt;/span&gt;
 
@@ -3685,9 +3685,9 @@ THE MINISTRY OF SILLY WALKS
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3706,7 +3706,7 @@ THE MINISTRY OF SILLY WALKS
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Print “Monty Python” to the console.&lt;/li&gt;
@@ -3718,7 +3718,7 @@ THE MINISTRY OF SILLY WALKS
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;The syntax looks like this:&lt;/li&gt;
 &lt;/ul&gt;
@@ -3732,7 +3732,7 @@ THE MINISTRY OF SILLY WALKS
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Tell Python to print &quot;Monty Python&quot;
 to the console on line 4!&quot;&quot;&quot;&lt;/span&gt;
@@ -3749,9 +3749,9 @@ to the console on line 4!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;   &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;   &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3766,7 +3766,7 @@ to the console on line 4!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3784,7 +3784,7 @@ to the console on line 4!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Make sure you’re setting your variable like this:&lt;/li&gt;
@@ -3798,7 +3798,7 @@ to the console on line 4!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Assign the string &quot;Ping!&quot; to
 the variable the_machine_goes on
@@ -3818,9 +3818,9 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3844,7 +3844,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3863,7 +3863,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Make sure you include the spaces and use the correct capitalization.&lt;/li&gt;
@@ -3875,7 +3875,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Print the concatenation of &quot;Spam and eggs&quot; on line 3!
 &lt;/span&gt;
@@ -3893,9 +3893,9 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -3919,7 +3919,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -3939,7 +3939,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;The code to turn the number 2 into a string is &lt;code class=&quot;highlighter-rouge&quot;&gt;str(2)&lt;/code&gt;.&lt;/p&gt;
@@ -3955,7 +3955,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Turn 3.14 into a string on line 3!
 &lt;/span&gt;
@@ -3972,9 +3972,9 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -4016,7 +4016,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Take a look at the code in the editor.&lt;/li&gt;
@@ -4028,7 +4028,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Think about &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;%()&lt;/code&gt;&lt;/li&gt;
@@ -4039,7 +4039,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;string_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Camelot&quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;string_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;place&quot;&lt;/span&gt;
@@ -4057,9 +4057,9 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt; &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -4085,7 +4085,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -4120,7 +4120,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Remember, the syntax is:&lt;/li&gt;
@@ -4141,7 +4141,7 @@ line 5, then print it out on line 6!&quot;&quot;&quot;&lt;/span&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;What is your name? &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;quest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;What is your quest? &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -4165,9 +4165,9 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
 
@@ -4205,7 +4205,7 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -4227,7 +4227,7 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You can &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; a variable with a method all on one line, like so:&lt;/li&gt;
@@ -4242,7 +4242,7 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Write your code below, starting on line 3!
 &lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;my_string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;hey&quot;&lt;/span&gt;
@@ -4257,34 +4257,34 @@ Ah, so your name is iampeter, your quest is earth, and your favorite color is ye
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;3
 HEY
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]</summary></entry><entry><title type="html">[Syllabus] Python 공부 스케쥴 안내 !!</title><link href="http://localhost:4000/codecademy/00-3-syllabus/" rel="alternate" type="text/html" title="[Syllabus] Python 공부 스케쥴 안내 !!" /><published>2019-07-02T00:00:00+09:00</published><updated>2019-07-02T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/00-#3-syllabus</id><content type="html" xml:base="http://localhost:4000/codecademy/00-3-syllabus/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)]&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)]</summary></entry><entry><title type="html">[Syllabus] Python 공부 스케쥴 안내 !!</title><link href="http://localhost:4000/00-3-syllabus/" rel="alternate" type="text/html" title="[Syllabus] Python 공부 스케쥴 안내 !!" /><published>2019-07-02T00:00:00+09:00</published><updated>2019-07-02T00:00:00+09:00</updated><id>http://localhost:4000/00-#3-syllabus</id><content type="html" xml:base="http://localhost:4000/00-3-syllabus/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)]&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;1.	Python Syntax&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Python Syntax &lt;a href=&quot;/codecademy/python-syntax/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Python Syntax &lt;a href=&quot;//python-syntax/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;2.	Strings and Console Output&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	String &amp;amp; Console Output &lt;a href=&quot;/codecademy/string-console-output/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	Date and Time &lt;a href=&quot;/codecademy/date-and-time/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	String &amp;amp; Console Output &lt;a href=&quot;//string-console-output/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Date and Time &lt;a href=&quot;//date-and-time/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;3.	Conditionals and Control Flow&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Conditionals &amp;amp; Control Flow &lt;a href=&quot;/codecademy/conditionals-control-flow/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	PygLatin &lt;a href=&quot;/codecademy/pyglatin/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Conditionals &amp;amp; Control Flow &lt;a href=&quot;//conditionals-control-flow/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	PygLatin &lt;a href=&quot;//pyglatin/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;4.	Functions&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Functions &lt;a href=&quot;/codecademy/functions/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	Taking a Vacation &lt;a href=&quot;/codecademy/taking-vacation/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Functions &lt;a href=&quot;//functions/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Taking a Vacation &lt;a href=&quot;//taking-vacation/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -4292,41 +4292,41 @@ HEY
 
 &lt;p&gt;&lt;b&gt;5.	Lists &amp;amp; Dictionaries&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Python Lists and Dictionaries &lt;a href=&quot;/codecademy/lists-dictionaries/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	A Day at the Supermarket &lt;a href=&quot;/codecademy/day-supermarket/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Python Lists and Dictionaries &lt;a href=&quot;//lists-dictionaries/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	A Day at the Supermarket &lt;a href=&quot;//day-supermarket/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;6.	Student Becomes the Teacher&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Student Becomes the Teacher &lt;a href=&quot;/codecademy/student-becomes-teacher/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Student Becomes the Teacher &lt;a href=&quot;//student-becomes-teacher/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;7.	Lists and Functions&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Lists and Functions &lt;a href=&quot;/codecademy/lists-functions/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	Battleship! &lt;a href=&quot;/codecademy/battleship/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Lists and Functions &lt;a href=&quot;//lists-functions/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Battleship! &lt;a href=&quot;//battleship/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;8.	Loops&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Loops &lt;a href=&quot;/codecademy/loops/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	Practice Makes Perfect &lt;a href=&quot;/codecademy/practice-makes-perfect/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Loops &lt;a href=&quot;//loops/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Practice Makes Perfect &lt;a href=&quot;//practice-makes-perfect/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;9.	Exam Statistics&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Exam Statistics &lt;a href=&quot;/codecademy/exam-statistics/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Exam Statistics &lt;a href=&quot;//exam-statistics/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;10.	Advanced Topics in Python&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Advanced Topics in Python &lt;a href=&quot;/codecademy/advanced-topics-python/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	Introduction to Bitwise Operators &lt;a href=&quot;/codecademy/introduction-bitwise-operators/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Advanced Topics in Python &lt;a href=&quot;//advanced-topics-python/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Introduction to Bitwise Operators &lt;a href=&quot;//introduction-bitwise-operators/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -4334,37 +4334,37 @@ HEY
 
 &lt;p&gt;&lt;b&gt;11.	Introduction to Classes&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	Introduction to Classes &lt;a href=&quot;/codecademy/introduction-classes/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;B.	Classes &lt;a href=&quot;/codecademy/classes/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	Introduction to Classes &lt;a href=&quot;//introduction-classes/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Classes &lt;a href=&quot;//classes/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;12.	File Input and Output&lt;/b&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;A.	File Input / Output &lt;a href=&quot;/codecademy/file-input-output/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A.	File Input / Output &lt;a href=&quot;//file-input-output/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;b&gt;13.	PYTHON FINAL PROJECT&lt;/b&gt;&lt;a href=&quot;/codecademy/python-final-project/&quot;&gt;§&lt;/a&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)]</summary></entry><entry><title type="html">[Stuck? Get a hint] Hint 항목 설명 !!</title><link href="http://localhost:4000/codecademy/00-6-1-stuck-get-a-hint/" rel="alternate" type="text/html" title="[Stuck? Get a hint] Hint 항목 설명 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/00-#6-1-stuck-get-a-hint</id><content type="html" xml:base="http://localhost:4000/codecademy/00-6-1-stuck-get-a-hint/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;13.	PYTHON FINAL PROJECT&lt;/b&gt;&lt;a href=&quot;//python-final-project/&quot;&gt;§&lt;/a&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)]</summary></entry><entry><title type="html">[Stuck? Get a hint] Hint 항목 설명 !!</title><link href="http://localhost:4000/00-6-1-stuck-get-a-hint/" rel="alternate" type="text/html" title="[Stuck? Get a hint] Hint 항목 설명 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/00-#6-1-stuck-get-a-hint</id><content type="html" xml:base="http://localhost:4000/00-6-1-stuck-get-a-hint/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-stuck-00.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-stuck-00.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-00.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-00.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ] &lt;br /&gt;
 • 미션을 수행하기 어려운 경우 &lt;code class=&quot;highlighter-rouge&quot;&gt;Hint&lt;/code&gt;를 참조한다.  &lt;br /&gt;
 • &lt;code class=&quot;highlighter-rouge&quot;&gt;Stuck? get a hint&lt;/code&gt; 클릭  &lt;br /&gt;
-• &lt;code class=&quot;highlighter-rouge&quot;&gt;Hint&lt;/code&gt; 참조&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]</summary></entry><entry><title type="html">[Run and display Error] Run 실행방법과 Error 확인 방법 !!</title><link href="http://localhost:4000/codecademy/00-6-2-run-error/" rel="alternate" type="text/html" title="[Run and display Error] Run 실행방법과 Error 확인 방법 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/00-#6-2-run-error</id><content type="html" xml:base="http://localhost:4000/codecademy/00-6-2-run-error/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]&lt;/p&gt;
+• &lt;code class=&quot;highlighter-rouge&quot;&gt;Hint&lt;/code&gt; 참조&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]</summary></entry><entry><title type="html">[Run and display Error] Run 실행방법과 Error 확인 방법 !!</title><link href="http://localhost:4000/00-6-2-run-error/" rel="alternate" type="text/html" title="[Run and display Error] Run 실행방법과 Error 확인 방법 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/00-#6-2-run-error</id><content type="html" xml:base="http://localhost:4000/00-6-2-run-error/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-run-error-00.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-run-error-00.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -4374,13 +4374,13 @@ HEY
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Run ]  &lt;br /&gt;
 • Editor 화면에서 지시사항(Instruction)을 작성(coding)한 후,  &lt;br /&gt;
 • &lt;code class=&quot;highlighter-rouge&quot;&gt;Run&lt;/code&gt; 버튼을 누른다.   &lt;br /&gt;
-• &lt;code class=&quot;highlighter-rouge&quot;&gt;Display&lt;/code&gt; 화면에서 Error 또는 정상 메시지를 확인 한다.&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]</summary></entry><entry><title type="html">[Community and Forums] Python의 커뮤니티와 포럼에 참영하는 방법!!</title><link href="http://localhost:4000/codecademy/00-7-community-forum/" rel="alternate" type="text/html" title="[Community and Forums] Python의 커뮤니티와 포럼에 참영하는 방법!!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/00-#7-community-forum</id><content type="html" xml:base="http://localhost:4000/codecademy/00-7-community-forum/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#7)]&lt;/p&gt;
+• &lt;code class=&quot;highlighter-rouge&quot;&gt;Display&lt;/code&gt; 화면에서 Error 또는 정상 메시지를 확인 한다.&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]</summary></entry><entry><title type="html">[Community and Forums] Python의 커뮤니티와 포럼에 참영하는 방법!!</title><link href="http://localhost:4000/00-7-community-forum/" rel="alternate" type="text/html" title="[Community and Forums] Python의 커뮤니티와 포럼에 참영하는 방법!!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/00-#7-community-forum</id><content type="html" xml:base="http://localhost:4000/00-7-community-forum/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#7)]&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-community-00.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-community-00.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-community-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-community-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here are some helpful links to the top questions asked by coders about this exercise:&lt;/p&gt;
 
@@ -4393,24 +4393,24 @@ HEY
 &lt;p&gt;Still have questions? View this exercise’s thread in the &lt;a href=&quot;https://discuss.codecademy.com&quot;&gt;Codecademy Forums&lt;/a&gt;&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt;   &lt;br /&gt;
-Codecademy를 사용하던중, 의문점이나 의견 개진이 필요한 경우, 연결된 링크를 통하여 &lt;a href=&quot;https://discuss.codecademy.com&quot;&gt;Codecademy Forums&lt;/a&gt; 사이트에 의견을 보낼수 있다.&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#7)]</summary></entry><entry><title type="html">[Report a bug] Bug 보고서를 작성하는 방법 !!</title><link href="http://localhost:4000/codecademy/00-8-report-bug/" rel="alternate" type="text/html" title="[Report a bug] Bug 보고서를 작성하는 방법 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/00-#8-report-bug</id><content type="html" xml:base="http://localhost:4000/codecademy/00-8-report-bug/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]&lt;/p&gt;
+Codecademy를 사용하던중, 의문점이나 의견 개진이 필요한 경우, 연결된 링크를 통하여 &lt;a href=&quot;https://discuss.codecademy.com&quot;&gt;Codecademy Forums&lt;/a&gt; 사이트에 의견을 보낼수 있다.&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#7)]</summary></entry><entry><title type="html">[Report a bug] Bug 보고서를 작성하는 방법 !!</title><link href="http://localhost:4000/00-8-report-bug/" rel="alternate" type="text/html" title="[Report a bug] Bug 보고서를 작성하는 방법 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/00-#8-report-bug</id><content type="html" xml:base="http://localhost:4000/00-8-report-bug/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-report-00.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-report-00.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-report-02.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-report-02.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-report-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-report-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;If you see a bug or any other issue with this page, please report it &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt;   &lt;br /&gt;
 • &lt;code class=&quot;highlighter-rouge&quot;&gt;here&lt;/code&gt; 를 클릭하면, 설문 조사 화면이 나타난다.   &lt;br /&gt;
-• 자신의 의견을 선택하고, 남길 메시지를 적고 제출 하면 된다.&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]</summary></entry><entry><title type="html">[Python Syntax] Python 기초 문법 설명 !!</title><link href="http://localhost:4000/codecademy/01-0-python-syntax/" rel="alternate" type="text/html" title="[Python Syntax] Python 기초 문법 설명 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/codecademy/01-#0-python-syntax</id><content type="html" xml:base="http://localhost:4000/codecademy/01-0-python-syntax/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (01-#0)]&lt;/p&gt;
+• 자신의 의견을 선택하고, 남길 메시지를 적고 제출 하면 된다.&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]</summary></entry><entry><title type="html">[Python Syntax] Python 기초 문법 설명 !!</title><link href="http://localhost:4000/01-0-python-syntax/" rel="alternate" type="text/html" title="[Python Syntax] Python 기초 문법 설명 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/01-#0-python-syntax</id><content type="html" xml:base="http://localhost:4000/01-0-python-syntax/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (01-#0)]&lt;/p&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
@@ -4425,7 +4425,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;1-hello-world&quot;&gt;1. Hello World!&lt;/h3&gt;
 
@@ -4449,7 +4449,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Using a print statement, output a message of your choosing to the terminal.&lt;/li&gt;
@@ -4461,7 +4461,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Print a message by typing &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; followed by your message in quotes, like this:&lt;/li&gt;
@@ -4476,7 +4476,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -4491,9 +4491,9 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;2-print-statements&quot;&gt;2. Print Statements&lt;/h3&gt;
 
@@ -4517,7 +4517,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Print something using Python 3’s syntax.&lt;/li&gt;
@@ -4530,7 +4530,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Remember to include parentheses!&lt;/li&gt;
@@ -4545,7 +4545,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -4562,9 +4562,9 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;3-string&quot;&gt;3. String&lt;/h3&gt;
@@ -4595,7 +4595,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Try adding your name to the print statement with the + operator so that this Python program prints “Hello [your_name]”&lt;/li&gt;
@@ -4607,7 +4607,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Nicole&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -4618,7 +4618,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Wonyoung Lee&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -4633,9 +4633,9 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;4-handling-errors&quot;&gt;4. Handling Errors&lt;/h3&gt;
 
@@ -4670,7 +4670,7 @@ with the same quote-character that started it.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;We’ve written two &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; statements that will raise errors.&lt;/li&gt;
@@ -4687,7 +4687,7 @@ with the same quote-character that started it.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;A &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; statement should start with the word print and then should have the message inside matching quote marks.&lt;/li&gt;
@@ -4710,7 +4710,7 @@ with the same quote-character that started it.
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;How do you make a hot dog stand?&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;You take away its chair!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -4730,9 +4730,9 @@ You take away its chair!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;5-variables&quot;&gt;5. Variables&lt;/h3&gt;
 
@@ -4760,7 +4760,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;toodays_date&lt;/code&gt; and assign a value that will represent today’s date to that variable.&lt;/li&gt;
@@ -4772,7 +4772,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;todays_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;March 31, 2023&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -4782,7 +4782,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;todays_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;November 19, 2018&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -4797,9 +4797,9 @@ You take away its chair!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;6-arithmetic&quot;&gt;6. Arithmetic&lt;/h3&gt;
 
@@ -4836,7 +4836,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -4857,7 +4857,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Remember creating a variable is as simple as setting it equal to something else. To define a variable called quotient you would write the following:&lt;/li&gt;
@@ -4885,7 +4885,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;product&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;remainder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1398&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;
@@ -4905,9 +4905,9 @@ You take away its chair!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;7-updating-variables&quot;&gt;7. Updating Variables&lt;/h3&gt;
 
@@ -4954,7 +4954,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;We’re trying to figure out how much it rained in the past year! Update the &lt;code class=&quot;highlighter-rouge&quot;&gt;annual_rainfall&lt;/code&gt; variable to include the values from September to December.&lt;/li&gt;
 &lt;/ul&gt;
@@ -4966,7 +4966,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Use the &lt;code class=&quot;highlighter-rouge&quot;&gt;+=&lt;/code&gt; syntax to add a value to an existing variable:&lt;/li&gt;
@@ -4986,7 +4986,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;january_to_june_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.93&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.71&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.53&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.41&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.69&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.50&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;january_to_june_rainfall&lt;/span&gt;
@@ -5025,9 +5025,9 @@ You take away its chair!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;8-comments&quot;&gt;8. Comments&lt;/h3&gt;
 
@@ -5049,7 +5049,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Add a comment above the declaration of &lt;code class=&quot;highlighter-rouge&quot;&gt;city_pop&lt;/code&gt; with a description of what you think the variable contains.&lt;/li&gt;
@@ -5062,7 +5062,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Use the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -5073,7 +5073,7 @@ You take away its chair!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;city_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;St. Potatosburg&quot;&lt;/span&gt;
 
@@ -5094,9 +5094,9 @@ You take away its chair!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;9-numbers&quot;&gt;9. Numbers&lt;/h3&gt;
 
@@ -5134,7 +5134,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -5160,7 +5160,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Use the operator &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -5172,7 +5172,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;price_per_cucumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.25&lt;/span&gt;
@@ -5199,9 +5199,9 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;10-two-types-of-division&quot;&gt;10. Two Types of Division&lt;/h3&gt;
 
@@ -5249,7 +5249,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -5286,7 +5286,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;You can do float division by casting either the numerator or denominator as a float:&lt;/li&gt;
 &lt;/ul&gt;
@@ -5301,7 +5301,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;num_people&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
@@ -5325,9 +5325,9 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;11-multi-line-strings&quot;&gt;11. Multi-line Strings&lt;/h3&gt;
 
@@ -5358,7 +5358,7 @@ returns the modified input and a string that says &quot;Success!&quot; or &quot;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;haiku&lt;/code&gt; and store this haiku as a multi-line string: The old pond, A frog jumps in: Plop!&lt;/li&gt;
@@ -5372,7 +5372,7 @@ returns the modified input and a string that says &quot;Success!&quot; or &quot;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Use the “”” “”” or ‘’’ ‘’’&lt;/li&gt;
 &lt;/ul&gt;
@@ -5383,7 +5383,7 @@ returns the modified input and a string that says &quot;Success!&quot; or &quot;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;haiku&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;The old pond,
 A frog jumps in:
@@ -5407,9 +5407,9 @@ Plop!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;12-booleans&quot;&gt;12. Booleans&lt;/h3&gt;
 
@@ -5429,7 +5429,7 @@ Plop!
 • 참  의 값은 숫자 &lt;em&gt;1&lt;/em&gt; 이다.  &lt;br /&gt;
 • 거짓 의 값은 숫자 &lt;em&gt;0&lt;/em&gt; 이다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/03-boolean-00.svg&quot; alt=&quot;codecademy&quot; width=&quot;70%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/03-boolean-00.svg&quot; alt=&quot;codecademy&quot; width=&quot;70%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -5437,7 +5437,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;Someone has introduced themselves to you using comments in script.py.&lt;/p&gt;
@@ -5461,7 +5461,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;To set a boolean to True, you would use:&lt;/li&gt;
@@ -5476,7 +5476,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Hi! I'm Maria and I live in script.py.
 # I'm an expert Python coder.
@@ -5495,9 +5495,9 @@ Plop!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;13-valueerror&quot;&gt;13. ValueError&lt;/h3&gt;
 
@@ -5550,7 +5550,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -5577,7 +5577,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;You can combine strings by casting the numerical value to a string and using the + operator:&lt;/li&gt;
 &lt;/ul&gt;
@@ -5591,7 +5591,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;float_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.25&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;float_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;40.0&lt;/span&gt;
@@ -5613,9 +5613,9 @@ Plop!
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;/codecademy/assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;14-review&quot;&gt;14. Review&lt;/h3&gt;
 
@@ -5643,7 +5643,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -5692,7 +5692,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;• You can add to a variable by using &lt;code class=&quot;highlighter-rouge&quot;&gt;+=&lt;/code&gt;:&lt;/p&gt;
 
@@ -5717,7 +5717,7 @@ Plop!
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/codecademy/assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;skill_completed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python Syntax&quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;exercises_completed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
