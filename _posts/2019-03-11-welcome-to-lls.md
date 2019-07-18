@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!"
+title: "[Python-Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!"
 ---
 
 
