@@ -230,7 +230,7 @@ var store = [{
         "url": "http://localhost:4000/p3-pyglatin/",
         "teaser":null},{
         "title": "[Python-Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!",
-        "excerpt":"2019-07-18[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) Welcome 이곳은 [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 입니다. Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 Python 링크에 연결되어 있습니다. Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다. POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를 통하여...","categories": [],
+        "excerpt":"2019-07-18 -[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) Welcome 이곳은 [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 입니다. Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 Python 링크에 연결되어 있습니다. Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다. POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/welcome-to-lls/",
         "teaser":null},{
