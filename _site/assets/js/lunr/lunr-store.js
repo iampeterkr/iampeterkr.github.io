@@ -318,4 +318,9 @@ var store = [{
         "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#2)] LESSON In this lesson we’ll put together all of the Python skills we’ve learned so far including string manipulation and branching. We’ll be building a Pyg Latin translator. (That’s Pig Latin for Python Programmers!) 설명: [ 학습방향 ] 이 장에서는 지금까지 배운 것을 복습...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/03-2-pyglatin/",
+        "teaser":null},{
+        "title": "[SignIn] Python 공부를 하기 위해서 사이트에 가입하는 방법 안내",
+        "excerpt":"2019-07-18-[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#1)]   설명:   먼저, 회원 가입을 해야 한다.  Username , Email, Password 를 입력하고, Start coding now를 누른다. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/00-1-signin/",
         "teaser":null},]
