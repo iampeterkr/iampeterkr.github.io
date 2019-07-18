@@ -229,10 +229,10 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p3-pyglatin/",
         "teaser":null},{
-        "title": "[Introduce Blog] Python Codecademy 한글설명 가이드 프로젝트 블로그 안내!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)] Welcome I hope you like it! 이곳은 Ai2Learn Python 관련 자료 블로거 입니다. * Codecademy 활용한 python2, python3 교육 관련 자료가 있습니다.* POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를 통하여 넘어 가실수 있습니다.* 총 POST 의 수는 약 290개 입니다. Python 을...","categories": [],
+        "title": "[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!",
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) Welcome 이곳은 [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 입니다. Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 Python 링크에 연결되어 있습니다. Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다. POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를 통하여...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/welcome-to-lls/",
+        "url": "http://localhost:4000/welcome/",
         "teaser":null},{
         "title": "[Connect] Python을 공부하는 위한 첫번째 접속하는 방법 안내 ",
         "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)]  https://codecademy.com 설명:  우리는 codecademy.com의 python 교육 환경을 이용하여, 초보자도 Python 추가 설치 없이 아주 쉽게 Python 문법을 배운다. ","categories": [],
