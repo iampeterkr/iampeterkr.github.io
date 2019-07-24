@@ -1,11 +1,12 @@
 ---
 layout: posts
-title:  "[Python Syntax] Python 기초 문법 설명 !!"
+title:  "코드카데미 파이썬 ( Codecademy Python ) 한글 (한국어) 설명 및 정답 !!"
 ---
 
 [#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (01-#0)]
-      
 
+## Codecademy [Python Syntax] Python 기초 문법 설명 !!      
+  
 <hr style="border: solid 1px #dddddd ;">    
 LESSON    
 
@@ -1494,3 +1495,7 @@ print("I got "+str(point_total)+" points!")
 ```
 I got 165 points!
 ```    
+
+
+
+Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 <a href="/syllabus/">Python</a> 링크에 연결되어 있습니다.        
