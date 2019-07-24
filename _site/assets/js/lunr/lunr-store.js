@@ -328,4 +328,9 @@ var store = [{
         "excerpt":"2019-07-18-[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#1)]   설명:   먼저, 회원 가입을 해야 한다.  Username , Email, Password 를 입력하고, Start coding now를 누른다. ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-1-signin/",
+        "teaser":null},{
+        "title": "[Codecademy][코드카데미][Connect] #00-#0 접속하는 방법 안내 ",
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)](connect) Python을 공부하는 위한 첫번째 접속하는 방법 안내  https://codecademy.com 설명:  우리는 codecademy.com의 python 교육 환경을 이용하여, 초보자도 Python 추가 설치 없이 아주 쉽게 Python 문법을 배운다. 안내바로가기 : Codecademy Python 한글을 클릭하여 Codecademy 무료 python2 전체를 공부하세요. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/01-0-connect-01/",
         "teaser":null},]
