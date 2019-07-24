@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "코드카데미 파이썬 ( Codecademy Python ) 한글 (한국어) 설명 및 정답 !!"
+title:  "코드아카데미 파이썬 ( Codecademy Python ) 한글 (한국어) 설명 및 정답 !!"
 ---
 
 [#Python #Codecademy(코드카데미) #한글 #한국어 #설명 #정답# #가이드 #프로젝트 (01-#0)]

@@ -289,8 +289,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/00-8-report-bug/",
         "teaser":null},{
+        "title": "코드아카데미 파이썬 ( Codecademy Python ) 한글 (한국어) 설명 및 정답 !!",
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글 #한국어 #설명 #정답# #가이드 #프로젝트 (01-#0)] Codecademy [Python Syntax] Python 기초 문법 설명 !! LESSON This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/01-0-codeacademy-python-korea-copy/",
+        "teaser":null},{
         "title": "코드카데미 파이썬 ( Codecademy Python ) 한글 (한국어) 설명 및 정답 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (01-#0)] Codecademy [Python Syntax] Python 기초 문법 설명 !! LESSON This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인 Python을 소개합니다. Python은...","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글 #한국어 #설명 #정답# #가이드 #프로젝트 (01-#0)] Codecademy [Python Syntax] Python 기초 문법 설명 !! LESSON This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/01-0-codecademy-python-korea/",
         "teaser":null},{
