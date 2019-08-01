@@ -339,7 +339,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/01-0-connect-01/",
         "teaser":null},{
-        "title": "010101 Helloworld",
+        "title": "[Python Codecademy] 1. Hello World",
         "excerpt":"LESSON This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다. Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다. PYTHON SYNTAX1....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010101-HelloWorld/",

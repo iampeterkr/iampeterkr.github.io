@@ -11,5 +11,5 @@ title: "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 �
 
  * [ 1. Python Syntax ]     
     * (Python Syntax)       
-        * <a href="/syllabus/">1. Hello World</a>    
+        * <a href="/010101-HelloWorld/">1. Hello World</a>    
 
