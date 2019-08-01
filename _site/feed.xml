@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-24T09:44:26+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Codecademy][코드카데미][Connect] #00-#0 접속하는 방법 안내</title><link href="http://localhost:4000/01-0-connect-01/" rel="alternate" type="text/html" title="[Codecademy][코드카데미][Connect] #00-#0 접속하는 방법 안내 " /><published>2019-07-24T00:00:00+09:00</published><updated>2019-07-24T00:00:00+09:00</updated><id>http://localhost:4000/01-#0-connect-01</id><content type="html" xml:base="http://localhost:4000/01-0-connect-01/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)]
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-01T11:04:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+
+&lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
+
+&lt;h2 id=&quot;무료-codecademy-python2-한글-설명-및-목록&quot;&gt;무료 Codecademy python2 한글 설명 및 목록&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/syllabus/&quot;&gt;[ 1. Python Syntax ]&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/syllabus/&quot;&gt;(Python Syntax)&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/syllabus/&quot;&gt;1. Hello World&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Codecademy][코드카데미][Connect] #00-#0 접속하는 방법 안내</title><link href="http://localhost:4000/01-0-connect-01/" rel="alternate" type="text/html" title="[Codecademy][코드카데미][Connect] #00-#0 접속하는 방법 안내" /><published>2019-07-24T00:00:00+09:00</published><updated>2019-07-24T00:00:00+09:00</updated><id>http://localhost:4000/01-#0-connect-01</id><content type="html" xml:base="http://localhost:4000/01-0-connect-01/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)]
 (connect) Python을 공부하는 위한 첫번째 접속하는 방법 안내&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -4370,35 +4386,7 @@ HEY
 &lt;/ul&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;b&gt;13.	PYTHON FINAL PROJECT&lt;/b&gt;&lt;a href=&quot;//python-final-project/&quot;&gt;§&lt;/a&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)]</summary></entry><entry><title type="html">[Solution] 정답 확인 방법!!</title><link href="http://localhost:4000/00-6-3-solution/" rel="alternate" type="text/html" title="[Solution] 정답 확인 방법!!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/00-#6-3-solution</id><content type="html" xml:base="http://localhost:4000/00-6-3-solution/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-00.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• 여러차레 &lt;code class=&quot;highlighter-rouge&quot;&gt;Run&lt;/code&gt;을 시도후에, 지시사항(Instruction)을 실패하면, &lt;code class=&quot;highlighter-rouge&quot;&gt;Solution&lt;/code&gt; 버튼이 나타난다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• &lt;code class=&quot;highlighter-rouge&quot;&gt;Solution&lt;/code&gt; 버튼을 클릭하면, 수정된 Python 소스가 Editor 화면에 나타난다.  &lt;br /&gt;
-• e.g. print “Hello “ + “Ishmael”&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-02.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• &lt;code class=&quot;highlighter-rouge&quot;&gt;Run&lt;/code&gt; 버튼을 다시 클릭하면, &lt;code class=&quot;highlighter-rouge&quot;&gt;Display&lt;/code&gt; 화면에 정상적인 결과를 보여준다. &lt;br /&gt;
-  »»  ⓐ &lt;code class=&quot;highlighter-rouge&quot;&gt;Solution&lt;/code&gt; 클릭 -&amp;gt; 수정된 Python 소스 확인  &lt;br /&gt;
-  »»  ⓑ &lt;code class=&quot;highlighter-rouge&quot;&gt;Run&lt;/code&gt; 클릭      -&amp;gt; 정상적인 결과 확인&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]</summary></entry><entry><title type="html">[Report a bug] Bug 보고서를 작성하는 방법 !!</title><link href="http://localhost:4000/00-8-report-bug/" rel="alternate" type="text/html" title="[Report a bug] Bug 보고서를 작성하는 방법 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/00-#8-report-bug</id><content type="html" xml:base="http://localhost:4000/00-8-report-bug/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;13.	PYTHON FINAL PROJECT&lt;/b&gt;&lt;a href=&quot;//python-final-project/&quot;&gt;§&lt;/a&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)]</summary></entry><entry><title type="html">[Report a bug] Bug 보고서를 작성하는 방법 !!</title><link href="http://localhost:4000/00-8-report-bug/" rel="alternate" type="text/html" title="[Report a bug] Bug 보고서를 작성하는 방법 !!" /><published>2019-07-01T00:00:00+09:00</published><updated>2019-07-01T00:00:00+09:00</updated><id>http://localhost:4000/00-#8-report-bug</id><content type="html" xml:base="http://localhost:4000/00-8-report-bug/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-report-00.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
