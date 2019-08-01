@@ -9,7 +9,7 @@ title: "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 �
 
 ## 무료 Codecademy python2 한글 설명 및 목록 
 
- * <a href="/syllabus/">[ 1. Python Syntax ]</a>     
-    * <a href="/syllabus/">(Python Syntax)</a>       
+ * [ 1. Python Syntax ]     
+    * (Python Syntax)       
         * <a href="/syllabus/">1. Hello World</a>    
 
