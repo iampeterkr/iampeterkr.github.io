@@ -339,13 +339,18 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/01-0-connect-01/",
         "teaser":null},{
-        "title": "[Python Codecademy] 1. Hello World",
-        "excerpt":"LESSON This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다. Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다. PYTHON SYNTAX1....","categories": [],
+        "title": "1. Hello World",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] LESSON This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다. Python은 수많은 독립형...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World                    ","categories": [],
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          1. Hello World                    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
+        "teaser":null},{
+        "title": "2. Print Statements",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010102-PrintStatements/",
         "teaser":null},]
