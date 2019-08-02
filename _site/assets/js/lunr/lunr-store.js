@@ -349,7 +349,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},{
-        "title": "2. Print Statements",
+        "title": "02.Print Statements",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX2. Print Statements There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010102-PrintStatements/",
