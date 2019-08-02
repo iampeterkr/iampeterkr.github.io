@@ -345,12 +345,12 @@ var store = [{
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          1. Hello World                    ","categories": [],
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements                    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},{
         "title": "2. Print Statements",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] ","categories": [],
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX2. Print Statements There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010102-PrintStatements/",
         "teaser":null},]
