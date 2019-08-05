@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "02.Print Statements"
 ---
 [#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]     
