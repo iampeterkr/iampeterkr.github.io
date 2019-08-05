@@ -229,11 +229,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p3-pyglatin/",
         "teaser":null},{
-        "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [1. Python Syntax]          1. Hello World      ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/welcome-to-lls-copy/",
-        "teaser":null},{
         "title": "[Python-Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!",
         "excerpt":"2019-07-18 -[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) Welcome 이곳은 [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 입니다. Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 Python 링크에 연결되어 있습니다. Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다. POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를...","categories": [],
         "tags": [],
@@ -245,12 +240,12 @@ var store = [{
         "url": "http://localhost:4000/welcome/",
         "teaser":null},{
         "title": "[Connect] Python을 공부하는 위한 첫번째 접속하는 방법 안내 ",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)]  https://codecademy.com 설명:  우리는 codecademy.com의 python 교육 환경을 이용하여, 초보자도 Python 추가 설치 없이 아주 쉽게 Python 문법을 배운다. ","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)]  https://codecademy.com 설명:  우리는 codecademy.com의 python 교육 환경을 이용하여, 초보자도 Python 추가 설치 없이 아주 쉽게 Python 문법을 배운다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-0-connect/",
         "teaser":null},{
         "title": "[SignIn] Python 공부를 하기 위해서 사이트에 가입하는 방법 안내",
-        "excerpt":"2019-07-18-[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#1)]   설명:   먼저, 회원 가입을 해야 한다.  Username , Email, Password 를 입력하고, Start coding now를 누른다. ","categories": [],
+        "excerpt":"2019-07-18-[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#1)]   설명:   먼저, 회원 가입을 해야 한다.  Username , Email, Password 를 입력하고, Start coding now를 누른다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-1-signin/",
         "teaser":null},{
@@ -260,22 +255,22 @@ var store = [{
         "url": "http://localhost:4000/00-4-explain-screen/",
         "teaser":null},{
         "title": "[Learn] Learn 항목 설명 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#5)]     설명: [ Learn ] • 우리가 배워야 할 Python 문법을 설명 한다.  • 어떻게 Editor 화면에 Python 프로그램을 작성하는지를 설명하다. ","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#5)]     설명: [ Learn ] • 우리가 배워야 할 Python 문법을 설명 한다.  • 어떻게 Editor 화면에 Python 프로그램을 작성하는지를 설명하다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-5-learn/",
         "teaser":null},{
         "title": "[Instructions] 과제를 처리하는 방법 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-0)]     설명: [ Instruction ]  • 우리가 배운 Python 문법을 활용하여, 지시사항(Instruction)을 수행 한다.  • 예를 들면 지시문의 내용은 다음과 같다.  • e.g. print 문을 사용하여 출력 화면에 당신이 생각하는 문장을 출력하라.  ","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-0)]     설명: [ Instruction ]  • 우리가 배운 Python 문법을 활용하여, 지시사항(Instruction)을 수행 한다.  • 예를 들면 지시문의 내용은 다음과 같다.  • e.g. print 문을 사용하여 출력 화면에 당신이 생각하는 문장을 출력하라.   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-6-0-instructions/",
         "teaser":null},{
         "title": "[Stuck? Get a hint] Hint 항목 설명 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]      설명: [ Hint ] • 미션을 수행하기 어려운 경우 Hint를 참조한다.  • Stuck? get a hint 클릭  • Hint 참조 ","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6-1)]      설명: [ Hint ] • 미션을 수행하기 어려운 경우 Hint를 참조한다.  • Stuck? get a hint 클릭  • Hint 참조  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-6-1-stuck-get-a-hint/",
         "teaser":null},{
         "title": "[Run and display Error] Run 실행방법과 Error 확인 방법 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]   RUN &amp; Error 설명: [ Run ]  • Editor 화면에서 지시사항(Instruction)을 작성(coding)한 후,  • Run 버튼을 누른다.   • Display 화면에서 Error 또는 정상 메시지를 확인 한다. ","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#6)]   RUN &amp; Error 설명: [ Run ]  • Editor 화면에서 지시사항(Instruction)을 작성(coding)한 후,  • Run 버튼을 누른다.   • Display 화면에서 Error 또는 정상 메시지를 확인 한다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-6-2-run-error/",
         "teaser":null},{
@@ -290,52 +285,22 @@ var store = [{
         "url": "http://localhost:4000/00-7-community-forum/",
         "teaser":null},{
         "title": "[Report a bug] Bug 보고서를 작성하는 방법 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]        If you see a bug or any other issue with this page, please report it here. 설명:   • here 를 클릭하면, 설문 조사 화면이 나타난다.   • 자신의 의견을 선택하고, 남길 메시지를 적고 제출 하면 된다. ","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#8)]        If you see a bug or any other issue with this page, please report it here. 설명:   • here 를 클릭하면, 설문 조사 화면이 나타난다.   • 자신의 의견을 선택하고, 남길 메시지를 적고 제출 하면 된다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-8-report-bug/",
-        "teaser":null},{
-        "title": "코드아카데미 파이썬 ( Codecademy Python ) 한글 (한국어) 설명 및 정답 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글 #한국어 #설명 #정답# #가이드 #프로젝트 (01-#0)] Codecademy [Python Syntax] Python 기초 문법 설명 !! LESSON This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/01-0-codeacademy-python-korea-copy/",
-        "teaser":null},{
-        "title": "코드카데미 파이썬 ( Codecademy Python ) 한글 (한국어) 설명 및 정답 !!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글 #한국어 #설명 #정답# #가이드 #프로젝트 (01-#0)] Codecademy [Python Syntax] Python 기초 문법 설명 !! LESSON This lesson will introduce you to Python, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/01-0-codecademy-python-korea/",
         "teaser":null},{
         "title": "[Syllabus] Python 공부 스케쥴 안내 !!",
         "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#3)] 1. Python Syntax A. Python Syntax §2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation §...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-3-syllabus/",
         "teaser":null},{
-        "title": "[String & Console Output] 문자열과 콘솔 출력에 대한 설명!!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)] LESSON This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the “print” keyword. 설명: [ 학습방향 ] 이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/02-0-string-console-output/",
-        "teaser":null},{
-        "title": "[Date and Time] 파이썬 날짜와 시간!!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (02-#1)] LESSON This lesson is a follow up to Unit 2: Strings and Console input and will give you practice with the concepts introduced in that lesson. 설명: [ 학습방향 ] 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/02-1-date-and-time/",
-        "teaser":null},{
-        "title": "[conditionals-control-flow] 파이썬 조건절에 대한 설명!!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#1)] LESSON In this lesson, we’ll learn how to create programs that generate different outcomes based on user input! 설명: [ 학습방향 ] 이 장에서는 사용자의 의도에 따라 다른 결과 값을 생성하는 프로그램을 만드는 연습을 한다. CONDITIONALS &amp; CONTROL FLOW1. Go With the Flow Just...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/03-1-conditionals-control-flow/",
-        "teaser":null},{
-        "title": "[Pyglatin] Pyglatin 복습!!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (03-#2)] LESSON In this lesson we’ll put together all of the Python skills we’ve learned so far including string manipulation and branching. We’ll be building a Pyg Latin translator. (That’s Pig Latin for Python Programmers!) 설명: [ 학습방향 ] 이 장에서는 지금까지 배운 것을 복습...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/03-2-pyglatin/",
-        "teaser":null},{
         "title": "[SignIn] Python 공부를 하기 위해서 사이트에 가입하는 방법 안내",
-        "excerpt":"2019-07-18-[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#1)]   설명:   먼저, 회원 가입을 해야 한다.  Username , Email, Password 를 입력하고, Start coding now를 누른다. ","categories": [],
+        "excerpt":"2019-07-18-[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#1)]   설명:   먼저, 회원 가입을 해야 한다.  Username , Email, Password 를 입력하고, Start coding now를 누른다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/00-1-signin/",
         "teaser":null},{
         "title": "[Codecademy][코드카데미][Connect] #00-#0 접속하는 방법 안내",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)](connect) Python을 공부하는 위한 첫번째 접속하는 방법 안내  https://codecademy.com 설명:  우리는 codecademy.com의 python 교육 환경을 이용하여, 초보자도 Python 추가 설치 없이 아주 쉽게 Python 문법을 배운다. 안내바로가기 : Codecademy Python 한글을 클릭하여 Codecademy 무료 python2 전체를 공부하세요. ","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#0)](connect) Python을 공부하는 위한 첫번째 접속하는 방법 안내  https://codecademy.com 설명:  우리는 codecademy.com의 python 교육 환경을 이용하여, 초보자도 Python 추가 설치 없이 아주 쉽게 Python 문법을 배운다. 안내바로가기 : Codecademy Python 한글을 클릭하여 Codecademy 무료 python2 전체를 공부하세요.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/01-0-connect-01/",
         "teaser":null},{
@@ -345,7 +310,7 @@ var store = [{
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements                    ","categories": [],
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements                     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},{

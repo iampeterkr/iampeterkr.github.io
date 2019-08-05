@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title:  "[Stuck? Get a hint] Hint 항목 설명 !!"
 ---
     
@@ -23,3 +23,9 @@ title:  "[Stuck? Get a hint] Hint 항목 설명 !!"
 • `Stuck? get a hint` 클릭    
 • `Hint` 참조    
 {: .notice--info}  
+
+
+<br>
+<br>
+<br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   

@@ -88,6 +88,7 @@ Hello World!
 <br>
 <br>
 
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
 
 
 

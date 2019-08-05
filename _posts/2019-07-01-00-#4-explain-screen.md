@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title:  "[Explain Screen] 기본 화면 설명 !!"
 ---
     
@@ -50,3 +50,7 @@ title:  "[Explain Screen] 기본 화면 설명 !!"
 • 반대로, 프로그램에 문제가 있으면 Error가 표시된다.
 {: .notice--info}    
 
+<br>
+<br>
+<br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "[Python-Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!"
 ---
 
@@ -25,5 +25,11 @@ Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다�
 
 Syllabus 를 통하여 Codecademy <a href="/codecademy/syllabus/">Python</a> 전체를 공부하시는 분에게 도움이 되시기를 기도합니다.    
     
-        
+
+
+<br>
+<br>
+<br>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)   
+
 
