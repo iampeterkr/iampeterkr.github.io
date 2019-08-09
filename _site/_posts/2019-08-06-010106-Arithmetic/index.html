@@ -1,0 +1,396 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>06.Arithmetic -  Peter’s github.io Blog</title>
+<meta name="description" content="This is Python Guide for Korean by Codecademy.com website.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="06.Arithmetic">
+<meta property="og:url" content="http://localhost:4000/_posts/2019-08-06-010106-Arithmetic/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/_posts/2019-08-06-010106-Arithmetic/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="06.Arithmetic">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">06.Arithmetic
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</p>
+
+<p><br /></p>
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON SYNTAX</font>
+<h3 id="6-arithmetic">6. Arithmetic</h3>
+
+<p>One thing computers are capable of doing exceptionally well is performing arithmetic. Addition, subtraction, multiplication, division, and other numeric calculations are easy to do in most programming languages, and Python is no exception. Some examples:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mirthful_addition</span> <span class="o">=</span> <span class="mi">12381</span> <span class="o">+</span> <span class="mi">91817</span>
+<span class="n">amazing_subtraction</span> <span class="o">=</span> <span class="mi">981</span> <span class="o">-</span> <span class="mi">312</span>
+<span class="n">trippy_multiplication</span> <span class="o">=</span> <span class="mi">38</span> <span class="o">*</span> <span class="mi">902</span>
+<span class="n">happy_division</span> <span class="o">=</span> <span class="mi">540</span> <span class="o">/</span> <span class="mi">45</span>
+<span class="n">sassy_combinations</span> <span class="o">=</span> <span class="mi">129</span> <span class="o">*</span> <span class="mi">1345</span> <span class="o">+</span> <span class="mi">120</span> <span class="o">/</span> <span class="mi">6</span> <span class="o">-</span> <span class="mi">12</span>
+</code></pre></div></div>
+
+<p>Above are a number of arithmetic operations, each assigned to a variable. The variable will <strong>hold the final result</strong> of each operation. Combinations of arithmetical operators follow the usual order of operations.</p>
+
+<p>Python also offers a companion to division called the modulo operator. The modulo operator is indicated by % and returns the remainder after division is performed.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">is_this_number_odd</span> <span class="o">=</span> <span class="mi">15</span> <span class="o">%</span> <span class="mi">2</span>
+<span class="n">is_this_number_divisible_by_seven</span> <span class="o">=</span> <span class="mi">133</span> <span class="o">%</span> <span class="mi">7</span>
+</code></pre></div></div>
+
+<p>In the above code block, we use the modulo operator to find the remainder of <code class="highlighter-rouge">15</code> divided by <code class="highlighter-rouge">2</code>. Since <code class="highlighter-rouge">15</code> is an odd number the remainder is <code class="highlighter-rouge">1</code>.</p>
+
+<p>We also check the remainder of <code class="highlighter-rouge">133 / 7</code>. Since <code class="highlighter-rouge">133</code> divided by <code class="highlighter-rouge">7</code> has no remainder, <code class="highlighter-rouge">133 % 7</code> evaluates to <code class="highlighter-rouge">0</code>.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch6. Arithmetic 에서는 수식을 학습한다.   <br />
+• 컴퓨터의 많은 기능 중 하나는 계산하는 것이다.   <br />
+• Python도 사칙연산( + , − , × , ÷ )을 지원한다.  <br />
+• Python 에선 × → * , ÷ → / 로 표시한다.  <br />
+• 모듈(module)연산자도 지원한다.   <br />
+• 모듈 연산자 중 하나인 % 는 나머지를 계산 해준다.  <br />
+• e.g. 15 % 2 = 1, 만약 133 % 7 같이 딱 떨어지면 나머지는 0 이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Multiply two numbers together and assign the result to a variable called <code class="highlighter-rouge">product</code>.</p>
+  </li>
+  <li>
+    <p>What is the remainder when 1398 is divided by 11? Save the results in a variable called <code class="highlighter-rouge">remainder</code>.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 product 를 만들어라.  <br />
+• 변수 product 에 2개의 숫자를 곱하여 대입하라.<br />
+• 1398 / 11  의 나머지는 무엇일까?   <br />
+• 변수 remainder 를 만들어라.  <br />
+• 변수 remainder 에 1397 / 11 의 나머지 값을 저장하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Remember creating a variable is as simple as setting it equal to something else. To define a variable called quotient you would write the following:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient</span> <span class="o">=</span> <span class="mi">30</span> <span class="o">/</span> <span class="mi">5</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Remember that remainders can be found using the modulus operator. Calculate a remainder with <code class="highlighter-rouge">%</code>.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">1908</span> <span class="o">%</span> <span class="mi">3</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Will be <code class="highlighter-rouge">0</code> because <code class="highlighter-rouge">1908</code> is divisible by <code class="highlighter-rouge">3</code>.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 상기 예는 변수 quotient 에 두 수를 나눗셈 한 것이다.  <br />
+• % 는 나머지를 구하는 모듈(module) 연산자 이다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">product</span> <span class="o">=</span> <span class="mi">18</span> <span class="o">*</span> <span class="mi">13</span>
+<span class="n">remainder</span> <span class="o">=</span> <span class="mi">1398</span> <span class="o">%</span> <span class="mi">11</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+•  곱셈 연산자는 * 이다.   <br />
+•  나머지를 구하는 모듈(module) 연산자는 % 이다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+
+<p><br />
+<br />  <br />
+<br /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" /></p>
+
+        
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+            style="display:block; border-bottom: initial;"
+            data-ad-client="ca-pub-7193702121518663"
+            data-ad-format="auto"></ins>
+        </div>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+<!-- google add starts 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 1em 0;">
+    <ins class="adsbygoogle"
+        style="display:block; border-bottom: initial;"
+        data-ad-client="ca-pub-7193702121518663"
+        data-ad-format="auto"></ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+ google add end -->
+
+
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>

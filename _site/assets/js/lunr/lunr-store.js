@@ -310,7 +310,7 @@ var store = [{
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements                     ","categories": [],
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements          3. String          4. Handling Errors          5. Variables          6. Arithmetic          7. Updating Variables          8. Comments          9. Numbers                     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},{
@@ -318,4 +318,39 @@ var store = [{
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX2. Print Statements There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010102-PrintStatements/",
+        "teaser":null},{
+        "title": "03.String",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX3. String When printing things in Python, we are supplying a text block that we want to be printed. Text in Python is considered a specific type of data called a string. A string, so named because they’re a...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010103-String/",
+        "teaser":null},{
+        "title": "04.Handling Errors",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX4. Handling Errors As we get more familiar with the Python programming language, we run into errors and exceptions. These are complaints that Python makes when it doesn’t understand what you want it to do. Everyone runs into these...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010104-HandlingErrors/",
+        "teaser":null},{
+        "title": "05.Variables",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX5. Variables In Python, and when programming in general, we need to build systems for dealing with data that changes over time. That data could be the location of a plane, or the time of day, or the television...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010105-Variables/",
+        "teaser":null},{
+        "title": "06.Arithmetic",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX6. Arithmetic One thing computers are capable of doing exceptionally well is performing arithmetic. Addition, subtraction, multiplication, division, and other numeric calculations are easy to do in most programming languages, and Python is no exception. Some examples: mirthful_addition =...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010106-Arithmetic/",
+        "teaser":null},{
+        "title": "07.Updating Variables",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX7. Updating Variables Changing the contents of a variable is one of the essential operations. As the flow of a program progresses, data should be updated to reflect changes that have happened. fish_in_clarks_pond = 50print \"Catching fish\"number_of_fish_caught = 10fish_in_clarks_pond...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010107-UpdatingVariables/",
+        "teaser":null},{
+        "title": "08.Comments",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX8. Comments Most of the time, code should be written in such a way that it is easy to understand on its own. However, if you want to include a piece of information to explain a part of your...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010108-Comments/",
+        "teaser":null},{
+        "title": "09.Numbers",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX9. Numbers Variables can also hold numeric values. The simplest kind of number in Python is the integer, which is a whole number with no decimal point: int1 = 1int2 = 10int3 = -5A number with a decimal point...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010109-Numbers/",
         "teaser":null},]

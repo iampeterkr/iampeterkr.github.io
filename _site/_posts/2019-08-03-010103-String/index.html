@@ -1,0 +1,358 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>03.String -  Peter’s github.io Blog</title>
+<meta name="description" content="This is Python Guide for Korean by Codecademy.com website.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="03.String">
+<meta property="og:url" content="http://localhost:4000/_posts/2019-08-03-010103-String/">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/_posts/2019-08-03-010103-String/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="03.String">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">03.String
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</p>
+
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">PYTHON SYNTAX</font>
+<h3 id="3-string">3. String</h3>
+
+<p>When printing things in Python, we are supplying a text block that we want to be printed. Text in Python is considered a specific type of data called a string. A string, so named because they’re a series of letters, numbers, or symbols connected in order — as if threaded together by string. Strings can be defined in different ways:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"This is a good string"</span>
+<span class="k">print</span> <span class="s">'You can use single quotes or double quotes for a string'</span>
+</code></pre></div></div>
+
+<p>Above we printed two things that are strings and then attempted to print two things that are not strings. While double-quotes (“) and single-quotes (‘) are both acceptable ways to define a string, a string needs to be opened and closed by the same type of quote mark.</p>
+
+<p>We can combine multiple strings using +, like so:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"This is "</span> <span class="o">+</span> <span class="s">"a good string"</span>
+
+<span class="n">This</span> <span class="n">code</span> <span class="n">will</span> <span class="k">print</span> <span class="n">out</span> <span class="s">"This is a good string"</span><span class="o">.</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch3. String 에서는 문자열을 학습한다.   <br />
+• 문자열을 Python 에서는 String 이라고 부른다.   <br />
+• String은 작은 따옴표(‘ ‘) 또는 큰 따옴표(“ “) 사이에 문자를 넣는다.  <br />
+• 이후 부터는 우리는 따옴표를 쿼터(quotes)라고 부른다.   <br />
+• 문자열은 여러 문자열을 예제와 같이 ( + ) 기호를 사용하여 붙일 수 있다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Try adding your name to the print statement with the + operator so that this Python program prints “Hello [your_name]”</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 두개의 문자열 사이에 ( + ) 기호를 사용하여 두 문자열을 연결하라.  <br />
+• e.g.  <em>Hello Hongkildong</em> 을 출력하라.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello "</span> <span class="o">+</span> <span class="s">"Nicole"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• 우리는 두개의 문자열을 ( + ) 기호를 사용하여, 문장을 연결할 수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello "</span> <span class="o">+</span> <span class="s">"Wonyoung Lee"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 두 개의 스트링을 연결 할때는 ( + ) 기호를 사용한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello Wonyoung Lee
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+        
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+            style="display:block; border-bottom: initial;"
+            data-ad-client="ca-pub-7193702121518663"
+            data-ad-format="auto"></ins>
+        </div>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+<!-- google add starts 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 1em 0;">
+    <ins class="adsbygoogle"
+        style="display:block; border-bottom: initial;"
+        data-ad-client="ca-pub-7193702121518663"
+        data-ad-format="auto"></ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+ google add end -->
+
+
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>
