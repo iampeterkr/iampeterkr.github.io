@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-09T17:16:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">09.Numbers</title><link href="http://localhost:4000/010109-Numbers/" rel="alternate" type="text/html" title="09.Numbers" /><published>2019-08-09T00:00:00+09:00</published><updated>2019-08-09T00:00:00+09:00</updated><id>http://localhost:4000/010109-Numbers</id><content type="html" xml:base="http://localhost:4000/010109-Numbers/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T00:04:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-10T00:00:00+09:00</published><updated>2019-08-10T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+
+&lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
+
+&lt;h2 id=&quot;무료-codecademy-python2-한글-설명-및-목록&quot;&gt;무료 Codecademy python2 한글 설명 및 목록&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[ 1. Python Syntax ]
+    &lt;ul&gt;
+      &lt;li&gt;(Python Syntax)
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/010101-HelloWorld/&quot;&gt;1. Hello World&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010102-PrintStatements/&quot;&gt;2. Print Statements&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010103-String/&quot;&gt;3. String&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010104-HandlingErrors/&quot;&gt;4. Handling Errors&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010105-Variables/&quot;&gt;5. Variables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010106-Arithmetic/&quot;&gt;6. Arithmetic&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010107-UpdatingVariables/&quot;&gt;7. Updating Variables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010108-Comments/&quot;&gt;8. Comments&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010109-Numbers/&quot;&gt;9. Numbers&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">09.Numbers</title><link href="http://localhost:4000/010109-Numbers/" rel="alternate" type="text/html" title="09.Numbers" /><published>2019-08-09T00:00:00+09:00</published><updated>2019-08-09T00:00:00+09:00</updated><id>http://localhost:4000/010109-Numbers</id><content type="html" xml:base="http://localhost:4000/010109-Numbers/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
@@ -727,36 +756,7 @@ You take away its chair!
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
-
-&lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
-
-&lt;h2 id=&quot;무료-codecademy-python2-한글-설명-및-목록&quot;&gt;무료 Codecademy python2 한글 설명 및 목록&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[ 1. Python Syntax ]
-    &lt;ul&gt;
-      &lt;li&gt;(Python Syntax)
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;/010101-HelloWorld/&quot;&gt;1. Hello World&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010102-PrintStatements/&quot;&gt;2. Print Statements&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010103-String/&quot;&gt;3. String&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010104-HandlingErrors/&quot;&gt;4. Handling Errors&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010105-Variables/&quot;&gt;5. Variables&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010106-Arithmetic/&quot;&gt;6. Arithmetic&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010107-UpdatingVariables/&quot;&gt;7. Updating Variables&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010108-Comments/&quot;&gt;8. Comments&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010109-Numbers/&quot;&gt;9. Numbers&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">1. Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="1. Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">1. Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="1. Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 

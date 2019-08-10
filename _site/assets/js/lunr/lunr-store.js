@@ -309,11 +309,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
-        "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements          3. String          4. Handling Errors          5. Variables          6. Arithmetic          7. Updating Variables          8. Comments          9. Numbers                     ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/codecademy-post-list/",
-        "teaser":null},{
         "title": "02.Print Statements",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX2. Print Statements There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has...","categories": [],
         "tags": [],
@@ -353,4 +348,9 @@ var store = [{
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX9. Numbers Variables can also hold numeric values. The simplest kind of number in Python is the integer, which is a whole number with no decimal point: int1 = 1int2 = 10int3 = -5A number with a decimal point...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010109-Numbers/",
+        "teaser":null},{
+        "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements          3. String          4. Handling Errors          5. Variables          6. Arithmetic          7. Updating Variables          8. Comments          9. Numbers                     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},]
