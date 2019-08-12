@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-11T00:04:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-10T00:00:00+09:00</published><updated>2019-08-10T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-12T09:41:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-12T00:00:00+09:00</published><updated>2019-08-12T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
 
@@ -18,6 +18,7 @@
           &lt;li&gt;&lt;a href=&quot;/010107-UpdatingVariables/&quot;&gt;7. Updating Variables&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;/010108-Comments/&quot;&gt;8. Comments&lt;/a&gt;&lt;/li&gt;
           &lt;li&gt;&lt;a href=&quot;/010109-Numbers/&quot;&gt;9. Numbers&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010110-TwoTypesOfDivision/&quot;&gt;10. Two Types of Division&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -27,7 +28,136 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">09.Numbers</title><link href="http://localhost:4000/010109-Numbers/" rel="alternate" type="text/html" title="09.Numbers" /><published>2019-08-09T00:00:00+09:00</published><updated>2019-08-09T00:00:00+09:00</updated><id>http://localhost:4000/010109-Numbers</id><content type="html" xml:base="http://localhost:4000/010109-Numbers/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">10.Two Types of Division</title><link href="http://localhost:4000/010110-TwoTypesOfDivision/" rel="alternate" type="text/html" title="10.Two Types of Division" /><published>2019-08-12T00:00:00+09:00</published><updated>2019-08-12T00:00:00+09:00</updated><id>http://localhost:4000/010110-TwoTypesOfDivision</id><content type="html" xml:base="http://localhost:4000/010110-TwoTypesOfDivision/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
+&lt;h3 id=&quot;10-two-types-of-division&quot;&gt;10. Two Types of Division&lt;/h3&gt;
+
+&lt;p&gt;In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# the value of quotient is now 3, which makes sense
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;However, if the numbers do not divide evenly, the result of the division is truncated into an integer. In other words, the quotient is rounded down to a whole number. This can be surprising when you expect to receive a decimal and you receive a rounded-down integer:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;''' the value of quotient is 3, even though the result
+  of the division here is 3.5 '''&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To yield a float as the result instead, programmers often change either the numerator or the denominator (or both) to be a float:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;7.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# the value of quotient1 is 3.5
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quotient2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# the value of quotient2 is 3.5
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quotient3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;7.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot; the value of quotient3 is 3.5
+ An alternative way is to use the float() method: &quot;&quot;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;quotient1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; 
+&lt;span class=&quot;c1&quot;&gt;# the value of quotient1 is 3.5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]     &lt;br /&gt;
+• Ch10. Two Types of Division 에서는 나눗셈 계산에서 주의할점을 학습한다.  &lt;br /&gt;
+• 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다.  &lt;br /&gt;
+• 정수 ( 7/2 ) 를 계산하면 3.5 이다. 3.5는 실수이다.  &lt;br /&gt;
+• 하지만, Python2 에서는 정수( 3 )만 남고, 나머지 0.5는 버린다.  &lt;br /&gt;
+• 이런 실수를 방지하기 위하여 값을 대입 할때 주의 해야한다.  &lt;br /&gt;
+• 항상, 계산한 결과값이 실수일 것을 대비하여야 한다.   &lt;br /&gt;
+• 입력값을 실수형으로 넣어 준다. ( e.g. 7.0 / 3)  &lt;br /&gt;
+• 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Python3 ]  &lt;br /&gt;
+• python3 에서는 이 문제를 해결 하였다.  &lt;br /&gt;
+• 정수 ( 7/2 ) 을 계산하면 3.5 로 자동 계산된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;You have come home from the grocery store with &lt;code class=&quot;highlighter-rouge&quot;&gt;100&lt;/code&gt; cucumbers to split amongst yourself and your &lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt; roommates (&lt;code class=&quot;highlighter-rouge&quot;&gt;6&lt;/code&gt; people total).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a variable &lt;code class=&quot;highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; that holds &lt;code class=&quot;highlighter-rouge&quot;&gt;100&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;num_people&lt;/code&gt; that holds &lt;code class=&quot;highlighter-rouge&quot;&gt;6&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; that is the integer result of dividing &lt;code class=&quot;highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Print &lt;code class=&quot;highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; to the console.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You realize that the numbers don’t divide evenly and you don’t want to throw out the remaining cucumbers.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; that holds the float result of dividing &lt;code class=&quot;highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Print &lt;code class=&quot;highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; to the console.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]   &lt;br /&gt;
+• 100 개의 오이를 룸메이트 6 명과 나눠 가지는 프로그램을 만든다.   &lt;br /&gt;
+• 변수 cucumbers 에  100 을 대입하라.  &lt;br /&gt;
+• 변수 num_people 에 6 을 대입하라.   &lt;br /&gt;
+• 변수 whole_cucumbers_per_person 에 (cucumbers / num_people)을 대입하라.  &lt;br /&gt;
+• 변수 whole_cucumbers_per_person 를 출력하라.  &lt;br /&gt;
+• 16 이 출력되어 놀라운가?   &lt;br /&gt;
+• 예상한 바로는 100/6 은 16.66…으로 출력을 예상했는가?   &lt;br /&gt;
+• 변수 float_cucumbers_per_person 를 만들고, 실수 값이 출력 되도록 고쳐라.  &lt;br /&gt;
+• 변수 float_cucumbers_per_person 를 출력하라.&lt;/p&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You can do float division by casting either the numerator or denominator as a float:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient_with_decimals&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#yields 2.5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
+• float() 함수를 사용하라.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;num_people&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;whole_cucumbers_per_person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_people&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;whole_cucumbers_per_person&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;float_cucumbers_per_person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_people&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;float_cucumbers_per_person&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
+• float_cucumbers_per_person 변수를 계산할때, float() 함수를 사용한다.  &lt;br /&gt;
+• float(cucumbers) 를 실수로 변경하여 계산한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;16
+16.6666666667
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">09.Numbers</title><link href="http://localhost:4000/010109-Numbers/" rel="alternate" type="text/html" title="09.Numbers" /><published>2019-08-09T00:00:00+09:00</published><updated>2019-08-09T00:00:00+09:00</updated><id>http://localhost:4000/010109-Numbers</id><content type="html" xml:base="http://localhost:4000/010109-Numbers/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
@@ -756,83 +886,4 @@ You take away its chair!
 &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">1. Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="1. Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
-
-&lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
-
-&lt;p&gt;LESSON&lt;/p&gt;
-
-&lt;p&gt;This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ 학습방향 ]   &lt;br /&gt;
-이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다.   &lt;br /&gt;
-Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;1-hello-world&quot;&gt;1. Hello World!&lt;/h3&gt;
-
-&lt;p&gt;If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to speak. In Python, this is accomplished with the &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; statement.&lt;/p&gt;
-
-&lt;p&gt;accomplished with the print statement.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, world!&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;A &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; statement is the easiest way to get your Python program to communicate with you. Being able to command this communication will be one of the most valuable tools in your programming toolbox.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
-• Ch1. Hello World! 에서는 print 문을 학습한다.    &lt;br /&gt;
-• 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.   &lt;br /&gt;
-• 우리는 컴퓨터에게 &lt;em&gt;Hello World!&lt;/em&gt; 라는 문장을 화면에 출력 시키라고 명령한 것이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Using a print statement, output a message of your choosing to the terminal.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• print 문을 사용하여 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Print a message by typing &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; followed by your message in quotes, like this:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Your Message!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• print 문을 사용하여 &lt;em&gt;Your Message!&lt;/em&gt; 를 화면에 출력한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• print 문을 사용하여 &lt;em&gt;Hello World!&lt;/em&gt; 를 출력하였다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello World!
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry></feed>

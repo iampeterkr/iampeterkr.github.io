@@ -29,7 +29,8 @@ last_modified_at: 2019-08-11T09:00:00-04:00
       * <a href="/010106-Arithmetic/">6. Arithmetic</a>      
       * <a href="/010107-UpdatingVariables/">7. Updating Variables</a>      
       * <a href="/010108-Comments/">8. Comments</a>      
-      * <a href="/010109-Numbers/">9. Numbers</a>      
+      * <a href="/010109-Numbers/">9. Numbers</a>   
+      * <a href="/010110-TwoTypesOfDivision/">10. Two Types of Division</a>   
     
 
 <br>

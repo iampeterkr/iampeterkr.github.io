@@ -20,6 +20,7 @@ title: "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 �
       * <a href="/010107-UpdatingVariables/">7. Updating Variables</a>      
       * <a href="/010108-Comments/">8. Comments</a>      
       * <a href="/010109-Numbers/">9. Numbers</a>      
+      * <a href="/010110-TwoTypesOfDivision/">10. Two Types of Division</a>   
     
 
 <br>

@@ -9,38 +9,38 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>  Hello World -  Peter’s github.io Blog</title>
-<meta name="description" content="[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]">
+<!-- begin _includes/seo.html --><title>10.Two Types of Division -  Peter’s github.io Blog</title>
+<meta name="description" content="[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   ">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's github.io Blog ">
-<meta property="og:title" content="  Hello World">
-<meta property="og:url" content="http://localhost:4000/010101-HelloWorld/">
+<meta property="og:title" content="10.Two Types of Division">
+<meta property="og:url" content="http://localhost:4000/010110-TwoTypesOfDivision/">
 
 
-  <meta property="og:description" content="[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2019-08-01T00:00:00+09:00">
+  <meta property="og:description" content="[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   ">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2019-08-12T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/010101-HelloWorld/">
+
+<link rel="canonical" href="http://localhost:4000/010110-TwoTypesOfDivision/">
 
 
 
@@ -280,17 +280,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="  Hello World">
-    <meta itemprop="description" content="[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]">
-    <meta itemprop="datePublished" content="August 01, 2019">
+    <meta itemprop="headline" content="10.Two Types of Division">
+    <meta itemprop="description" content="[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   ">
+    <meta itemprop="datePublished" content="August 12, 2019">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline"><ol>
-  <li>Hello World</li>
-</ol>
+          <h1 id="page-title" class="page__title" itemprop="headline">10.Two Types of Division
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -298,7 +296,7 @@
 
 
 
-  1 minute read
+  2 minute read
 </p>
           
         </header>
@@ -306,39 +304,55 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</p>
+        <p>[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   <br />
+<br /></p>
 
-<hr style="border: solid 1px #dddddd ;" />
-
-<p>LESSON</p>
-
-<p>This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.</p>
-
-<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
-이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다.   <br />
-Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다.</p>
-
-<hr style="border: solid 1px #dddddd ;" />
-
-<p><br />
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
 <font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="1-hello-world">1. Hello World!</h3>
+<h3 id="10-two-types-of-division">10. Two Types of Division</h3>
 
-<p>If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to speak. In Python, this is accomplished with the <code class="highlighter-rouge">print</code> statement.</p>
+<p>In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine:</p>
 
-<p>accomplished with the print statement.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient</span> <span class="o">=</span> <span class="mi">6</span><span class="o">/</span><span class="mi">2</span>
+<span class="c1"># the value of quotient is now 3, which makes sense
+</span></code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello, world!"</span>
-<span class="k">print</span> <span class="s">"Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?"</span>
+<p>However, if the numbers do not divide evenly, the result of the division is truncated into an integer. In other words, the quotient is rounded down to a whole number. This can be surprising when you expect to receive a decimal and you receive a rounded-down integer:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient</span> <span class="o">=</span> <span class="mi">7</span><span class="o">/</span><span class="mi">2</span>
+<span class="s">''' the value of quotient is 3, even though the result
+  of the division here is 3.5 '''</span>
 </code></pre></div></div>
 
-<p>A <code class="highlighter-rouge">print</code> statement is the easiest way to get your Python program to communicate with you. Being able to command this communication will be one of the most valuable tools in your programming toolbox.</p>
+<p>To yield a float as the result instead, programmers often change either the numerator or the denominator (or both) to be a float:</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-• Ch1. Hello World! 에서는 print 문을 학습한다.    <br />
-• 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.   <br />
-• 우리는 컴퓨터에게 <em>Hello World!</em> 라는 문장을 화면에 출력 시키라고 명령한 것이다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient1</span> <span class="o">=</span> <span class="mf">7.</span><span class="o">/</span><span class="mi">2</span>
+<span class="c1"># the value of quotient1 is 3.5
+</span><span class="n">quotient2</span> <span class="o">=</span> <span class="mi">7</span><span class="o">/</span><span class="mf">2.</span>
+<span class="c1"># the value of quotient2 is 3.5
+</span><span class="n">quotient3</span> <span class="o">=</span> <span class="mf">7.</span><span class="o">/</span><span class="mf">2.</span>
+<span class="s">""" the value of quotient3 is 3.5
+ An alternative way is to use the float() method: """</span>
+
+<span class="n">quotient1</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span> 
+<span class="c1"># the value of quotient1 is 3.5
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch10. Two Types of Division 에서는 나눗셈 계산에서 주의할점을 학습한다.  <br />
+• 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다.  <br />
+• 정수 ( 7/2 ) 를 계산하면 3.5 이다. 3.5는 실수이다.  <br />
+• 하지만, Python2 에서는 정수( 3 )만 남고, 나머지 0.5는 버린다.  <br />
+• 이런 실수를 방지하기 위하여 값을 대입 할때 주의 해야한다.  <br />
+• 항상, 계산한 결과값이 실수일 것을 대비하여야 한다.   <br />
+• 입력값을 실수형으로 넣어 준다. ( e.g. 7.0 / 3)  <br />
+• 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Python3 ]  <br />
+• python3 에서는 이 문제를 해결 하였다.  <br />
+• 정수 ( 7/2 ) 을 계산하면 3.5 로 자동 계산된다.</p>
 
 <p><br /></p>
 <hr />
@@ -346,46 +360,80 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 <p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
 <ul>
-  <li>Using a print statement, output a message of your choosing to the terminal.</li>
+  <li>
+    <p>You have come home from the grocery store with <code class="highlighter-rouge">100</code> cucumbers to split amongst yourself and your <code class="highlighter-rouge">5</code> roommates (<code class="highlighter-rouge">6</code> people total).</p>
+  </li>
+  <li>
+    <p>Create a variable <code class="highlighter-rouge">cucumbers</code> that holds <code class="highlighter-rouge">100</code> and <code class="highlighter-rouge">num_people</code> that holds <code class="highlighter-rouge">6</code>.</p>
+  </li>
+  <li>
+    <p>Create a variable called <code class="highlighter-rouge">whole_cucumbers_per_person</code> that is the integer result of dividing <code class="highlighter-rouge">cucumbers</code> by <code class="highlighter-rouge">num_people</code>.</p>
+  </li>
+  <li>
+    <p>Print <code class="highlighter-rouge">whole_cucumbers_per_person</code> to the console.</p>
+  </li>
+  <li>You realize that the numbers don’t divide evenly and you don’t want to throw out the remaining cucumbers.</li>
+  <li>
+    <p>Create a variable called <code class="highlighter-rouge">float_cucumbers_per_person</code> that holds the float result of dividing <code class="highlighter-rouge">cucumbers</code> by <code class="highlighter-rouge">num_people</code>.</p>
+  </li>
+  <li>Print <code class="highlighter-rouge">float_cucumbers_per_person</code> to the console.</li>
 </ul>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-• print 문을 사용하여 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜라.</p>
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 100 개의 오이를 룸메이트 6 명과 나눠 가지는 프로그램을 만든다.   <br />
+• 변수 cucumbers 에  100 을 대입하라.  <br />
+• 변수 num_people 에 6 을 대입하라.   <br />
+• 변수 whole_cucumbers_per_person 에 (cucumbers / num_people)을 대입하라.  <br />
+• 변수 whole_cucumbers_per_person 를 출력하라.  <br />
+• 16 이 출력되어 놀라운가?   <br />
+• 예상한 바로는 100/6 은 16.66…으로 출력을 예상했는가?   <br />
+• 변수 float_cucumbers_per_person 를 만들고, 실수 값이 출력 되도록 고쳐라.  <br />
+• 변수 float_cucumbers_per_person 를 출력하라.</p>
 
+<p style="page-break-before: always;"></p>
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
-
 <ul>
-  <li>Print a message by typing <code class="highlighter-rouge">print</code> followed by your message in quotes, like this:</li>
+  <li>You can do float division by casting either the numerator or denominator as a float:</li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Your Message!"</span>
-</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient_with_decimals</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+<span class="c1">#yields 2.5
+</span></code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• print 문을 사용하여 <em>Your Message!</em> 를 화면에 출력한다.</p>
+• float() 함수를 사용하라.</p>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello World!"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cucumbers</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">num_people</span> <span class="o">=</span> <span class="mi">6</span>
+
+<span class="n">whole_cucumbers_per_person</span> <span class="o">=</span> <span class="n">cucumbers</span><span class="o">/</span><span class="n">num_people</span>
+<span class="k">print</span> <span class="n">whole_cucumbers_per_person</span>
+
+<span class="n">float_cucumbers_per_person</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">cucumbers</span><span class="p">)</span><span class="o">/</span><span class="n">num_people</span>
+<span class="k">print</span> <span class="n">float_cucumbers_per_person</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
-• print 문을 사용하여 <em>Hello World!</em> 를 출력하였다.</p>
+• float_cucumbers_per_person 변수를 계산할때, float() 함수를 사용한다.  <br />
+• float(cucumbers) 를 실수로 변경하여 계산한다.</p>
 
 <p><strong>결과</strong></p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello World!
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>16
+16.6666666667
 </code></pre></div></div>
 
-<p><br />
-<br />
-<br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" /></p>
 
         
         
@@ -408,7 +456,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-08-01T00:00:00+09:00">August 01, 2019</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-08-12T00:00:00+09:00">August 12, 2019</time></p>
         
       </footer>
 
@@ -417,24 +465,24 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=1.+Hello+World%20http%3A%2F%2Flocalhost%3A4000%2F010101-HelloWorld%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=10.Two+Types+of+Division%20http%3A%2F%2Flocalhost%3A4000%2F010110-TwoTypesOfDivision%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F010101-HelloWorld%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F010110-TwoTypesOfDivision%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2F010101-HelloWorld%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2F010110-TwoTypesOfDivision%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F010101-HelloWorld%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F010110-TwoTypesOfDivision%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/01-0-connect-01/" class="pagination--pager" title="[Codecademy][코드카데미][Connect] #00-#0 접속하는 방법 안내
+      <a href="/010109-Numbers/" class="pagination--pager" title="09.Numbers
 ">Previous</a>
     
     
-      <a href="/010102-PrintStatements/" class="pagination--pager" title="02.Print Statements
+      <a href="/codecademy-post-list/" class="pagination--pager" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록
 ">Next</a>
     
   </nav>
@@ -473,35 +521,6 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]
-
-</p>
-  </article>
-</div>
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/010110-TwoTypesOfDivision/" rel="permalink">10.Two Types of Division
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  2 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   
-
 
 </p>
   </article>
@@ -555,6 +574,34 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 
 
   1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]
+
+</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/010107-UpdatingVariables/" rel="permalink">07.Updating Variables
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]

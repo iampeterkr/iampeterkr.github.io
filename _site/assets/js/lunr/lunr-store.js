@@ -349,8 +349,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/010109-Numbers/",
         "teaser":null},{
+        "title": "10.Two Types of Division",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX10. Two Types of Division In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine: quotient = 6/2# the value of quotient is now...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010110-TwoTypesOfDivision/",
+        "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록   [ 1. Python Syntax ]          (Python Syntax)                  1. Hello World          2. Print Statements          3. String          4. Handling Errors          5. Variables          6. Arithmetic          7. Updating Variables          8. Comments          9. Numbers                     ","categories": [],
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World 2. Print Statements 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},]
