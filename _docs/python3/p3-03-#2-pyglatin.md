@@ -138,10 +138,10 @@ Let's warm up by **printing** a welcome message for our translator users.
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
 ```python
-print " Hello World"
+print ("Hello World")
 ```
 **설명:** [ Hint ]    
-• print " Hello World" 라고 사용한다. 
+• print ("Hello World") 라고 사용한다. 
 {: .notice--info}
 
 <p style="page-break-before: always;"></p>
@@ -152,7 +152,7 @@ print " Hello World"
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print "Pig Latin"
+print ("Pig Latin")
 ```
 
 **설명:** [ Solution ]    
@@ -177,11 +177,16 @@ Pig Latin
 Next, we need to ask the user for input.    
 
 ```python
-name = raw_input("What's your name?")
-print name
+# Python2
+# name = raw_input("What's your name?")
+
+#Python3
+name = input("What's your name?")
+
+print (name)
 ```    
 
-In the above example, `raw_input()` accepts a string, prints it, and then waits for the user to type something and press Enter (or Return).
+In the above example, `input()` accepts a string, prints it, and then waits for the user to type something and press Enter (or Return).
 
 In the interpreter, Python will ask:
 
@@ -197,12 +202,13 @@ Once you type in your name and hit Enter, it will be stored in name.
 • Console 창에 다음과 같은 문자열이 출력된다.    
 • e.g. *What's your name?*     
 • Console 창에 당신의 이름을 입력하라. 그리고 Enter를 클릭하라.        
-• # 함수 raw_input() 는 console 창에 문자열을 입력받는 함수이다.
+• # Python2 함수 `raw_input()` 는 console 창에 문자열을 입력받는 함수이다.    
+• # Python3 함수 `input()` 는 console 창에 문자열을 입력받는 함수이다.
 {: .notice--info}    
 
 
 **설명:** [ Python3 ]     
-• python3 에서는 문자열 입력받는 함수로 input() 을 사용한다. 
+• python3 에서는 문자열 입력받는 함수로 `input()` 을 사용한다. 
 {: .notice--info}
 
 
@@ -215,7 +221,7 @@ Once you type in your name and hit Enter, it will be stored in name.
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)
 
-* On line 4, use **raw_input("Enter a word: ")** to ask the user to enter a word. Save the results of `raw_input()` in a variable called original.
+* On line 4, use **input("Enter a word: ")** to ask the user to enter a word. Save the results of `input()` in a variable called original.
 
 * Click `Run`
 
@@ -224,8 +230,8 @@ Once you type in your name and hit Enter, it will be stored in name.
 
 
 **설명:** [ Instruction ]    
-• 함수 raw_input() 를 사용하여 다음과 같이 Editor 화면에 코딩하라.    
-• e.g. raw_input("Enter a word: ") 
+• 함수 `input()` 를 사용하여 다음과 같이 Editor 화면에 코딩하라.    
+• e.g. input("Enter a word: ") 
 {: .notice--info}
 
 
@@ -262,14 +268,14 @@ variable_name = raw_input('Prompt')
 
 
 ```python
-print 'Welcome to the Pig Latin Translator!'
+print ('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
-original = raw_input("Enter a word:")
+original = input("Enter a word:")
 ```
 
 **설명:** [ Solution ]    
-• 함수 raw_input("Enter a word:") 로 문자를 입력 받는다.
+• 함수 input("Enter a word:") 로 문자를 입력 받는다.
 {: .notice--info}
 
 
@@ -332,9 +338,9 @@ We can check that the user's string actually has characters!
 
 **설명:** [ Instruction ]    
 • if 문을 사용하여 입력 받은 값이 문자열인지 확인한다.    
-• if 문의 조건절에서 변수 original 의 길이를 len() 함수를 이용하여 구한다.    
+• if 문의 조건절에서 변수 original 의 길이를 `len()` 함수를 이용하여 구한다.    
 • if 문의 조건절에서 len(original) 값이 0 보다 큰지 비교한다.     
-• # if 문 끝에는 ( : ) 을 꼭 확인한다.     
+• # if 문 끝에는 `:` 을 꼭 확인한다.     
 • else 문에서는 변수 original 에 문자가 입력되지 않으면, empty 를 출력한다. 
 {: .notice--info}
 
@@ -352,8 +358,8 @@ We can check that the user's string actually has characters!
 
 
 **설명:** [ Hint ]     
-• ( >= ) : 같거나 크다    
-• ( >  ) : 크다          
+• `>=` : 같거나 크다    
+• `> ` : 크다          
 • # Console 에서 문자를 입력하고 Enter 를 클릭하면 입력이 되는 것이다  
 {: .notice--info}
 
@@ -364,14 +370,14 @@ We can check that the user's string actually has characters!
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print 'Welcome to the Pig Latin Translator!'
+print ('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
-original = raw_input("Enter a word:")
+original = input("Enter a word:")
 if len(original) > 0:
-  print original
+  print (original)
 else:
-  print "empty"
+  print ("empty")
 ```
 <p style="page-break-before: always;"></p>
 <br>
@@ -461,9 +467,9 @@ You can use `.isalpha()` to check that a string doesn't contain any non-letter c
 
 ```python
 if has_chars(the_string) and the_string.isalpha():
-  print the_string
+  print (the_string)
 else:
-  print "empty"
+  print ("empty")
 ```
 
 **설명:** [ Hint ]    
@@ -478,14 +484,14 @@ else:
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print 'Welcome to the Pig Latin Translator!'
+print ('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
-original = raw_input("Enter a word:")
+original = input("Enter a word:")
 if len(original) > 0 and original.isalpha():
-  print original
+  print (original)
 else:
-  print "empty"
+  print ("empty")
 ```
 <p style="page-break-before: always;"></p>
 <br>
@@ -569,14 +575,14 @@ When you finish one part of your program, it's important to test it multiple tim
 
 
 ```python
-print 'Welcome to the Pig Latin Translator!'
+print ('Welcome to the Pig Latin Translator!')
 
 # Start coding here!
-original = raw_input("Enter a word:")
+original = input("Enter a word:")
 if len(original) > 0 and original.isalpha():
-  print original
+  print (original)
 else:
-  print "empty"
+  print ("empty")
 ```
 
 **설명:** [ Solution ]    
@@ -649,7 +655,7 @@ Let's create a variable to hold our translation suffix.
 * Remember to use a single equal sign to do the assignment and to put quotation marks around the string 'ay'!     
 
 **설명:** [ Hint ]    
-• 문자열을 변수에 대입 할때는 ( ' ' )를 사용한다. 
+• 문자열을 변수에 대입 할때는 ` ' ' ` 를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -693,8 +699,8 @@ The `.lower()` function does not modify the string itself, it simply returns a l
 
 
 **설명:** [ Learn ]     
-• Ch8. Word Up 에서는 .lower() 함수를 학습한다.    
-• 함수 .lower() 는 입력된 문자열을 모두 소문자로 변환하는 함수이다.    
+• Ch8. Word Up 에서는 `.lower()` 함수를 학습한다.    
+• 함수 `.lower()` 는 입력된 문자열을 모두 소문자로 변환하는 함수이다.    
 • 변수 the_string 에 저장된 문자열을 소문자로 변경후, 변수 the_string에 재 저장한다. 
 {: .notice--info}
 
@@ -782,7 +788,7 @@ if len(original) > 0 and original.isalpha():
   word = original.lower()
   first = word[0]
 else:
-    print 'empty'
+    print ('empty')
 ```
 
 **설명:** [ Solution ]    
@@ -870,18 +876,18 @@ word + first + pyg
 ```python
 pyg = 'ay'
 
-original = raw_input('Enter a word:')
+original = input('Enter a word:')
 
 if len(original) > 0 and original.isalpha():
   word = original.lower()
   first = word[0]
   new_word = word + first + pyg
 else:
-    print 'empty'
+    print ('empty')
 ```
 
 **설명:** [ Solution ]    
-• 변수 new_word 에 변수 word, first , pyg 를 ( + ) 를 사용하여 연결한다.
+• 변수 new_word 에 변수 word, first , pyg 를 ` + ` 를 사용하여 연결한다.
 {: .notice--info}
 
 
@@ -906,10 +912,10 @@ Well done! However, now we have the first letter showing up both at the beginnin
 ```python
 s = "Charlie"
 
-print s[0]
+print (s[0])
 # will print "C"
 
-print s[1:4]
+print (s[1:4])
 # will print "har"
 ```    
 
@@ -944,7 +950,7 @@ print s[1:4]
 
 **설명:** [ Instruction ]     
 • 변수 new_word 에 index 1번 문자부터 마지막 index 문자까지 잘라서 대입하라.    
-• [ 1 : len(new_word) ] 를 사용하라.
+• `[ 1 : len(new_word) ]` 를 사용하라.
 {: .notice--info}
 
 
@@ -975,9 +981,9 @@ my_string[1:] # "ython"
 
 **설명:** [ Hint ]       
 • 문자열의 주소는 0 부터 시작한다.    
-• s[3] 은 4번째 문자를 가리킨다.    
-• s[3:6] 은 s[3] 부터 s[6] 까지의 문자열을 잘라낸다.    
-• my_string[1:] 은 해당 주소 1번부터 끝까지를 잘라낸다. 
+• `s[3]` 은 4번째 문자를 가리킨다.    
+• `s[3:6]` 은 `s[3]` 부터 `s[6]` 까지의 문자열을 잘라낸다.    
+• `my_string[1:]` 은 해당 주소 1번부터 끝까지를 잘라낸다. 
 {: .notice--info}
 
 <p style="page-break-before: always;"></p>
@@ -991,7 +997,7 @@ my_string[1:] # "ython"
 ```python
 pyg = 'ay'
 
-original = raw_input('Enter a word:')
+original = input('Enter a word:')
 
 if len(original) > 0 and original.isalpha():
   word = original.lower()
@@ -999,7 +1005,7 @@ if len(original) > 0 and original.isalpha():
   new_word = word + first + pyg
   new_word = new_word[1:len(new_word)]
 else:
-    print 'empty'
+    print ('empty')
 ```
 
 **설명:** [ Solution ]       
@@ -1034,7 +1040,7 @@ You'll also want to take out any `print` statements you were using to help debug
 
 **설명:** [ Learn ]     
 • Ch11. Testing, Testing, is This Thing On? 에서는 테스팅을 학습한다.     
-• 코드 사이에 print 문을 사용하여 변수값을 출력한다.    
+• 코드 사이에 `print` 문을 사용하여 변수값을 출력한다.    
 • 코드가 어떻게 진행되는지 단계별로 확인한다.    
 • 코드가 이해가 되었으면, 프로그램에 주석(#)을 단다.
 {: .notice--info}
@@ -1076,18 +1082,18 @@ You'll also want to take out any `print` statements you were using to help debug
 ```python
 pyg = 'ay'
 
-original = raw_input('Enter a word:')
+original = input('Enter a word:')
 
 if len(original) > 0 and original.isalpha():
   word = original.lower()
   first = word[0]
-  print first
+  print (first)
   new_word = word + first + pyg
-  print new_word
+  print (new_word)
   new_word = new_word[1:len(new_word)]
-  print new_word
+  print (new_word)
 else:
-    print 'empty'
+    print ('empty')
 ```
 
 **설명:** [ Solution ]       

@@ -110,8 +110,8 @@ There are two different Python versions. Both Python 2 and Python 3 are used thr
 
 
 ```python
-print("Hello World!")
-print("Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains bathed in their hill-side blue.")
+print "Hello World!"
+print "Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains bathed in their hill-side blue."
 ```   
 
 In this course we will be using Python 2. If you go on to write Python 3 it will be useful to note this key difference.
@@ -151,7 +151,7 @@ In this course we will be using Python 2. If you go on to write Python 3 it will
 * Remember to include parentheses!
 
 ```python
-print("Your message!")
+print "Your message!"
 ```
 
 
@@ -165,7 +165,7 @@ print("Your message!")
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
 
 ```python
-print ("Hello World!")
+print "Hello World!"
 ```
 
 **설명:** [ Solution ]    
@@ -359,8 +359,8 @@ print "This is also a good print statement"
 
 
 ```python
-print("How do you make a hot dog stand?")
-print("You take away its chair!")
+print "How do you make a hot dog stand?"
+print "You take away its chair!"
 ```
 
 
@@ -1460,7 +1460,7 @@ total += number_to_add
 * You can cast a numerical variable to a string and then add it to another string:
 
 ```python
-print("This is " + str(1) + " long string!")
+print "This is " + str(1) + " long string!"
 >>> "This is 1 long string!"
 ```    
 
@@ -1485,7 +1485,7 @@ points_per_exercise = 5
 point_total = 100
 point_total += exercises_completed * points_per_exercise
 
-print("I got "+str(point_total)+" points!")
+print "I got "+str(point_total)+" points!"
 ```
 
 **설명:** [ Solution ]    

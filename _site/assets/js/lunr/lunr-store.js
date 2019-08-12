@@ -194,11 +194,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/--/",
         "teaser":null},{
-        "title": "Python Syntax",
-        "excerpt":"LESSON In this course we’ll learn about the syntax of the Python programming language! We will go over fundamental commands that store variables, print messages, and perform mathematical operations. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인 Python을 소개합니다. 기본적인 명령어와, 변수, 메시지 출력방법, 수학연산을 배운다. PYTHON SYNTAX1....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/p3-python-syntax/",
-        "teaser":null},{
         "title": "Syllabus (Python3)",
         "excerpt":"1. Python Syntax A. Python Syntax §2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp; Dictionaries A. Python...","categories": [],
         "tags": [],

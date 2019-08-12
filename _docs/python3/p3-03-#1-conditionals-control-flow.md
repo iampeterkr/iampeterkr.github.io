@@ -1146,7 +1146,7 @@ Here's an example of `if` statement syntax:
 
 ```python
 if 8 < 9:
-  print "Eight is less than nine!"
+  print ("Eight is less than nine!")
 ```    
 
 In this example, `8 < 9` is the checked expression and print **"Eight is less than nine!"** is the specified code.

@@ -282,8 +282,9 @@ As we get more familiar with the Python programming language, we run into errors
 
 ```python
 print ("Mismatched quotes will cause a SyntaxError')
-print Without quotes will cause a NameError
 ```
+`print` Without quotes will cause a `NameError`
+
 
 If the quotes are mismatched Python will notice this and inform you that your code has an error in its syntax because the line ended (called an `EOL`) before the double-quote that was supposed to close the string appeared. The program will abruptly stop running with the following message:
 

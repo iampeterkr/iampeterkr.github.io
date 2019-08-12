@@ -29,7 +29,7 @@
 
 
 
-  <meta property="article:published_time" content="2019-08-12T09:41:22+09:00">
+  <meta property="article:published_time" content="2019-08-12T10:55:27+09:00">
 
 
 
@@ -800,10 +800,10 @@
 
 <p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">" Hello World"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">"Hello World"</span><span class="p">)</span>
 </code></pre></div></div>
 <p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• print “ Hello World” 라고 사용한다.</p>
+• print (“Hello World”) 라고 사용한다.</p>
 
 <p style="page-break-before: always;"></p>
 <p><br /></p>
@@ -811,7 +811,7 @@
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Pig Latin"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">"Pig Latin"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
@@ -832,11 +832,16 @@
 
 <p>Next, we need to ask the user for input.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"What's your name?"</span><span class="p">)</span>
-<span class="k">print</span> <span class="n">name</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Python2
+# name = raw_input("What's your name?")
+</span>
+<span class="c1">#Python3
+</span><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"What's your name?"</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>In the above example, <code class="highlighter-rouge">raw_input()</code> accepts a string, prints it, and then waits for the user to type something and press Enter (or Return).</p>
+<p>In the above example, <code class="highlighter-rouge">input()</code> accepts a string, prints it, and then waits for the user to type something and press Enter (or Return).</p>
 
 <p>In the interpreter, Python will ask:</p>
 
@@ -850,10 +855,11 @@
 • Console 창에 다음과 같은 문자열이 출력된다.  <br />
 • e.g. <em>What’s your name?</em>   <br />
 • Console 창에 당신의 이름을 입력하라. 그리고 Enter를 클릭하라.      <br />
-• # 함수 raw_input() 는 console 창에 문자열을 입력받는 함수이다.</p>
+• # Python2 함수 <code class="highlighter-rouge">raw_input()</code> 는 console 창에 문자열을 입력받는 함수이다.  <br />
+• # Python3 함수 <code class="highlighter-rouge">input()</code> 는 console 창에 문자열을 입력받는 함수이다.</p>
 
 <p class="notice--info"><strong>설명:</strong> [ Python3 ]   <br />
-• python3 에서는 문자열 입력받는 함수로 input() 을 사용한다.</p>
+• python3 에서는 문자열 입력받는 함수로 <code class="highlighter-rouge">input()</code> 을 사용한다.</p>
 
 <p style="page-break-before: always;"></p>
 <p><br /></p>
@@ -863,7 +869,7 @@
 
 <ul>
   <li>
-    <p>On line 4, use <strong>raw_input(“Enter a word: “)</strong> to ask the user to enter a word. Save the results of <code class="highlighter-rouge">raw_input()</code> in a variable called original.</p>
+    <p>On line 4, use <strong>input(“Enter a word: “)</strong> to ask the user to enter a word. Save the results of <code class="highlighter-rouge">input()</code> in a variable called original.</p>
   </li>
   <li>
     <p>Click <code class="highlighter-rouge">Run</code></p>
@@ -874,8 +880,8 @@
 </ul>
 
 <p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-• 함수 raw_input() 를 사용하여 다음과 같이 Editor 화면에 코딩하라.  <br />
-• e.g. raw_input(“Enter a word: “)</p>
+• 함수 <code class="highlighter-rouge">input()</code> 를 사용하여 다음과 같이 Editor 화면에 코딩하라.  <br />
+• e.g. input(“Enter a word: “)</p>
 
 <p><br /></p>
 <hr />
@@ -906,14 +912,14 @@
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">'Welcome to the Pig Latin Translator!'</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
 
 <span class="c1"># Start coding here!
-</span><span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
-• 함수 raw_input(“Enter a word:”) 로 문자를 입력 받는다.</p>
+• 함수 input(“Enter a word:”) 로 문자를 입력 받는다.</p>
 
 <p><strong>결과</strong></p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
@@ -974,9 +980,9 @@
 
 <p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
 • if 문을 사용하여 입력 받은 값이 문자열인지 확인한다.  <br />
-• if 문의 조건절에서 변수 original 의 길이를 len() 함수를 이용하여 구한다.  <br />
+• if 문의 조건절에서 변수 original 의 길이를 <code class="highlighter-rouge">len()</code> 함수를 이용하여 구한다.  <br />
 • if 문의 조건절에서 len(original) 값이 0 보다 큰지 비교한다.   <br />
-• # if 문 끝에는 ( : ) 을 꼭 확인한다.   <br />
+• # if 문 끝에는 <code class="highlighter-rouge">:</code> 을 꼭 확인한다.   <br />
 • else 문에서는 변수 original 에 문자가 입력되지 않으면, empty 를 출력한다.</p>
 
 <p><br /></p>
@@ -993,8 +999,8 @@
 </ul>
 
 <p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
-• ( &gt;= ) : 같거나 크다  <br />
-• ( &gt;  ) : 크다        <br />
+• <code class="highlighter-rouge">&gt;=</code> : 같거나 크다  <br />
+• <code class="highlighter-rouge">&gt; </code> : 크다        <br />
 • # Console 에서 문자를 입력하고 Enter 를 클릭하면 입력이 되는 것이다</p>
 
 <p><br /></p>
@@ -1002,14 +1008,14 @@
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">'Welcome to the Pig Latin Translator!'</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
 
 <span class="c1"># Start coding here!
-</span><span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-  <span class="k">print</span> <span class="n">original</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">original</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-  <span class="k">print</span> <span class="s">"empty"</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
 </code></pre></div></div>
 <p style="page-break-before: always;"></p>
 <p><br /></p>
@@ -1089,9 +1095,9 @@ empty
 </ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">has_chars</span><span class="p">(</span><span class="n">the_string</span><span class="p">)</span> <span class="ow">and</span> <span class="n">the_string</span><span class="o">.</span><span class="n">isalpha</span><span class="p">():</span>
-  <span class="k">print</span> <span class="n">the_string</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">the_string</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-  <span class="k">print</span> <span class="s">"empty"</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
@@ -1103,14 +1109,14 @@ empty
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">'Welcome to the Pig Latin Translator!'</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
 
 <span class="c1"># Start coding here!
-</span><span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="o">.</span><span class="n">isalpha</span><span class="p">():</span>
-  <span class="k">print</span> <span class="n">original</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">original</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-  <span class="k">print</span> <span class="s">"empty"</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
 </code></pre></div></div>
 <p style="page-break-before: always;"></p>
 <p><br /></p>
@@ -1181,14 +1187,14 @@ Hello
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">'Welcome to the Pig Latin Translator!'</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
 
 <span class="c1"># Start coding here!
-</span><span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="o">.</span><span class="n">isalpha</span><span class="p">():</span>
-  <span class="k">print</span> <span class="n">original</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">original</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-  <span class="k">print</span> <span class="s">"empty"</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
@@ -1252,7 +1258,7 @@ abcd
 </ul>
 
 <p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• 문자열을 변수에 대입 할때는 ( ‘ ‘ )를 사용한다.</p>
+• 문자열을 변수에 대입 할때는 ` ‘ ‘ ` 를 사용한다.</p>
 
 <p><br /></p>
 <hr />
@@ -1286,8 +1292,8 @@ abcd
 <p>The <code class="highlighter-rouge">.lower()</code> function does not modify the string itself, it simply returns a lowercase-version. In the example above, we store the result back into the same variable.</p>
 
 <p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-• Ch8. Word Up 에서는 .lower() 함수를 학습한다.  <br />
-• 함수 .lower() 는 입력된 문자열을 모두 소문자로 변환하는 함수이다.  <br />
+• Ch8. Word Up 에서는 <code class="highlighter-rouge">.lower()</code> 함수를 학습한다.  <br />
+• 함수 <code class="highlighter-rouge">.lower()</code> 는 입력된 문자열을 모두 소문자로 변환하는 함수이다.  <br />
 • 변수 the_string 에 저장된 문자열을 소문자로 변경후, 변수 the_string에 재 저장한다.</p>
 
 <p>We also need to grab the first letter of the word.</p>
@@ -1374,7 +1380,7 @@ abcd
   <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
   <span class="n">first</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span> <span class="s">'empty'</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
@@ -1452,18 +1458,18 @@ abcd
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
 
-<span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
+<span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="o">.</span><span class="n">isalpha</span><span class="p">():</span>
   <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
   <span class="n">first</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
   <span class="n">new_word</span> <span class="o">=</span> <span class="n">word</span> <span class="o">+</span> <span class="n">first</span> <span class="o">+</span> <span class="n">pyg</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span> <span class="s">'empty'</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
-• 변수 new_word 에 변수 word, first , pyg 를 ( + ) 를 사용하여 연결한다.</p>
+• 변수 new_word 에 변수 word, first , pyg 를 ` + ` 를 사용하여 연결한다.</p>
 
 <p><strong>결과</strong></p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a word:ABCD
@@ -1483,10 +1489,10 @@ abcd
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Charlie"</span>
 
-<span class="k">print</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="c1"># will print "C"
 </span>
-<span class="k">print</span> <span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
 <span class="c1"># will print "har"
 </span></code></pre></div></div>
 
@@ -1525,7 +1531,7 @@ abcd
 
 <p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
 • 변수 new_word 에 index 1번 문자부터 마지막 index 문자까지 잘라서 대입하라.  <br />
-• [ 1 : len(new_word) ] 를 사용하라.</p>
+• <code class="highlighter-rouge">[ 1 : len(new_word) ]</code> 를 사용하라.</p>
 
 <p><br /></p>
 <hr />
@@ -1558,9 +1564,9 @@ abcd
 
 <p class="notice--info"><strong>설명:</strong> [ Hint ]     <br />
 • 문자열의 주소는 0 부터 시작한다.  <br />
-• s[3] 은 4번째 문자를 가리킨다.  <br />
-• s[3:6] 은 s[3] 부터 s[6] 까지의 문자열을 잘라낸다.  <br />
-• my_string[1:] 은 해당 주소 1번부터 끝까지를 잘라낸다.</p>
+• <code class="highlighter-rouge">s[3]</code> 은 4번째 문자를 가리킨다.  <br />
+• <code class="highlighter-rouge">s[3:6]</code> 은 <code class="highlighter-rouge">s[3]</code> 부터 <code class="highlighter-rouge">s[6]</code> 까지의 문자열을 잘라낸다.  <br />
+• <code class="highlighter-rouge">my_string[1:]</code> 은 해당 주소 1번부터 끝까지를 잘라낸다.</p>
 
 <p style="page-break-before: always;"></p>
 <p><br /></p>
@@ -1570,7 +1576,7 @@ abcd
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
 
-<span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
+<span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="o">.</span><span class="n">isalpha</span><span class="p">():</span>
   <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
@@ -1578,7 +1584,7 @@ abcd
   <span class="n">new_word</span> <span class="o">=</span> <span class="n">word</span> <span class="o">+</span> <span class="n">first</span> <span class="o">+</span> <span class="n">pyg</span>
   <span class="n">new_word</span> <span class="o">=</span> <span class="n">new_word</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">new_word</span><span class="p">)]</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span> <span class="s">'empty'</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]     <br />
@@ -1608,7 +1614,7 @@ abcd
 
 <p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
 • Ch11. Testing, Testing, is This Thing On? 에서는 테스팅을 학습한다.   <br />
-• 코드 사이에 print 문을 사용하여 변수값을 출력한다.  <br />
+• 코드 사이에 <code class="highlighter-rouge">print</code> 문을 사용하여 변수값을 출력한다.  <br />
 • 코드가 어떻게 진행되는지 단계별로 확인한다.  <br />
 • 코드가 이해가 되었으면, 프로그램에 주석(#)을 단다.</p>
 
@@ -1644,18 +1650,18 @@ abcd
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
 
-<span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
+<span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="o">.</span><span class="n">isalpha</span><span class="p">():</span>
   <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
   <span class="n">first</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-  <span class="k">print</span> <span class="n">first</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">first</span><span class="p">)</span>
   <span class="n">new_word</span> <span class="o">=</span> <span class="n">word</span> <span class="o">+</span> <span class="n">first</span> <span class="o">+</span> <span class="n">pyg</span>
-  <span class="k">print</span> <span class="n">new_word</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">new_word</span><span class="p">)</span>
   <span class="n">new_word</span> <span class="o">=</span> <span class="n">new_word</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">new_word</span><span class="p">)]</span>
-  <span class="k">print</span> <span class="n">new_word</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">new_word</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span> <span class="s">'empty'</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]     <br />

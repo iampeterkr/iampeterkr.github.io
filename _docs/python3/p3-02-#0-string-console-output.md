@@ -1310,7 +1310,7 @@ Remember, we used the `%` operator to replace the `%s` placeholders with the var
 
 ```python
 name = "Mike"
-print "Hello %s" % (name)
+print ("Hello %s" % (name))
 ```
 
 You need the same number of %s terms in a string as the number of variables in parentheses:
