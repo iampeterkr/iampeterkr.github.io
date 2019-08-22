@@ -21,6 +21,12 @@ title: "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 �
       * <a href="/010108-Comments/">8. Comments</a>      
       * <a href="/010109-Numbers/">9. Numbers</a>      
       * <a href="/010110-TwoTypesOfDivision/">10. Two Types of Division</a>   
+      * <a href="/010111-MultiLineStrings/">11. Multi-line Strings</a>     
+      * <a href="/010112-/">12. Booleans</a>    
+      * <a href="/010113-ValueError/">13. ValueError</a>     
+      * <a href="/010114-Review/">14. Review</a>     
+    
+
     
 
 <br>

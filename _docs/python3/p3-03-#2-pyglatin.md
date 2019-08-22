@@ -359,7 +359,7 @@ We can check that the user's string actually has characters!
 
 **설명:** [ Hint ]     
 • `>=` : 같거나 크다    
-• `> ` : 크다          
+• `>` : 크다          
 • # Console 에서 문자를 입력하고 Enter 를 클릭하면 입력이 되는 것이다  
 {: .notice--info}
 
@@ -655,7 +655,7 @@ Let's create a variable to hold our translation suffix.
 * Remember to use a single equal sign to do the assignment and to put quotation marks around the string 'ay'!     
 
 **설명:** [ Hint ]    
-• 문자열을 변수에 대입 할때는 ` ' ' ` 를 사용한다. 
+• 문자열을 변수에 대입 할때는 `' '` 를 사용한다. 
 {: .notice--info}
 
 <br>
@@ -887,7 +887,7 @@ else:
 ```
 
 **설명:** [ Solution ]    
-• 변수 new_word 에 변수 word, first , pyg 를 ` + ` 를 사용하여 연결한다.
+• 변수 new_word 에 변수 word, first , pyg 를 `+` 를 사용하여 연결한다.
 {: .notice--info}
 
 

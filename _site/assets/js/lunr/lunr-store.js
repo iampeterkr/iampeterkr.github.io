@@ -224,6 +224,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p3-pyglatin/",
         "teaser":null},{
+        "title": "Functions",
+        "excerpt":"LESSON A function is a reusable section of code written to perform a specific task in a program. We gave you a taste of functions in Unit 3; here, you’ll learn how to create your own. 설명: [ 학습방향 ] 이 장에서는 함수에 대해서 기본적으로 배웁니다. 함수는 프로그램 내에서 특정...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p3-functions/",
+        "teaser":null},{
         "title": "[Python-Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!",
         "excerpt":"2019-07-18 -[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) Welcome 이곳은 [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 입니다. Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 Python 링크에 연결되어 있습니다. Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다. POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를...","categories": [],
         "tags": [],
@@ -349,8 +354,28 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/010110-TwoTypesOfDivision/",
         "teaser":null},{
+        "title": "11.Multi Line Strings",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX11. Multi-line Strings We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes: address_string = \"\"\"136 Whowho RdApt 7Whosville,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010111-MultiLineStrings/",
+        "teaser":null},{
+        "title": "12.Booleans",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX12. Booleans Sometimes we have a need for variables that are either true or false. This datatype, which can only ever take one of two values, is called a boolean. In Python, we define booleans using the keywords True...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010112-Boleeans/",
+        "teaser":null},{
+        "title": "13. ValueError",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX13. ValueError Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value 7 is an integer, 7. is a float, “7” is a string. Sometimes we will want to...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010113-ValueError/",
+        "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World 2. Print Statements 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
+        "teaser":null},{
+        "title": "14. Review",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX14. Review Great! So far we’ve looked at: Print statements How to create, modify, and use variables Arithmetic operations like addition, subtraction, division, and multiplication How to use comments to make your code easy to understand Different data types,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/010114-Review/",
         "teaser":null},]

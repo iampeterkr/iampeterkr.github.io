@@ -30,7 +30,11 @@ last_modified_at: 2019-08-11T09:00:00-04:00
       * <a href="/010107-UpdatingVariables/">7. Updating Variables</a>      
       * <a href="/010108-Comments/">8. Comments</a>      
       * <a href="/010109-Numbers/">9. Numbers</a>   
-      * <a href="/010110-TwoTypesOfDivision/">10. Two Types of Division</a>   
+      * <a href="/010110-TwoTypesOfDivision/">10. Two Types of Division</a>      
+      * <a href="/010111-MultiLineStrings/">11. Multi Line Strings</a>     
+      * <a href="/010112-Booleans/">12. Booleans</a>     
+      * <a href="/010113-ValueError/">13. ValueError</a>     
+      * <a href="/010114-Review/">14. Review</a>     
     
 
 <br>

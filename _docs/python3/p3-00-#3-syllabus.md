@@ -37,7 +37,7 @@ redirect_from:
 <hr/>     
 
 <b>4.	Functions</b>      
-* A.	Functions [§]({{site.baseurl}}/functions/)    
+* A.	Functions [§]({{site.baseurl}}/p3-functions/)    
 * B.	Taking a Vacation [§]({{site.baseurl}}/p3-taking-vacation/)    
 <hr/>     
 
