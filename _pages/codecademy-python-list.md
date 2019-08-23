@@ -35,6 +35,9 @@ last_modified_at: 2019-08-11T09:00:00-04:00
       * <a href="/010112-Booleans/">12. Booleans</a>     
       * <a href="/010113-ValueError/">13. ValueError</a>     
       * <a href="/010114-Review/">14. Review</a>     
+ * [ 2. String & Console Output ]     
+    * (String & Console Output)       
+      * <a href="/020101-Strings/">1. Strings</a>     
     
 
 <br>

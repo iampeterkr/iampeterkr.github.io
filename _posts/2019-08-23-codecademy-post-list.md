@@ -25,6 +25,9 @@ title: "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 �
       * <a href="/010112-/">12. Booleans</a>    
       * <a href="/010113-ValueError/">13. ValueError</a>     
       * <a href="/010114-Review/">14. Review</a>     
+ * [ 2. String & Console Output ]     
+    * (String & Console Output)       
+      * <a href="/020101-Strings/">1. Strings</a>     
     
 
     

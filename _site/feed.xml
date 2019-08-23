@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-22T10:45:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">14. Review</title><link href="http://localhost:4000/010114-Review/" rel="alternate" type="text/html" title="14. Review" /><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><id>http://localhost:4000/010114-Review</id><content type="html" xml:base="http://localhost:4000/010114-Review/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-23T09:51:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-23T00:00:00+09:00</published><updated>2019-08-23T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+
+&lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
+
+&lt;h2 id=&quot;무료-codecademy-python2-한글-설명-및-목록&quot;&gt;무료 Codecademy python2 한글 설명 및 목록&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[ 1. Python Syntax ]
+    &lt;ul&gt;
+      &lt;li&gt;(Python Syntax)
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/010101-HelloWorld/&quot;&gt;1. Hello World&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010102-PrintStatements/&quot;&gt;2. Print Statements&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010103-String/&quot;&gt;3. String&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010104-HandlingErrors/&quot;&gt;4. Handling Errors&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010105-Variables/&quot;&gt;5. Variables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010106-Arithmetic/&quot;&gt;6. Arithmetic&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010107-UpdatingVariables/&quot;&gt;7. Updating Variables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010108-Comments/&quot;&gt;8. Comments&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010109-Numbers/&quot;&gt;9. Numbers&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010110-TwoTypesOfDivision/&quot;&gt;10. Two Types of Division&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010111-MultiLineStrings/&quot;&gt;11. Multi-line Strings&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010112-/&quot;&gt;12. Booleans&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010113-ValueError/&quot;&gt;13. ValueError&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/010114-Review/&quot;&gt;14. Review&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[ 2. String &amp;amp; Console Output ]
+    &lt;ul&gt;
+      &lt;li&gt;(String &amp;amp; Console Output)
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/020101-Strings/&quot;&gt;1. Strings&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">01. Strings</title><link href="http://localhost:4000/020101-Strings/" rel="alternate" type="text/html" title="01. Strings" /><published>2019-08-23T00:00:00+09:00</published><updated>2019-08-23T00:00:00+09:00</updated><id>http://localhost:4000/020101-Strings</id><content type="html" xml:base="http://localhost:4000/020101-Strings/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
+
+&lt;h3 id=&quot;1-strings&quot;&gt;1. Strings&lt;/h3&gt;
+
+&lt;p&gt;Another useful data type is the &lt;strong&gt;string&lt;/strong&gt;. A &lt;strong&gt;string&lt;/strong&gt; can contain letters, numbers, and symbols.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Ryan&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;19&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;food&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cheese&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;In the above example, we create a variable &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; and set it to the string value &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Ryan&quot;&lt;/code&gt;.
+We also set &lt;code class=&quot;highlighter-rouge&quot;&gt;age&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;19&quot;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;food&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;cheese&quot;&lt;/code&gt;.
+Strings need to be within quotes.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]    &lt;br /&gt;
+• Ch1. Strings 에서는 문자열을 학습한다.  &lt;br /&gt;
+• 문자열(string)은 문자와, 숫자와, 기호도 사용할 수 있다.   &lt;br /&gt;
+• 문자열인데, 숫자도 사용할수 있다는 의미는 함수 int()를 활용하여 변환후 사용할수 있다.&lt;/p&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a new variable &lt;code class=&quot;highlighter-rouge&quot;&gt;brian&lt;/code&gt; and assign it the string &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Hello life!&quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
+• 변수 brian 를 만들고 &lt;em&gt;Hello life!&lt;/em&gt; 를 대입하라.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Do you remember how to declare and assign variables in Python? If not, refresh your memory here!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]   &lt;br /&gt;
+• 문자열을 대입할때, 문자열의 양끝을 따옴표 ( “ “ ) or ( ‘ ‘ ) 를 사용하면 된다.   &lt;br /&gt;
+• 아래 소스를 실행시켜 보면 아래와 같은 결과를 얻는다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brian&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello life!&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;brian1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'The man screamed &quot;I love Python!&quot; so that everyone could hear.'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;brian2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;The man screamed 'I love Python!' so that everyone could hear.&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brian&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brian1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brian2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello life!
+The man screamed &quot;I love Python!&quot; so that everyone could hear.
+The man screamed 'I love Python!' so that everyone could hear.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brian&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello life!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
+• 문자열을 대입할때, 문자열 양 끝에 따옴표 ( “ “ ) or ( ‘ ‘ )를 사용한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; #skip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">14. Review</title><link href="http://localhost:4000/010114-Review/" rel="alternate" type="text/html" title="14. Review" /><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><id>http://localhost:4000/010114-Review</id><content type="html" xml:base="http://localhost:4000/010114-Review/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
@@ -249,41 +373,7 @@
 &lt;br /&gt;  &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-21T00:00:00+09:00</published><updated>2019-08-21T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
-
-&lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
-
-&lt;h2 id=&quot;무료-codecademy-python2-한글-설명-및-목록&quot;&gt;무료 Codecademy python2 한글 설명 및 목록&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[ 1. Python Syntax ]
-    &lt;ul&gt;
-      &lt;li&gt;(Python Syntax)
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;/010101-HelloWorld/&quot;&gt;1. Hello World&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010102-PrintStatements/&quot;&gt;2. Print Statements&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010103-String/&quot;&gt;3. String&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010104-HandlingErrors/&quot;&gt;4. Handling Errors&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010105-Variables/&quot;&gt;5. Variables&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010106-Arithmetic/&quot;&gt;6. Arithmetic&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010107-UpdatingVariables/&quot;&gt;7. Updating Variables&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010108-Comments/&quot;&gt;8. Comments&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010109-Numbers/&quot;&gt;9. Numbers&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010110-TwoTypesOfDivision/&quot;&gt;10. Two Types of Division&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010111-MultiLineStrings/&quot;&gt;11. Multi-line Strings&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010112-/&quot;&gt;12. Booleans&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010113-ValueError/&quot;&gt;13. ValueError&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;/010114-Review/&quot;&gt;14. Review&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">12.Booleans</title><link href="http://localhost:4000/010112-Boleeans/" rel="alternate" type="text/html" title="12.Booleans" /><published>2019-08-20T00:00:00+09:00</published><updated>2019-08-20T00:00:00+09:00</updated><id>http://localhost:4000/010112-Boleeans</id><content type="html" xml:base="http://localhost:4000/010112-Boleeans/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">12.Booleans</title><link href="http://localhost:4000/010112-Boleeans/" rel="alternate" type="text/html" title="12.Booleans" /><published>2019-08-20T00:00:00+09:00</published><updated>2019-08-20T00:00:00+09:00</updated><id>http://localhost:4000/010112-Boleeans</id><content type="html" xml:base="http://localhost:4000/010112-Boleeans/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
@@ -876,117 +966,6 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;45.21
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;  &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">06.Arithmetic</title><link href="http://localhost:4000/010106-Arithmetic/" rel="alternate" type="text/html" title="06.Arithmetic" /><published>2019-08-06T00:00:00+09:00</published><updated>2019-08-06T00:00:00+09:00</updated><id>http://localhost:4000/010106-Arithmetic</id><content type="html" xml:base="http://localhost:4000/010106-Arithmetic/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;6-arithmetic&quot;&gt;6. Arithmetic&lt;/h3&gt;
-
-&lt;p&gt;One thing computers are capable of doing exceptionally well is performing arithmetic. Addition, subtraction, multiplication, division, and other numeric calculations are easy to do in most programming languages, and Python is no exception. Some examples:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;mirthful_addition&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12381&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;91817&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;amazing_subtraction&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;981&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;312&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;trippy_multiplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;38&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;902&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;happy_division&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;540&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;sassy_combinations&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;129&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1345&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;120&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Above are a number of arithmetic operations, each assigned to a variable. The variable will &lt;strong&gt;hold the final result&lt;/strong&gt; of each operation. Combinations of arithmetical operators follow the usual order of operations.&lt;/p&gt;
-
-&lt;p&gt;Python also offers a companion to division called the modulo operator. The modulo operator is indicated by % and returns the remainder after division is performed.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;is_this_number_odd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;is_this_number_divisible_by_seven&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;133&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In the above code block, we use the modulo operator to find the remainder of &lt;code class=&quot;highlighter-rouge&quot;&gt;15&lt;/code&gt; divided by &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;. Since &lt;code class=&quot;highlighter-rouge&quot;&gt;15&lt;/code&gt; is an odd number the remainder is &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;We also check the remainder of &lt;code class=&quot;highlighter-rouge&quot;&gt;133 / 7&lt;/code&gt;. Since &lt;code class=&quot;highlighter-rouge&quot;&gt;133&lt;/code&gt; divided by &lt;code class=&quot;highlighter-rouge&quot;&gt;7&lt;/code&gt; has no remainder, &lt;code class=&quot;highlighter-rouge&quot;&gt;133 % 7&lt;/code&gt; evaluates to &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
-• Ch6. Arithmetic 에서는 수식을 학습한다.   &lt;br /&gt;
-• 컴퓨터의 많은 기능 중 하나는 계산하는 것이다.   &lt;br /&gt;
-• Python도 사칙연산( + , − , × , ÷ )을 지원한다.  &lt;br /&gt;
-• Python 에선 × → * , ÷ → / 로 표시한다.  &lt;br /&gt;
-• 모듈(module)연산자도 지원한다.   &lt;br /&gt;
-• 모듈 연산자 중 하나인 % 는 나머지를 계산 해준다.  &lt;br /&gt;
-• e.g. 15 % 2 = 1, 만약 133 % 7 같이 딱 떨어지면 나머지는 0 이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Multiply two numbers together and assign the result to a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;product&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the remainder when 1398 is divided by 11? Save the results in a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;remainder&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• 변수 product 를 만들어라.  &lt;br /&gt;
-• 변수 product 에 2개의 숫자를 곱하여 대입하라.&lt;br /&gt;
-• 1398 / 11  의 나머지는 무엇일까?   &lt;br /&gt;
-• 변수 remainder 를 만들어라.  &lt;br /&gt;
-• 변수 remainder 에 1397 / 11 의 나머지 값을 저장하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Remember creating a variable is as simple as setting it equal to something else. To define a variable called quotient you would write the following:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Remember that remainders can be found using the modulus operator. Calculate a remainder with &lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;1908&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Will be &lt;code class=&quot;highlighter-rouge&quot;&gt;0&lt;/code&gt; because &lt;code class=&quot;highlighter-rouge&quot;&gt;1908&lt;/code&gt; is divisible by &lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• 상기 예는 변수 quotient 에 두 수를 나눗셈 한 것이다.  &lt;br /&gt;
-• % 는 나머지를 구하는 모듈(module) 연산자 이다.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;product&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;remainder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1398&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]   &lt;br /&gt;
-•  곱셈 연산자는 * 이다.   &lt;br /&gt;
-•  나머지를 구하는 모듈(module) 연산자는 % 이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;

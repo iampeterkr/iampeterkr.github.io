@@ -369,13 +369,18 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/010113-ValueError/",
         "teaser":null},{
-        "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World 2. Print Statements 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/codecademy-post-list/",
-        "teaser":null},{
         "title": "14. Review",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX14. Review Great! So far we’ve looked at: Print statements How to create, modify, and use variables Arithmetic operations like addition, subtraction, division, and multiplication How to use comments to make your code easy to understand Different data types,...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010114-Review/",
+        "teaser":null},{
+        "title": "01. Strings",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] STRING &amp; CONSOLE OUTPUT1. Strings Another useful data type is the string. A string can contain letters, numbers, and symbols. name = \"Ryan\"age = \"19\"food = \"cheese\"In the above example, we create a variable name and set it to the...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/020101-Strings/",
+        "teaser":null},{
+        "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World 2. Print Statements 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},]
