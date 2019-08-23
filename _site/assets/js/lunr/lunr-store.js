@@ -229,6 +229,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p3-functions/",
         "teaser":null},{
+        "title": "Taking A Vacation",
+        "excerpt":"LESSON Hard day at work? Rough day at school? Take a load off with a programming vacation! 설명: [ 학습방향 ] 이 장에서는 여행의 경비를 계산해주는 함수를 만들어 보면서, 관련 함수를 만드는 연습을 통하여 함수에 대한 개념과 사용법에 대하여 익숙해지자. TAKING A VACATION1. Before We Begin Let’s first quickly review...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p3-taking-vacation/",
+        "teaser":null},{
         "title": "[Python-Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!",
         "excerpt":"2019-07-18 -[#Python #Codecademy(코드카데미) #한글설명 가이드 #프로젝트 (00-#00)] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) Welcome 이곳은 [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 입니다. Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 Python 링크에 연결되어 있습니다. Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다. POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를...","categories": [],
         "tags": [],
@@ -304,7 +309,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/01-0-connect-01/",
         "teaser":null},{
-        "title": "1. Hello World",
+        "title": "01.Hello World",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] LESSON This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다. Python은 수많은 독립형...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010101-HelloWorld/",
@@ -364,17 +369,17 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/010112-Boleeans/",
         "teaser":null},{
-        "title": "13. ValueError",
+        "title": "13.ValueError",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX13. ValueError Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value 7 is an integer, 7. is a float, “7” is a string. Sometimes we will want to...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010113-ValueError/",
         "teaser":null},{
-        "title": "14. Review",
+        "title": "14.Review",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX14. Review Great! So far we’ve looked at: Print statements How to create, modify, and use variables Arithmetic operations like addition, subtraction, division, and multiplication How to use comments to make your code easy to understand Different data types,...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010114-Review/",
         "teaser":null},{
-        "title": "01. Strings",
+        "title": "01.Strings",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] STRING &amp; CONSOLE OUTPUT1. Strings Another useful data type is the string. A string can contain letters, numbers, and symbols. name = \"Ryan\"age = \"19\"food = \"cheese\"In the above example, we create a variable name and set it to the...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/020101-Strings/",
