@@ -38,6 +38,8 @@ last_modified_at: 2019-08-11T09:00:00-04:00
  * [ 2. String & Console Output ]     
     * (String & Console Output)       
       * <a href="/020101-Strings/">1. Strings</a>     
+      * <a href="/020102-Practice/">2. Practice</a>     
+
     
 
 <br>

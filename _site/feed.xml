@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-23T14:56:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-23T00:00:00+09:00</published><updated>2019-08-23T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-26T14:53:14+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
 
@@ -32,6 +32,7 @@
       &lt;li&gt;(String &amp;amp; Console Output)
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;/020101-Strings/&quot;&gt;1. Strings&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/020102-Practice/&quot;&gt;2. Practice&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -41,7 +42,82 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">01.Strings</title><link href="http://localhost:4000/020101-Strings/" rel="alternate" type="text/html" title="01.Strings" /><published>2019-08-23T00:00:00+09:00</published><updated>2019-08-23T00:00:00+09:00</updated><id>http://localhost:4000/020101-Strings</id><content type="html" xml:base="http://localhost:4000/020101-Strings/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">02.Practice</title><link href="http://localhost:4000/020102-Practice/" rel="alternate" type="text/html" title="02.Practice" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/020102-Practice</id><content type="html" xml:base="http://localhost:4000/020102-Practice/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
+
+&lt;h3 id=&quot;2-practice&quot;&gt;2. Practice&lt;/h3&gt;
+
+&lt;p&gt;Excellent! Let’s get a little practice in with strings.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
+• Ch2. Practice 에서는 문자열 연습을 학습한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the following variables to their respective phrases:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;caesar&lt;/code&gt; to “Graham”&lt;/li&gt;
+      &lt;li&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;praline&lt;/code&gt; to “John”&lt;/li&gt;
+      &lt;li&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;viking&lt;/code&gt; to “Teresa”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
+• 변수 caesar = “Graham” 을 대입  &lt;br /&gt;
+• 변수 praline = “John”  을 대입&lt;br /&gt;
+• 변수 viking = “Teresa” 을 대입&lt;/p&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make sure you use exactly the capitalization shown! Python takes things very literally.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
+• Python은 문자열의 대/소문자를 구별한다. 정확하게 사용해야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Assign your variables below, each on its own line!
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;caesar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Graham&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;praline&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;John&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;viking&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Teresa&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Put your variables above this line
+&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;caesar&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;praline&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;viking&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
+• 각 변수에 문자열을 대입한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Graham
+John
+Teresa
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">01.Strings</title><link href="http://localhost:4000/020101-Strings/" rel="alternate" type="text/html" title="01.Strings" /><published>2019-08-23T00:00:00+09:00</published><updated>2019-08-23T00:00:00+09:00</updated><id>http://localhost:4000/020101-Strings</id><content type="html" xml:base="http://localhost:4000/020101-Strings/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
@@ -844,128 +920,6 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;  &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">07.Updating Variables</title><link href="http://localhost:4000/010107-UpdatingVariables/" rel="alternate" type="text/html" title="07.Updating Variables" /><published>2019-08-07T00:00:00+09:00</published><updated>2019-08-07T00:00:00+09:00</updated><id>http://localhost:4000/010107-UpdatingVariables</id><content type="html" xml:base="http://localhost:4000/010107-UpdatingVariables/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;7-updating-variables&quot;&gt;7. Updating Variables&lt;/h3&gt;
-
-&lt;p&gt;Changing the contents of a variable is one of the essential operations. As the flow of a program progresses, data should be updated to reflect changes that have happened.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;fish_in_clarks_pond&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Catching fish&quot;&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;number_of_fish_caught&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;fish_in_clarks_pond&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;fish_in_clarks_pond&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;number_of_fish_caught&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In the above example, we start with &lt;code class=&quot;highlighter-rouge&quot;&gt;50&lt;/code&gt; fish in a local pond. After catching &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt; fish, we update the number of fish in the pond to be the original number of fish in the pond minus the number of fish caught. At the end of this code block, the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;fish_in_clarks_pond&lt;/code&gt; is equal to &lt;code class=&quot;highlighter-rouge&quot;&gt;40&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Updating a variable by adding or subtracting a number to the original contents of the variable has its own shorthand to make it faster and easier to read.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]     &lt;br /&gt;
-• Ch7. Updating Variables 에서는 변수 변경을 학습한다.  &lt;br /&gt;
-• 변수 fish_in_clarks_pond 에 50 을 대입하라.  &lt;br /&gt;
-• 변수 number_of_fish_caught 에 10 을 대입하라.  &lt;br /&gt;
-• 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught 값을 저장한다.     &lt;br /&gt;
-• 변수 fish_in_clarks_pond 에는 50 - 10 의 값이 계산된 40 이 저장된다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;money_in_wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;sandwich_price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;7.50&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;sales_tax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;.08&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sandwich_price&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;sandwich_price&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sales_tax&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;money_in_wallet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sandwich_price&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In the above example, we use the price of a sandwich to calculate sales tax. After calculating the tax we add it to the total price of the sandwich. Finally, we complete the transaction by reducing our &lt;code class=&quot;highlighter-rouge&quot;&gt;money_in_wallet&lt;/code&gt; by the cost of the sandwich (with tax).&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
-• 변수에 숫자를 곱하여도 계산 할 수 있음을 보여준다.   &lt;br /&gt;
-• +=, -= 연산자를 활용하는 법을 보여준다.   &lt;br /&gt;
-• a = a + 1, a += 1, 이 두 표현은 같은 표현이다.  &lt;br /&gt;
-• a = a - 1, a -= 1, 이 두 표현은 같은 표현이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;We’re trying to figure out how much it rained in the past year! Update the &lt;code class=&quot;highlighter-rouge&quot;&gt;annual_rainfall&lt;/code&gt; variable to include the values from September to December.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• 작년에 얼마나 많은 비가 왔는지 계산 하는 문제이다.  &lt;br /&gt;
-• 변수 annual_rainfall 에, 9월 부터 12월 까지의 비의 양을 누적하여 값을 더하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use the &lt;code class=&quot;highlighter-rouge&quot;&gt;+=&lt;/code&gt; syntax to add a value to an existing variable:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;september_rainfall&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Add all of the remaining months to&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• += 연산자를 사용하라.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;january_to_june_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.93&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.71&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.53&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.41&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.69&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.50&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;january_to_june_rainfall&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;july_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.05&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;july_rainfall&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;august_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.91&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;august_rainfall&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;september_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.16&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;september_rainfall&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;october_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;7.20&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;october_rainfall&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;november_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.06&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;november_rainfall&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;december_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;4.06&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;december_rainfall&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;annual_rainfall&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• += 연산자를 사용하여 매월 비의 양을 추가 한다.   &lt;br /&gt;
-• 변수 annual_rainfall 의 마지막 값을 출력 한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;45.21
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;

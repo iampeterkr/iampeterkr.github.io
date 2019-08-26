@@ -28,6 +28,7 @@ title: "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 �
  * [ 2. String & Console Output ]     
     * (String & Console Output)       
       * <a href="/020101-Strings/">1. Strings</a>     
+      * <a href="/020102-Practice/">2. Practice</a>     
     
 
     

@@ -384,6 +384,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/020101-Strings/",
         "teaser":null},{
+        "title": "02.Practice",
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] STRING &amp; CONSOLE OUTPUT2. Practice Excellent! Let’s get a little practice in with strings. 설명: [ Learn ] • Ch2. Practice 에서는 문자열 연습을 학습한다. Set the following variables to their respective phrases: Set caesar to “Graham” Set praline to...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/020102-Practice/",
+        "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World 2. Print Statements 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types...","categories": [],
         "tags": [],
