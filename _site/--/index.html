@@ -29,7 +29,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-01-25T23:19:40+09:00">
+  <meta property="article:published_time" content="2021-01-26T00:42:08+09:00">
 
 
 
@@ -129,13 +129,17 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="/"> Peter's github.io Blog </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/codecademy-python-list/" >Codecademy</a>
-            </li><li class="masthead__menu-item">
-              <a href="/docs-main/" >Python</a>
-            </li><li class="masthead__menu-item">
-              <a href="/about/" >About</a>
-            </li></ul>
+        <ul class="visible-links">
+<li class="masthead__menu-item">
+              <a href="/codecademy-python-list/">Codecademy</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/docs-main/">Python</a>
+            </li>
+<li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li>
+</ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -168,7 +172,7 @@
 
 <nav class="nav__list">
   
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
   <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
@@ -314,7 +318,7 @@
             
             
 
-            <li><a href="/string-console-output/" class=""> 02. String & Console Output</a></li>
+            <li><a href="/string-console-output/" class=""> 02. String &amp; Console Output</a></li>
           
             
             
@@ -362,7 +366,7 @@
             
             
 
-            <li><a href="/lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+            <li><a href="/lists-dictionaries/" class=""> 05. Lists &amp; Dictionaries</a></li>
           
             
             
@@ -494,7 +498,7 @@
             
             
 
-            <li><a href="/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+            <li><a href="/p3-string-console-output/" class=""> 02. String &amp; Console Output</a></li>
           
             
             
@@ -542,7 +546,7 @@
             
             
 
-            <li><a href="/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+            <li><a href="/p3-lists-dictionaries/" class=""> 05. Lists &amp; Dictionaries</a></li>
           
             
             
@@ -679,7 +683,8 @@
         
           <aside class="sidebar__right ">
             <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <header><h4 class="nav__title">
+<i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu">
   <li><a href="#1-iterators-for-dictionaries">1. Iterators for Dictionaries</a></li>
   <li><a href="#2-keys-and-values">2. keys() and values()</a></li>
@@ -702,18 +707,18 @@
             </nav>
           </aside>
         
-        <hr style="border: solid 1px #dddddd ;" />
+        <hr style="border: solid 1px #dddddd ;">
 
 <p>LESSON</p>
 
 <p>In this lesson, we’ll cover some of the more complex aspects of Python, including iterating over data structures, list comprehensions, list slicing, and lambda expressions.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br>
 이 장에서는 Python 을 활용한 다양한 자료구조를 학습한다. 딕셔너리, 리스트 등을 합칙, 분리하고, lambda 표현등을 학습한다.</p>
 
-<hr style="border: solid 1px #dddddd ;" />
+<hr style="border: solid 1px #dddddd ;">
 
-<p><img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="1-iterators-for-dictionaries">1. Iterators for Dictionaries</h3>
 
@@ -728,36 +733,36 @@
 </span></code></pre></div></div>
 <p>Note that the .items() method doesn’t return key/value pairs in any specific order.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-딕셔너리의 반복문에 대해서 연습해 보자. 앞에서 배운 딕셔너리의 key 와 value를 조작하는 법을 연습해 본다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
+딕셔너리의 반복문에 대해서 연습해 보자. 앞에서 배운 딕셔너리의 key 와 value를 조작하는 법을 연습해 본다.  <br>
 <code class="language-plaintext highlighter-rouge">d.items()</code>는 딕셔너리 <code class="language-plaintext highlighter-rouge">d</code>의 key 와 value를 리스트로 보여준다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Create your own Python dictionary, <code class="language-plaintext highlighter-rouge">my_dict</code>, in the editor to the right with <strong>two or three key/value</strong> pairs.</p>
 
 <p>Then, print the result of calling the <code class="language-plaintext highlighter-rouge">my_dict.items()</code>.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① 딕셔너리 <code class="language-plaintext highlighter-rouge">my_dict{}</code>작성하여라. 이 딕셔너리는 2, 3개의 key/value 쌍을 가지고 있다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① 딕셔너리 <code class="language-plaintext highlighter-rouge">my_dict{}</code>작성하여라. 이 딕셔너리는 2, 3개의 key/value 쌍을 가지고 있다.  <br>
 • <code class="language-plaintext highlighter-rouge">my_dict.item()</code>를 실행하여 그 결과를 출력하라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 You can think of dictionaries as unordered key/value pairs.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 딕셔너리는 key/value가 출력될때, 입력한 순으로 정렬되지 않습니다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span>
   <span class="s">'name'</span><span class="p">:</span> <span class="s">'Nick'</span><span class="p">,</span>
@@ -768,19 +773,19 @@ You can think of dictionaries as unordered key/value pairs.</p>
 <span class="k">print</span> <span class="n">my_dict</span><span class="p">.</span><span class="n">items</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
 딕셔너리 <code class="language-plaintext highlighter-rouge">my_dict</code>에 <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">age</code>, <code class="language-plaintext highlighter-rouge">occupation</code>를 key/value 쌍으로 입력한후, <code class="language-plaintext highlighter-rouge">my_dict.items()</code>내재 함수로 출력하였다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[('age', 31), ('name', 'Nick'), ('occupation', 'Dentist')]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="2-keys-and-values">2. keys() and values()</h3>
 
@@ -791,38 +796,38 @@ The <code class="language-plaintext highlighter-rouge">.values()</code> method r
 Again, these methods will not return the keys or values from the dictionary in any specific order.
 You can think of a tuple as an immutable (that is, unchangeable) list. Tuples are surrounded by ()s and can contain any data type.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-<code class="language-plaintext highlighter-rouge">.items()</code> 내재 함수는 딕셔너리에서 key/value로 구성된 각각의 튜플 형태의 배열로 반환 됩니다.  <br />
-• <code class="language-plaintext highlighter-rouge">.keys()</code> 내재 함수는 딕셔너리의 key값을 리스트 형태로 반환 됩니다.  <br />
-• <code class="language-plaintext highlighter-rouge">.values()</code> 내재 함수는 딕셔너리의 value값을 리스트 형태로 반환 됩니다. <br />
-• key와 value 값은 순서 없이 반환 됩니다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
+<code class="language-plaintext highlighter-rouge">.items()</code> 내재 함수는 딕셔너리에서 key/value로 구성된 각각의 튜플 형태의 배열로 반환 됩니다.  <br>
+• <code class="language-plaintext highlighter-rouge">.keys()</code> 내재 함수는 딕셔너리의 key값을 리스트 형태로 반환 됩니다.  <br>
+• <code class="language-plaintext highlighter-rouge">.values()</code> 내재 함수는 딕셔너리의 value값을 리스트 형태로 반환 됩니다. <br>
+• key와 value 값은 순서 없이 반환 됩니다.  <br>
 • 튜플은 리스트와 동일하지만, 틀린점은 <code class="language-plaintext highlighter-rouge">()</code>로 둘러쌓인 그 항목 값을 변경할 수 없습니다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Remove your call to <code class="language-plaintext highlighter-rouge">.items()</code> and replace it with a call to <code class="language-plaintext highlighter-rouge">.keys()</code> and a call to <code class="language-plaintext highlighter-rouge">.values()</code>, each on its own line. Make sure to print both!</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
 ① <code class="language-plaintext highlighter-rouge">.item()</code>를 지우고, 대신에 <code class="language-plaintext highlighter-rouge">.keys()</code>와 <code class="language-plaintext highlighter-rouge">.values()</code>로 대체하여라. 그리고 각각을 출력하여라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 For instance, your call to <code class="language-plaintext highlighter-rouge">my_dict.keys()</code> might look like:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="n">my_dict</span><span class="p">.</span><span class="n">keys</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ] <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ] <br>
 <code class="language-plaintext highlighter-rouge">my_dict.keys()</code>는 key만 출력하는 것이다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span>
   <span class="s">'name'</span><span class="p">:</span> <span class="s">'Nick'</span><span class="p">,</span>
@@ -834,8 +839,8 @@ For instance, your call to <code class="language-plaintext highlighter-rouge">my
 <span class="k">print</span> <span class="n">my_dict</span><span class="p">.</span><span class="n">values</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• <code class="language-plaintext highlighter-rouge">my_dict.keys()</code>는 key만 리스트 형태로 출력한다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• <code class="language-plaintext highlighter-rouge">my_dict.keys()</code>는 key만 리스트 형태로 출력한다.  <br>
 • <code class="language-plaintext highlighter-rouge">my_dict.values()</code>는 value만 리스트 형태로 출력한다.</p>
 
 <p><strong>결과</strong></p>
@@ -843,12 +848,12 @@ For instance, your call to <code class="language-plaintext highlighter-rouge">my
 [31, 'Nick', 'Dentist']
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="3-the-in-operator">3. The ‘in’ Operator</h3>
 
@@ -874,37 +879,37 @@ For instance, your call to <code class="language-plaintext highlighter-rouge">my
 Finally, we iterate through the letters of a string, printing out E r i c.</li>
 </ol>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-리스트(list), 튜플(tuple), 딕셔너리(dictionarie), 문자열(string)을 반복적으로 추출할때 직관적으로 <code class="language-plaintext highlighter-rouge">in</code>을 사용할 수 있다.   <br />
-① <code class="language-plaintext highlighter-rouge">range(5)</code>로 0,1,2,3,4를 출력할때, <code class="language-plaintext highlighter-rouge">,</code>를 사용하면 같은 줄에 문자열을 출력할수 있다.   <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
+리스트(list), 튜플(tuple), 딕셔너리(dictionarie), 문자열(string)을 반복적으로 추출할때 직관적으로 <code class="language-plaintext highlighter-rouge">in</code>을 사용할 수 있다.   <br>
+① <code class="language-plaintext highlighter-rouge">range(5)</code>로 0,1,2,3,4를 출력할때, <code class="language-plaintext highlighter-rouge">,</code>를 사용하면 같은 줄에 문자열을 출력할수 있다.   <br>
 ② 딕셔너리는 순차적으로 출력이 안된다. 그리고 E r i c로 출력된다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① For each key in <code class="language-plaintext highlighter-rouge">my_dict</code>: print out the key , then a space, then the value stored by that key. (You should use print a, b rather than print a + “ “ + b.)</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
 ① 딕셔너리 <code class="language-plaintext highlighter-rouge">my_dict</code>를 key를 출력하고 중간에 공백 하나가 있고, 그다음에 value가 출력되도록 하라. <code class="language-plaintext highlighter-rouge">print a + " " + b</code> 보다는 <code class="language-plaintext highlighter-rouge">print a, b</code>를 사용하라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 You’ll want to do something like this:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">some_dict</span><span class="p">:</span>
   <span class="k">print</span> <span class="n">key</span><span class="p">,</span> <span class="n">some_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 <code class="language-plaintext highlighter-rouge">print (key , some_dict[key])</code>key 와 some_dict[key] 사시에 공백이 있어야 한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span>
   <span class="s">'name'</span><span class="p">:</span> <span class="s">'Nick'</span><span class="p">,</span>
@@ -916,7 +921,7 @@ You’ll want to do something like this:</p>
   <span class="k">print</span> <span class="n">key</span><span class="p">,</span> <span class="n">my_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
 딕셔너리 <code class="language-plaintext highlighter-rouge">my_dict</code>에서 key 값을 읽어서, 해당 key 와 value값(my_dict[key])을 출력한다.</p>
 
 <p><strong>결과</strong></p>
@@ -925,12 +930,12 @@ name Nick
 occupation Dentist
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="4-building-lists">4. Building Lists</h3>
 
@@ -941,51 +946,51 @@ occupation Dentist
 
 <p>Python’s answer to this is the list comprehension. List comprehensions are a powerful way to generate lists using the for/in and if keywords we’ve learned.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
-0부터 50까지의 정수를 리스트에 저장하고 싶으면 <code class="language-plaintext highlighter-rouge">my_list = range(51)</code>이라고 사용하면 된다. 만약, 0부터 50사이의 짝수만 저장하고 싶다면?   <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br>
+0부터 50까지의 정수를 리스트에 저장하고 싶으면 <code class="language-plaintext highlighter-rouge">my_list = range(51)</code>이라고 사용하면 된다. 만약, 0부터 50사이의 짝수만 저장하고 싶다면?   <br>
 Python 에서는 우리가 익히 잘 사용하는 for/if문을 사용하여 list comprehension을 기능을 사용하면 쉽게 만들수 있다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Check out the list comprehension example in the editor. When you’re pretty sure you know what it’ll do, click Run to see it in action.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
 ① editor 화면에 있는 소스를 이해하고 실행시켜 보아라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 skip</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 skip</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">evens_to_50</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">51</span><span class="p">)</span> <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
 <span class="k">print</span> <span class="n">evens_to_50</span>
 </code></pre></div></div>
 
-<p class="notipce--info"><strong>설명:</strong> [ Solution ]   <br />
+<p class="notipce--info"><strong>설명:</strong> [ Solution ]   <br>
 리스트 안에 for 문과 if문을 두어 해당 결과값이 for 앞에 있는 i에 저장되어 리스트에 i 값이 장된다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="5-list-comprehension-syntax">5. List Comprehension Syntax</h3>
 
@@ -1002,29 +1007,29 @@ skip</p>
 <span class="c1"># =&gt; [6]
 </span></code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
-다음 예제는 list comprehension에 관한것이다.  <br />
-• <code class="language-plaintext highlighter-rouge">new_list = [ x for x in range(1, 6)]</code>는 맨 앞 x에 for 문 결과값이 저장된다.  <br />
-• <code class="language-plaintext highlighter-rouge">doubles = [x * 2 for x in range(1, 6)]</code>는 맨 앞 x에 for문 결과값이 저장되고 그 결과에에  <code class="language-plaintext highlighter-rouge">x * 2</code> 한값이 저장된다. <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br>
+다음 예제는 list comprehension에 관한것이다.  <br>
+• <code class="language-plaintext highlighter-rouge">new_list = [ x for x in range(1, 6)]</code>는 맨 앞 x에 for 문 결과값이 저장된다.  <br>
+• <code class="language-plaintext highlighter-rouge">doubles = [x * 2 for x in range(1, 6)]</code>는 맨 앞 x에 for문 결과값이 저장되고 그 결과에에  <code class="language-plaintext highlighter-rouge">x * 2</code> 한값이 저장된다. <br>
 • <code class="language-plaintext highlighter-rouge">doubles_by_3 = [x * 2 for x in range(1, 6) if (x * 2) % 3 == 0]</code> for문과 if문이 실행되어 만족한 x 값 3이 맨앞 x 변수에 저장되어, 그 값에 <code class="language-plaintext highlighter-rouge">x * 2</code>한 값 6이 리스트에 저장된다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Use a list comprehension to build a list called <code class="language-plaintext highlighter-rouge">even_squares</code> in the editor.</p>
 
 <p>Your <code class="language-plaintext highlighter-rouge">even_squares</code> list should include the squares of the even numbers between 1 to 11. Your list should start [4, 16, 36…] and go from there.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① 리스트 <code class="language-plaintext highlighter-rouge">even_squares</code>를 만들어라.   <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① 리스트 <code class="language-plaintext highlighter-rouge">even_squares</code>를 만들어라.   <br>
 • 이 리스트 <code class="language-plaintext highlighter-rouge">even_squares</code>는 1부터 11사이의 숫자중 짝수의 제곱을 저장하는 리스트이다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 You can use <code class="language-plaintext highlighter-rouge">x ** 2</code> to square a number, and <code class="language-plaintext highlighter-rouge">x % 2 == 0</code> to check if it’s even.</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># from 1 to 10
 </span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span> 
@@ -1032,13 +1037,13 @@ You can use <code class="language-plaintext highlighter-rouge">x ** 2</code> to 
 </span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">12</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 제곱은 <code class="language-plaintext highlighter-rouge">x ** 2</code>로 구하고, 짝수는 <code class="language-plaintext highlighter-rouge">x % 2 == 0</code>으로 구한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">doubles_by_3</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="o">*</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
 
@@ -1048,21 +1053,21 @@ You can use <code class="language-plaintext highlighter-rouge">x ** 2</code> to 
 <span class="k">print</span> <span class="n">even_squares</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• 먼저 for문을 실행하여 1부터 11까지의 숫자를 변수 x에 저장된다.  <br />
-• if 문에서 추출된 x 의 값이 2로 나누어 나머지가 0이면, 즉 짝수인지를 판단하고, <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• 먼저 for문을 실행하여 1부터 11까지의 숫자를 변수 x에 저장된다.  <br>
+• if 문에서 추출된 x 의 값이 2로 나누어 나머지가 0이면, 즉 짝수인지를 판단하고, <br>
 • x가 if 조건을 만족하면 해당 x 값의 제곱을 구하여 리스트에 저장한다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[4, 16, 36, 64, 100]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="6-now-you-try">6. Now You Try!</h3>
 
@@ -1072,13 +1077,13 @@ You can use <code class="language-plaintext highlighter-rouge">x ** 2</code> to 
 </code></pre></div></div>
 <p>The example above creates and prints out a list containing [‘C’, ‘C’, ‘C’].</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
 for문에서 5개의 x값을 구하고 이 x 값이 3보다 작은 경우는 0, 1, 2이다. 즉, 3번의 ‘C’문자가 리스트에 저장되고, 이 리스트 c 를 출력한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Use a list comprehension to create a list, <code class="language-plaintext highlighter-rouge">cubes_by_four</code>.</p>
 
@@ -1093,48 +1098,48 @@ for문에서 5개의 x값을 구하고 이 x 값이 3보다 작은 경우는 0, 
 
 <p>Note that in this case, the cubed number should be evenly divisible by 4, not the original number.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① 리스트 <code class="language-plaintext highlighter-rouge">cubes_by_four</code>에 list comprehension을 만들어라.   <br />
-• 1부터 10까지의 숫자를 3제곱(cube) 하여 4로 나누어 떨어지는 값(X ** 3)을 리스트에 저장하라.   <br />
-• 위 결과가 담긴 리스트 <code class="language-plaintext highlighter-rouge">cubes_by_four</code>을 출력하라.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① 리스트 <code class="language-plaintext highlighter-rouge">cubes_by_four</code>에 list comprehension을 만들어라.   <br>
+• 1부터 10까지의 숫자를 3제곱(cube) 하여 4로 나누어 떨어지는 값(X ** 3)을 리스트에 저장하라.   <br>
+• 위 결과가 담긴 리스트 <code class="language-plaintext highlighter-rouge">cubes_by_four</code>을 출력하라.  <br>
 리스트 <code class="language-plaintext highlighter-rouge">cubes_by_four</code>는 4로 나눈 나머지 값들이다. 원래 x 값이 아니라, x ** 3한 값을 저장하는 것이다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy"></p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#from 1 to 10
 </span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• 1부터 10까지를 출력하려면, <code class="language-plaintext highlighter-rouge">range(1,11)</code>을 해야한다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
+• 1부터 10까지를 출력하려면, <code class="language-plaintext highlighter-rouge">range(1,11)</code>을 해야한다.  <br>
 • x ** 3 한 값이 <code class="language-plaintext highlighter-rouge">x%4 ==0</code> 인 값을 저장하는 것이다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cubes_by_four</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="o">**</span> <span class="mi">3</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span> <span class="k">if</span> <span class="p">((</span><span class="n">x</span> <span class="o">**</span> <span class="mi">3</span><span class="p">)</span> <span class="o">%</span> <span class="mi">4</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
 <span class="k">print</span> <span class="n">cubes_by_four</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• 8 은 <code class="language-plaintext highlighter-rouge">8%4==0</code>를 충족하고, x=2일때, <code class="language-plaintext highlighter-rouge">2 ** 3</code> 도 충족한다.    <br />
-• 16 은 <code class="language-plaintext highlighter-rouge">16%4==0</code>은 충족하지만 <code class="language-plaintext highlighter-rouge">x ** 3 = 16</code>은 충족하지 않는다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• 8 은 <code class="language-plaintext highlighter-rouge">8%4==0</code>를 충족하고, x=2일때, <code class="language-plaintext highlighter-rouge">2 ** 3</code> 도 충족한다.    <br>
+• 16 은 <code class="language-plaintext highlighter-rouge">16%4==0</code>은 충족하지만 <code class="language-plaintext highlighter-rouge">x ** 3 = 16</code>은 충족하지 않는다.  <br>
 • 64 는 <code class="language-plaintext highlighter-rouge">64%4==0</code>을 충족하고, x=4일때, <code class="language-plaintext highlighter-rouge">4 ** 3</code>도 충족한다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[8, 64, 216, 512, 1000]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="7-list-slicing-syntax">7. List Slicing Syntax</h3>
 
@@ -1143,43 +1148,44 @@ for문에서 5개의 x값을 구하고 이 x 값이 3보다 작은 경우는 0, 
     <p>Sometimes we only want part of a Python list. Maybe we only want the first few elements; maybe we only want the last few. Maybe we want every other element!</p>
   </li>
   <li>List slicing allows us to access elements of a list in a concise manner. The syntax looks like this:
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">start</span><span class="p">:</span><span class="n">end</span><span class="p">:</span><span class="n">stride</span><span class="p">]</span>
+    <div class="language-python highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">start</span><span class="p">:</span><span class="n">end</span><span class="p">:</span><span class="n">stride</span><span class="p">]</span>
 </code></pre></div>    </div>
   </li>
   <li>Where start describes where the slice starts (inclusive), end is where it ends (exclusive), and stride describes the space between items in the sliced list. For example, a stride of 2 would select every other item from the original list to place in the sliced list.</li>
 </ul>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
-• 우리는 list의 일부분을 발췌하고 싶을때가 있다. 이럴때 List slicing 을 사용한다.  <br />
-• List slicing은 우리가 리스트를 간편하게 접근하게 해준다. 문법은 다음과 같다. <code class="language-plaintext highlighter-rouge">[시작:끝:간격]    
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br>
+• 우리는 list의 일부분을 발췌하고 싶을때가 있다. 이럴때 List slicing 을 사용한다.  <br>
+• List slicing은 우리가 리스트를 간편하게 접근하게 해준다. 문법은 다음과 같다. <code class="language-plaintext highlighter-rouge">[시작:끝:간격]    
 </code>시작(start)<code class="language-plaintext highlighter-rouge"> : Slicing을 시작할 위치(포함)    
 </code>끝(end)<code class="language-plaintext highlighter-rouge"> : Slicing 끝낼 위치(포함하지 않음)    
 </code>간격(stride)` : 시작을 포함하여 몇번째를 가져올지(옵션)
 • 시작은 포함하고, 끝은 포함하지 않는다. 간격은 옵션으로 시작을 포함하여 몇 번씩 가져올지를 나타낸다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① We’ve generated a list with a list comprehension in the editor to the right, and we’re about to print a selection from the list using list slicing. Can you guess what will be printed out? Click Run when you think you know!</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
 ① Editor 화면에서 list comprehension을 돌려 보자. 어떤 값이 예상되는가? 결과값과 당신이 예상한 값이 맞는지 확인해 보라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 skip</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 skip</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="o">**</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)]</span>
 <span class="c1"># Should be [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
@@ -1187,20 +1193,20 @@ skip</p>
 <span class="k">print</span> <span class="n">l</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">9</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• 리스트의 값은 i 값의 제곱값이 저장된다.[1, 4, 9, 16, … 81, 100]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• 리스트의 값은 i 값의 제곱값이 저장된다.[1, 4, 9, 16, … 81, 100]  <br>
 • 출력되는 값은 index 두번째 값인 9 부터(포함) index 아홉번째 값인 100(미포함)중, 9부터 2번째 항목인 <code class="language-plaintext highlighter-rouge">[9, 25, 49, 81]</code>가 출력 될 것이다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[9, 25, 49, 81]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="8-omitting-indices">8. Omitting Indices</h3>
 
@@ -1220,18 +1226,18 @@ skip</p>
 The default ending index is the end of the list.
 The default stride is 1.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ] <br />
-리스트에서 특정 index를 지정하지 못할 경우에는, 범위와 조건을 주어 리스트의 특정 값을 골라 낼수 있다.   <br />
-[예]  <br />
-• <code class="language-plaintext highlighter-rouge">to_five[3:]</code> 는 index 3번(포함)부터 마지막(불포함)까지의 값을 골라 낸다.  <br />
-• <code class="language-plaintext highlighter-rouge">to_five[:2]</code> 는 처음(포함)부터 index 2번(불포함)까지의 값을 골라 낸다. <br />
-• <code class="language-plaintext highlighter-rouge">to_five[::2]</code>는 처음(포함)부터 마지막(불포함)까지의 값 중, 하나씩 건너 뛰면서 골라낸다. <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ] <br>
+리스트에서 특정 index를 지정하지 못할 경우에는, 범위와 조건을 주어 리스트의 특정 값을 골라 낼수 있다.   <br>
+[예]  <br>
+• <code class="language-plaintext highlighter-rouge">to_five[3:]</code> 는 index 3번(포함)부터 마지막(불포함)까지의 값을 골라 낸다.  <br>
+• <code class="language-plaintext highlighter-rouge">to_five[:2]</code> 는 처음(포함)부터 index 2번(불포함)까지의 값을 골라 낸다. <br>
+• <code class="language-plaintext highlighter-rouge">to_five[::2]</code>는 처음(포함)부터 마지막(불포함)까지의 값 중, 하나씩 건너 뛰면서 골라낸다. <br>
 • index의 처음은 0부터 시작한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Use list slicing to print out every odd element of <code class="language-plaintext highlighter-rouge">my_list</code> from start to finish.</p>
 
@@ -1244,29 +1250,29 @@ The default stride is 1.</p>
   </li>
 </ul>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① <code class="language-plaintext highlighter-rouge">my_list</code> 에서 홀수 값만 골라 내어 출력하여라.  <br />
-• 처음과 마지막을 표현한는 곳에는 값을 넣지 말라. 옵션인 조건(stride)을 활용하여라.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① <code class="language-plaintext highlighter-rouge">my_list</code> 에서 홀수 값만 골라 내어 출력하여라.  <br>
+• 처음과 마지막을 표현한는 곳에는 값을 넣지 말라. 옵션인 조건(stride)을 활용하여라.  <br>
 • 힌트를 참조하여라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 Remember, the syntax for list slicing is</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="n">start</span><span class="p">:</span><span class="n">end</span><span class="p">:</span><span class="n">stride</span><span class="p">]</span>
 </code></pre></div></div>
 <p>Since you’re using the entire list, you should leave out the start and end indices (but leave in the colons!) and give the slice a stride that will select every other (that is, odd) element.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-<code class="language-plaintext highlighter-rouge">[start(처음):end(마지막):stride(조건, 옵션)]</code>  <br />
-• 전체를 사용해야 하므로 <code class="language-plaintext highlighter-rouge">[::stride]</code> 처음과 마지막에 빈칸이어야 한다.   <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
+<code class="language-plaintext highlighter-rouge">[start(처음):end(마지막):stride(조건, 옵션)]</code>  <br>
+• 전체를 사용해야 하므로 <code class="language-plaintext highlighter-rouge">[::stride]</code> 처음과 마지막에 빈칸이어야 한다.   <br>
 • 홀수만 추출해야 하기에, 옵션인 <code class="language-plaintext highlighter-rouge">조건(stride)</code>을 주어야 한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_list</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span> <span class="c1"># List of numbers 1 - 10
 </span>
@@ -1274,22 +1280,22 @@ Remember, the syntax for list slicing is</p>
 </span><span class="k">print</span> <span class="n">my_list</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• 1부터 10까지의 정수를 리스트 <code class="language-plaintext highlighter-rouge">my_list=[1,2,3,4,5,6,7,8,9,10]</code>에 생성한다. <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• 1부터 10까지의 정수를 리스트 <code class="language-plaintext highlighter-rouge">my_list=[1,2,3,4,5,6,7,8,9,10]</code>에 생성한다. <br>
 • <code class="language-plaintext highlighter-rouge">my_list[::2]</code>를 index 처음(0)부터 끝(9)까지 추출하는데, 첫번(0)째 index부터 2칸 뛴 값 들을 출력한다.
-• my_list=[1,2,3,4,5,6,7,8,9,10]  <br />
+• my_list=[1,2,3,4,5,6,7,8,9,10]  <br>
 • index -&gt; 0,1,2,3,4,5,6,7,8, 9</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 3, 5, 7, 9]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="9-reversing-a-list">9. Reversing a List</h3>
 
@@ -1301,38 +1307,38 @@ Remember, the syntax for list slicing is</p>
 </code></pre></div></div>
 <p>In the example above, we print out [‘E’, ‘D’, ‘C’, ‘B’, ‘A’].</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-지금껏 옵션(stride)을 양수값만 주었는데, 양수값은 왼쪽부터 오른쪽으로 index를 읽는다. 반대로 이번에는 음수값을 주어 보자.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
+지금껏 옵션(stride)을 양수값만 주었는데, 양수값은 왼쪽부터 오른쪽으로 index를 읽는다. 반대로 이번에는 음수값을 주어 보자.  <br>
 • 옵션(stride)을 음수를 지정하면, 오른쪽부터 왼쪽으로 index를 읽어 처리한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Create a variable called <code class="language-plaintext highlighter-rouge">backwards</code> and set it equal to the reversed version of <code class="language-plaintext highlighter-rouge">my_list</code>.</p>
 
 <p>Make sure to reverse the list in the editor by passing your list slice a negative stride, like in the example above.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① 리스트 변수 <code class="language-plaintext highlighter-rouge">backwards</code>를 만들어서, <code class="language-plaintext highlighter-rouge">my_list</code>의 값을 역순으로 <code class="language-plaintext highlighter-rouge">backwards</code>에 저장하라.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① 리스트 변수 <code class="language-plaintext highlighter-rouge">backwards</code>를 만들어서, <code class="language-plaintext highlighter-rouge">my_list</code>의 값을 역순으로 <code class="language-plaintext highlighter-rouge">backwards</code>에 저장하라.  <br>
 • Editor 화면에서, list slice의 옵션(stride)를 사용하여 역순으로 만들어라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy"></p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">list_reverse</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># reverse
 </span></code></pre></div></div>
 <p>Do not print <code class="language-plaintext highlighter-rouge">backwards</code></p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 <code class="language-plaintext highlighter-rouge">list_reverse[::-1]</code>는 리스트를 역순으로 만든다. 역순인 <code class="language-plaintext highlighter-rouge">backwards</code>만 만들고 출력은 하지 마라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_list</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span>
 
@@ -1340,20 +1346,20 @@ Remember, the syntax for list slicing is</p>
 </span><span class="n">backwards</span> <span class="o">=</span> <span class="n">my_list</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-<code class="language-plaintext highlighter-rouge">backwards</code>에는 [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 이 저장 될 것이다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+<code class="language-plaintext highlighter-rouge">backwards</code>에는 [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 이 저장 될 것이다.  <br>
 궁금하면, 살짝 <code class="language-plaintext highlighter-rouge">print (backwards)</code>를 코딩하고, 실행 시켜 본다. 확인후 print문은 지우고 다음으로 넘어가자.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>skip
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="10-stride-length">10. Stride Length</h3>
 
@@ -1361,41 +1367,41 @@ Remember, the syntax for list slicing is</p>
 
 <p>Further, a stride length of 1 traverses the list “by ones,” a stride length of 2 traverses the list “by twos,” and so on.</p>
 
-<p class="notice--info">:<strong>설명:</strong> [ Learn ]   <br />
-• 옵션인 stride(건너뛰다) 는 양수이면 왼쪽에서 오른쪽으로, 음수이면 오른쪽에서 왼쪽으로 진행한다.<br />
+<p class="notice--info">:<strong>설명:</strong> [ Learn ]   <br>
+• 옵션인 stride(건너뛰다) 는 양수이면 왼쪽에서 오른쪽으로, 음수이면 오른쪽에서 왼쪽으로 진행한다.<br>
 • 게다가 stride의 값에 따라, 1이면 1칸씩 , 2이면 두칸씩 건너뛴다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Create a variable, <code class="language-plaintext highlighter-rouge">backwards_by_tens</code>, and set it equal to the result of going backwards through <code class="language-plaintext highlighter-rouge">to_one_hundred</code> by tens. Go ahead and print <code class="language-plaintext highlighter-rouge">backwards_by_tens</code> to the console.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① 역순 list slicing에서 stride 값을 주는것을 연습해 보자.  <br />
-• 리스트 변수 <code class="language-plaintext highlighter-rouge">backwards_by_tens</code>를 만들어라.  <br />
-• 리스트 <code class="language-plaintext highlighter-rouge">to_one_hundred</code>에서 생성된 값을 역순으로 만어라.  <br />
-• <code class="language-plaintext highlighter-rouge">to_one_hundred</code>를 역순으로 만들때, 옵션으로 10칸씩 건너뛰게 하라.  <br />
-• 생성된 값을 <code class="language-plaintext highlighter-rouge">backwards_by_tens</code>에 넣어라.   <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① 역순 list slicing에서 stride 값을 주는것을 연습해 보자.  <br>
+• 리스트 변수 <code class="language-plaintext highlighter-rouge">backwards_by_tens</code>를 만들어라.  <br>
+• 리스트 <code class="language-plaintext highlighter-rouge">to_one_hundred</code>에서 생성된 값을 역순으로 만어라.  <br>
+• <code class="language-plaintext highlighter-rouge">to_one_hundred</code>를 역순으로 만들때, 옵션으로 10칸씩 건너뛰게 하라.  <br>
+• 생성된 값을 <code class="language-plaintext highlighter-rouge">backwards_by_tens</code>에 넣어라.   <br>
 • 그리고 <code class="language-plaintext highlighter-rouge">backwards_by_tens</code>를 출력한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 Remember, the syntax is:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">new_list</span> <span class="o">=</span> <span class="n">old_list</span><span class="p">[</span><span class="n">begin</span><span class="p">:</span><span class="n">end</span><span class="p">:</span><span class="n">stride</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• <code class="language-plaintext highlighter-rouge">old_list[begin:end:stride]</code>를 활용하세요.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
+• <code class="language-plaintext highlighter-rouge">old_list[begin:end:stride]</code>를 활용하세요.  <br>
 • stride 값으로 역순이고, 10칸씩 건너뛰는 것은 -10</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">to_one_hundred</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">101</span><span class="p">)</span>
 <span class="c1"># Add your code below!
@@ -1404,20 +1410,20 @@ Remember, the syntax is:</p>
 <span class="k">print</span> <span class="n">backwards_by_tens</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• <code class="language-plaintext highlighter-rouge">range(101)</code>은 0부터 100까지 총 101개 생성한다. <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• <code class="language-plaintext highlighter-rouge">range(101)</code>은 0부터 100까지 총 101개 생성한다. <br>
 • <code class="language-plaintext highlighter-rouge">to_one_hundred[::-10]</code>은 역순으로 10칸씩 건너뛰는 것이다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="11-practice-makes-perfect">11. Practice Makes Perfect</h3>
 
@@ -1425,13 +1431,13 @@ Remember, the syntax is:</p>
 
 <p>Let’s do one more, just to prove you really know your stuff.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br>
 list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘를 해보세요.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Create a list, <code class="language-plaintext highlighter-rouge">to_21</code>, that’s just the numbers from 1 to 21, inclusive.</p>
 
@@ -1444,24 +1450,24 @@ list slicing은 정말 유용하다. 그럼, 한번더 당신이 실력 발휘�
   </li>
 </ul>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① 리스트 변수 <code class="language-plaintext highlighter-rouge">to_21</code>을 만들고, 값을 1부터 21까지 저장하라.  <br />
-• 리스트 변수 <code class="language-plaintext highlighter-rouge">odds</code>에 <code class="language-plaintext highlighter-rouge">to_21</code>의 홀수 값(1,3,5,…)를 입력하라. 단, list slicing만 사용하여야 한다.(list comprehension사용하지 말라.)  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① 리스트 변수 <code class="language-plaintext highlighter-rouge">to_21</code>을 만들고, 값을 1부터 21까지 저장하라.  <br>
+• 리스트 변수 <code class="language-plaintext highlighter-rouge">odds</code>에 <code class="language-plaintext highlighter-rouge">to_21</code>의 홀수 값(1,3,5,…)를 입력하라. 단, list slicing만 사용하여야 한다.(list comprehension사용하지 말라.)  <br>
 • 리스트 변수 <code class="language-plaintext highlighter-rouge">middle_third</code>에 <code class="language-plaintext highlighter-rouge">to_21</code>중 8부터 14까지 값을 저장하라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 skip</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 skip</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">to_21</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">22</span><span class="p">)</span>
 <span class="c1">#print (to_21)
@@ -1474,21 +1480,21 @@ skip</p>
 #[8, 9, 10, 11, 12, 13, 14]
 </span></code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• <code class="language-plaintext highlighter-rouge">range(1,22)</code>는 1붜 21까지 총 21개 정수 발생  <br />
-• <code class="language-plaintext highlighter-rouge">to_21[::2]</code>는 index 0 값(1)부터 끝까지 중 2칸씩 건너뛰어 발생 <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• <code class="language-plaintext highlighter-rouge">range(1,22)</code>는 1붜 21까지 총 21개 정수 발생  <br>
+• <code class="language-plaintext highlighter-rouge">to_21[::2]</code>는 index 0 값(1)부터 끝까지 중 2칸씩 건너뛰어 발생 <br>
 • <code class="language-plaintext highlighter-rouge">to_21[7:14]</code>는 index 7값(8)부터 index 14(15) 값을 발생</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>skip
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="12-anonymous-functions">12. Anonymous Functions</h3>
 
@@ -1505,54 +1511,54 @@ skip</p>
 
 <p>When we pass the lambda to filter, filter uses the lambda to determine what to filter, and the second argument (my_list, which is just the numbers 0 – 15) is the list it does the filtering on.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-• Python의 특징중 하나가, 변수나 값을 넘기듯이 함수 자체를 넘길수 있다는 것이다. 이는 모든 언어에서 지원하는 것은 아니고, Python에서는 이 기능을 지원한다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
+• Python의 특징중 하나가, 변수나 값을 넘기듯이 함수 자체를 넘길수 있다는 것이다. 이는 모든 언어에서 지원하는 것은 아니고, Python에서는 이 기능을 지원한다.  <br>
 • Python의 특징중, 독특한 것이 하나 있는데, <code class="language-plaintext highlighter-rouge">lambda</code>라는 것이다. <code class="language-plaintext highlighter-rouge">lambda</code>는 함수의 이름을 호출하지 않고도 함수를 호출하여 계산한 것처럼, anonymous함수를 만들어 동작한다. 다음장에서 <code class="language-plaintext highlighter-rouge">lambda</code>에 대한 자세한 문법을 배울것이다. 
 • <code class="language-plaintext highlighter-rouge">lambda</code>는 입력값에서 값을 인자에 넘겨(필터링 한다고 표현), 표현식을 진행하고 그 결과값을 다시 돌려 받는다.<code class="language-plaintext highlighter-rouge">lambda</code>의 두번째 인수는 입력값 이다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Can you guess what the this code will print to the console? Click Run to see.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
 ① Editor 화면에 있는 소스를 실행시켜 어떻게 처리 되는지 알아보자.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /> 
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy"> 
 skip</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 skip</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_list</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">)</span>
 <span class="k">print</span> <span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="n">my_list</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• 입력값 <code class="language-plaintext highlighter-rouge">my_list</code>에서 값을 추출하여 <code class="language-plaintext highlighter-rouge">x</code>에 저장한다.   <br />
-• <code class="language-plaintext highlighter-rouge">x%3==0</code>인것만 <code class="language-plaintext highlighter-rouge">filter</code> 하여 뽑아낸다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• 입력값 <code class="language-plaintext highlighter-rouge">my_list</code>에서 값을 추출하여 <code class="language-plaintext highlighter-rouge">x</code>에 저장한다.   <br>
+• <code class="language-plaintext highlighter-rouge">x%3==0</code>인것만 <code class="language-plaintext highlighter-rouge">filter</code> 하여 뽑아낸다.  <br>
 • 출력한다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0, 3, 6, 9, 12, 15]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="13-lambda-syntax">13. Lambda Syntax</h3>
 <p>Lambda functions are defined using the following syntax:</p>
@@ -1563,36 +1569,36 @@ skip</p>
 
 <p>If you plan on creating a function you’ll use over and over, you’re better off using def and giving that function a name.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
-<code class="language-plaintext highlighter-rouge">lambda</code>함수는 다음 예와 같이 사용한다.   <br />
-<code class="language-plaintext highlighter-rouge">filter(lambda x: x % 3 == 0, my_list)</code>  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br>
+<code class="language-plaintext highlighter-rouge">lambda</code>함수는 다음 예와 같이 사용한다.   <br>
+<code class="language-plaintext highlighter-rouge">filter(lambda x: x % 3 == 0, my_list)</code>  <br>
 <code class="language-plaintext highlighter-rouge">lamda</code>는 함수를 정의할때, <code class="language-plaintext highlighter-rouge">def</code>함수 선언이 필요없이 빠르게 한줄로 함수를 구현할때 사용이 가능하다. 함수 이름을 줄 필요도 없다.(Anonymous function)</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Fill in the first part of the <code class="language-plaintext highlighter-rouge">filter</code> function with a <code class="language-plaintext highlighter-rouge">lambda</code>. The <code class="language-plaintext highlighter-rouge">lambda</code> should ensure that only “Python” is returned by the filter.</p>
 
 <p>• Fill in the second part of the filter function with languages, the list to filter.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① <code class="language-plaintext highlighter-rouge">filter</code> 첫번째 항목에 <code class="language-plaintext highlighter-rouge">lambda</code>를 사용하라. <code class="language-plaintext highlighter-rouge">lambda</code> 기능은 <code class="language-plaintext highlighter-rouge">x</code>가 “Python”인지를 확인한여 맞으면 <code class="language-plaintext highlighter-rouge">filter</code>에 그 결과를 반환한다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① <code class="language-plaintext highlighter-rouge">filter</code> 첫번째 항목에 <code class="language-plaintext highlighter-rouge">lambda</code>를 사용하라. <code class="language-plaintext highlighter-rouge">lambda</code> 기능은 <code class="language-plaintext highlighter-rouge">x</code>가 “Python”인지를 확인한여 맞으면 <code class="language-plaintext highlighter-rouge">filter</code>에 그 결과를 반환한다.  <br>
 •  <code class="language-plaintext highlighter-rouge">filter</code> 두번째 항목에 전달할 리스트를 넣어라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 Remember, <code class="language-plaintext highlighter-rouge">filter()</code> takes <strong>two arguments</strong>: the first is the function that tells it what to filter, and the second is the object to perform the filtering on.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• <code class="language-plaintext highlighter-rouge">filter()</code>함수는 2개의 arguments를 가진다.   <br />
-• 첫번째 인자는 필터링할 내용(즉, 조건 <code class="language-plaintext highlighter-rouge">lambda x:x=="Python"</code>)을 적어준다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
+• <code class="language-plaintext highlighter-rouge">filter()</code>함수는 2개의 arguments를 가진다.   <br>
+• 첫번째 인자는 필터링할 내용(즉, 조건 <code class="language-plaintext highlighter-rouge">lambda x:x=="Python"</code>)을 적어준다.  <br>
 • 두번째 인자는 필터링할 대상(즉, 입력값 <code class="language-plaintext highlighter-rouge">languages</code>)를 적어준다.</p>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">languages</span> <span class="o">=</span> <span class="p">[</span><span class="s">"HTML"</span><span class="p">,</span> <span class="s">"JavaScript"</span><span class="p">,</span> <span class="s">"Python"</span><span class="p">,</span> <span class="s">"Ruby"</span><span class="p">]</span>
 
@@ -1600,21 +1606,21 @@ Remember, <code class="language-plaintext highlighter-rouge">filter()</code> tak
 </span><span class="k">print</span> <span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">==</span> <span class="s">"Python"</span><span class="p">,</span> <span class="n">languages</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• <code class="language-plaintext highlighter-rouge">filter()</code>함수에서 첫번째, <code class="language-plaintext highlighter-rouge">lambda</code>를 실행시켜 <code class="language-plaintext highlighter-rouge">x</code>가 “Python” 인것만 반환한다. <br />
-• 두번째 인자에는 입력값 <code class="language-plaintext highlighter-rouge">languages</code>를 넣어준다. <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• <code class="language-plaintext highlighter-rouge">filter()</code>함수에서 첫번째, <code class="language-plaintext highlighter-rouge">lambda</code>를 실행시켜 <code class="language-plaintext highlighter-rouge">x</code>가 “Python” 인것만 반환한다. <br>
+• 두번째 인자에는 입력값 <code class="language-plaintext highlighter-rouge">languages</code>를 넣어준다. <br>
 • 그 결과값을 반환한다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>['Python']
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="14-try-it">14. Try It!</h3>
 
@@ -1624,15 +1630,15 @@ Remember, <code class="language-plaintext highlighter-rouge">filter()</code> tak
 </code></pre></div></div>
 <p>The example above is just a reminder of the syntax.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-• <code class="language-plaintext highlighter-rouge">filter()</code>과 <code class="language-plaintext highlighter-rouge">lambda</code>표현을 조금 더 연습해 보자.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
+• <code class="language-plaintext highlighter-rouge">filter()</code>과 <code class="language-plaintext highlighter-rouge">lambda</code>표현을 조금 더 연습해 보자.  <br>
 • list comprehension을 사용하여 변수 리스트 <code class="language-plaintext highlighter-rouge">cubes</code>에 <code class="language-plaintext highlighter-rouge">x</code>가 1부터 10까지의 x 값을 이용하여 <code class="language-plaintext highlighter-rouge">x ** 3</code>값을 저장한다. 
 • <code class="language-plaintext highlighter-rouge">filter</code>에서 <code class="language-plaintext highlighter-rouge">cubes</code>를 입력받아, <code class="language-plaintext highlighter-rouge">x % 3 ==0</code>값을 골라 낸다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Create a list, <code class="language-plaintext highlighter-rouge">squares</code>, that consists of the squares of the numbers 1 to 10. A list comprehension could be useful here!</p>
 
@@ -1640,77 +1646,77 @@ Remember, <code class="language-plaintext highlighter-rouge">filter()</code> tak
   <li>Use <code class="language-plaintext highlighter-rouge">filter()</code> and a <code class="language-plaintext highlighter-rouge">lambda</code> expression to print out only the squares that are between 30 and 70 (inclusive).</li>
 </ul>
 
-<p><strong>설명:</strong> [ Instruction ]  <br />
-① 변수 리스트 <code class="language-plaintext highlighter-rouge">squares</code>에  1부터 10까지의 제곱 값을 list comprehension 을 사용하여 저장하라. <br />
+<p><strong>설명:</strong> [ Instruction ]  <br>
+① 변수 리스트 <code class="language-plaintext highlighter-rouge">squares</code>에  1부터 10까지의 제곱 값을 list comprehension 을 사용하여 저장하라. <br>
 • <code class="language-plaintext highlighter-rouge">filter()</code>, <code class="language-plaintext highlighter-rouge">lambda</code>를 사용하여 제곱 값중 30과 70이하의 값을 출력하라.</p>
 
-<p class="notice--info"><br /></p>
-<hr />
+<p class="notice--info"><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 You’ll want to filter for</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">&gt;=</span> <span class="mi">30</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="mf">70.</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 <code class="language-plaintext highlighter-rouge">x &gt;=30 and x &lt;= 70</code>을 활용하라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">squares</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)]</span>
 
 <span class="k">print</span> <span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&gt;=</span> <span class="mi">30</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="mi">70</span><span class="p">,</span> <span class="n">squares</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• list comprehension 을 사용하여 1부터 10까지를 산출(<code class="language-plaintext highlighter-rouge">range(1,11)</code>)한 값을 제곱(<code class="language-plaintext highlighter-rouge">x ** 2</code>)한 결과를 변수 <code class="language-plaintext highlighter-rouge">squares</code>에 저장한다.   <br />
-• <code class="language-plaintext highlighter-rouge">filter()</code>를 사용하여 입력값 <code class="language-plaintext highlighter-rouge">squares</code>를 두번째 인자에 넣고, <code class="language-plaintext highlighter-rouge">lambda</code>로 조건(<code class="language-plaintext highlighter-rouge">x&gt;=30 and x&lt;=70</code>)을 첫번째 인자에 기술한다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• list comprehension 을 사용하여 1부터 10까지를 산출(<code class="language-plaintext highlighter-rouge">range(1,11)</code>)한 값을 제곱(<code class="language-plaintext highlighter-rouge">x ** 2</code>)한 결과를 변수 <code class="language-plaintext highlighter-rouge">squares</code>에 저장한다.   <br>
+• <code class="language-plaintext highlighter-rouge">filter()</code>를 사용하여 입력값 <code class="language-plaintext highlighter-rouge">squares</code>를 두번째 인자에 넣고, <code class="language-plaintext highlighter-rouge">lambda</code>로 조건(<code class="language-plaintext highlighter-rouge">x&gt;=30 and x&lt;=70</code>)을 첫번째 인자에 기술한다.  <br>
 • <code class="language-plaintext highlighter-rouge">filter()</code>결과값을 출력한다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[36, 49, 64]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="15-iterating-over-dictionaries">15. Iterating Over Dictionaries</h3>
 
 <p>First, let’s review iterating over a <code class="language-plaintext highlighter-rouge">dict</code>.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ] <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ] <br>
 딕셔너리의 반복을 다시 복습해 보자.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Call the appropriate method on <code class="language-plaintext highlighter-rouge">movies</code> such that it will print out all the items (hint, hint) in the dictionary—that is, each key and each value.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
 ① 적당한 내재 함수를 이용하여 변수 <code class="language-plaintext highlighter-rouge">movies</code>에 들어있는 항목들 key/value값을 출력하라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 You’ll just want to print the result of calling the <code class="language-plaintext highlighter-rouge">.items()</code> method on your <code class="language-plaintext highlighter-rouge">movies</code>. No loops necessary!</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 <code class="language-plaintext highlighter-rouge">.items()</code>를 활용하여 딕셔너리 <code class="language-plaintext highlighter-rouge">movies</code>의 항목들 key/value을 출력하여라. loop를 사용할 필요가 없다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">movies</span> <span class="o">=</span> <span class="p">{</span>
   <span class="s">"Monty Python and the Holy Grail"</span><span class="p">:</span> <span class="s">"Great"</span><span class="p">,</span>
@@ -1721,19 +1727,19 @@ You’ll just want to print the result of calling the <code class="language-plai
 <span class="k">print</span> <span class="p">(</span> <span class="n">movies</span><span class="p">.</span><span class="n">items</span><span class="p">()</span> <span class="p">)</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
 <code class="language-plaintext highlighter-rouge">movies.items()</code>는 딕셔너리의 항목값들을 튜플 상태로 반환해 준다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[("Monty Python's Life of Brian", 'Good'), ("Monty Python's Meaning of Life", 'Okay'), ('Monty Python and the Holy Grail', 'Great')]
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h2 id="16-comprehending-comprehensions">16. Comprehending Comprehensions</h2>
 
@@ -1741,23 +1747,23 @@ You’ll just want to print the result of calling the <code class="language-plai
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">squares</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)]</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
 list comprehensions를 복습해 보자.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Use a list comprehension to create a list, <code class="language-plaintext highlighter-rouge">threes_and_fives</code>, that consists only of the numbers between 1 and 15 (inclusive) that are evenly divisible by 3 or 5.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
 ① 변수 리스트<code class="language-plaintext highlighter-rouge">threes_and_fives</code>를 만들고, 1부터 15까지의 숫자중 3 or 5로 나누어 떨어지는 값들만 저장하라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 Remember, list comprehension syntax looks like this:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">list_name</span> <span class="o">=</span> <span class="p">[</span><span class="n">var</span> <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">]</span>
 </code></pre></div></div>
@@ -1765,14 +1771,14 @@ Remember, list comprehension syntax looks like this:</p>
 
 <p>Remember, modulo (<code class="language-plaintext highlighter-rouge">%</code>) is a good way to check if a number is evenly divisible by another.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 • <code class="language-plaintext highlighter-rouge">for</code>문으로 <code class="language-plaintext highlighter-rouge">range()</code>를 구하고, 그 밑에 <code class="language-plaintext highlighter-rouge">if</code>문과 모듈연산자 <code class="language-plaintext highlighter-rouge">%</code>를 이용하여 3 or 5로 나누어 지는 값을 구한다. 
 • 출력할 필요는 없지만, print문을 사용하여 확인해 보는것도 좋다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">threes_and_fives</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
 
@@ -1780,7 +1786,7 @@ Remember, list comprehension syntax looks like this:</p>
 #[3, 5, 6, 9, 10, 12, 15]
 </span></code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
 <code class="language-plaintext highlighter-rouge">for</code>문으로 <code class="language-plaintext highlighter-rouge">range(1,16)</code>으로 1부터 15까지의 값을 구하고, 그값 <code class="language-plaintext highlighter-rouge">x</code>가 <code class="language-plaintext highlighter-rouge">x%3==0 or x%5==0</code>인지를 확인하고, 그 결과를 맨 앞 <code class="language-plaintext highlighter-rouge">x</code>에 넣어서 저장한다. 
 변수 <code class="language-plaintext highlighter-rouge">threes_and_fives</code>를 출력하면 <code class="language-plaintext highlighter-rouge">[3,5,6,9,10,12,15]</code>가 출력할 것이다.</p>
 
@@ -1788,12 +1794,12 @@ Remember, list comprehension syntax looks like this:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>skip
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="17-list-slicing">17. List Slicing</h3>
 
@@ -1804,33 +1810,33 @@ Remember, list comprehension syntax looks like this:</p>
 </code></pre></div></div>
 <p>You can think of a Python string as a list of characters.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-list slicing을 복습해 보자.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
+list slicing을 복습해 보자.  <br>
 변수 문자열 <code class="language-plaintext highlighter-rouge">str</code>의 무자열을 list slicing으로 <code class="language-plaintext highlighter-rouge">[1:6:2]</code>즉, 1번(포함) index부터 6번(미포함) index까지의 값중 2칸씩 건너 뛰어 저장하라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① The string in the editor is garbled in two ways:</p>
 
 <ul>
   <li>Our message is backwards.</li>
-  <li>The letter we want is every other letter.  <br />
+  <li>The letter we want is every other letter.  <br>
 Use list slicing to extract the message and save it to a variable called message.</li>
 </ul>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① Eeditor 화면에 있는 문자열을 다음 2가지 문제가 있다.       <br />
-• 글자를 거꾸로 읽어야 한다.  <br />
-• 우리가 원하지 않는 문자들이 섞여 있다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① Eeditor 화면에 있는 문자열을 다음 2가지 문제가 있다.       <br>
+• 글자를 거꾸로 읽어야 한다.  <br>
+• 우리가 원하지 않는 문자들이 섞여 있다.  <br>
 list slicing을 사용하여 변수 <code class="language-plaintext highlighter-rouge">message</code>에 원하는 문자만 저장해라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 It’s important to remember that lists are mutable (changeable) in Python, but strings aren’t; when you slice a string, you get back a new string. The original string is unchanged unless you purposely “save over” it, like this:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_string</span> <span class="o">=</span> <span class="s">"Monty Python"</span>
 <span class="c1"># =&gt; Monty Python
@@ -1838,14 +1844,14 @@ It’s important to remember that lists are mutable (changeable) in Python, but 
 <span class="c1"># =&gt; Monty
 </span></code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• 역순으로 index -7부터 읽는 방법은 <code class="language-plaintext highlighter-rouge">my_string[:-7]</code>이다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
+• 역순으로 index -7부터 읽는 방법은 <code class="language-plaintext highlighter-rouge">my_string[:-7]</code>이다.  <br>
 • 역순 index도 0부터 -1,-2 씩으로 읽는다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">garbled</span> <span class="o">=</span> <span class="s">"!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"</span>
 
@@ -1855,20 +1861,20 @@ It’s important to remember that lists are mutable (changeable) in Python, but 
 #I am the secret message!
 </span></code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• -2값은 1칸씩을 건너 뛰는 것이다. 첫번째 글자는 포함하고 즉, I 찍고, X 건너뛰고, “ “찍고, X건너뛰고, a찍고, X건너뛰고……마지막에 !를 찍는다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• -2값은 1칸씩을 건너 뛰는 것이다. 첫번째 글자는 포함하고 즉, I 찍고, X 건너뛰고, “ “찍고, X건너뛰고, a찍고, X건너뛰고……마지막에 !를 찍는다.  <br>
 • 만약, print문을 실행해 보면, 다음과 같이 결과가 나올 것이다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I am the secret message!
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br />  <br />
-<img src="//assets/images/codecademy/line.png" alt="codecademy" />
-<br />
-<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<p><br>
+<br>  <br>
+<br>  <br>
+<img src="//assets/images/codecademy/line.png" alt="codecademy">
+<br>
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy"></p>
 <font size="3" face="돋움">ADVANCED TOPICS IN PYTHON </font>
 <h3 id="18-lambda-expressions">18. Lambda Expressions</h3>
 
@@ -1878,13 +1884,13 @@ It’s important to remember that lists are mutable (changeable) in Python, but 
 </code></pre></div></div>
 <p>We’ve given you another (slightly different) garbled. Sort it out with a <code class="language-plaintext highlighter-rouge">filter()</code> and a <code class="language-plaintext highlighter-rouge">lambda</code>.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br>
 <code class="language-plaintext highlighter-rouge">fileter()</code>와 <code class="language-plaintext highlighter-rouge">lambda</code>를 사용하여 복습해 보자.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy"></p>
 
 <p>① Create a new variable called <code class="language-plaintext highlighter-rouge">message</code>.</p>
 
@@ -1894,16 +1900,16 @@ It’s important to remember that lists are mutable (changeable) in Python, but 
 
 <p>Finally, print your <code class="language-plaintext highlighter-rouge">message</code> to the console.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-① 변수 <code class="language-plaintext highlighter-rouge">message</code>를 만들어라.  <br />
-• <code class="language-plaintext highlighter-rouge">filter()</code>와 <code class="language-plaintext highlighter-rouge">lambda</code>를 사용하여 입력값 <code class="language-plaintext highlighter-rouge">garbled</code>에 있는 “X”를 제거하라.  <br />
-• 변수 <code class="language-plaintext highlighter-rouge">message</code>에 의 결과값을 저장하여라.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br>
+① 변수 <code class="language-plaintext highlighter-rouge">message</code>를 만들어라.  <br>
+• <code class="language-plaintext highlighter-rouge">filter()</code>와 <code class="language-plaintext highlighter-rouge">lambda</code>를 사용하여 입력값 <code class="language-plaintext highlighter-rouge">garbled</code>에 있는 “X”를 제거하라.  <br>
+• 변수 <code class="language-plaintext highlighter-rouge">message</code>에 의 결과값을 저장하여라.  <br>
 • 변수 <code class="language-plaintext highlighter-rouge">message</code>값을 출력하여라.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy">  <br>
 Remember, a lambda expression looks like this:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">lambda</span> <span class="n">variable</span><span class="p">:</span> <span class="n">variable</span> <span class="n">expression</span>
 </code></pre></div></div>
@@ -1911,13 +1917,13 @@ Remember, a lambda expression looks like this:</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">10</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br>
 • <code class="language-plaintext highlighter-rouge">lambda</code> 사용법은 <code class="language-plaintext highlighter-rouge">lambda x: x != 10</code>와 같이 <code class="language-plaintext highlighter-rouge">x</code>가 10이 아닌 값을 <code class="language-plaintext highlighter-rouge">x</code>에 저장한다.</p>
 
-<p><br /></p>
-<hr />
+<p><br></p>
+<hr>
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy"></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">garbled</span> <span class="o">=</span> <span class="s">"IXXX aXXmX aXXXnXoXXXXXtXhXeXXXXrX sXXXXeXcXXXrXeXt mXXeXsXXXsXaXXXXXXgXeX!XX"</span>
 
@@ -1925,27 +1931,23 @@ Remember, a lambda expression looks like this:</p>
 <span class="k">print</span> <span class="n">message</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• <code class="language-plaintext highlighter-rouge">filter()</code>에 입력값 <code class="language-plaintext highlighter-rouge">garbled</code>를 두번째 인수에 입력한다.  <br />
-• 첫번째 인수에는 <code class="language-plaintext highlighter-rouge">lambda x: x != "X"</code>의 조건값을 실행하여 <code class="language-plaintext highlighter-rouge">x</code>가 “X”가 아닌 값만 <code class="language-plaintext highlighter-rouge">lambda</code> <code class="language-plaintext highlighter-rouge">x</code>에 저장한다.  <br />
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br>
+• <code class="language-plaintext highlighter-rouge">filter()</code>에 입력값 <code class="language-plaintext highlighter-rouge">garbled</code>를 두번째 인수에 입력한다.  <br>
+• 첫번째 인수에는 <code class="language-plaintext highlighter-rouge">lambda x: x != "X"</code>의 조건값을 실행하여 <code class="language-plaintext highlighter-rouge">x</code>가 “X”가 아닌 값만 <code class="language-plaintext highlighter-rouge">lambda</code> <code class="language-plaintext highlighter-rouge">x</code>에 저장한다.  <br>
 • 최종, <code class="language-plaintext highlighter-rouge">filter()</code>값이 반환되어 출력된다.</p>
 
 <p><strong>결과</strong></p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I am another secret message!
 </code></pre></div></div>
 
-<p><br />
-<br />  <br />
-<br /></p>
+<p><br>
+<br>  <br>
+<br></p>
 
         
         
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <div align="center" style="margin: 1em 0;">
-        <ins class="adsbygoogle"
-            style="display:block; border-bottom: initial;"
-            data-ad-client="ca-pub-7193702121518663"
-            data-ad-format="auto"></ins>
+        <ins class="adsbygoogle" style="display:block; border-bottom: initial;" data-ad-client="ca-pub-7193702121518663" data-ad-format="auto"></ins>
         </div>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
@@ -2010,10 +2012,7 @@ Remember, a lambda expression looks like this:</p>
         <!-- start custom footer snippets -->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <div align="center" style="margin: 1em 0;">
-<ins class="adsbygoogle"
-     style="display:block; border-bottom: initial;"
-     data-ad-client="ca-pub-7193702121518663"
-     data-ad-format="auto"></ins>
+<ins class="adsbygoogle" style="display:block; border-bottom: initial;" data-ad-client="ca-pub-7193702121518663" data-ad-format="auto"></ins>
 </div>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -2046,7 +2045,7 @@ Remember, a lambda expression looks like this:</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">© 2021 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

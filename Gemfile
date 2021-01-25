@@ -1,3 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 gem "kramdown-parser-gfm"
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
 gemspec
