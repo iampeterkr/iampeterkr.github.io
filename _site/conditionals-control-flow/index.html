@@ -1,0 +1,2336 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Conditionals and Control Flow -  Peter’s github.io Blog</title>
+<meta name="description" content="We learn about Conditionals, Control Flow Syntax.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="Conditionals and Control Flow">
+<meta property="og:url" content="http://localhost:4000/conditionals-control-flow/">
+
+
+  <meta property="og:description" content="We learn about Conditionals, Control Flow Syntax.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-01-25T22:20:45+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/conditionals-control-flow/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/codecademy-python-list/" >Codecademy</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/connect/" class="">Connect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/signin/" class="">SignIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/login/" class="">LogIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/bk-syllabus/" class="">Syllabus</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How to use</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/explain-screen/" class="">Explain Screen</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/learn/" class=""> • Learn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/instructions/" class=""> • Instructions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/stuck-get-a-hint/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/solution/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Solution?</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/community-forums/" class=""> • Community Forums</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/report-bug/" class=""> • Report a Bug</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/conditionals-control-flow/" class="active"> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python3</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Conditionals and Control Flow">
+    <meta itemprop="description" content="We learn about Conditionals, Control Flow Syntax.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Conditionals and Control Flow
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-go-with-the-flow">1. Go With the Flow</a></li>
+  <li><a href="#2--compare-closely">2.  Compare Closely!</a></li>
+  <li><a href="#3-compare-closelier">3. Compare… Closelier!</a></li>
+  <li><a href="#4-how-the-tables-have-turned">4. How the Tables Have Turned</a></li>
+  <li><a href="#5-to-be-andor-not-to-be">5. To Be and/or Not to Be</a></li>
+  <li><a href="#6-and">6. AND</a></li>
+  <li><a href="#7-or">7. OR</a></li>
+  <li><a href="#8-not">8. Not</a></li>
+  <li><a href="#9-this-and-that-or-this-but-not-that">9. This and That (or This, But Not That!)</a></li>
+  <li><a href="#10-mix-n-match">10. Mix ‘n’ Match</a></li>
+  <li><a href="#11-conditional-statement-syntax">11. Conditional Statement Syntax</a></li>
+  <li><a href="#12-if-youre-having">12. If You’re Having…</a></li>
+  <li><a href="#13-else-problems-i-feel-bad-for-you-son">13. Else Problems, I Feel Bad for You, Son…</a></li>
+  <li><a href="#14-i-got-99-problems-but-a-switch-aint-one">14. I Got 99 Problems, But a Switch Ain’t One</a></li>
+  <li><a href="#15-the-big-if">15. The Big If</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>In this lesson, we’ll learn how to create programs that generate different outcomes based on user input!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
+이 장에서는 사용자의 의도에 따라 다른 결과 값을 생성하는 프로그램을 만드는 연습을 한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+<h3 id="1-go-with-the-flow">1. Go With the Flow</h3>
+
+<p>Just like in real life, sometimes we’d like our code to be able to make decisions.</p>
+
+<p>The Python programs we’ve written so far have had one-track minds: they can add two numbers or print something, but they don’t have the ability to pick one of these outcomes over the other.</p>
+
+<p><strong>Control flow</strong> gives us this ability to choose among outcomes based on what else is happening in the program.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch1. Go With the Flow 에서는 상황에 따른 선택을 할수 있는 방법을 학습한다.  <br />
+• Control flow 기능을 사용하여 다중 선택 방법을 학습한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Check out the code in the editor.</li>
+  <li>You’ll see the type of program you’ll be able to write once you’ve mastered control flow.</li>
+  <li>Click <code class="language-plaintext highlighter-rouge">Run</code> to see what happens!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• Run 클릭 후, 프로그램이 어떻게 동작 되는지 확인하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• skip</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">clinic</span><span class="p">():</span>
+    <span class="k">print</span> <span class="s">"You've just entered the clinic!"</span>
+    <span class="k">print</span> <span class="s">"Do you take the door on the left or the right?"</span>
+    <span class="n">answer</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Type left or right and hit 'Enter'."</span><span class="p">).</span><span class="n">lower</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="s">"left"</span> <span class="ow">or</span> <span class="n">answer</span> <span class="o">==</span> <span class="s">"l"</span><span class="p">:</span>
+        <span class="k">print</span> <span class="s">"This is the Verbal Abuse Room, you heap of parrot droppings!"</span>
+    <span class="k">elif</span> <span class="n">answer</span> <span class="o">==</span> <span class="s">"right"</span> <span class="ow">or</span> <span class="n">answer</span> <span class="o">==</span> <span class="s">"r"</span><span class="p">:</span>
+        <span class="k">print</span> <span class="s">"Of course this is the Argument Room, I've told you that already!"</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span> <span class="s">"You didn't pick left or right! Try again."</span>
+        <span class="n">clinic</span><span class="p">()</span>
+
+<span class="n">clinic</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• Console 창에서, <em>right</em> 또는 <em>r</em>, <em>left</em> 또는 <em>l</em>, 또는 Enter 를 입력한다.  <br />
+• 입력값에 따라 결과물이 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You've just entered the clinic!
+Do you take the door on the left or the right?
+Type left or right and hit 'Enter'.
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="2--compare-closely">2.  Compare Closely!</h3>
+
+<p>Let’s start with the simplest aspect of control flow: comparators. There are six:</p>
+
+<p>Equal to (<code class="language-plaintext highlighter-rouge">==</code>)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">2</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">5</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<p>Not equal to (<code class="language-plaintext highlighter-rouge">!=</code>)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">5</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">2</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<p>Less than (<code class="language-plaintext highlighter-rouge">&lt;</code>)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">&lt;</span> <span class="mi">5</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&lt;</span> <span class="mi">2</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<p>Less than or equal to (<code class="language-plaintext highlighter-rouge">&lt;=</code>)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">&lt;=</span> <span class="mi">2</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&lt;=</span> <span class="mi">2</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<p>Greater than (<code class="language-plaintext highlighter-rouge">&gt;</code>)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&gt;</span> <span class="mi">2</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">&gt;</span> <span class="mi">5</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<p>Greater than or equal to (<code class="language-plaintext highlighter-rouge">&gt;=</code>)</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">5</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">&gt;=</span> <span class="mi">5</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+
+<p>Comparators check if a value is (or <strong>is not</strong>) <strong>equal</strong> to, <strong>greater than</strong> (or <strong>equal</strong> to), or <strong>less than</strong> (or <strong>equal</strong> to) another value.</p>
+
+<p>Note that <code class="language-plaintext highlighter-rouge">==</code> compares whether two things are <strong>equal</strong>, and <code class="language-plaintext highlighter-rouge">=</code> assigns a value to a variable.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ] <br />
+• Ch2.  Compare Closely! 에서는 비교 연산자를 학습한다.   <br />
+• <code class="language-plaintext highlighter-rouge">==</code> 같다, <code class="language-plaintext highlighter-rouge">!=</code> 같지 않다.  <br />
+• <code class="language-plaintext highlighter-rouge">&gt;</code>  크다, <code class="language-plaintext highlighter-rouge">&gt;=</code> 크거나 같다.  <br />
+• <code class="language-plaintext highlighter-rouge">&lt;</code>  작다, <code class="language-plaintext highlighter-rouge">&lt;=</code> 작거나 같다.  <br />
+• <code class="language-plaintext highlighter-rouge">==</code>와 <code class="language-plaintext highlighter-rouge">=</code>는 다른 표현이다.  <br />
+• <code class="language-plaintext highlighter-rouge">==</code>는 ex) A == B, A와 B가 같은지를 비교한다.   <br />
+• <code class="language-plaintext highlighter-rouge">=</code> 는 ex) A = 3, 변수 A 에 값 3을 대입한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Set each variable to <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code> depending on what you think the result will be.</li>
+  <li>
+    <p>For example, <code class="language-plaintext highlighter-rouge">1 &lt; 2</code> will be <code class="language-plaintext highlighter-rouge">True</code>, because <strong>one</strong> is <strong>less than two</strong>.</p>
+  </li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_one</code>   equal to the result of <code class="language-plaintext highlighter-rouge">17 &lt; 328</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_two</code>   equal to the result of <code class="language-plaintext highlighter-rouge">100 == (2 * 50)</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_three</code> equal to the result of <code class="language-plaintext highlighter-rouge">19 &lt;= 19</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_four</code>  equal to the result of <code class="language-plaintext highlighter-rouge">-22 &gt;= -18</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_five</code>  equal to the result of <code class="language-plaintext highlighter-rouge">99 != (98 + 1)</code></li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 아래 계산값의 결과를 True 또는 Fasle 로 각 변수에 대입하라.  <br />
+• 변수 bool_one   에  17 &lt; 238         의 결과 값을 저장하라. <br />
+• 변수 bool_two   에  100 == ( 2 * 50) 의 결과 값을 저장하라. <br />
+• 변수 bool_three 에  19 &lt;= 19         의 결과 값을 저장하라. <br />
+• 변수 bool_four  에  -22 &gt;= -18       의 결과 값을 저장하라. <br />
+• 변수 bool_five  에  99 != (98 + 1)   의 결과 값을 저장하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember, you set variables like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Keep in mind that checking for equality uses a double equals sign:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">True</span> <span class="o">==</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 변수 bool_one 에  True 또는 False 값을 대입하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Assign True or False as appropriate on the lines below!
+</span>
+<span class="c1"># Set this to True if 17 &lt; 328 or to False if it is not.
+</span><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">True</span>   <span class="c1"># We did this one for you!
+</span>
+<span class="c1"># Set this to True if 100 == (2 * 50) or to False otherwise.
+</span><span class="n">bool_two</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c1"># Set this to True if 19 &lt;= 19 or to False if it is not.
+</span><span class="n">bool_three</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c1"># Set this to True if -22 &gt;= -18 or to False if it is not.
+</span><span class="n">bool_four</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c1"># Set this to True if 99 != (98 + 1) or to False otherwise.
+</span><span class="n">bool_five</span> <span class="o">=</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 각 변수에 결과값이 맞으면 True, 틀리면 False를 대입한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="3-compare-closelier">3. Compare… Closelier!</h3>
+
+<p>Excellent! It looks like you’re comfortable with <strong>basic expressions</strong> and <strong>comparators</strong>.</p>
+
+<p>But what about extreme expressions and comparators?</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• ( = ) 과 ( == ) 는 완전히 다르다.  <br />
+• ( = ) 는 대입할때 사용한다.  <br />
+• ( == )는 비교할때 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Let’s run through the comparators again with more complex expressions. Set each variable to <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code> depending on what you think the result will be.</p>
+  </li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_one</code>   to the result of <code class="language-plaintext highlighter-rouge">(20 - 10) &gt; 15</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_two</code>   to the result of <code class="language-plaintext highlighter-rouge">(10 + 17) == 3**16</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_three</code> to the result of <code class="language-plaintext highlighter-rouge">1**2 &lt;= -1</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_four</code>  to the result of <code class="language-plaintext highlighter-rouge">40 * 4 &gt;= -4</code></li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_five</code>  to the result of <code class="language-plaintext highlighter-rouge">100 != 10**2</code></li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 각 변수에 계산시 예상되는 결과값이 맞으면 : True , 틀리면 : False 를 대입하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>An Expression <code class="language-plaintext highlighter-rouge">(20-10) &gt; 15</code> is <code class="language-plaintext highlighter-rouge">False</code></li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 수식 (20-10) &gt;  15 , 10 &gt; 15라는 표현은 틀린 표현이다.  <br />
+• 즉, False 이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Assign True or False as appropriate on the lines below!
+</span>
+<span class="c1"># (20 - 10) &gt; 15
+</span><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">False</span>    <span class="c1"># We did this one for you!
+</span>
+<span class="c1"># (10 + 17) == 3 ** 16
+# Remember that ** can be read as 'to the power of'. 3 ** 16 is about 43 million.
+</span><span class="n">bool_two</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c1"># 1**2 &lt;= -1
+</span><span class="n">bool_three</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="c1"># 40 * 4 &gt;= -4
+</span><span class="n">bool_four</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="c1"># 100 != 10**2
+</span><span class="n">bool_five</span> <span class="o">=</span> <span class="bp">False</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 각 주석의 계산 값이 True  이면, 변수에 True  를 입력하라.  <br />
+• 각 주석의 계산 값이 False 이면, 변수에 False 를 입력하라.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="4-how-the-tables-have-turned">4. How the Tables Have Turned</h3>
+
+<p>Comparisons result in either <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code>, which are <strong>booleans</strong> as we learned before in this exercise.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Make me true!
+</span><span class="n">bool_one</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">&lt;</span> <span class="mi">5</span>
+</code></pre></div></div>
+
+<p>Let’s switch it up: we’ll give the boolean, and you’ll write the expression, just like the example above.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• 이전에 우리는 boolean 에 대하여 잠시 공부한적이 있다.   <br />
+• Python은 수식을 변수에 대입 하면(e.g. bool_one = 3 &lt; 5)  <br />
+• 그 결과 값이 참(True)이면 참(True) 값이 대입된다.  <br />
+• 그 결과 값이 거짓(False)이면 거짓(True) 값이 대입된다. <br />
+• 변수 bool_one 에 어떤 값이 대입될지 생각해 보자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>For each boolean value in the editor, write an expression that evaluates to that value.</li>
+  <li>
+    <p>Remember, comparators are: <code class="language-plaintext highlighter-rouge">==</code>, <code class="language-plaintext highlighter-rouge">!=</code>, <code class="language-plaintext highlighter-rouge">&gt;</code>, <code class="language-plaintext highlighter-rouge">&gt;=</code>, <code class="language-plaintext highlighter-rouge">&lt;</code>, and <code class="language-plaintext highlighter-rouge">&lt;=</code>.</p>
+  </li>
+  <li>
+    <p>Use at least three different ones!</p>
+  </li>
+  <li>Don’t just use <code class="language-plaintext highlighter-rouge">True</code> and <code class="language-plaintext highlighter-rouge">False</code>! That’s cheating!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 각 주석문에서 지시하는 사항을 보고, 그 지시 사항에 맞게끔 대입하라.  <br />
+• 비교 연산자를 서로 겹치지 않게 3종류 이상 사용하라.  <br />
+• 직접 True, False 를 대입하지 마라.   <br />
+• e.g. ( bool_one = 3 &lt; 5 ) 같이 참(True)이 되게 만든다.       <br />
+• 각 비교수식을 사용하여 작성하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bool_two</code> should store a false expression, so you could try:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_two</span> <span class="o">=</span> <span class="mi">8</span> <span class="o">&lt;</span> <span class="mi">7</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 변수 bool_two 에 Fasle 값이 들어가게 오른쪽 비교문( 8 &lt; 7 )을 만들어라.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Create comparative statements as appropriate on the lines below!
+</span>
+<span class="c1"># Make me true!
+</span><span class="n">bool_one</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">&lt;</span> <span class="mi">5</span>  <span class="c1"># We already did this one for you!
+</span>
+<span class="c1"># Make me false!
+</span><span class="n">bool_two</span> <span class="o">=</span> <span class="mi">99</span> <span class="o">==</span> <span class="s">"lettuce"</span>
+
+<span class="c1"># Make me true!
+</span><span class="n">bool_three</span> <span class="o">=</span> <span class="mi">44</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">&lt;=</span> <span class="mi">43</span>
+
+<span class="c1"># Make me false!
+</span><span class="n">bool_four</span> <span class="o">=</span> <span class="s">"potato"</span> <span class="o">!=</span> <span class="s">"potato"</span>
+
+<span class="c1"># Make me true!
+</span><span class="n">bool_five</span> <span class="o">=</span> <span class="s">"tomato"</span> <span class="o">==</span> <span class="s">"tomato"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 주석에서 지시하는 조건을 만족하도록, 참(True), 거짓(False)값이 되도록 만든다.  <br />
+• 대입값은 비교 수식을 작성하여 대입하였다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="5-to-be-andor-not-to-be">5. To Be and/or Not to Be</h3>
+
+<p><strong>Boolean</strong> operators compare statements and result in boolean values. There are three boolean operators:</p>
+
+<p>1 <strong>and</strong>, which checks if both the statements are True;
+2 <strong>or</strong>, which checks if at least one of the statements is True;
+3 <strong>not</strong>, which gives the opposite of the statement.
+We’ll go through the operators one by one.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch5. To Be and/or Not to Be 에서는 Boolean을 학습한다.   <br />
+• Boolean 에는 and , or , not 이 있다.   <br />
+• 아래의 boolean 표를 참조하자.</p>
+
+<p><img src="//assets/images/codecademy/03-boolean-00.svg" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Check out the truth tables to the right.</li>
+  <li>
+    <p>They show the results of using <code class="language-plaintext highlighter-rouge">AND</code>, <code class="language-plaintext highlighter-rouge">OR</code>, and <code class="language-plaintext highlighter-rouge">NOT</code> boolean operators given the boolean inputs <code class="language-plaintext highlighter-rouge">A</code> and <code class="language-plaintext highlighter-rouge">B</code>.</p>
+  </li>
+  <li>Click next to continue.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• Boolean 표를 보고, boolean이 어떻게 동작 되는지를 이해하자.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• skip</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">skip</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• skip</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="6-and">6. AND</h3>
+
+<p>The boolean operator and returns <code class="language-plaintext highlighter-rouge">True</code> when the expressions on both sides of <code class="language-plaintext highlighter-rouge">and</code> are <code class="language-plaintext highlighter-rouge">true</code>. For instance:</p>
+
+<ul>
+  <li>1 &lt; 2 and 2 &lt; 3 is True;</li>
+  <li>1 &lt; 2 and 2 &gt; 3 is False.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch6. AND 에서는 AND 연산자를 학습한다.  <br />
+• AND 연산자는 양 쪽 A, B의 값이 모두 참(True)이면, 참(True)이다.  <br />
+• A 또는 B 둘 중 하나라도 거짓(False)이면 거짓(False)이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Let’s practice with <code class="language-plaintext highlighter-rouge">and</code>.</li>
+  <li>
+    <p>Assign each variable to the appropriate <code class="language-plaintext highlighter-rouge">boolean</code> value.</p>
+  </li>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_one</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">`False`</span> <span class="ow">and</span> <span class="sb">`False`</span> 
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_two</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="sb">`-(-(-(-2))) == -2`</span> <span class="ow">and</span> <span class="sb">`4 &gt;= 16 ** 0.5`</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_three</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">`19 % 4 != 300 / 10 / 10`</span> <span class="ow">and</span> <span class="sb">`False`</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_four</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">`-(1 ** 2) &lt; 2 ** 0`</span> <span class="ow">and</span> <span class="sb">`10 % 10 &lt;= 20 - 10 * 2`</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_five</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">`True`</span> <span class="ow">and</span> <span class="sb">`True`</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• AND 연산자 양변 A, B를 계산하여라.  <br />
+• 각 변수에, 계산 결과값이 참이면, 참(True) or 거짓이면, 거짓(False)을 대입하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">False</span> <span class="ow">and</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• False(거짓) and False(거짓) 은 False(거짓) 이다.   <br />
+• 변수 bool_one 에 결과값 거짓(False)을 대입한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">False</span> <span class="ow">and</span> <span class="bp">False</span>
+
+<span class="n">bool_two</span> <span class="o">=</span> <span class="o">-</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)))</span> <span class="o">==</span> <span class="o">-</span><span class="mi">2</span> <span class="ow">and</span> <span class="mi">4</span> <span class="o">&gt;=</span> <span class="mi">16</span> <span class="o">**</span> <span class="mf">0.5</span>
+
+<span class="n">bool_three</span> <span class="o">=</span> <span class="mi">19</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">!=</span> <span class="mi">300</span> <span class="o">/</span> <span class="mi">10</span> <span class="o">/</span> <span class="mi">10</span> <span class="ow">and</span> <span class="bp">False</span>
+
+<span class="n">bool_four</span> <span class="o">=</span> <span class="o">-</span><span class="p">(</span><span class="mi">1</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span> <span class="o">**</span> <span class="mi">0</span> <span class="ow">and</span> <span class="mi">10</span> <span class="o">%</span> <span class="mi">10</span> <span class="o">&lt;=</span> <span class="mi">20</span> <span class="o">-</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">2</span>
+
+<span class="n">bool_five</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">and</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 오른쪽의 계산 결과 값이 참(True) or 거짓(False) 인지를 계산한다.  <br />
+• 그 결과가 각 변수에 저장된다.   <br />
+• And 연산자는 양 변이 모두 참(True)일 때만, 참(Ture)을 반환한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="7-or">7. OR</h3>
+
+<p>The <strong>boolean</strong> operator or returns <code class="language-plaintext highlighter-rouge">True</code> when at least one expression on either side of or is true. For example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span> <span class="ow">or</span> <span class="mi">2</span> <span class="o">&gt;</span> <span class="mi">3</span> <span class="ow">is</span> <span class="bp">True</span><span class="p">;</span>
+<span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="ow">or</span> <span class="mi">2</span> <span class="o">&gt;</span> <span class="mi">3</span> <span class="ow">is</span> <span class="bp">False</span><span class="p">.</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch7. OR 에서는 OR 연산자를 학습한다.   <br />
+• OR 연산자는 양 변이 하나라도 참(True)이면, 참(True)을 반환한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Time to practice with or!</p>
+  </li>
+  <li>
+    <p>Set <code class="language-plaintext highlighter-rouge">bool_one</code> equal to the result of</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">2</span> <span class="o">**</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">108</span> <span class="o">%</span> <span class="mi">100</span> <span class="ow">or</span> <span class="s">'Cleese'</span> <span class="o">==</span> <span class="s">'King Arthur'</span>
+</code></pre></div></div>
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_two</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_three</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">100</span> <span class="o">**</span> <span class="mf">0.5</span> <span class="o">&gt;=</span> <span class="mi">50</span> <span class="ow">or</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_four</code> equal to the result of</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">True</span> <span class="ow">or</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_five</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">1</span> <span class="o">**</span> <span class="mi">100</span> <span class="o">==</span> <span class="mi">100</span> <span class="o">**</span> <span class="mi">1</span> <span class="ow">or</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">1</span> <span class="o">!=</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 각 변수에 OR 연산자를 한 결과 값( True 또는 False ) 을 대입하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember, or is True when either (or both!) of the expressions involved are true.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• OR 의 경우 양변 A , B 중 하나라도 참(True)이면 참(True)이 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="mi">2</span><span class="o">**</span><span class="mi">3</span> <span class="o">==</span> <span class="mi">108</span> <span class="o">%</span> <span class="mi">100</span> <span class="ow">or</span> <span class="s">'Cleese'</span> <span class="o">==</span> <span class="s">'King Arthur'</span>
+
+<span class="n">bool_two</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span>
+
+<span class="n">bool_three</span> <span class="o">=</span> <span class="mi">100</span><span class="o">**</span><span class="mf">0.5</span> <span class="o">&gt;=</span> <span class="mi">50</span> <span class="ow">or</span> <span class="bp">False</span>
+
+<span class="n">bool_four</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">True</span>
+
+<span class="n">bool_five</span> <span class="o">=</span> <span class="mi">1</span><span class="o">**</span><span class="mi">100</span> <span class="o">==</span> <span class="mi">100</span><span class="o">**</span><span class="mi">1</span> <span class="ow">or</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">*</span> <span class="mi">1</span> <span class="o">!=</span> <span class="mi">3</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• OR 연산자 양 변의 A , B 값이 계산된다.  <br />
+• 계산된 값 참(True), 거짓(False)값이 자동으로 변수에 대입된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip 
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="8-not">8. Not</h3>
+
+<p>The <strong>boolean</strong> operator <code class="language-plaintext highlighter-rouge">not</code> returns <code class="language-plaintext highlighter-rouge">True</code> for <code class="language-plaintext highlighter-rouge">false</code> statements and <code class="language-plaintext highlighter-rouge">False</code> for <code class="language-plaintext highlighter-rouge">true</code> statements.</p>
+
+<p>For example:</p>
+
+<p>not <code class="language-plaintext highlighter-rouge">False</code> will evaluate to <code class="language-plaintext highlighter-rouge">True</code>, while not <code class="language-plaintext highlighter-rouge">41 &gt; 40</code> will return <code class="language-plaintext highlighter-rouge">False</code>.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch8. Not 에서는 NOT 연산자를 학습한다.  <br />
+• Not 은 다음과 같이 동작한다.  <br />
+• True 는 False 를 반환한다.  <br />
+• False 는 True 를 반환한다.  <br />
+• 41 &gt; 40 은 계산 결과는 True 이다.  <br />
+• 하지만, 앞에  NOT(!) 연산자가 있으므로, False 를 반환한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Let’s get some practice with not.</p>
+  </li>
+  <li>
+    <p>Set <code class="language-plaintext highlighter-rouge">bool_one</code> equal to the result of</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ow">not</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_two</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ow">not</span> <span class="mi">3</span> <span class="o">**</span> <span class="mi">4</span> <span class="o">&lt;</span> <span class="mi">4</span> <span class="o">**</span> <span class="mi">3</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_three</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ow">not</span> <span class="mi">10</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">&lt;=</span> <span class="mi">10</span> <span class="o">%</span> <span class="mi">2</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_four</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ow">not</span> <span class="mi">3</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">4</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">5</span> <span class="o">**</span> <span class="mi">2</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_five</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ow">not</span> <span class="ow">not</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 각 변수에 양변의 계산 결과 값을 True 또는 False 를 대입하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember, not True is False and not False is True. So, for example, bool_one should be:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• NOT ( ! ) 연산자는 양 변의 최종 결과값의 반대를 반환한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="ow">not</span> <span class="bp">True</span>
+
+<span class="n">bool_two</span> <span class="o">=</span> <span class="ow">not</span> <span class="mi">3</span><span class="o">**</span><span class="mi">4</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="o">**</span><span class="mi">3</span>
+
+<span class="n">bool_three</span> <span class="o">=</span> <span class="ow">not</span> <span class="mi">10</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">&lt;=</span> <span class="mi">10</span> <span class="o">%</span> <span class="mi">2</span>
+
+<span class="n">bool_four</span> <span class="o">=</span> <span class="ow">not</span> <span class="mi">3</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">4</span><span class="o">**</span><span class="mi">2</span> <span class="o">!=</span> <span class="mi">5</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="n">bool_five</span> <span class="o">=</span> <span class="ow">not</span> <span class="ow">not</span> <span class="bp">False</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 각 변수의 반환값이 무엇일지 생각해 보자.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="9-this-and-that-or-this-but-not-that">9. This and That (or This, But Not That!)</h3>
+
+<p><strong>Boolean</strong> operators aren’t just evaluated from <strong>left</strong> to <strong>right</strong>. Just like with <strong>arithmetic operators</strong>, there’s an order of operations for boolean operators:</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">not</code> is evaluated <strong>first</strong>;</li>
+  <li><code class="language-plaintext highlighter-rouge">and</code> is evaluated <strong>next</strong>;</li>
+  <li><code class="language-plaintext highlighter-rouge">or</code>  is evaluated <strong>last</strong>.
+For example, <code class="language-plaintext highlighter-rouge">True</code> or not <code class="language-plaintext highlighter-rouge">False</code> and <code class="language-plaintext highlighter-rouge">False</code> returns <code class="language-plaintext highlighter-rouge">True</code>. If this isn’t clear, look at the Hint.</li>
+</ol>
+
+<p>Parentheses <code class="language-plaintext highlighter-rouge">()</code> ensure your expressions are evaluated in the order you want. Anything in parentheses is evaluated as its own unit.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch9. This and That 에서는 Boolean 의 우선 순위를 학습한다.  <br />
+• boolean 의 계산 순서는 수학의 우선 순위와 같다.  <br />
+• 1st : NOT   <br />
+• 2nd : AND  <br />
+• 3rd : OR  <br />
+• () 는 NOT 보다 순서가 빠르다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Assign <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code> as appropriate for <code class="language-plaintext highlighter-rouge">bool_one</code> through <code class="language-plaintext highlighter-rouge">bool_five</code>.</p>
+  </li>
+  <li>
+    <p>Set <code class="language-plaintext highlighter-rouge">bool_one</code> equal to the result of</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">False</span> <span class="ow">or</span> <span class="ow">not</span> <span class="bp">True</span> <span class="ow">and</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_two</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">False</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_three</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">True</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="bp">False</span> <span class="ow">or</span> <span class="bp">False</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_four</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ow">not</span> <span class="ow">not</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">bool_five</code> equal to the result of</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">False</span> <span class="ow">or</span> <span class="ow">not</span> <span class="p">(</span><span class="bp">True</span> <span class="ow">and</span> <span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 각 변수에 True 또는 False 를 대입하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>True or not False and False.</li>
+</ul>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">not</code> gets evaluated <strong>first</strong>,</li>
+  <li>so we have <code class="language-plaintext highlighter-rouge">True or True and False</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">and</code> goes next,</li>
+  <li>so we get <code class="language-plaintext highlighter-rouge">True or False</code>.</li>
+  <li>As we’ve seen, <code class="language-plaintext highlighter-rouge">True or False</code> is <code class="language-plaintext highlighter-rouge">True</code>,</li>
+  <li>so the value finally returned is <code class="language-plaintext highlighter-rouge">True</code>!</li>
+</ol>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• NOT -&gt; AND -&gt; OR 순으로 계산한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bool_one</span> <span class="o">=</span> <span class="bp">False</span> <span class="ow">or</span> <span class="ow">not</span> <span class="bp">True</span> <span class="ow">and</span> <span class="bp">True</span>
+
+<span class="n">bool_two</span> <span class="o">=</span> <span class="bp">False</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">True</span>
+
+<span class="n">bool_three</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">and</span> <span class="ow">not</span> <span class="p">(</span><span class="bp">False</span> <span class="ow">or</span> <span class="bp">False</span><span class="p">)</span>
+
+<span class="n">bool_four</span> <span class="o">=</span> <span class="ow">not</span> <span class="ow">not</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span> <span class="ow">and</span> <span class="ow">not</span> <span class="bp">True</span>
+
+<span class="n">bool_five</span> <span class="o">=</span> <span class="bp">False</span> <span class="ow">or</span> <span class="ow">not</span> <span class="p">(</span><span class="bp">True</span> <span class="ow">and</span> <span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 각 변수에 NOT , AND , OR 순으로 계산한다.  <br />
+• 그 결과값 True 또는 False 가 대입된다.   <br />
+• 각 변수를 출력해 보면, 계산 결과값을 알수 있다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="10-mix-n-match">10. Mix ‘n’ Match</h3>
+
+<p>Great work! We’re almost done with <strong>boolean</strong> operators.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Make me false
+</span><span class="n">bool_one</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">&lt;=</span> <span class="mi">2</span><span class="p">)</span> <span class="ow">and</span> <span class="s">"Alpha"</span> <span class="o">==</span> <span class="s">"Bravo"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch10. Mix ‘n’ Match 에서는 boolean을 학습한다.<br />
+• 변수 bool_one 에는 False 값이 반환된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>This time we’ll give the expected result, and you’ll use some combination of <strong>boolean</strong> operators to achieve that result.</p>
+  </li>
+  <li>
+    <p>Remember, the <strong>boolean</strong> operators are <code class="language-plaintext highlighter-rouge">and</code>, <code class="language-plaintext highlighter-rouge">or</code>, and <code class="language-plaintext highlighter-rouge">not</code>. Use each one at least once!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• Editor 화면의 소스에서 주석을 읽고 이해하라.  <br />
+• 주석에서 지시하는대로 결과 값을 만들어라.  <br />
+• Boolean 은 연산자 ( NOT , AND , OR ) 를 활용하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Make sure to use at least one <code class="language-plaintext highlighter-rouge">and</code>, <code class="language-plaintext highlighter-rouge">or</code>, or <code class="language-plaintext highlighter-rouge">not</code>.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• Boolean 연산자 NOT , AND , OR 사용하여 만들라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Use boolean expressions as appropriate on the lines below!
+</span>
+<span class="c1"># Make me false!
+</span><span class="n">bool_one</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">&lt;=</span> <span class="mi">2</span><span class="p">)</span> <span class="ow">and</span> <span class="s">"Alpha"</span> <span class="o">==</span> <span class="s">"Bravo"</span>  <span class="c1"># We did this one for you!
+</span>
+<span class="c1"># Make me true!
+</span><span class="n">bool_two</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">and</span> <span class="bp">True</span>
+
+<span class="c1"># Make me false!
+</span><span class="n">bool_three</span> <span class="o">=</span> <span class="bp">False</span> <span class="ow">and</span> <span class="bp">True</span>
+
+<span class="c1"># Make me true!
+</span><span class="n">bool_four</span> <span class="o">=</span> <span class="ow">not</span> <span class="bp">False</span>
+
+<span class="c1"># Make me true!
+</span><span class="n">bool_five</span> <span class="o">=</span> <span class="bp">True</span> <span class="ow">or</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 주석에서 True 를 만들려면, 우변의 값을 True로 만들어 대입한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="11-conditional-statement-syntax">11. Conditional Statement Syntax</h3>
+
+<p><code class="language-plaintext highlighter-rouge">if</code> is a <strong>conditional statement</strong> that executes some specified code after checking if its expression is <code class="language-plaintext highlighter-rouge">True</code>.</p>
+
+<p>Here’s an example of <code class="language-plaintext highlighter-rouge">if</code> statement syntax:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="mi">8</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"Eight is less than nine!"</span>
+</code></pre></div></div>
+
+<p>In this example, <code class="language-plaintext highlighter-rouge">8 &lt; 9</code> is the checked expression and print <strong>“Eight is less than nine!”</strong> is the specified code.</p>
+
+<p>Pay <strong>attention</strong> to the <strong>indentation</strong> before the <code class="language-plaintext highlighter-rouge">print</code> statement. This space, called white space, is how Python knows we are entering a <strong>new block</strong> of code. Python accepts many different kinds of <strong>indentation to indicate blocks</strong>. In this lesson, we use four <strong>spaces</strong> but elsewhere you might encounter <strong>two-space</strong> indentation or tabs (which Python will see as different from spaces).</p>
+
+<p>If the <strong>indentation</strong> from one line to the next is different and there is no command (like if) that indicates an incoming block then Python will raise an <code class="language-plaintext highlighter-rouge">IndentationError</code>. These errors could mean, for example, that one line had two spaces but the next one had three. Python tries to indicate where this error happened by printing the line of code it couldn’t parse and using a <code class="language-plaintext highlighter-rouge">^</code> to point to where the indentation was different from what it expected.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch11. Conditional Statement Syntax 에서는 조건문을 학습한다.    <br />
+• if 문은 조건문 이다.   <br />
+• 조건이 True 이면, if 절 내부에 정의된 내용을 실행한다.  <br />
+• if 문 사용시 주의 사항은 다음과 같다.  <br />
+• if 문 조건 뒤에 항상 ( : )을 붙여줘야 한다.    <br />
+• 이것은 if 문 조건이 끝났음을 의미한다.  <br />
+• if 문 내부를 정의할때, if 문 보다 안쪽으로 Space 2칸이 들어간 상태에서 시작한다.  <br />
+• if 문은 자신보다 안쪽에 위치한 내용을 자신의 처리 범위로 여긴다.  <br />
+• 들여쓰기가 정상적이지 않으면 Python 해석기는 Error 를 발생시킨다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>If you think the <code class="language-plaintext highlighter-rouge">print</code> statement will print to the console, set <code class="language-plaintext highlighter-rouge">response</code> equal to ‘Y’; otherwise, set response equal to ‘N’.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 출력되는 문장의 내용이 맞으면 변수 response 에 ‘Y’ 를 대입한다.  <br />
+• 그렇지 않으면 변수 response 에 ‘N’를 대입한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Make sure to set response to “Y” or “N”!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 변수 response 에 ‘Y’ 또는 ‘N’ 를 대입한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">response</span> <span class="o">=</span> <span class="s">'N'</span>
+
+<span class="n">answer</span> <span class="o">=</span> <span class="s">"Left"</span>
+<span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="s">"Left"</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"This is the Verbal Abuse Room, you heap of parrot droppings!"</span>
+    
+<span class="c1"># Will the above print statement print to the console?
+# Set response to 'Y' if you think so, and 'N' if you think not.
+</span></code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 출력문의 내용이 마음에 들지 않으므로 변수 response 에 ‘N’ 를 대입한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the Verbal Abuse Room, you heap of parrot droppings!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="12-if-youre-having">12. If You’re Having…</h3>
+
+<p>Let’s get some practice with <code class="language-plaintext highlighter-rouge">if</code> statements. Remember, the syntax looks like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">some_function</span><span class="p">():</span>
+  <span class="c1"># block line one
+</span>  <span class="c1"># block line two
+</span>  <span class="c1"># et cetera
+</span></code></pre></div></div>
+
+<p>Looking at the example above, in the event that <code class="language-plaintext highlighter-rouge">some_function()</code> returns <code class="language-plaintext highlighter-rouge">True,</code> then the indented block of code after it will be executed. In the event that it returns False, then the indented block will be skipped.</p>
+
+<p>Also, make sure you notice the <code class="language-plaintext highlighter-rouge">colons</code> at the end of the <code class="language-plaintext highlighter-rouge">if</code> statement. We’ve added them for you, but they’re important.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch12. If You’re Having… 에서는 조건에 따라 결과값을 결정하는 학습을 한다.  <br />
+• if 문 은 some_function()을 호출하여 받은 결과값이 True 인지를 비교한다.  <br />
+• if 문의 결과값이 True 이면, if 문 블럭안에 다음 정의문이 실행된다.   <br />
+• e.g.  # block line one,  <br />
+• e.g.  # block line two,   <br />
+• e.g.  # et cetera   <br />
+• 결과값이 False 이면 정의문 들은 실행되지 않는다.  <br />
+• if 문의 끝에는 ( : ) 이 항상 있어야 한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>In the editor you’ll see two functions.</li>
+  <li>Don’t worry about anything unfamiliar.</li>
+  <li>We’ll explain soon enough.</li>
+  <li>Replace the underline on line 2 with an expression that returns <code class="language-plaintext highlighter-rouge">True</code>.</li>
+  <li>Replace the underline on line 6 with an expression that returns <code class="language-plaintext highlighter-rouge">True</code>.</li>
+  <li>If you do it successfully, then both “Success #1” and “Success #2” are printed.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 2 라인과 6 라인에 각 True 가 되도록 계산식을 수정하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Here’s an example to remind you of the syntax:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">true_function</span><span class="p">():</span>
+  <span class="k">if</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">return</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Don’t forget the colon at the end of the line!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• if 문 다음의 조건절에 True 값이 되도록 계산식을 만든다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">using_control_once</span><span class="p">():</span>
+    <span class="k">if</span> <span class="mi">2</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"Success #1"</span>
+
+<span class="k">def</span> <span class="nf">using_control_again</span><span class="p">():</span>
+    <span class="k">if</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"Success #2"</span>
+
+<span class="k">print</span> <span class="n">using_control_once</span><span class="p">()</span>
+<span class="k">print</span> <span class="n">using_control_again</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• if 2 &lt;  3:  이 True 가 되도록 조건문을 만들었다.  <br />
+• if 3 == 3:  이 True 가 되도록 조건문을 만들었다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Success #1
+Success #2
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="13-else-problems-i-feel-bad-for-you-son">13. Else Problems, I Feel Bad for You, Son…</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">else</code> statement complements the if statement. An <code class="language-plaintext highlighter-rouge">if/else</code> pair says: “If this expression is true, run this indented code block; otherwise, run this code after the else statement.”</p>
+
+<p>Unlike if, else doesn’t depend on an expression. For example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="mi">8</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"I don't printed!"</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"I get printed!"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch13. Else Problems, … 에서는 else 문을 학습한다.  <br />
+• else 문은 if 문과 함께 사용한다.   <br />
+• if 문 조건을 체크하고, 조건에 맞지 않으면, else 문이 실행된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Complete the <code class="language-plaintext highlighter-rouge">else</code> statements to the right. Note the indentation for each line!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• Coding 창에 있는 소스중, else 문을 완성하라. (단, 들여 쓰기를 주의하라.)</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>To complete your <code class="language-plaintext highlighter-rouge">else</code> statement lines, the only thing you need to do is add <code class="language-plaintext highlighter-rouge">False</code> after the returns on lines 7 and 13.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• else 문 부분을 False 로 수정하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">answer</span> <span class="o">=</span> <span class="s">"'Tis but aa scratch!"</span>
+
+<span class="k">def</span> <span class="nf">black_knight</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="s">"'Tis but a scratch!"</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">else</span><span class="p">:</span>
+      	<span class="k">print</span> <span class="p">(</span><span class="s">"else call"</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">False</span>        <span class="c1"># Make sure this returns False
+</span>
+<span class="n">black_knight</span><span class="p">()</span>
+
+
+<span class="k">def</span> <span class="nf">french_soldier</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">answer</span> <span class="o">==</span> <span class="s">"Go away, or I shall taunt you a second time!"</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">else</span><span class="p">:</span>             
+        <span class="k">return</span> <span class="bp">False</span>        <span class="c1"># Make sure this returns False
+</span>      
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 함수 black_knight() 에서는 다음과 같이 동작한다.  <br />
+• if 문이 변수 answer 과 문자열을 비교한다.  <br />
+• 비교한 결과가 참이면 True 를 반환한다.  <br />
+• 비교한 결과가 거짓이면 else 문이 작동된다.  <br />
+• e.g. print (“else call”)   <br />
+• else 문의 블럭내용이 출력된다.  <br />
+• 그리고 False 가 반환(return)된다.  <br />
+• # 각 line 에 print 문을 작성해 보면, 그 결과를 알 수 있다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="14-i-got-99-problems-but-a-switch-aint-one">14. I Got 99 Problems, But a Switch Ain’t One</h3>
+
+<p><code class="language-plaintext highlighter-rouge">elif</code> is short for <strong>“else if.”</strong> It means exactly what it sounds like: “otherwise, if the following expression is true, do this!”</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="mi">8</span> <span class="o">&gt;</span> <span class="mi">9</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"I don't get printed!"</span>
+<span class="k">elif</span> <span class="mi">8</span> <span class="o">&lt;</span> <span class="mi">9</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"I get printed!"</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"I also don't get printed!"</span>
+</code></pre></div></div>
+
+<p>In the example above, the <code class="language-plaintext highlighter-rouge">elif</code> statement is only checked if the original if statement is <code class="language-plaintext highlighter-rouge">False</code>.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch14. I Got 99 Problems, 에서는 elif 를 학습한다.   <br />
+• elif 는 <em>else if</em> 의 줄인 말이다.  <br />
+• elif 는 if 조건절이 아니고 그다음에 다른 조건을 체크 하고 싶을때 사용한다.  <br />
+• 비슷한 else 와의 차이는 else 는 조건을 만들수 없지만, elif 문은 조건문을 만들수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On line 2, fill in the <code class="language-plaintext highlighter-rouge">if</code> statement to check if answer is greater than <code class="language-plaintext highlighter-rouge">5</code>.</p>
+  </li>
+  <li>
+    <p>On line 4, fill in the <code class="language-plaintext highlighter-rouge">elif</code> so that the function outputs <code class="language-plaintext highlighter-rouge">-1</code> if answer is less than <code class="language-plaintext highlighter-rouge">5</code>.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 2 라인에서 if 문을 사용한다.  <br />
+• 조건은 변수 answer 값이 5 보다 크면 1 을 반환한다.  <br />
+• 4 라인에서 elif 문을 사용한다.  <br />
+• 조건은 변수 answer 값이 5 보다 작으면 -1 을 반환하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Make sure the <code class="language-plaintext highlighter-rouge">if</code> and <code class="language-plaintext highlighter-rouge">elif</code> statements end with colons :</p>
+  </li>
+  <li>
+    <p>Your code should look something like:</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">EXPRESSION</span><span class="p">:</span>
+  <span class="c1"># do something
+</span><span class="k">elif</span> <span class="n">OTHER</span> <span class="n">EXPRESSION</span><span class="p">:</span>
+  <span class="c1"># do something
+</span><span class="k">else</span><span class="p">:</span>
+  <span class="c1"># do something
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• if , elif , else 문의 끝에 ( : ) 를 꼭 넣어야 한다.  <br />
+• 마지막에 각 함수를 출력해보면, 결과 값을 알수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greater_less_equal_5</span><span class="p">(</span><span class="n">answer</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">answer</span> <span class="o">&gt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">answer</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>          
+        <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
+        
+<span class="k">print</span> <span class="n">greater_less_equal_5</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">greater_less_equal_5</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">greater_less_equal_5</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 변수 answer 가 5 보다 큰지 or 작은지 or 같은지를 비교하여 그 결과값을 반환한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-1
+0
+1
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">CONDITIONALS &amp; CONTROL FLOW</font>
+
+<h3 id="15-the-big-if">15. The Big If</h3>
+
+<p>Really great work! Here’s what you’ve learned in this unit:</p>
+
+<p><strong>Comparators</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">3</span> <span class="o">&lt;</span> <span class="mi">4</span>
+<span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">5</span>
+<span class="mi">10</span> <span class="o">==</span> <span class="mi">10</span>
+<span class="mi">12</span> <span class="o">!=</span> <span class="mi">13</span>
+</code></pre></div></div>
+
+<p><strong>Boolean operators</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span> 
+<span class="p">(</span><span class="mi">3</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="mi">5</span> <span class="o">&gt;=</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">this</span><span class="p">()</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">that</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><strong>Conditional statements</strong></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">this_might_be_true</span><span class="p">():</span>
+  <span class="k">print</span> <span class="s">"This really is true."</span>
+<span class="k">elif</span> <span class="n">that_might_be_true</span><span class="p">():</span>
+  <span class="k">print</span> <span class="s">"That is true."</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"None of the above."</span>
+<span class="n">Let</span><span class="s">'s get to the grand finale.
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch15. The Big If 에서는 지금까지 배운 모든 연산자를 학습한다.  <br />
+• 지금까지 배운 비교문, Boolean 연산자, 조건문( if , elif , else )를 복습하자.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>In the workspace to your right, there is the outline of a function called <code class="language-plaintext highlighter-rouge">grade_converter()</code>.</p>
+  </li>
+  <li>
+    <p>The purpose of this function is to take a number grade <strong>(1-100)</strong>, defined by the variable <code class="language-plaintext highlighter-rouge">grade</code>, and to return the appropriate letter <strong>grade (A, B, C, D, or F)</strong>.</p>
+  </li>
+  <li>
+    <p>Your task is to complete the function by creating appropriate <code class="language-plaintext highlighter-rouge">if</code> and <code class="language-plaintext highlighter-rouge">elif</code> statements that will compare the input <code class="language-plaintext highlighter-rouge">grade</code> with a number and then return a letter <code class="language-plaintext highlighter-rouge">grade</code>.</p>
+  </li>
+  <li>
+    <p>Your function should return the following letter grades:</p>
+
+    <ul>
+      <li>90 or higher should get an “A”</li>
+      <li>80 - 89 should get a “B”</li>
+      <li>70 - 79 should get a “C”</li>
+      <li>65 - 69 should get a “D”</li>
+      <li>Anything below a 65 should receive an “F”</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 함수 grade_converter() 를 만든다.  <br />
+• 함수의 동작은 비교문, 조건문을 사용하라.  <br />
+• 함수 조건은 점수 구간에 따라 A, B, C, D, F 등급을 준다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Be careful with your indentation—grade_converter() is a function (which we’ll get to in the next unit), and as you can see from the comment, function blocks are indented the same way if, elif, and else blocks are.</p>
+  </li>
+  <li>
+    <p>If you are having trouble creating the if and elif statements, here’s the first one you can use as an example:</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">grade</span> <span class="o">&gt;=</span> <span class="mi">90</span><span class="p">:</span>
+     <span class="k">return</span> <span class="s">"A"</span>
+</code></pre></div></div>
+
+<p>This will compare the variable grade with the value 90 and if it is greater than or equal to 90 it will return the letter A.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 조건문 ( if grade &gt;= 90: ) 은 변수 grade 값이 90 보다 크거나 같다는 표현이다. <br />
+• 이 조건이 맞으면 if 문 내부에 A 가 반환되도록 작성한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Complete the if and elif statements!
+</span><span class="k">def</span> <span class="nf">grade_converter</span><span class="p">(</span><span class="n">grade</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">grade</span> <span class="o">&gt;=</span> <span class="mi">90</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"A"</span>
+    <span class="k">elif</span> <span class="n">grade</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"B"</span>
+    <span class="k">elif</span> <span class="n">grade</span> <span class="o">&gt;=</span> <span class="mi">70</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"C"</span>
+    <span class="k">elif</span> <span class="n">grade</span> <span class="o">&gt;=</span> <span class="mi">65</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"D"</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">"F"</span>
+      
+<span class="c1"># This should print an "A"      
+</span><span class="k">print</span> <span class="n">grade_converter</span><span class="p">(</span><span class="mi">92</span><span class="p">)</span>
+
+<span class="c1"># This should print a "C"
+</span><span class="k">print</span> <span class="n">grade_converter</span><span class="p">(</span><span class="mi">70</span><span class="p">)</span>
+
+<span class="c1"># This should print an "F"
+</span><span class="k">print</span> <span class="n">grade_converter</span><span class="p">(</span><span class="mi">61</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• if , elif , else 를 사용하여 점수 구간별 A, B, C, D, F 등급을 반환한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A
+C
+F
+</code></pre></div></div>
+
+        
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+            style="display:block; border-bottom: initial;"
+            data-ad-client="ca-pub-7193702121518663"
+            data-ad-format="auto"></ins>
+        </div>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/date-and-time/" class="pagination--pager" title="Date and Time
+">Previous</a>
+    
+    
+      <a href="/pyglatin/" class="pagination--pager" title="PygLatin
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+<!-- google add starts 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 1em 0;">
+    <ins class="adsbygoogle"
+        style="display:block; border-bottom: initial;"
+        data-ad-client="ca-pub-7193702121518663"
+        data-ad-format="auto"></ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+ google add end -->
+
+
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>

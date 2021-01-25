@@ -1,0 +1,1812 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>PygLatin -  Peter’s github.io Blog</title>
+<meta name="description" content="We exercise until learning Python Syntaxk">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="PygLatin">
+<meta property="og:url" content="http://localhost:4000/p3-pyglatin/">
+
+
+  <meta property="og:description" content="We exercise until learning Python Syntaxk">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-01-25T22:20:45+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/p3-pyglatin/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/codecademy-python-list/" >Codecademy</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/connect/" class="">Connect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/signin/" class="">SignIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/login/" class="">LogIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/bk-syllabus/" class="">Syllabus</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How to use</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/explain-screen/" class="">Explain Screen</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/learn/" class=""> • Learn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/instructions/" class=""> • Instructions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/stuck-get-a-hint/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/solution/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Solution?</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/community-forums/" class=""> • Community Forums</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/report-bug/" class=""> • Report a Bug</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python3</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-pyglatin/" class="active">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="PygLatin">
+    <meta itemprop="description" content="We exercise until learning Python Syntaxk">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">PygLatin
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1--break-it-down">1.  Break It Down</a></li>
+  <li><a href="#2-ahoy-or-should-i-say-ahoyay">2. Ahoy! (or Should I Say Ahoyay!)</a></li>
+  <li><a href="#3-input">3. Input!</a></li>
+  <li><a href="#4-check-yourself">4. Check Yourself!</a></li>
+  <li><a href="#5-check-yourself-some-more">5. Check Yourself… Some More</a></li>
+  <li><a href="#6-pop-quiz">6. Pop Quiz!</a></li>
+  <li><a href="#7-ay-b-c">7. Ay B C</a></li>
+  <li><a href="#8-word-up">8. Word Up</a></li>
+  <li><a href="#9-move-it-on-back">9. Move it on Back</a></li>
+  <li><a href="#10-ending-up">10. Ending Up</a></li>
+  <li><a href="#11-testing-testing-is-this-thing-on">11. Testing, Testing, is This Thing On?</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>In this lesson we’ll put together all of the Python skills we’ve learned so far including string manipulation and branching. We’ll be building a Pyg Latin translator. (That’s Pig Latin for Python Programmers!)</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
+이 장에서는 지금까지 배운 것을 복습 해보자.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+<h3 id="1--break-it-down">1.  Break It Down</h3>
+
+<p>Now let’s take what we’ve learned so far and write a Pig Latin translator.</p>
+
+<p>Pig Latin is a language game, where you move the first letter of the word to the end and add “ay.” So “Python” becomes “ythonpay.” To write a Pig Latin translator in Python, here are the steps we’ll need to take:</p>
+
+<ol>
+  <li>Ask the user to input a word in English.</li>
+  <li>Make sure the user entered a valid word.</li>
+  <li>Convert the word from English to Pig Latin.</li>
+  <li>Display the translation result.</li>
+</ol>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• 지금까지 배운 Python 문법을 정리할 겸 배운것을 활용하여 응용 프로그램을 만든다.  <br />
+• 1st : 단어를 입력받아라.  <br />
+• 2nd : 입력 받은 단어를 비교하고 체크하라.  <br />
+• 3rd : 입력 받은 단어를 Pig Latin 문자로 변경하라.  <br />
+• 4th : 그 결과를 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>When you’re ready to get coding, click <code class="language-plaintext highlighter-rouge">Next</code>. Since we took the time to write out the steps for our solution, you’ll know what’s coming!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• Editor 화면의 소스가 이해가 되었으면, Next 를 클릭하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">skip</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• skip</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="2-ahoy-or-should-i-say-ahoyay">2. Ahoy! (or Should I Say Ahoyay!)</h3>
+
+<p>Let’s warm up by <strong>printing</strong> a welcome message for our translator users.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• 몸 풀기로  print 를 해보자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Please <strong>print</strong> the phrase “Pig Latin”.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• print “Pig Latin” 을 실행하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">"Hello World"</span><span class="p">)</span>
+</code></pre></div></div>
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• print (“Hello World”) 라고 사용한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">"Pig Latin"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• print 문을 사용하여 문자 “Pig Latin”을 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Pig Latin
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="3-input">3. Input!</h3>
+
+<p>Next, we need to ask the user for input.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Python2
+# name = raw_input("What's your name?")
+</span>
+<span class="c1">#Python3
+</span><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"What's your name?"</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>In the above example, <code class="language-plaintext highlighter-rouge">input()</code> accepts a string, prints it, and then waits for the user to type something and press Enter (or Return).</p>
+
+<p>In the interpreter, Python will ask:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>What's your name?
+</code></pre></div></div>
+
+<p>Once you type in your name and hit Enter, it will be stored in name.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch3. Input 에서는 문자열 입력함수를 학습한다.  <br />
+• Console 창에 다음과 같은 문자열이 출력된다.  <br />
+• e.g. <em>What’s your name?</em>   <br />
+• Console 창에 당신의 이름을 입력하라. 그리고 Enter를 클릭하라.      <br />
+• # Python2 함수 <code class="language-plaintext highlighter-rouge">raw_input()</code> 는 console 창에 문자열을 입력받는 함수이다.  <br />
+• # Python3 함수 <code class="language-plaintext highlighter-rouge">input()</code> 는 console 창에 문자열을 입력받는 함수이다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Python3 ]   <br />
+• python3 에서는 문자열 입력받는 함수로 <code class="language-plaintext highlighter-rouge">input()</code> 을 사용한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On line 4, use <strong>input(“Enter a word: “)</strong> to ask the user to enter a word. Save the results of <code class="language-plaintext highlighter-rouge">input()</code> in a variable called original.</p>
+  </li>
+  <li>
+    <p>Click <code class="language-plaintext highlighter-rouge">Run</code></p>
+  </li>
+  <li>
+    <p>Type a word in the console window and press Enter (or Return).</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 함수 <code class="language-plaintext highlighter-rouge">input()</code> 를 사용하여 다음과 같이 Editor 화면에 코딩하라.  <br />
+• e.g. input(“Enter a word: “)</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Your code should look something like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">variable_name</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Prompt'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Does it look like your code is stuck?</li>
+  <li>Is there a spinning circle?</li>
+  <li>That probably means that your code is waiting for you to type something!</li>
+  <li>Click inside the console window on the other side, type a word, then press Enter (or Return).</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 함수 raw_input() 은 Console 창에서 문자열을 입력 받는 함수이다.  <br />
+• Prompt 는 console 창에 출력되는 질문 메시지 이다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
+
+<span class="c1"># Start coding here!
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 함수 input(“Enter a word:”) 로 문자를 입력 받는다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="4-check-yourself">4. Check Yourself!</h3>
+
+<p>Next we need to ensure that the user actually typed something.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">empty_string</span> <span class="o">=</span> <span class="s">""</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">empty_string</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+  <span class="c1"># Run this block.
+</span>  <span class="c1"># Maybe print something?
+</span><span class="k">else</span><span class="p">:</span>
+  <span class="c1"># That string must have been empty.
+</span></code></pre></div></div>
+
+<p>We can check that the user’s string actually has characters!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch4. Check Yourself! 에서는 입력된 문자열의 길이를 구하는 함수를 학습한다.  <br />
+• 변수 empty_string 를 빈 문자열로 초기화 한다.  <br />
+• 변수 empty_string 에 저장된 문자열의 길이를 함수 len() 을 사용하여 구한다.  <br />
+• 변수 empty_string 의 길이가 0보다 큰지를 비교한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Write an <code class="language-plaintext highlighter-rouge">if</code> statement that verifies that the string has characters.</p>
+  </li>
+  <li>
+    <p>Add an <code class="language-plaintext highlighter-rouge">if</code> statement that checks that <code class="language-plaintext highlighter-rouge">len(original)</code> is greater than zero. Don’t forget the : at the end of the if statement!</p>
+  </li>
+  <li>
+    <p>If the string actually has some characters in it, <strong>print</strong> the user’s word.</p>
+  </li>
+  <li>
+    <p>Otherwise (i.e. an <code class="language-plaintext highlighter-rouge">else</code>: statement), please print <strong>“empty”</strong>.</p>
+  </li>
+  <li>
+    <p>You’ll want to run your code multiple times, testing an empty string and a string with characters. When you’re confident your code works, continue to the next exercise.</p>
+  </li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• if 문을 사용하여 입력 받은 값이 문자열인지 확인한다.  <br />
+• if 문의 조건절에서 변수 original 의 길이를 <code class="language-plaintext highlighter-rouge">len()</code> 함수를 이용하여 구한다.  <br />
+• if 문의 조건절에서 len(original) 값이 0 보다 큰지 비교한다.   <br />
+• # if 문 끝에는 <code class="language-plaintext highlighter-rouge">:</code> 을 꼭 확인한다.   <br />
+• else 문에서는 변수 original 에 문자가 입력되지 않으면, empty 를 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>Don’t forget that <code class="language-plaintext highlighter-rouge">&gt;</code> is the greater than operator!</p>
+  </li>
+  <li>Does it look like your code is stuck? Is there a spinning circle?</li>
+  <li>That probably means that your code is waiting for you to type something!</li>
+  <li>Click inside the console window on the other side, type a word, then press Enter (or Return).</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• <code class="language-plaintext highlighter-rouge">&gt;=</code> : 같거나 크다  <br />
+• <code class="language-plaintext highlighter-rouge">&gt;</code> : 크다        <br />
+• # Console 에서 문자를 입력하고 Enter 를 클릭하면 입력이 되는 것이다</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
+
+<span class="c1"># Start coding here!
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">original</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 변수 original 에 Console 에서 입력한 값이 들어간다.      <br />
+• 변수 original 에 문자가 들어가 있으면 해당 문자를 출력한다.(if 문)  <br />
+• 변수 original 에 문자가 없으면 “empty”를 출력한다.(else 문).</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Input the string, Hello, and Click the `Enter`
+Welcome to the Pig Latin Translator!
+Enter a word:Hello
+Hello
+
+# No input and Click the `Enter`
+Welcome to the Pig Latin Translator!
+Enter a word:
+empty
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="5-check-yourself-some-more">5. Check Yourself… Some More</h3>
+
+<p>Now we know we have a non-empty string. Let’s be even more thorough and check that our string only contains letters.</p>
+
+<p>Consider the following code:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="s">"J123"</span>
+<span class="n">x</span><span class="p">.</span><span class="n">isalpha</span><span class="p">()</span>  <span class="c1"># This will return 'False'
+</span></code></pre></div></div>
+
+<p>In the first line, we create a string with letters and numbers.</p>
+
+<p>The second line then runs the method <code class="language-plaintext highlighter-rouge">.isalpha()</code> which returns False since the string contains non-letter characters.</p>
+
+<p>You can use <code class="language-plaintext highlighter-rouge">.isalpha()</code> to check that a string doesn’t contain any non-letter characters! For example:</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch5. Check Yourself.. 에서는 함수 .isalpha()를 학습한다.   <br />
+• 함수 .isalpha() 은 변수 x 에 저장된 값이 알파벳 인지 검증한다.  <br />
+• 변수 x 에 알파벳이 있으면 True 값을 반환한다.  <br />
+• 변수 x 에 알파벳이 없으면 False 값을 반환한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Use and to add a second condition to your <code class="language-plaintext highlighter-rouge">if</code> statement.</li>
+  <li>
+    <p>In addition to your existing check that the string contains characters, you should also use <code class="language-plaintext highlighter-rouge">.isalpha()</code> to make sure that it only contains letters.</p>
+  </li>
+  <li>Don’t forget to keep the <strong>colon</strong> at the end of the <code class="language-plaintext highlighter-rouge">if</code> statement!</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 함수 .isalpha() 를 사용하여 변수에 입력된 값에 알파벳 포함 여부를 획인하라.  <br />
+• # 주의 : if 조건문 맨끝에 ( : ) 쓰는 것을 주의하자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>To combine multiple conditions in one <code class="language-plaintext highlighter-rouge">if</code>, you can use and between the two conditions, like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">has_chars</span><span class="p">(</span><span class="n">the_string</span><span class="p">)</span> <span class="ow">and</span> <span class="n">the_string</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">the_string</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• if 문의 조건절에는 1 개 이상의 조건들이 들어갈 수 있다.   <br />
+• the_string.isalpha() 은 변수 the_string 에 알파벳이 있는지 점검한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
+
+<span class="c1"># Start coding here!
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">original</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• if 문에서는 2가지를 비교한다.  <br />
+• 1st : 변수 original 에 값이 들어 있는지 ( if len(origial) &gt; 0)  <br />
+• 2nd : 변수 original 에 알파벳이 들어 있는지 ( original.isalpha() )  <br />
+• 그 외( else )에는 “empty”를 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Input the string "Hello"
+Welcome to the Pig Latin Translator!
+Enter a word:Hello
+Hello
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="6-pop-quiz">6. Pop Quiz!</h3>
+
+<p>When you finish one part of your program, it’s important to test it multiple times, using a variety of inputs.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch6. Pop Quiz! 에서는 입력 테스트를 학습한다.   <br />
+• 프로그램을 만들었으면 다양하게 입력하면서 테스트 해 보자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Take some time to <strong>test your current code</strong>.</li>
+  <li>Try some inputs that should pass and some that should fail.</li>
+  <li>
+    <p>Enter some strings that contain <strong>non-alphabetical</strong> characters and an <strong>empty</strong> string.</p>
+  </li>
+  <li>When you’re convinced your code is ready to go, click Next to move forward!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 현재 코드를 이용하여 테스트를 하라.  <br />
+• 통과할 값(알파벳이 포함된)과 실패할 값(알파벳이 없는 값)을 넣어라.  <br />
+• 알파벳이 포함된 문자열도 넣고, 없는것도 넣어라.  <br />
+• 소스가 확실히 이해가고, 다음 장으로 넘어갈 준비가 되면 다음장으로 넘어가라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>No trick here! Just test your code to make sure it works as expected.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 특별한 것이 없다. 그냥 테스트 하면 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">'Welcome to the Pig Latin Translator!'</span><span class="p">)</span>
+
+<span class="c1"># Start coding here!
+</span><span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a word:"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">original</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">print</span> <span class="p">(</span><span class="s">"empty"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 변수 original 에 입력된 문자열이 존재하고 알파벳이면 포함되어 있는지 비교한다.  <br />
+• if 조건절을 만족하면 변수 original 값이 출력된다.  <br />
+• 그렇지 않으면 “empty” 가 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Welcome to the Pig Latin Translator!
+Enter a word:abc_d
+empty
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Welcome to the Pig Latin Translator!
+Enter a word:abcd
+abcd
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="7-ay-b-c">7. Ay B C</h3>
+
+<p>Now we can get ready to start translating to Pig Latin! Let’s review the rules for translation:</p>
+
+<p>You move the first letter of the word to the end and then append the suffix ‘ay’. Example: python -&gt; ythonpay</p>
+
+<p>Let’s create a variable to hold our translation suffix.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch7. Ay B C 에서는 문자열을 제어하는 방법을 학습한다.      <br />
+• 문자열 <em>python</em> 의 첫글지 <em>p</em> 를 문자열 <em>python</em> 의 제일 뒤로 보낸다.      <br />
+• 그다음에 문자열 <em>ay</em> 를 붙이자.  <br />
+• e.g. <em>python</em> -&gt; <em>ythonpay</em>  <br />
+• 문자 <em>ay</em> 를 담을 변수를 만든다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Create a variable named <code class="language-plaintext highlighter-rouge">pyg</code> and set it equal to the suffix ‘ay’.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 pyg 를 만들고 여기에  문자열 <em>ay</em> 를 대입하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Remember to use a single equal sign to do the assignment and to put quotation marks around the string ‘ay’!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 문자열을 변수에 대입 할때는 <code class="language-plaintext highlighter-rouge">' '</code> 를 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 변수 pyg 를 생성하고 문자열 <em>ay</em> 를 입력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="8-word-up">8. Word Up</h3>
+
+<p>Let’s simplify things by making the letters in our word <strong>lowercase</strong>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">the_string</span> <span class="o">=</span> <span class="s">"Hello"</span>
+<span class="n">the_string</span> <span class="o">=</span> <span class="n">the_string</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+<p>The <code class="language-plaintext highlighter-rouge">.lower()</code> function does not modify the string itself, it simply returns a lowercase-version. In the example above, we store the result back into the same variable.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch8. Word Up 에서는 <code class="language-plaintext highlighter-rouge">.lower()</code> 함수를 학습한다.  <br />
+• 함수 <code class="language-plaintext highlighter-rouge">.lower()</code> 는 입력된 문자열을 모두 소문자로 변환하는 함수이다.  <br />
+• 변수 the_string 에 저장된 문자열을 소문자로 변경후, 변수 the_string에 재 저장한다.</p>
+
+<p>We also need to grab the first letter of the word.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">first_letter</span>  <span class="o">=</span> <span class="n">the_string</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">second_letter</span> <span class="o">=</span> <span class="n">the_string</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">third_letter</span>  <span class="o">=</span> <span class="n">the_string</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</code></pre></div></div>
+<p>Remember that we start counting from zero, not one, so we access the first letter by asking for [0].</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• 변수 the_string 에 저장되어 있는 문자 하나씩 추출할 수 있다.  <br />
+• 첫번째 문자에 접근할수 있는 주소(index)는 0번 부터 시작한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Inside your <code class="language-plaintext highlighter-rouge">if</code> statement:</p>
+
+    <ul>
+      <li>Create a new variable called <code class="language-plaintext highlighter-rouge">word</code> that holds the <code class="language-plaintext highlighter-rouge">.lower()</code>-case conversion of <code class="language-plaintext highlighter-rouge">original</code>.</li>
+      <li>Create a new variable called <code class="language-plaintext highlighter-rouge">first</code> that holds word[0], the <code class="language-plaintext highlighter-rouge">first</code> letter of <code class="language-plaintext highlighter-rouge">word</code>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• if 문 안에서 다음 2가지를 작성하라.  <br />
+• 변수 word 를 만들고, 변수 origanl 값을 소문자로 변경후 대입하라.  <br />
+• 변수 first 를 만들고, 변수 word[0] index 값을 대입하라. <br />
+• # word[0] 은 첫번째 문자이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>Use a variable called <code class="language-plaintext highlighter-rouge">word</code> to store the result of <code class="language-plaintext highlighter-rouge">original.lower()</code>.</p>
+  </li>
+  <li>
+    <p>Use a variable called <code class="language-plaintext highlighter-rouge">first</code> to store the result of <code class="language-plaintext highlighter-rouge">word[0]</code>.</p>
+  </li>
+  <li>
+    <p>And make sure that you do this inside your <code class="language-plaintext highlighter-rouge">if</code> statement.</p>
+  </li>
+  <li>
+    <p>Note: You can print out the values of the variables <code class="language-plaintext highlighter-rouge">word</code> and <code class="language-plaintext highlighter-rouge">first</code> to double-check your work (remove these print statements when you’re done debugging).</p>
+  </li>
+  <li>
+    <p>Remember that the <code class="language-plaintext highlighter-rouge">first</code> letter of a string can be found at index 0, like this:</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">first</span> <span class="o">=</span> <span class="s">"python"</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">first</span> <span class="c1"># "p"
+</span></code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 변수 word 를 만들고, 변수 word 에 orginal.lower() 결과값을 저장하라. <br />
+• 변수 first 에 변수 word[0] 결과값을 저장하라.  <br />
+• 위 2 가지를 if 문 구문 안에 구현하라.  <br />
+• 변수 word, first 값을 중간 중간 출력하여 확인하라. <br />
+• 변수 first 의 첫번째 index 는 0 이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
+
+<span class="n">original</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+  <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+  <span class="n">first</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 입력 변수 original 에 문자열을 입력 받는다.  <br />
+• 변수 original 에 문자열이 존재하고 알파벳만 존재하는지 비교한다.  <br />
+• 변수 word 에 original.lower()결과 값을 저장한다.  <br />
+• 변수 word[0] 의 글자를 변수 first 에 저장한다.  <br />
+• if 문의 조건을 만족 못하면, else 문에서는 문자열 ‘empty’ 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a word:ABCD
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="9-move-it-on-back">9. Move it on Back</h3>
+
+<p>Now that we have the first letter stored, we need to add both the letter and the string stored in <code class="language-plaintext highlighter-rouge">pyg</code> to the end of the original string.</p>
+
+<p>Remember how to <strong>concatenate</strong> (i.e. add) strings together?</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">greeting</span> <span class="o">=</span> <span class="s">"Hello "</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">"D. Y."</span>
+<span class="n">welcome</span> <span class="o">=</span> <span class="n">greeting</span> <span class="o">+</span> <span class="n">name</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch9. Move it on Back 에서는 변수내 문자열 연결을 학습한다.    <br />
+• 변수 pyg 에 ( + ) 를 이용하여 다른 문자열을 연결할 수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On a new line after where you created the <code class="language-plaintext highlighter-rouge">first</code> variable:</p>
+  </li>
+  <li>
+    <p>Create a new variable called <code class="language-plaintext highlighter-rouge">new_word</code> and set it equal to the concatenation of <code class="language-plaintext highlighter-rouge">word</code>, <code class="language-plaintext highlighter-rouge">first</code>, and <code class="language-plaintext highlighter-rouge">pyg</code>.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 first 다음 라인에서 작업하라. <br />
+• 변수 new_word 를 만들어라. <br />
+• 변수 new_word 에 변수 word , first , pyg 의 문자열을 연결하여라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>You can use <code class="language-plaintext highlighter-rouge">+</code> to concatenate (put together) two strings, like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">word</span> <span class="o">+</span> <span class="n">first</span> <span class="o">+</span> <span class="n">pyg</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• ( + ) 를 사용하여, 변수를 연결하면, 변수내 문자열이 연결된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
+
+<span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+  <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+  <span class="n">first</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="n">new_word</span> <span class="o">=</span> <span class="n">word</span> <span class="o">+</span> <span class="n">first</span> <span class="o">+</span> <span class="n">pyg</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 변수 new_word 에 변수 word, first , pyg 를 <code class="language-plaintext highlighter-rouge">+</code> 를 사용하여 연결한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a word:ABCD
+# no display result
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="10-ending-up">10. Ending Up</h3>
+
+<p>Well done! However, now we have the first letter showing up both at the beginning and near the end.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Charlie"</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="c1"># will print "C"
+</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
+<span class="c1"># will print "har"
+</span></code></pre></div></div>
+
+<ul>
+  <li>
+    <p>First we create a variable <code class="language-plaintext highlighter-rouge">s</code> and give it the string “Charlie”</p>
+  </li>
+  <li>
+    <p>Next we access the first letter of “Charlie” using <code class="language-plaintext highlighter-rouge">s[0]</code>. Remember letter positions start at 0.</p>
+  </li>
+  <li>
+    <p>Then we access a slice of “Charlie” using <code class="language-plaintext highlighter-rouge">s[1:4]</code>. This returns everything from the letter at position <code class="language-plaintext highlighter-rouge">1</code> up till position <code class="language-plaintext highlighter-rouge">4</code>.</p>
+  </li>
+  <li>
+    <p>We are going to slice the string just like in the 3rd example above.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch10. Ending Up 에서는 문자열을 잘라내는 방법을 학습한다.    <br />
+• 변수 s 를 만들고, 문자열 <em>Charlie</em> 를 대입한다.  <br />
+• 변수 s[0] 는 첫번째 글자를 가리킨다.  <br />
+• 변수 s[1:4] 는 변수 s 에서 문자열 <em>harl</em> 를 잘라낸다.  <br />
+• 이 장에서는 문자열을 잘라내는 연습을 한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Set <code class="language-plaintext highlighter-rouge">new_word</code> equal to the slice from the 1st index all the way to the end of <code class="language-plaintext highlighter-rouge">new_word</code>.</li>
+  <li>Use [1:len(new_word)] to do this.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 변수 new_word 에 index 1번 문자부터 마지막 index 문자까지 잘라서 대입하라.  <br />
+• <code class="language-plaintext highlighter-rouge">[ 1 : len(new_word) ]</code> 를 사용하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>The first character in a string is at index <code class="language-plaintext highlighter-rouge">0</code>.</p>
+  </li>
+  <li>
+    <p>Remember that slicing a string looks a lot like accessing a single character.</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># single character
+</span><span class="n">s</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="c1"># slice from 3 up until 6
+</span><span class="n">s</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Advanced Tip! When slicing until the end of the string, instead of providing <code class="language-plaintext highlighter-rouge">len(new_word)</code>, you can also not supply the second index:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_string</span> <span class="o">=</span> <span class="s">"Python"</span>
+<span class="n">my_string</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="c1"># "ython"
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]     <br />
+• 문자열의 주소는 0 부터 시작한다.  <br />
+• <code class="language-plaintext highlighter-rouge">s[3]</code> 은 4번째 문자를 가리킨다.  <br />
+• <code class="language-plaintext highlighter-rouge">s[3:6]</code> 은 <code class="language-plaintext highlighter-rouge">s[3]</code> 부터 <code class="language-plaintext highlighter-rouge">s[6]</code> 까지의 문자열을 잘라낸다.  <br />
+• <code class="language-plaintext highlighter-rouge">my_string[1:]</code> 은 해당 주소 1번부터 끝까지를 잘라낸다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
+
+<span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+  <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+  <span class="n">first</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="n">new_word</span> <span class="o">=</span> <span class="n">word</span> <span class="o">+</span> <span class="n">first</span> <span class="o">+</span> <span class="n">pyg</span>
+  <span class="n">new_word</span> <span class="o">=</span> <span class="n">new_word</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">new_word</span><span class="p">)]</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]     <br />
+ • new_word[ 1 : len(new_word) ] 는 다음과 같이 동작한다.  <br />
+ • len(new_word) 는 변수 new_word 의 길이를 계산한다.  <br />
+ • new_word[ 시작주소 : 끝주소 ]이다.  <br />
+ • 시작주소는 포함, 끝주소는 미포함이다.  <br />
+ • 변수 new_word 1번부터, 변수 길이만큼 잘라내라.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a word:ABCD
+# no display result
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYGLATIN</font>
+
+<h3 id="11-testing-testing-is-this-thing-on">11. Testing, Testing, is This Thing On?</h3>
+
+<p>Yay! You should have a fully functioning Pig Latin translator. Test your code thorougly to be sure everything is working smoothly.</p>
+
+<p>You’ll also want to take out any <code class="language-plaintext highlighter-rouge">print</code> statements you were using to help debug intermediate steps of your code. Now might be a good time to add some comments too! Making sure your code is clean, commented, and fully functional is just as important as writing it in the first place.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch11. Testing, Testing, is This Thing On? 에서는 테스팅을 학습한다.   <br />
+• 코드 사이에 <code class="language-plaintext highlighter-rouge">print</code> 문을 사용하여 변수값을 출력한다.  <br />
+• 코드가 어떻게 진행되는지 단계별로 확인한다.  <br />
+• 코드가 이해가 되었으면, 프로그램에 주석(#)을 단다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>When you’re sure your translator is working just the way you want it, click Run Code to finish this project.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ] <br />
+• Run 을 실행 후, 어떻게 동작되는지 확인한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ] <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pyg</span> <span class="o">=</span> <span class="s">'ay'</span>
+
+<span class="n">original</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">'Enter a word:'</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">original</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">original</span><span class="p">.</span><span class="n">isalpha</span><span class="p">():</span>
+  <span class="n">word</span> <span class="o">=</span> <span class="n">original</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+  <span class="n">first</span> <span class="o">=</span> <span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">first</span><span class="p">)</span>
+  <span class="n">new_word</span> <span class="o">=</span> <span class="n">word</span> <span class="o">+</span> <span class="n">first</span> <span class="o">+</span> <span class="n">pyg</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">new_word</span><span class="p">)</span>
+  <span class="n">new_word</span> <span class="o">=</span> <span class="n">new_word</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">new_word</span><span class="p">)]</span>
+  <span class="k">print</span> <span class="p">(</span><span class="n">new_word</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span> <span class="p">(</span><span class="s">'empty'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]     <br />
+• 입력값을 문자열 “ABCDEF”가 입력된다고 가정하자.  <br />
+• 변수 original 에 문자열 “ABCDEF”가 저장된다.  <br />
+• 변수 original 에 문자열이 들었거나, 모두 알파벳인지를 확인한다.  <br />
+• 변수 original 을 모두 소문자로 바꾼다.  <br />
+• 변수 first 에 변수 word[0], 입력한 첫글자 소문자 <code class="language-plaintext highlighter-rouge">a</code>가 저장된다.  <br />
+• 변수 new_word 에는 변수 word: “abcdef”, first: “a”, pyg: “ay” 가 저장된다. <br />
+• 변수 new_word 에, 변수 new_word[1:9]의 slicing 한 값이 저장된다.  <br />
+• else 문에서는 변수 original 에 문자열이 없거나, 모두 알파벳이 아니면 “empty”를 출력한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a word:ABCDEF
+a
+abcdefaay
+bcdefaay
+</code></pre></div></div>
+
+        
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+            style="display:block; border-bottom: initial;"
+            data-ad-client="ca-pub-7193702121518663"
+            data-ad-format="auto"></ins>
+        </div>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/p3-conditionals-control-flow/" class="pagination--pager" title="Conditionals and Control Flow
+">Previous</a>
+    
+    
+      <a href="/p3-functions/" class="pagination--pager" title="Functions
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+<!-- google add starts 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 1em 0;">
+    <ins class="adsbygoogle"
+        style="display:block; border-bottom: initial;"
+        data-ad-client="ca-pub-7193702121518663"
+        data-ad-format="auto"></ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+ google add end -->
+
+
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>

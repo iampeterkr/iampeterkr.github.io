@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-08-26T17:47:33+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-25T22:20:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
 
@@ -66,9 +66,9 @@
     &lt;p&gt;Set the following variables to their respective phrases:&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;caesar&lt;/code&gt; to “Graham”&lt;/li&gt;
-      &lt;li&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;praline&lt;/code&gt; to “John”&lt;/li&gt;
-      &lt;li&gt;Set &lt;code class=&quot;highlighter-rouge&quot;&gt;viking&lt;/code&gt; to “Teresa”&lt;/li&gt;
+      &lt;li&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;caesar&lt;/code&gt; to “Graham”&lt;/li&gt;
+      &lt;li&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;praline&lt;/code&gt; to “John”&lt;/li&gt;
+      &lt;li&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;viking&lt;/code&gt; to “Teresa”&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -112,7 +112,7 @@
 • 각 변수에 문자열을 대입한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Graham
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Graham
 John
 Teresa
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -132,8 +132,8 @@ Teresa
 &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;19&quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;food&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cheese&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;In the above example, we create a variable &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; and set it to the string value &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Ryan&quot;&lt;/code&gt;.
-We also set &lt;code class=&quot;highlighter-rouge&quot;&gt;age&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;19&quot;&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;food&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;cheese&quot;&lt;/code&gt;.
+&lt;p&gt;In the above example, we create a variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; and set it to the string value &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Ryan&quot;&lt;/code&gt;.
+We also set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;19&quot;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;food&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;cheese&quot;&lt;/code&gt;.
 Strings need to be within quotes.&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]    &lt;br /&gt;
@@ -148,7 +148,7 @@ Strings need to be within quotes.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Create a new variable &lt;code class=&quot;highlighter-rouge&quot;&gt;brian&lt;/code&gt; and assign it the string &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Hello life!&quot;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Create a new variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brian&lt;/code&gt; and assign it the string &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Hello life!&quot;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
@@ -176,7 +176,7 @@ Strings need to be within quotes.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello life!
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello life!
 The man screamed &quot;I love Python!&quot; so that everyone could hear.
 The man screamed 'I love Python!' so that everyone could hear.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -194,7 +194,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 • 문자열을 대입할때, 문자열 양 끝에 따옴표 ( “ “ ) or ( ‘ ‘ )를 사용한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; #skip
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; #skip
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
@@ -239,33 +239,33 @@ The man screamed 'I love Python!' so that everyone could hear.
     &lt;p&gt;Let’s apply all of the concepts you have learned one more time!&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;skill_completed&lt;/code&gt; and set it equal to the string “Python Syntax”.&lt;/p&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;skill_completed&lt;/code&gt; and set it equal to the string “Python Syntax”.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;exercises_completed&lt;/code&gt; and set it equal to &lt;code class=&quot;highlighter-rouge&quot;&gt;13&lt;/code&gt;. Create another variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;points_per_exercise&lt;/code&gt; and set it equal to &lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exercises_completed&lt;/code&gt; and set it equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;13&lt;/code&gt;. Create another variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;points_per_exercise&lt;/code&gt; and set it equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;point_total&lt;/code&gt; and set it equal to &lt;code class=&quot;highlighter-rouge&quot;&gt;100&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;point_total&lt;/code&gt; and set it equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Update &lt;code class=&quot;highlighter-rouge&quot;&gt;point_total&lt;/code&gt; to be what it was before plus the result of multiplying &lt;code class=&quot;highlighter-rouge&quot;&gt;exercises_completed&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;points_per_exercise&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;point_total&lt;/code&gt; to be what it was before plus the result of multiplying &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exercises_completed&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;points_per_exercise&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Add a comment above your declaration of points_per_exercise that says:&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The amount of points for each exercise may change, because points don't exist yet    
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The amount of points for each exercise may change, because points don't exist yet    
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Print a string to the console that says:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I got X points!
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I got X points!
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;with the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;point_total&lt;/code&gt; where &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; is.&lt;/p&gt;
+&lt;p&gt;with the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;point_total&lt;/code&gt; where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X&lt;/code&gt; is.&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]   &lt;br /&gt;
 • 변수 skill_completed 에 문자열 &lt;em&gt;Python Syntax&lt;/em&gt; 를 대입하라.   &lt;br /&gt;
@@ -284,7 +284,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;You can add to a variable by using &lt;code class=&quot;highlighter-rouge&quot;&gt;+=&lt;/code&gt;:&lt;/li&gt;
+  &lt;li&gt;You can add to a variable by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+=&lt;/code&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_to_add&lt;/span&gt;
@@ -328,7 +328,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 • 문자열, 정수형, 주석, += 연산, 사칙연산, 문자형 변환을 참조 하세요.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I got 165 points!
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I got 165 points!
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">13.ValueError</title><link href="http://localhost:4000/010113-ValueError/" rel="alternate" type="text/html" title="13.ValueError" /><published>2019-08-21T00:00:00+09:00</published><updated>2019-08-21T00:00:00+09:00</updated><id>http://localhost:4000/010113-ValueError</id><content type="html" xml:base="http://localhost:4000/010113-ValueError/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
@@ -339,7 +339,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;13-valueerror&quot;&gt;13. ValueError&lt;/h3&gt;
 
-&lt;p&gt;Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value &lt;code class=&quot;highlighter-rouge&quot;&gt;7&lt;/code&gt; is an &lt;strong&gt;integer&lt;/strong&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;7.&lt;/code&gt; is a &lt;strong&gt;float&lt;/strong&gt;, “7” is a &lt;strong&gt;string&lt;/strong&gt;. Sometimes we will want to convert variables to different datatypes. For example, if we wanted to print out an &lt;strong&gt;integer&lt;/strong&gt; as part of a &lt;strong&gt;string&lt;/strong&gt;, we would want to convert that &lt;strong&gt;integer to a string&lt;/strong&gt; first. We can do that using &lt;code class=&quot;highlighter-rouge&quot;&gt;str()&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7&lt;/code&gt; is an &lt;strong&gt;integer&lt;/strong&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7.&lt;/code&gt; is a &lt;strong&gt;float&lt;/strong&gt;, “7” is a &lt;strong&gt;string&lt;/strong&gt;. Sometimes we will want to convert variables to different datatypes. For example, if we wanted to print out an &lt;strong&gt;integer&lt;/strong&gt; as part of a &lt;strong&gt;string&lt;/strong&gt;, we would want to convert that &lt;strong&gt;integer to a string&lt;/strong&gt; first. We can do that using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;str()&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;I am &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; years old!&quot;&lt;/span&gt;
@@ -354,7 +354,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 &lt;p&gt;This would print:&lt;/p&gt;
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;I am 13 years old!&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Similarly, if we have a string like “7” and we want to perform arithmetic operations on it, we must convert it to a numeric datatype. We can do this using &lt;code class=&quot;highlighter-rouge&quot;&gt;int()&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Similarly, if we have a string like “7” and we want to perform arithmetic operations on it, we must convert it to a numeric datatype. We can do this using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int()&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;number1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;100&quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;number2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;10&quot;&lt;/span&gt;
@@ -372,7 +372,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 • 단, 계산할때, 함수 int()를 사용하여 정수형으로 바꾸어 주어야 한다.   &lt;br /&gt;
 • &lt;em&gt;주의)&lt;/em&gt; 문자형 number1 , number2를 계산 목적으로 정수형으로 바꾸어 주는 것이지,변수 number1 , number2 에 들어있는 데이타가 정수형이 되는것은 아니다.&lt;/p&gt;
 
-&lt;p&gt;If you use &lt;code class=&quot;highlighter-rouge&quot;&gt;int()&lt;/code&gt; on a floating point number, it will round the number down. To preserve the decimal, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;float()&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;If you use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int()&lt;/code&gt; on a floating point number, it will round the number down. To preserve the decimal, you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float()&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;string_num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;7.5&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string_num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -392,14 +392,14 @@ The man screamed 'I love Python!' so that everyone could hear.
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;product&lt;/code&gt; that contains the result of multiplying the float value of &lt;code class=&quot;highlighter-rouge&quot;&gt;float_1&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;float_2&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;product&lt;/code&gt; that contains the result of multiplying the float value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_2&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a string called &lt;code class=&quot;highlighter-rouge&quot;&gt;big_string&lt;/code&gt; that says:&lt;/p&gt;
+    &lt;p&gt;Create a string called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;big_string&lt;/code&gt; that says:&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The product was X
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The product was X
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;ul&gt;
   &lt;li&gt;with the value of product where the X is.&lt;/li&gt;
@@ -442,7 +442,7 @@ The man screamed 'I love Python!' so that everyone could hear.
 • float 형(type) 변수 product 를 문자열 형(type) 으로 변환 해주고 대입한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
@@ -489,10 +489,10 @@ The man screamed 'I love Python!' so that everyone could hear.
     &lt;p&gt;Someone has introduced themselves to you using comments in script.py.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Read the comments and then create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;age_is_12&lt;/code&gt; and set it to be &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt; depending on if this person’s age is 12.&lt;/p&gt;
+    &lt;p&gt;Read the comments and then create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age_is_12&lt;/code&gt; and set it to be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt; depending on if this person’s age is 12.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;name_is_maria&lt;/code&gt; and set it to be &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt; depending on if this person’s name is Maria.&lt;/p&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name_is_maria&lt;/code&gt; and set it to be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt; depending on if this person’s name is Maria.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -555,7 +555,7 @@ Apt 7
 Whosville, WZ 44494&quot;&quot;&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;This address spans multiple lines, and is still contained in one variable, &lt;code class=&quot;highlighter-rouge&quot;&gt;address_string&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This address spans multiple lines, and is still contained in one variable, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;address_string&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;When a string like this is not assigned to a variable, it works as a multi-line comment. This can be helpful as your code gets more complex:&lt;/p&gt;
 
@@ -564,7 +564,7 @@ takes in some input
 does An Important Calculation
 returns the modified input and a string that says &quot;Success!&quot; or &quot;Failure...&quot;
 &quot;&quot;&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;complicated&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;piece&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;complicated&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;piece&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]    &lt;br /&gt;
@@ -578,7 +578,7 @@ returns the modified input and a string that says &quot;Success!&quot; or &quot;
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;haiku&lt;/code&gt; and store this haiku as a multi-line string: The old pond, A frog jumps in: Plop!&lt;/li&gt;
+  &lt;li&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;haiku&lt;/code&gt; and store this haiku as a multi-line string: The old pond, A frog jumps in: Plop!&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
@@ -613,7 +613,7 @@ Plop!&quot;&quot;&quot;&lt;/span&gt;
 • “”” “”” 사용하여 여러줄의 문자열을 변수에 대입한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The old pond,
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The old pond,
 A frog jumps in:
 Plop!
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -679,22 +679,22 @@ Plop!
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;You have come home from the grocery store with &lt;code class=&quot;highlighter-rouge&quot;&gt;100&lt;/code&gt; cucumbers to split amongst yourself and your &lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt; roommates (&lt;code class=&quot;highlighter-rouge&quot;&gt;6&lt;/code&gt; people total).&lt;/p&gt;
+    &lt;p&gt;You have come home from the grocery store with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100&lt;/code&gt; cucumbers to split amongst yourself and your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; roommates (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6&lt;/code&gt; people total).&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable &lt;code class=&quot;highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; that holds &lt;code class=&quot;highlighter-rouge&quot;&gt;100&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;num_people&lt;/code&gt; that holds &lt;code class=&quot;highlighter-rouge&quot;&gt;6&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Create a variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; that holds &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_people&lt;/code&gt; that holds &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; that is the integer result of dividing &lt;code class=&quot;highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; that is the integer result of dividing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Print &lt;code class=&quot;highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; to the console.&lt;/p&gt;
+    &lt;p&gt;Print &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; to the console.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;You realize that the numbers don’t divide evenly and you don’t want to throw out the remaining cucumbers.&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; that holds the float result of dividing &lt;code class=&quot;highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; that holds the float result of dividing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Print &lt;code class=&quot;highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; to the console.&lt;/li&gt;
+  &lt;li&gt;Print &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; to the console.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]   &lt;br /&gt;
@@ -744,7 +744,7 @@ Plop!
 • float(cucumbers) 를 실수로 변경하여 계산한다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;16
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;16
 16.6666666667
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -772,7 +772,7 @@ Plop!
 &lt;span class=&quot;n&quot;&gt;float3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;5.5&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;
-You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notation, with e indicating the power of &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt;:&lt;/p&gt;
+You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notation, with e indicating the power of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# this evaluates to 150:
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;float4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.5e2&lt;/span&gt;
@@ -796,15 +796,15 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;You are going shopping. Let’s make a grocery list so that you can plan your budget. Store the number of cucumbers you want to buy in a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt;. Make sure it’s at least &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;, and that it’s the appropriate datatype! The store doesn’t sell partial cucumbers.&lt;/p&gt;
+    &lt;p&gt;You are going shopping. Let’s make a grocery list so that you can plan your budget. Store the number of cucumbers you want to buy in a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt;. Make sure it’s at least &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;, and that it’s the appropriate datatype! The store doesn’t sell partial cucumbers.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Each cucumber costs &lt;code class=&quot;highlighter-rouge&quot;&gt;3.25&lt;/code&gt; doubloons. Store the price per cucumber in a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;price_per_cucumber&lt;/code&gt;.&lt;/p&gt;
+    &lt;p&gt;Each cucumber costs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.25&lt;/code&gt; doubloons. Store the price per cucumber in a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;price_per_cucumber&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Create a new variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;total_cost&lt;/code&gt; which is the product of how many cucumbers you are going to buy and the cost per cucumber.&lt;/p&gt;
+    &lt;p&gt;Create a new variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;total_cost&lt;/code&gt; which is the product of how many cucumbers you are going to buy and the cost per cucumber.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Print out &lt;code class=&quot;highlighter-rouge&quot;&gt;total_cost&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Print out &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;total_cost&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;What datatype is it?&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -820,7 +820,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Use the operator &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use the operator &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
@@ -848,7 +848,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 • Python은 내부적으로 실수로 계산되어지고, total_cost 는 실수형 변수가 된다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;9.75
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;9.75
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
@@ -865,7 +865,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
 &lt;h3 id=&quot;8-comments&quot;&gt;8. Comments&lt;/h3&gt;
 
-&lt;p&gt;Most of the time, code should be written in such a way that it is easy to understand on its own. However, if you want to include a piece of information to explain a part of your code, you can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; sign. A line of text preceded by a &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; is called a comment. The machine does not run this code — it is only for humans to read. When you look back at your code later, comments may help you figure out what it was intended to do.&lt;/p&gt;
+&lt;p&gt;Most of the time, code should be written in such a way that it is easy to understand on its own. However, if you want to include a piece of information to explain a part of your code, you can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; sign. A line of text preceded by a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; is called a comment. The machine does not run this code — it is only for humans to read. When you look back at your code later, comments may help you figure out what it was intended to do.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# this variable counts how many rows of
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spreadsheet&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;we&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;have&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
@@ -886,7 +886,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Add a comment above the declaration of &lt;code class=&quot;highlighter-rouge&quot;&gt;city_pop&lt;/code&gt; with a description of what you think the variable contains.&lt;/li&gt;
+  &lt;li&gt;Add a comment above the declaration of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;city_pop&lt;/code&gt; with a description of what you think the variable contains.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
@@ -898,7 +898,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Use the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
@@ -919,7 +919,7 @@ You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notati
 • # 을 사용하여, 변수 city_pop 에 저장한  34000 에 대한 설명을 남겨둔다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;

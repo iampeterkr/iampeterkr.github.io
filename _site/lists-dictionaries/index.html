@@ -1,0 +1,2235 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Lists &amp; Dictionaries -  Peter’s github.io Blog</title>
+<meta name="description" content="We learn about Lists and Dictonaries Syntax.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's github.io Blog ">
+<meta property="og:title" content="Lists &amp; Dictionaries">
+<meta property="og:url" content="http://localhost:4000/lists-dictionaries/">
+
+
+  <meta property="og:description" content="We learn about Lists and Dictonaries Syntax.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-01-25T22:20:45+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/lists-dictionaries/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's github.io Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/"> Peter's github.io Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/codecademy-python-list/" >Codecademy</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/connect/" class="">Connect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/signin/" class="">SignIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/login/" class="">LogIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/bk-syllabus/" class="">Syllabus</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How to use</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/explain-screen/" class="">Explain Screen</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/learn/" class=""> • Learn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/instructions/" class=""> • Instructions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/stuck-get-a-hint/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/solution/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Solution?</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/community-forums/" class=""> • Community Forums</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/report-bug/" class=""> • Report a Bug</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-dictionaries/" class="active"> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python3</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Lists &amp; Dictionaries">
+    <meta itemprop="description" content="We learn about Lists and Dictonaries Syntax.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Lists &amp; Dictionaries
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-introduction-to-lists">1. Introduction to Lists</a></li>
+  <li><a href="#2-access-by-index">2. Access by Index</a></li>
+  <li><a href="#3-new-neighbors">3. New Neighbors</a></li>
+  <li><a href="#4-late-arrivals--list-length">4. Late Arrivals &amp; List Length</a></li>
+  <li><a href="#5-list-slicing">5. List Slicing</a></li>
+  <li><a href="#6-slicing-lists-and-strings">6. Slicing Lists and Strings</a></li>
+  <li><a href="#7-maintaining-order">7. Maintaining Order</a></li>
+  <li><a href="#8-for-one-and-all">8. For One and All</a></li>
+  <li><a href="#9-more-with-for">9. More with ‘for’</a></li>
+  <li><a href="#10-this-next-part-is-key">10. This Next Part is Key</a></li>
+  <li><a href="#11-new-entries">11. New Entries</a></li>
+  <li><a href="#12-changing-your-mind">12. Changing Your Mind</a></li>
+  <li><a href="#13-remove-a-few-things">13. Remove a Few Things</a></li>
+  <li><a href="#14-its-dangerous-to-go-alone-take-this">14. It’s Dangerous to Go Alone! Take This</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>Lists and dictionaries are powerful tools you can use to store, organize, and manipulate all kinds of information.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]         <br />
+이 장에서는 리스트와 딕셔너리를 학습한다.  <br />
+이들은 모든 종류의 데이타를 저장, 구성 및 조작 하는데 활용할 수 있는 강력한 도구이다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+<h3 id="1-introduction-to-lists">1. Introduction to Lists</h3>
+
+<p>Lists are a datatype you can use to store a collection of different pieces of information as a sequence under a single variable name. (Datatypes you’ve already learned about include strings, numbers, and booleans.)</p>
+
+<p>You can assign items to a list with an expression of the form</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">list_name</span> <span class="o">=</span> <span class="p">[</span><span class="n">item_1</span><span class="p">,</span> <span class="n">item_2</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>with the items in between brackets. A list can also be empty: empty_list = [].</p>
+
+<p>Lists are very similar to strings, but there are a few key differences</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch1. Introduction to Lists 에서는 리스트를 학습한다.       <br />
+• 리스트는 각기 다른 형태의 데이타 타입을 모을 수 있다.  <br />
+• 사용법은 다음과 같다.  <br />
+• e.g. 리스트 변수명 = [ item_1 , item_2 ]      <br />
+• e.g. test_list = [ item_1 , item_2 ]  <br />
+• 빈 리스트는 다음과 같이 만든다.  <br />
+• e.g. test_list = []   <br />
+• 리스트는 문자열과 비슷 하다는것을 알게 된다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>The list <code class="language-plaintext highlighter-rouge">zoo_animals</code> has three items (check them out on line 1). Go ahead and add a fourth! Just enter the name of your favorite animal (as a “string”) on line 1, after the final comma but before the closing ].</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• Editor 화면에 있는 리스트 zoo_animals 에는 3개의 값이 미리 들어가 있다.  <br />
+• 마지막에 4번째 항목에 자신이 좋아하는 동물 이름을 추가하라.  <br />
+• 주의) 동물 이름은 String 형으로 해야한다. 그리고, 리스트 마지막에 추가 해야한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Remember:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">list_name</span> <span class="o">=</span> <span class="p">[</span><span class="s">"item_0"</span><span class="p">,</span> <span class="s">"item_1"</span><span class="p">,</span> <span class="s">"item_2"</span><span class="p">,</span> <span class="s">"your_item"</span><span class="p">]</span>
+</code></pre></div></div>
+<ul>
+  <li>If your favorite animals are already on the list, add an animal that’s exciting, but inexpensive. (This is a poor zoo with very few animals.)</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]           <br />
+• 리스트 목록에 자신이 좋아하는 동물이 이미 있는가?  <br />
+• 그렇다면, 두번째로 좋아하는 동물을 추가하라.   <br />
+• 주의) 리스트에 같은 문자열이 있어서는 안된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zoo_animals</span> <span class="o">=</span> <span class="p">[</span><span class="s">"pangolin"</span><span class="p">,</span> <span class="s">"cassowary"</span><span class="p">,</span> <span class="s">"sloth"</span><span class="p">,</span> <span class="s">"dog"</span><span class="p">];</span>
+<span class="c1"># One animal is missing!
+</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">zoo_animals</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"The first animal at the zoo is the "</span> <span class="o">+</span> <span class="n">zoo_animals</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+  <span class="k">print</span> <span class="s">"The second animal at the zoo is the "</span> <span class="o">+</span> <span class="n">zoo_animals</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+  <span class="k">print</span> <span class="s">"The third animal at the zoo is the "</span> <span class="o">+</span> <span class="n">zoo_animals</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+  <span class="k">print</span> <span class="s">"The fourth animal at the zoo is the "</span> <span class="o">+</span> <span class="n">zoo_animals</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]              <br />
+• 리스트 zoo_animals 에 문자열 <em>dog</em> 을 추가하였다.  <br />
+• 리스트 zoo_animals 의 항목이 4개 이상이면, 리스트 zoo_aimals 의 값이 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The first animal at the zoo is the pangolin
+The second animal at the zoo is the cassowary
+The third animal at the zoo is the sloth
+The fourth animal at the zoo is the dog
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="2-access-by-index">2. Access by Index</h3>
+
+<p>You can access an individual item on the list by its index. An index is like an address that identifies the item’s place in the list. The index appears directly after the list name, in between brackets, like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">list_name</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>List indices begin with 0, not 1! You access the first item in a list like this: list_name[0]. The second item in a list is at index 1: list_name[1]. Computer scientists love to start counting from zero.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch2. Access by Index 에서는 index를 통하여 리스트에 접근하는 방법을 학습한다.  <br />
+• 리스트는 각 항목별로 주소(index)가 배정되어 있다.  <br />
+• 주소(index)는 0 부터 시작한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Write a statement that prints the result of adding the second and fourth items of the list. Make sure to access the list by index!</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="s">"Adding the numbers at indices 0 and 2..."</span>
+<span class="k">print</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="k">print</span> <span class="s">"Adding the numbers at indices 1 and 3..."</span>
+<span class="c1"># Your code here!
+</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]           <br />
+• <em># Your code here !</em> 밑에 다음 코드를 구현하라.  <br />
+• 리스트 numbers 의 2번째 항목(6)과 4번째 항목(8)을 더하여라.  <br />
+• 그리고 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Remember:</p>
+
+    <p>1 List indices begin with 0, not 1.
+2 The second item will have an index of 1.
+3 The fourth item will have an index of 3.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]           <br />
+• 리스트의 주소(index)는 0 부터 시작한다.  <br />
+• 2번째 항목의 주소(index)는 1 이다.  <br />
+• 4번째 항목의 주소(index)는 3 이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="s">"Adding the numbers at indices 0 and 2..."</span>
+<span class="k">print</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="k">print</span> <span class="s">"Adding the numbers at indices 1 and 3..."</span>
+<span class="c1"># Your code here!
+</span><span class="k">print</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 리스트 numbers[1]의 항목 값은 6 이다.    <br />
+• 리스트 numbers[3]의 항목 값은 8 이다.  <br />
+• 이 둘의 값을 더한 후, 그 결과 값을 출력하였다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Adding the numbers at indices 0 and 2...
+12
+Adding the numbers at indices 1 and 3...
+14
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" /> <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="3-new-neighbors">3. New Neighbors</h3>
+
+<p>A list index behaves like any other variable name! It can be used to access as well as assign values.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zoo_animals</span> <span class="o">=</span> <span class="p">[</span><span class="s">"pangolin"</span><span class="p">,</span> <span class="s">"cassowary"</span><span class="p">,</span> <span class="s">"sloth"</span><span class="p">,</span> <span class="s">"tiger"</span><span class="p">]</span>
+<span class="c1"># Last night our zoo's sloth brutally attacked 
+# the poor tiger and ate it whole.
+</span>
+<span class="c1"># The ferocious sloth has been replaced by a friendly hyena.
+</span><span class="n">zoo_animals</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s">"hyena"</span>
+
+<span class="c1"># What shall fill the void left by our dear departed tiger?
+# Your code here!
+</span>
+</code></pre></div></div>
+
+<p>You saw how to access a list index like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zoo_animals</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="c1"># Gets the value "pangolin"
+</span></code></pre></div></div>
+
+<p>You can see how assignment works on line 5:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zoo_animals</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s">"hyena"</span>
+<span class="c1"># Changes "sloth" to "hyena"
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch3. New Neighbors 에서는 리스트 항목값을 주소(index)를 이용하여 변경하는것을 학습한다.  <br />
+• 리스트 zoo_animals 의 index 값을 지정하면 다음 예와 같다.  <br />
+• e.g. zoo_animals[0]      <br />
+• 리스트 zoo_animals[0] 의 항목값 <em>pangolin</em> 을 읽을 수 있다.  <br />
+• 리스트 zoo_animals[2] = “hyena” 로 대입하면, 원래 <em>sloth</em> 을 <em>hyena</em> 로 변경된다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Write an assignment statement that will replace the item that currently holds the value <code class="language-plaintext highlighter-rouge">"tiger"</code> with another animal (as a string). It can be any animal you like.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ] <br />
+• 리스트 zoo_animals[3] = “tiger” 을 당신이 좋아하는 다른 동물로 바꾸어라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Remember:</p>
+
+    <ol>
+      <li>List indices begin with 0, not 1!</li>
+      <li>The fourth item will have an index of 3.</li>
+    </ol>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 주소(index)는 0 부터 시작한다.   <br />
+• 4번째 항목값은 index 값이 3 이다.</p>
+
+<p><br />
+<br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zoo_animals</span> <span class="o">=</span> <span class="p">[</span><span class="s">"pangolin"</span><span class="p">,</span> <span class="s">"cassowary"</span><span class="p">,</span> <span class="s">"sloth"</span><span class="p">,</span> <span class="s">"tiger"</span><span class="p">]</span>
+<span class="c1"># Last night our zoo's sloth brutally attacked 
+# the poor tiger and ate it whole.
+</span>
+<span class="c1"># The ferocious sloth has been replaced by a friendly hyena.
+</span><span class="n">zoo_animals</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s">"hyena"</span>
+
+<span class="c1"># What shall fill the void left by our dear departed tiger?
+# Your code here!
+</span><span class="n">zoo_animals</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="s">"lion"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 리스트 zoo_animals[3] 의 항목값 <em>tiger</em> 를 <em>lion</em> 으로 변경했다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="4-late-arrivals--list-length">4. Late Arrivals &amp; List Length</h3>
+
+<p>A list doesn’t have to have a fixed length. You can add items to the end of a list any time you like!</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">letters</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">]</span>
+<span class="n">letters</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">'d'</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">letters</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">letters</span>
+</code></pre></div></div>
+
+<ol>
+  <li>In the above example, we first create a list called <code class="language-plaintext highlighter-rouge">letters</code>.</li>
+  <li>Then, we add the string <code class="language-plaintext highlighter-rouge">'d'</code> to the end of the letters list.</li>
+  <li>Next, we print out 4, the length of the letters list.</li>
+  <li>Finally, we print out <code class="language-plaintext highlighter-rouge">['a', 'b', 'c', 'd']</code>.</li>
+</ol>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch4. Late Arrivals &amp; List Length 에서는 리스트에 항목을 추가하는 방법을 학습한다.  <br />
+• 리스트 letters 를 만든다.  <br />
+• 리스트 letters 에 항목값으로  ‘a’, ‘b’, ‘c’ 를 넣는다.  <br />
+• 문자열 ‘d’ 를 메소드 .append()를 사용하여, 리스트 letters 의 마지막 위치에 추가한다.  <br />
+• 리스트 letters 의 길이를 내장 함수 len() 을 사용하여 계산후 출력한다.<br />
+• 리스트 letters 의 전체 값을 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On lines 5, 6, and 7, append three more items to the <code class="language-plaintext highlighter-rouge">suitcase</code> list, just like the second line of the example above. (Maybe bring a bathing suit?)</p>
+  </li>
+  <li>
+    <p>Then, set <code class="language-plaintext highlighter-rouge">list_length</code> equal to the length of the suitcase list.</p>
+  </li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• Editor 화면 5, 6, 7 라인에서 리스트 suitcase 에 3개 이상의 항목값을 추가하라.  <br />
+• 리스트에 메소드 .append() 사용하라.  <br />
+• 변수 list_length 에 리스트 suitcase 의 길이를 함수 len()을 사용하여 저장하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>That bit of <code class="language-plaintext highlighter-rouge">%</code> magic on line 11 is the string formatting we learned earlier.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">%d</code> tells Python to expect an integer to insert instead of a string value (%s).</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 앞에서 배운바와 같이 ( % ) 는 변수의 값을 대체하는 기호이다.  <br />
+• e.g. ( %d )는 숫자를 출력하기 위한 대체 표현이다.  <br />
+• e.g. ( %s )는 문자열을 출력하기 위한 대체 표현이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">suitcase</span> <span class="o">=</span> <span class="p">[]</span> 
+<span class="n">suitcase</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">"sunglasses"</span><span class="p">)</span>
+
+<span class="c1"># Your code here!
+</span><span class="n">suitcase</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">"shirt"</span><span class="p">)</span>
+<span class="n">suitcase</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">"pants"</span><span class="p">)</span>
+<span class="n">suitcase</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">"shoes"</span><span class="p">)</span>
+
+<span class="n">list_length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">suitcase</span><span class="p">)</span> <span class="c1"># Set this to the length of suitcase
+</span>
+<span class="k">print</span> <span class="s">"There are %d items in the suitcase."</span> <span class="o">%</span> <span class="p">(</span><span class="n">list_length</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">suitcase</span>
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 <em>shirt</em> 를 추가 하였다.  <br />
+• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 <em>pants</em> 를 추가 하였다.  <br />
+• 리스트 suitcase 에 .append() 메서드를 사용하여, 문자열 <em>shoes</em> 를 추가 하였다.  <br />
+• 리스트 suitcase 의 길이를 len() 내장 함수를 사용하여 계산한다.  <br />
+• 변수 list_length 에 len(suitcase) 의 결과를 대입한다.  <br />
+• 변수 list_length 의 값을 ( %d ) 에 대체하여 출력한다.  <br />
+• 리스트 suitcase 를 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>There are 4 items in the suitcase.
+['sunglasses', 'shirt', 'pants', 'shoes']
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="5-list-slicing">5. List Slicing</h3>
+
+<p>Sometimes, you only want to access a portion of a list. Consider the following code:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">letters</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">,</span> <span class="s">'d'</span><span class="p">,</span> <span class="s">'e'</span><span class="p">]</span>
+<span class="nb">slice</span> <span class="o">=</span> <span class="n">letters</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">slice</span>
+<span class="k">print</span> <span class="n">letters</span>
+</code></pre></div></div>
+
+<p>What is this code doing?</p>
+
+<p><strong>First</strong>, we create a list called <code class="language-plaintext highlighter-rouge">letters</code>.</p>
+
+<p>Then, we take a subsection of the list and store it in the slice list. We do this by defining the indices we want to include after the name of the list: <code class="language-plaintext highlighter-rouge">letters[1:3]</code>. In Python, when we specify a portion of a list in this manner, we include the element with the first index, 1, but we exclude the element with the second index, 3.</p>
+
+<p>Next, we print out slice, which will print <code class="language-plaintext highlighter-rouge">['b','c']</code>. Remember, in Python indices always start at 0, so the 1 element is actually b.</p>
+
+<p>Finally, we print out <code class="language-plaintext highlighter-rouge">['a', 'b', 'c', 'd', 'e']</code>, notice that we did not modify the original letters list.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch5. List Slicing 에서는 문자열의 특정 범위를 잘라내는 방법을 학습한다.      <br />
+• 리스트 letters 의 특정 항목값 ‘b’, ‘c’ 만 추출 하려면 어떻게 해야 할까?  <br />
+• 첫번째 방법은, 해당 문자열의 index 값을 지정해서 추출할 수 있다.  <br />
+• e.g. letters[1]      <br />
+• 이 장에서는 index 값의 범위를 지정하여 추출할 수 있다.  <br />
+• e.g. letters[1 : 3]          <br />
+• 리스트 letters[1 : 3]은 리스트 letters 1번 주소부터 3번 주소까지 잘라낸다는 의미이다.  <br />
+• 단, 잘라내는 규칙은 다음과 같다.   <br />
+• e.g. letters[Begin : End]      <br />
+• - Begin : 첫번째 index 포함.  <br />
+• - End :  마지막 index 미포함.  <br />
+• 리스트 index 는 0 부터 시작한다.  <br />
+• 리스트를 추출하여 출력하여도 해당 리스트의 원본은 변함이 없다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On line 7, create a list called <code class="language-plaintext highlighter-rouge">middle</code> containing only the two middle items from <code class="language-plaintext highlighter-rouge">suitcase</code>.</p>
+  </li>
+  <li>
+    <p>On line 10, create a list called <code class="language-plaintext highlighter-rouge">last</code> made up only of the last two items from <code class="language-plaintext highlighter-rouge">suitcase</code>.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]           <br />
+• Editor 화면, 7번 라인에서, 리스트 middle 를 만들어라.  <br />
+• 리스트 middle 에는, 리스트 suitcase 의 중간 항목값 2개를 추출하여 저장하라.  <br />
+• 10 라인에서, 리스트 last 를 만들어라.  <br />
+• 리스트 last 에는, 리스트 suitcase 의 마지막 항목값 2개를 추출하여 저장하라.</p>
+
+<p><br />
+<br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>In order to slice the last two items from the list
+<code class="language-plaintext highlighter-rouge">myList = [0,1,2,3,4]</code>, the ending index of your slice will be one beyond the actual last index of the list. Check it out:  <br />
+<br />
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">myList</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<span class="c1"># Returns [3, 4]    
+</span></code></pre></div>    </div>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]           <br />
+• myList[3 : 5]는 myList[3]부터 myList[5] 까지 잘라낸다.  <br />
+• myList[3]은 포함된다. (항목값 : 3 )   <br />
+• myList[5]는 미포함된다. (myList[4] 항목값 : 4까지 잘라낸다.) <br />
+• 즉, [0, 1, 2, 3, 4] 중  값 [3, 4] 만 잘라낸다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">suitcase</span> <span class="o">=</span> <span class="p">[</span><span class="s">"sunglasses"</span><span class="p">,</span> <span class="s">"hat"</span><span class="p">,</span> <span class="s">"passport"</span><span class="p">,</span> <span class="s">"laptop"</span><span class="p">,</span> <span class="s">"suit"</span><span class="p">,</span> <span class="s">"shoes"</span><span class="p">]</span>
+
+<span class="c1"># The first and second items (index zero and one)
+</span><span class="n">first</span> <span class="o">=</span> <span class="n">suitcase</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="c1"># Third and fourth items (index two and three)
+</span><span class="n">middle</span> <span class="o">=</span> <span class="n">suitcase</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+
+<span class="c1"># The last two items (index four and five)
+</span><span class="n">last</span> <span class="o">=</span> <span class="n">suitcase</span><span class="p">[</span><span class="mi">4</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• suitcase[2 : 4] 는 index 2, 3 인 <em>passport</em>, <em>laptop</em> 이 추출된다.  <br />
+• suitcase[4 : 6] 는 index 4, 5 인 <em>suit</em>, <em>shoes</em> 가 추출된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="6-slicing-lists-and-strings">6. Slicing Lists and Strings</h3>
+
+<p>You can slice a string exactly like a list! In fact, you can think of strings as lists of characters: each character is a sequential item in the list, starting from index 0.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_list</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>
+<span class="c1"># Grabs the first two items
+</span><span class="n">my_list</span><span class="p">[</span><span class="mi">3</span><span class="p">:]</span>
+<span class="c1"># Grabs the fourth through last items
+</span></code></pre></div></div>
+
+<p>If your list slice includes the very first or last item in a list (or a string), the index for that item doesn’t have to be included.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ] <br />
+• Ch6. Slicing Lists and Strings 에서는 문자열 Slicing 을 학습한다.  <br />
+• 문자열도 각 알파벳마다 index가 부여되어 있다.   <br />
+• 문자열도 각 index 값으로 잘라 낼수 있다.   <br />
+• my_list[ : 2] 는 처음부터 index 2번(미포함)까지 잘라낸다.(처음부터 2번째까지)  <br />
+• my_list[3 : ] 는 index 3번(포함)부터 끝까지 잘라낸다.(4번째 항목부터 끝까지)</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Assign to <code class="language-plaintext highlighter-rouge">dog</code> a slice of <code class="language-plaintext highlighter-rouge">animals</code> from index 3 up until but not including index 6.</p>
+  </li>
+  <li>
+    <p>Assign to <code class="language-plaintext highlighter-rouge">frog</code> a slice of <code class="language-plaintext highlighter-rouge">animals</code> from index 6 until the end of the string.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]            <br />
+• 리스트 dog에 변수 animals 의 인덱스 3번(포함) ~ 6번(미포함)까지 잘라내서 저장하라.  <br />
+• 리스트 frog 에 animals 의 인덱스 6번(포함) 부터 끝까지 잘라내서 저장하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Remember: you don’t need the first index if you’re starting from the beginning of the string, and you don’t need the second index if you’re going all the way to the end!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]            <br />
+• 첫번째 index(1) 포함, 마지막 index(5) 미 포함  <br />
+• e.g. list[1 : 5]   <br />
+• 마지막 index( ) 를 적지 않으면 범위는 끝까지임  <br />
+• e.g. list[1 : ]</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">animals</span> <span class="o">=</span> <span class="s">"catdogfrog"</span>
+
+<span class="c1"># The first three characters of animals
+</span><span class="n">cat</span> <span class="o">=</span> <span class="n">animals</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="c1"># The fourth through sixth characters
+</span><span class="n">dog</span> <span class="o">=</span> <span class="n">animals</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span>
+
+<span class="c1"># From the seventh character to the end
+</span><span class="n">frog</span> <span class="o">=</span> <span class="n">animals</span><span class="p">[</span><span class="mi">6</span><span class="p">:]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]            <br />
+• animals[ : 3] 은 index 0(포함)부터 index 3(미포함)까지 잘라낸다.(e.g. ‘cat’)  <br />
+• animals[3 : 6] 은 index 3(포함)부터 index 6(미포함)까지 잘라낸다.(e.g. ‘dog’)  <br />
+• anmals[6 : ] 은 index 6(포함) 부터 끝까지 잘라낸다. (e.g. ‘frog’)</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="7-maintaining-order">7. Maintaining Order</h3>
+
+<p>Sometimes you need to search for an item in a list.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s">"ant"</span><span class="p">,</span> <span class="s">"bat"</span><span class="p">,</span> <span class="s">"cat"</span><span class="p">]</span>
+<span class="k">print</span> <span class="n">animals</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="s">"bat"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>First, we create a list called <code class="language-plaintext highlighter-rouge">animals</code> with three strings.</p>
+  </li>
+  <li>
+    <p>Then, we print the first index that contains the string “bat”, which will print 1.</p>
+  </li>
+</ul>
+
+<p>We can also insert items into a list.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">animals</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s">"dog"</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">animals</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>We insert “dog” at index 1, which moves everything down by 1.</p>
+  </li>
+  <li>
+    <p>We print out [“ant”, “dog”, “bat”, “cat”]</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch7. Maintaining Order 에서는 리스트의 특정 index에 항목을 추가하는 방법을 학습한다.  <br />
+• 리스트 animals 에 3개의 문자열 <em>ant</em>, <em>bat</em>, <em>cat</em> 이 들어 있다.   <br />
+• 리스트 animals 의 index 1번 자리에 <em>dog</em> 를 추가하려면 다음과 같이 한다.  <br />
+• e.g. animals.insert(1, “dog”)  <br />
+• 추가 하고자 하는 index 번호와 항목값을 지정해 준다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>Use the <code class="language-plaintext highlighter-rouge">.index(item)</code> function to find the index of “duck”.</li>
+  <li>Assign that result to a variable called <code class="language-plaintext highlighter-rouge">duck_index</code>.</li>
+  <li>Then <code class="language-plaintext highlighter-rouge">.insert(index, item)</code> the string “cobra” at that index.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]            <br />
+• 리스트 animals 에서 <em>duck</em> 의 index 값을 찾아라.   <br />
+• 해당 항목의 index 값은 메서드 .index(“duck”) 를 사용하여 찾는다.  <br />
+• 항목값 <em>duck</em> 의 index 값을 변수 duck_index 에 저장하라. <br />
+• 리스트 animals 의 문자열 <em>duck</em> 의 index 자리에 <em>cobra</em> 추가하라.  <br />
+• 메서드 .insert(index, item) 을 활용하여 추가하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>You’re not replacing “duck” with “cobra”—you’re just finding “duck”, then inserting “cobra”.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• (주의) <em>duck</em> 대신 <em>cobra</em> 항목 값으로 대체하는 것이 아니다.  <br />
+• 문자열 <em>duck</em> 의 index 값 자리에, <em>cobra</em> 를 넣는 것이다.  <br />
+• 즉, <em>duck</em> 자리에 <em>cobra</em>가 삽입 되는 것이다.  <br />
+• 정상적으로 완료되면 <em>duck</em>는 <em>cobra</em> 에 다음에 올 것이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s">"aardvark"</span><span class="p">,</span> <span class="s">"badger"</span><span class="p">,</span> <span class="s">"duck"</span><span class="p">,</span> <span class="s">"emu"</span><span class="p">,</span> <span class="s">"fennec fox"</span><span class="p">]</span>
+<span class="n">duck_index</span> <span class="o">=</span> <span class="n">animals</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="s">"duck"</span><span class="p">)</span><span class="c1"># Use index() to find "duck"
+</span>
+<span class="c1"># Your code here!
+</span><span class="n">animals</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">duck_index</span><span class="p">,</span><span class="s">"cobra"</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="n">animals</span> <span class="c1"># Observe what prints after the insert operation
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 리스트 animals 에서 <em>duck</em>의 index 값은 2 이다.  <br />
+• 변수 duck_index 에 <em>duck</em> 의 index 값 2가 저장된다.  <br />
+• index 2 번 자리에 문자열 <em>cobra</em>를 삽입한다.  <br />
+• e.g. animals.insert(duck_index, “cobra”)  <br />
+• 변수 animals 를 출력한다.  <br />
+• 문자열 <em>duck</em> 의 index 값은 3 이 된다.   <br />
+• 문자열 <em>cobra</em> 의 index 값은 2 가 된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>['aardvark', 'badger', 'cobra', 'duck', 'emu', 'fennec fox']
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="8-for-one-and-all">8. For One and All</h3>
+
+<p>If you want to do something with every item in the list, you can use a for loop. If you’ve learned about for loops in JavaScript, pay close attention! They’re different in Python.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">variable</span> <span class="ow">in</span> <span class="n">list_name</span><span class="p">:</span>
+  <span class="c1"># Do stuff!
+</span></code></pre></div></div>
+
+<p>A <code class="language-plaintext highlighter-rouge">variable</code> name follows the <code class="language-plaintext highlighter-rouge">for</code> keyword; it will be assigned the value of each list item in turn.</p>
+
+<p>Then in <code class="language-plaintext highlighter-rouge">list_name</code> designates <code class="language-plaintext highlighter-rouge">list_name</code> as the list the loop will work on. The line ends with a colon <code class="language-plaintext highlighter-rouge">(:)</code> and the indented code that follows it will be executed once per item in the list.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch8. For One and All 에서는 리스트의 값들을 추출하는것을 학습한다.  <br />
+• 리스트의 항목(값)들을 모두 뽑아 내려면 해당 index 값을 지정해 주면 된다.  <br />
+• for loop 문을 사용하여 리스트의 항목을 추출할 수 있다.  <br />
+• e.g. for variable in list_name:    <br />
+• 변수 variable 는 리스트 list_name 에서 뽑아낸 항목을 저장하는 변수이다.   <br />
+• for 문의 끝에는 ( : ) 이 있다.  <br />
+• for 문의 내용은 들여쓰기를 하여 작성한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Write a statement in the indented part of the for-loop that prints a <code class="language-plaintext highlighter-rouge">number</code> equal to <code class="language-plaintext highlighter-rouge">2 * number</code> for every list item.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• for 문을 사용하여 리스트 my_list 에서 추출한 값을 변수 number 에 저장하라.  <br />
+• 변수 number 값을 ( 2 x number ) 하여 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Each list item is assigned to the user-defined variable <code class="language-plaintext highlighter-rouge">number</code> in turn. All you need to do is print two times number in the body of the loop (the indented part).</p>
+  </li>
+  <li>
+    <p>The for loop will automatically execute your code as many times as there are items in my_list!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• 변수 number 에 리스트 my_list 항목(값) 들이 하나씩 추출되어 자동으로 저장된다.  <br />
+• 변수 number 에 x 2 를 하여 출력한다.  <br />
+• 단, for 문을 쓰기 위해서는 들여 쓰기를 주의 해야한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">my_list</span><span class="p">:</span>
+  <span class="c1"># Your code here
+</span>  <span class="k">print</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">number</span><span class="p">)</span>
+  
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]       <br />
+• 리스트 my_list 의 값 [ 1, 9, 3, 8, 5, 7 ] 이 변수 number 에 자동 저장된다.  <br />
+• for 문을 반복적으로 돌면서, number x 2 계산된 값이 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2
+18
+6
+16
+10
+14
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="9-more-with-for">9. More with ‘for’</h3>
+
+<p>If your list is a jumbled mess, you may need to <code class="language-plaintext highlighter-rouge">sort()</code> it.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s">"cat"</span><span class="p">,</span> <span class="s">"ant"</span><span class="p">,</span> <span class="s">"bat"</span><span class="p">]</span>
+<span class="n">animals</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">animals</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">animal</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>First, we create a list called <code class="language-plaintext highlighter-rouge">animals</code> with three strings. The strings are not in alphabetical order.</p>
+  </li>
+  <li>
+    <p>Then, we sort <code class="language-plaintext highlighter-rouge">animals</code> into alphabetical order. Note that <code class="language-plaintext highlighter-rouge">.sort()</code> modifies the list rather than returning a new list.</p>
+  </li>
+  <li>
+    <p>Then, for each item in <code class="language-plaintext highlighter-rouge">animals</code>, we print that item out as “ant”, “bat”, “cat” on their own line each.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]       <br />
+• Ch9. More with ‘for’  에서는 다양한 종류의 for 문을 학습한다.  <br />
+• 리스트 animals 에는 3개의 문자열이 알파벳 순서와 상관없이 뒤죽박죽 들어 있다.  <br />
+• 메서드 .sort() 를 사용하여, 리스트 animals 를 알파벳 오름차순으로 정렬한다.  <br />
+• 이후, 정렬된 리스트 animals 를 출력 한다.  <br />
+• 리스트 animals 의 각 항목(값)이, 알파벳 오름차순으로 정렬 되어 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Write a for-loop that iterates over <code class="language-plaintext highlighter-rouge">start_list</code> and <code class="language-plaintext highlighter-rouge">.append()</code>s each number squared (x ** 2) to <code class="language-plaintext highlighter-rouge">square_list</code>.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>Then sort <code class="language-plaintext highlighter-rouge">square_list</code>!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]       <br />
+• 리스트 start_list 에 리스트 square_list 의 항목값의 제곱을 저장하라.  <br />
+• 메서드 .append() 를 사용하라.  <br />
+• 리스트 square_list 를 sort 함수를 사용하여 정렬하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>You will need to use:</p>
+
+    <ol>
+      <li>A for loop</li>
+      <li>The .append() method</li>
+      <li>The .sort() method</li>
+    </ol>
+  </li>
+  <li>
+    <p>Feel free to peek back at previous exercises in this section if you need to!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• for  문을 사용하라.  <br />
+• 메서드 .append() 를 사용하라.  <br />
+• 메서드 .sort() 를 사용하라.  <br />
+• 메서드 .append(), .sort() 사용법이 기억이 나지 않으면, 배운것을 다시 확인하라.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">start_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="n">square_list</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="c1"># Your code here!
+</span><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">start_list</span><span class="p">:</span>
+  <span class="n">square_list</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">number</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">square_list</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span>
+
+<span class="k">print</span> <span class="n">square_list</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• for 문에서, 리스트 start_list 의 각 항목값을 변수 number 에 저장한다.  <br />
+• 변수 number 를 메서드 .append()를 활용하여 제곱을 구한다.  <br />
+• 변수 number 제곱한 값을 리스트 square_list 에 저장한다.   <br />
+• 리스트 square_list 를 메서드 .sort() 를 사용하여 정렬한다.  <br />
+• 리스트 square_list 를 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 4, 9, 16, 25]
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="10-this-next-part-is-key">10. This Next Part is Key</h3>
+
+<p>A dictionary is similar to a list, but you access values by looking up a key instead of an index. A key can be any string or number. Dictionaries are enclosed in curly braces, like so:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s">'key1'</span> <span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'key2'</span> <span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'key3'</span> <span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+</code></pre></div></div>
+
+<p>This is a dictionary called <code class="language-plaintext highlighter-rouge">d</code> with three key-value pairs. The key ‘key1’ points to the value 1, ‘key2’ to 2, and so on.</p>
+
+<p>Dictionaries are great for things like phone books (pairing a name with a phone number), login pages (pairing an e-mail address with a username), and more!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch10. This Next Part is Key 에서는 딕셔너리에 대하여 학습한다.  <br />
+• 딕셔너리는 리스트와 비슷하다.   <br />
+• 리스트는 눈에 보이지 않는 index를 가지고 해당 항목(값)을 나타낸다.  <br />
+• 딕셔너리는 key 를 이용하여 해당 항목(값)을 나타낸다.   <br />
+• e.g. 딕셔너리 d = {‘key1’ : 1, ‘key2’ : 2, ‘key3’ : 3}   <br />
+• 딕셔너리 항목(값)은 ( key : value ) 쌍으로 구성되어 있다.  <br />
+• ‘key1’ 을 키(key)라고 부르며, 이와 매칭되는 값 1 을 값(value)이라 부른다.  <br />
+• key 는 문자열, 숫자 모두 사용 가능하다.  <br />
+• key 와 value 는 한 쌍이다.  <br />
+• key 는 중복된 이름을 가질수 없다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Print the values stored under the <code class="language-plaintext highlighter-rouge">'Sloth'</code> and <code class="language-plaintext highlighter-rouge">'Burmese Python'</code> keys. Accessing dictionary values by key is just like accessing list values by index:</li>
+</ul>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">residents</span><span class="p">[</span><span class="s">'Puffin'</span><span class="p">]</span><span class="c1"># Gets the value 104
+</span></code></pre></div></div>
+
+<ul>
+  <li>Check the Hint if you need help!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 딕셔너리 residents 에서 key 값이 ‘Sloth’ 인 것의 값(value)를 출력하라.  <br />
+• 딕셔너리 residents 에서 key 값이 ‘Python’ 인 것의 값(value)를 출력하라.  <br />
+• 참고로, 리스트는 index 값을 지정하여 해당 값을 찾는다.   <br />
+• 하지만, 딕셔너리는 key 값을 지정하여 해당 값을 찾는다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>As an example, code has been provided that prints the value stored under the ‘Puffin’ key.</li>
+  <li>The code on line 4 It will print 104 (do you see why?).</li>
+  <li>Your code should be very similar, but should target the other two keys (‘Sloth’ and ‘Burmese Python’).</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• 딕셔너리 residents 의 key ‘Puffin’을 지정하면 해당 key의 value 값 104가 반환된다.  <br />
+• e.g. print residents[‘Puffin’] # 104</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Assigning a dictionary with three key-value pairs to residents:
+</span><span class="n">residents</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Puffin'</span> <span class="p">:</span> <span class="mi">104</span><span class="p">,</span> <span class="s">'Sloth'</span> <span class="p">:</span> <span class="mi">105</span><span class="p">,</span> <span class="s">'Burmese Python'</span> <span class="p">:</span> <span class="mi">106</span><span class="p">}</span>
+
+<span class="k">print</span> <span class="n">residents</span><span class="p">[</span><span class="s">'Puffin'</span><span class="p">]</span> <span class="c1"># Prints Puffin's room number
+</span>
+<span class="c1"># Your code here!
+</span><span class="k">print</span> <span class="n">residents</span><span class="p">[</span><span class="s">'Sloth'</span><span class="p">]</span>
+<span class="k">print</span> <span class="n">residents</span><span class="p">[</span><span class="s">'Burmese Python'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]       <br />
+• residents[‘Sloth’] 와 같이 ( [] ) 에 Key 값을 주면 해당 key와 매치되는 value(값) 105 를 반환한다.</p>
+
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>104
+105
+106
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+
+<h3 id="11-new-entries">11. New Entries</h3>
+
+<p>Like Lists, Dictionaries are mutable. This means they can be changed after they are created. One advantage of this is that we can add new key/value pairs to the dictionary after it is created like so:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dict_name</span><span class="p">[</span><span class="n">new_key</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_value</span>
+</code></pre></div></div>
+
+<p>An empty pair of curly braces <code class="language-plaintext highlighter-rouge">{}</code> is an empty dictionary, just like an empty pair of <code class="language-plaintext highlighter-rouge">[]</code> is an empty list.</p>
+
+<p>The length <code class="language-plaintext highlighter-rouge">len()</code> of a dictionary is the number of key-value pairs it has. Each pair counts only once, even if the value is a list. (That’s right: you can put lists inside dictionaries!)</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch11. New Entries 에서는 딕셔너리의 다양한 기능을 학습한다.  <br />
+• 딕셔너리도 리스트와 마찬가지로 변형이 가능하다.  <br />
+• 여기서 변형은 추가/삭제 이다.   <br />
+• 추가/삭제는 key/value 쌍으로 추가/삭제 해야 한다.   <br />
+• e.g. dict_name[new_key]=new_value   <br />
+• 딕셔너리 초기화는 ( {} ) 를 사용한다.  <br />
+• e.g. dict_name = {}  <br />
+• 리스트 초기화와 구별하자.  <br />
+• e.g. list_name = []       <br />
+• 내장함수 len() 를 사용하여, 딕셔너리의 쌍의 갯수가 몇개인지 알 수 있다.  <br />
+• key/value 는 1:1 매칭이다.   <br />
+• value 의 값은 리스트 형(type)이기에, key1:[list1, list2] 와 같이 사용할 수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Add at least three more key-value pairs to the <code class="language-plaintext highlighter-rouge">menu</code> variable, with the dish name (as a “string”) for the key and the price (a float or integer) as the value. Here’s an example:</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">menu</span><span class="p">[</span><span class="s">'Spam'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">2.50</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 딕셔너리 menu 에 3개 이상의 key/value 를 추가하라.   <br />
+• kye 값은 음식명으로 하고, value 값은 가격으로 하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" />  <br />
+• You will need to add at least three key-value pairs. One has already been added on line 2.   <br />
+• Your code will follow the same format, but should create and assign different keys!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• 3개의 key/value가 필요하다.  <br />
+• 이미 1개는 있으니, 2번째, 3번째 key/vaue를 만들면 된다.   <br />
+• key는 중복이 안된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">menu</span> <span class="o">=</span> <span class="p">{}</span> <span class="c1"># Empty dictionary
+</span><span class="n">menu</span><span class="p">[</span><span class="s">'Chicken Alfredo'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">14.50</span> <span class="c1"># Adding new key-value pair
+</span><span class="k">print</span> <span class="n">menu</span><span class="p">[</span><span class="s">'Chicken Alfredo'</span><span class="p">]</span>
+
+<span class="c1"># Your code here: Add some dish-price pairs to menu!
+</span><span class="n">menu</span><span class="p">[</span><span class="s">'Hamburger'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">8.50</span>
+<span class="n">menu</span><span class="p">[</span><span class="s">'Pizza Slice'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">3.50</span>
+<span class="n">menu</span><span class="p">[</span><span class="s">'Salad'</span><span class="p">]</span> <span class="o">=</span> <span class="mf">10.00</span>
+
+<span class="k">print</span> <span class="s">"There are "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">menu</span><span class="p">))</span> <span class="o">+</span> <span class="s">" items on the menu."</span>
+<span class="k">print</span> <span class="n">menu</span>
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 딕셔너리 menu 에 key 값 ‘Hamburger’ 에 value(값) 8.50 을 매칭시켜 저장한다.  <br />
+• 딕셔너리 menu 에 key 값 ‘Pizza Slice’ 에 value(값) 3.50 을 매칭시켜 저장한다.  <br />
+• 딕셔너리 menu 에 key 값 ‘Salad’ 에 value(값) 10.00 을 매칭시켜 저장한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>14.5
+There are 4 items on the menu.
+{'Chicken Alfredo': 14.5, 'Pizza Slice': 3.5, 'Hamburger': 8.5, 'Salad': 10.0}
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+<h3 id="12-changing-your-mind">12. Changing Your Mind</h3>
+
+<p>Because dictionaries are mutable, they can be changed in many ways. Items can be removed from a dictionary with the <code class="language-plaintext highlighter-rouge">del</code> command:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">del</span> <span class="n">dict_name</span><span class="p">[</span><span class="n">key_name</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>will remove the key key_name and its associated value from the dictionary.</p>
+
+<p>A new value can be associated with a key by assigning a value to the key, like so:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dict_name</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="n">new_value</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch12. Changing Your Mind 에서는 딕셔너리 삭제(del)에 대하여 학습한다.  <br />
+• 딕셔너리 삭제는 명령어 del 을 사용하여 삭제할 수 있다.  <br />
+• e.g. del dict_name[key_name]   <br />
+• 딕셔너리 dict_name 에 key_name 과 매칭되는 value(값)를 삭제할 수 있다. <br />
+• 삭제는 key/value 쌍이 삭제된다.  <br />
+• 참고로, dict_name[key]=new_value 로 추가할 수 있다.  <br />
+• 단, key는 중복 할 수 없다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Delete the ‘Sloth’ and ‘Bengal Tiger’ items from <code class="language-plaintext highlighter-rouge">zoo_animals</code> using <code class="language-plaintext highlighter-rouge">del</code>.</p>
+  </li>
+  <li>
+    <p>Set the value associated with ‘Rockhopper Penguin’ to anything other than ‘Arctic Exhibit’.</p>
+  </li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 딕셔너리의 key 값이 ‘Sloth’, ‘Bengal Tiger’인 항목(값)을 삭제하라.  <br />
+• 삭제는 명령어 del 을 사용하라.  <br />
+• 딕셔너리의 key 값 ‘Rockhopper Penguin’ 의 value(값) ‘Arctic Exhibit’을 ‘Plains Exhibit’ 으로 변경하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Check out the examples in the instructions if you need help!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 주석을 잘 읽어보면 도움이 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># key - animal_name : value - location 
+</span><span class="n">zoo_animals</span> <span class="o">=</span> <span class="p">{</span> <span class="s">'Unicorn'</span> <span class="p">:</span> <span class="s">'Cotton Candy House'</span><span class="p">,</span>
+<span class="s">'Sloth'</span> <span class="p">:</span> <span class="s">'Rainforest Exhibit'</span><span class="p">,</span>
+<span class="s">'Bengal Tiger'</span> <span class="p">:</span> <span class="s">'Jungle House'</span><span class="p">,</span>
+<span class="s">'Atlantic Puffin'</span> <span class="p">:</span> <span class="s">'Arctic Exhibit'</span><span class="p">,</span>
+<span class="s">'Rockhopper Penguin'</span> <span class="p">:</span> <span class="s">'Arctic Exhibit'</span><span class="p">}</span>
+<span class="c1"># A dictionary (or list) declaration may break across multiple lines
+</span>
+<span class="c1"># Removing the 'Unicorn' entry. (Unicorns are incredibly expensive.)
+</span><span class="k">del</span> <span class="n">zoo_animals</span><span class="p">[</span><span class="s">'Unicorn'</span><span class="p">]</span>
+
+<span class="c1"># Your code here!
+</span><span class="k">del</span> <span class="n">zoo_animals</span><span class="p">[</span><span class="s">'Sloth'</span><span class="p">]</span>
+<span class="k">del</span> <span class="n">zoo_animals</span><span class="p">[</span><span class="s">'Bengal Tiger'</span><span class="p">]</span>
+<span class="n">zoo_animals</span><span class="p">[</span><span class="s">'Rockhopper Penguin'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'Plains Exhibit'</span>
+
+<span class="k">print</span> <span class="n">zoo_animals</span>
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 명령어 del 을 사용하여 딕셔너리 zoo_animals 의 key값 ‘Sloth’ 를 삭제한다.  <br />
+• 명령어 del 을 사용하여 딕셔너리 zoo_animals 의 key값 ‘Bengal Tiger’ 를 삭제한다.  <br />
+• 딕셔너리 zoo_animals 의 key값 ‘Rockhopper Penguin’ 의 value(값)는 원래 ‘Arctic Exhibit’ 이었다.   <br />
+• key값 ‘Rockhopper Penguin’ 의 value(값) 을 ‘Plains Exhibit’로 변경했다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'Atlantic Puffin': 'Arctic Exhibit', 'Rockhopper Penguin': 'Plains Exhibit'}
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+<h3 id="13-remove-a-few-things">13. Remove a Few Things</h3>
+
+<p>Sometimes you need to remove something from a list.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">beatles</span> <span class="o">=</span> <span class="p">[</span><span class="s">"john"</span><span class="p">,</span><span class="s">"paul"</span><span class="p">,</span><span class="s">"george"</span><span class="p">,</span><span class="s">"ringo"</span><span class="p">,</span><span class="s">"stuart"</span><span class="p">]</span>
+<span class="n">beatles</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="s">"stuart"</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">beatles</span>
+</code></pre></div></div>
+<p>This code will print:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ["john","paul","george","ringo"]
+</code></pre></div></div>
+
+<ul>
+  <li>We create a list called <code class="language-plaintext highlighter-rouge">beatles</code> with 5 strings.</li>
+  <li>Then, we remove the first item from beatles that matches the string “stuart”. Note that <code class="language-plaintext highlighter-rouge">.remove(item)</code> does not return anything.</li>
+  <li>Finally, we print out that list just to see that “stuart” was actually removed.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch13. Remove a Few Things 에서는 리스트의 삭제를 학습한다.  <br />
+• 리스트에서도 항목(값) 삭제가 가능하다.  <br />
+• 리스트 beatles 에 5개의 항목이 있다.   <br />
+• 메서드 .remove 를 사용하여 항목 ‘stuart’를 삭제한다.   <br />
+• 리스트 beatles 에는 4개의 항목이 남아 있다.   <br />
+• 리스트도 딕셔너리처럼 해당 값을 지정하여 직접 삭제할 수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Remove <code class="language-plaintext highlighter-rouge">'dagger'</code> from the list of items stored in the <code class="language-plaintext highlighter-rouge">backpack</code> variable.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 리스트 backpack 의 항목 ‘dagger’ 를 삭제하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Check out the examples in the instructions to review how to remove items from a list!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 상단의 리스트를 삭제하는 법을 다시한번 읽어 보고 참조하자.  <br />
+• 주의) .remove[] 가 아니다.  .remove() 를 사용하자.</p>
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">backpack</span> <span class="o">=</span> <span class="p">[</span><span class="s">'xylophone'</span><span class="p">,</span> <span class="s">'dagger'</span><span class="p">,</span> <span class="s">'tent'</span><span class="p">,</span> <span class="s">'bread loaf'</span><span class="p">]</span>
+<span class="n">backpack</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="s">'dagger'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]    <br />
+• 리스트의 항목중 하나인 ‘dagger’ 를 삭제한다.  <br />
+• 메서드 .remove() 를 사용하여, ‘dagger’를 직접 지정하여 삭제한다. <br />
+• backpack.remove(‘dagger’)</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">PYTHON LISTS AND DICTIONARIES</font>
+<h3 id="14-its-dangerous-to-go-alone-take-this">14. It’s Dangerous to Go Alone! Take This</h3>
+
+<p>Let’s go over a few last notes about dictionaries</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"fish"</span><span class="p">:</span> <span class="p">[</span><span class="s">"c"</span><span class="p">,</span> <span class="s">"a"</span><span class="p">,</span> <span class="s">"r"</span><span class="p">,</span> <span class="s">"p"</span><span class="p">],</span>
+  <span class="s">"cash"</span><span class="p">:</span> <span class="o">-</span><span class="mi">4483</span><span class="p">,</span>
+  <span class="s">"luck"</span><span class="p">:</span> <span class="s">"good"</span>
+<span class="p">}</span>
+<span class="k">print</span> <span class="n">my_dict</span><span class="p">[</span><span class="s">"fish"</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>In the example above, we created a dictionary that holds many types of values.</p>
+  </li>
+  <li>
+    <p>The key “fish” has a list, the key “cash” has an int, and the key “luck” has a string.</p>
+  </li>
+  <li>
+    <p>Finally, we print the letter <code class="language-plaintext highlighter-rouge">"c"</code>. When we access a value in the dictionary like <code class="language-plaintext highlighter-rouge">my_dict["fish"]</code>, we have direct access to that value (which happens to be a list). We can access the item at index <code class="language-plaintext highlighter-rouge">0</code> in the list stored by the key <code class="language-plaintext highlighter-rouge">"fish"</code>.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch14. It’s Dangerous to Go Alone! Take This 에서는 딕셔너리를 복습한다.  <br />
+• 딕셔너리에 대하여 전체적으로 정리해 보자.   <br />
+• key ‘fish’ 는 value 로 리스트를 가진다.  <br />
+• key ‘cash’ 는 value 로 숫자를 가진다.  <br />
+• key ‘luck’ 는 value 로 문자열을 가진다.      <br />
+• 문자 ‘c’ 를 출력하기 위해선, key 가 ‘fish’이면서, value(값)가 리스트의 인덱스 값 0 인 것을 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Add a key to <code class="language-plaintext highlighter-rouge">inventory</code> called <code class="language-plaintext highlighter-rouge">'pocket'</code></p>
+  </li>
+  <li>
+    <p>Set the value of <code class="language-plaintext highlighter-rouge">'pocket'</code> to be a list consisting of the strings <code class="language-plaintext highlighter-rouge">'seashell', 'strange berry', and 'lint'</code></p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.sort()</code> the items in the list stored under the <code class="language-plaintext highlighter-rouge">'backpack'</code> key</p>
+  </li>
+  <li>
+    <p>Then <code class="language-plaintext highlighter-rouge">.remove('dagger')</code> from the list of items stored under the <code class="language-plaintext highlighter-rouge">'backpack'</code> key</p>
+  </li>
+  <li>
+    <p>Add <code class="language-plaintext highlighter-rouge">50</code> to the number stored under the <code class="language-plaintext highlighter-rouge">'gold'</code> key</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 딕셔너리에 inventory 에 key ‘pocket’ 를 추가하라.    <br />
+• key ‘pocket’ 의 value 에는 리스트 [‘seashell’, ‘strange berry’, ‘lint’]를 저장하라.  <br />
+• key ‘backpack’ 의 value 를 메소드 .sort() 를 사용하여 정렬하라.  <br />
+• key ‘backpack’ 의 value(값)인 리스트 중에서 ‘dagger’ 를 삭제하라.  <br />
+• 메소드 .remove(‘dagger’) 를 사용하여 삭제하라.  <br />
+• key ‘gold’ 에 value(값) 500에 50 을 더하라.  <br />
+• 마지막에 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>You can use methods with a list stored in a dictionary as follows:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dict_name</span><span class="p">[</span><span class="s">'list_key'</span><span class="p">].</span><span class="n">method</span><span class="p">()</span>
+</code></pre></div></div>
+
+<ul>
+  <li>For example, since ‘backpack’ is a key in our dictionary inventory you can delete ‘dagger’ from the corresponding list like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">inventory</span><span class="p">[</span><span class="s">'backpack'</span><span class="p">].</span><span class="n">remove</span><span class="p">(</span><span class="s">'dagger'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• 딕셔너리의 value가 리스트인 것의 값을 삭제하는 방법은 다음과 같다.  <br />
+• e.g. inventory[‘backpack’].remove(‘dagger’)    <br />
+• 주의) add 50 은 기존 값(500)에 추가로 더하는 것이다.(항목을 리스트로 만드는것이 아니다.)</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">inventory</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">'gold'</span> <span class="p">:</span> <span class="mi">500</span><span class="p">,</span>
+  <span class="s">'pouch'</span> <span class="p">:</span> <span class="p">[</span><span class="s">'flint'</span><span class="p">,</span> <span class="s">'twine'</span><span class="p">,</span> <span class="s">'gemstone'</span><span class="p">],</span> <span class="c1"># Assigned a new list to 'pouch' key
+</span>  <span class="s">'backpack'</span> <span class="p">:</span> <span class="p">[</span><span class="s">'xylophone'</span><span class="p">,</span><span class="s">'dagger'</span><span class="p">,</span> <span class="s">'bedroll'</span><span class="p">,</span><span class="s">'bread loaf'</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="c1"># Adding a key 'burlap bag' and assigning a list to it
+</span><span class="n">inventory</span><span class="p">[</span><span class="s">'burlap bag'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'small ruby'</span><span class="p">,</span> <span class="s">'three-toed sloth'</span><span class="p">]</span>
+
+<span class="c1"># Sorting the list found under the key 'pouch'
+</span><span class="n">inventory</span><span class="p">[</span><span class="s">'pouch'</span><span class="p">].</span><span class="n">sort</span><span class="p">()</span> 
+
+<span class="c1"># Your code here
+</span><span class="n">inventory</span><span class="p">[</span><span class="s">'pocket'</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">'seashell'</span><span class="p">,</span> <span class="s">'strange berry'</span><span class="p">,</span> <span class="s">'lint'</span><span class="p">]</span>
+<span class="n">inventory</span><span class="p">[</span><span class="s">'backpack'</span><span class="p">].</span><span class="n">sort</span><span class="p">()</span>
+<span class="n">inventory</span><span class="p">[</span><span class="s">'backpack'</span><span class="p">].</span><span class="n">remove</span><span class="p">(</span><span class="s">'dagger'</span><span class="p">)</span>
+<span class="n">inventory</span><span class="p">[</span><span class="s">'gold'</span><span class="p">]</span> <span class="o">=</span> <span class="n">inventory</span><span class="p">[</span><span class="s">'gold'</span><span class="p">]</span> <span class="o">+</span> <span class="mi">50</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">inventory</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 리스트 inventory[‘pocket’] 의 value(값)로 리스트 [‘seashell’, ‘strange berry’, ‘lint’] 를 대입하였다.  <br />
+• 리스트 inventory[‘backpack’] 의 value(값)인 리스트를 정렬 하였다.  <br />
+• 정렬은 메소드 .sort() 를 사용하였다.  <br />
+• e.g. inventory[‘backpack’].sort()       <br />
+• 삭제는 inventory[‘backpack’] 의 value(값)인 리스트 ‘dagger’를 지정해서 삭제했다. <br />
+• e.g. inventory[‘backpack’].remove(‘dagger’)  <br />
+• 추가는 리스트의 key 값을 지정하여 value(값)를 변경할 수 있다.  <br />
+• e.g. inventory[‘gold’] = inventory[‘gold’] + 50   <br />
+• key ‘gold’ 의 원래 value 값 500 에 추가로 50을 추가한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'pocket': ['seashell', 'strange berry', 'lint'], 'backpack': ['bedroll', 'bread loaf', 'xylophone'], 'pouch': ['flint', 'gemstone', 'twine'], 'burlap bag': ['apple', 'small ruby', 'three-toed sloth'], 'gold': 550}
+
+</code></pre></div></div>
+
+        
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+            style="display:block; border-bottom: initial;"
+            data-ad-client="ca-pub-7193702121518663"
+            data-ad-format="auto"></ins>
+        </div>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/taking-vacation/" class="pagination--pager" title="Taking A Vacation
+">Previous</a>
+    
+    
+      <a href="/day-supermarket/" class="pagination--pager" title="A Day at the Supermarket
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+<!-- google add starts 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 1em 0;">
+    <ins class="adsbygoogle"
+        style="display:block; border-bottom: initial;"
+        data-ad-client="ca-pub-7193702121518663"
+        data-ad-format="auto"></ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+ google add end -->
+
+
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Peter Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>
