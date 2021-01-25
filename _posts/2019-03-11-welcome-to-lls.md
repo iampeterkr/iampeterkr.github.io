@@ -19,9 +19,7 @@ Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다�
 
 * Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다.    
 
-* POST의 글을 참조하여 해당 자료로 넘어가거나, 상단의 Python 링크를 통하여 넘어 가실수 있습니다.    
-
-* 총 POST 의 수는 약 290개 입니다.    
+* 상단의 Python 링크를 클릭하여 해당 자료를 볼수 있습니다. 
 
 Syllabus 를 통하여 Codecademy <a href="/codecademy/syllabus/">Python</a> 전체를 공부하시는 분에게 도움이 되시기를 기도합니다.    
     
