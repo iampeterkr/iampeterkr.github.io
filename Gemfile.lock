@@ -94,7 +94,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.5.2)
-    rack (2.0.9)
+    rack (2.2.3)
     rake (12.3.3)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
@@ -137,7 +137,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   minimal-mistakes-jekyll!
   nokogiri
-  rack (~> 2.0.1)
+  rack (>= 2.1.4)
   rake (~> 12.3)
   rspec
 
