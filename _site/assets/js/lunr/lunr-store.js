@@ -320,7 +320,7 @@ var store = [{
         "url": "http://localhost:4000/020102-Practice/",
         "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World 2. Print Statements 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types...","categories": [],
+        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World Print Statements String Handling Errors Variables Arithmetic Updating Variables Comments Numbers Two Types of Division Multi-line Strings …… [ 2. String &amp;...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},]
