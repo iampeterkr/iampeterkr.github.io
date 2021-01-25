@@ -244,11 +244,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
-        "title": "02.Print Statements",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX2. Print Statements There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010102-PrintStatements/",
-        "teaser":null},{
         "title": "03.String",
         "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX3. String When printing things in Python, we are supplying a text block that we want to be printed. Text in Python is considered a specific type of data called a string. A string, so named because they’re a...","categories": [],
         "tags": [],
