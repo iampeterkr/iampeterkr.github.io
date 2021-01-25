@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-25T23:05:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-25T23:19:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s github.io Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free&lt;/p&gt;
 
-&lt;p&gt;(#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free)&lt;/p&gt;
+&lt;p&gt;#Python#Codecademy#코드카데미#한글#Korea#설명#정답#Solves#목록#무료#Free&lt;/p&gt;
 
 &lt;h2 id=&quot;무료-codecademy-python2-한글-설명-및-목록&quot;&gt;무료 Codecademy python2 한글 설명 및 목록&lt;/h2&gt;
 
@@ -8,100 +8,119 @@
   &lt;li&gt;[ 1. Python Syntax ]
     &lt;ul&gt;
       &lt;li&gt;(Python Syntax)&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/010101-HelloWorld/&quot;&gt;1. Hello World    &lt;/a&gt;
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Print Statements&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;String&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Handling Errors&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Variables&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Arithmetic&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Updating Variables&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Comments&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Numbers&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Two Types of Division&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Multi-line Strings   &lt;br /&gt;
- ……&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/010101-HelloWorld/&quot;&gt;1. Hello World    &lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Print Statements&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;String&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Handling Errors&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Variables&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Arithmetic&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Updating Variables&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Comments&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Numbers&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Two Types of Division&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Multi-line Strings   &lt;br /&gt;
+   ……&lt;/li&gt;
+        &lt;/ol&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;[ 2. String &amp;amp; Console Output ]
     &lt;ul&gt;
-      &lt;li&gt;(String &amp;amp; Console Output)
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Strings&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;ol&gt;
-              &lt;li&gt;Practice&lt;/li&gt;
-            &lt;/ol&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
+      &lt;li&gt;(String &amp;amp; Console Output)&lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Strings&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Practice&lt;/li&gt;
+        &lt;/ol&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;더 많은 내용은 아래 “python” 링크에 있습니다.&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;Codecademy &lt;a href=&quot;/codecademy/syllabus/&quot;&gt;Python&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">02.Practice</title><link href="http://localhost:4000/020102-Practice/" rel="alternate" type="text/html" title="02.Practice" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/020102-Practice</id><content type="html" xml:base="http://localhost:4000/020102-Practice/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free</summary></entry><entry><title type="html">01.Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="01.Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
+&lt;p&gt;LESSON&lt;/p&gt;
 
-&lt;h3 id=&quot;2-practice&quot;&gt;2. Practice&lt;/h3&gt;
+&lt;p&gt;This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications.&lt;/p&gt;
 
-&lt;p&gt;Excellent! Let’s get a little practice in with strings.&lt;/p&gt;
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ 학습방향 ]   &lt;br /&gt;
+이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다.   &lt;br /&gt;
+Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 환경에서 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
+&lt;h3 id=&quot;1-hello-world&quot;&gt;1. Hello World!&lt;/h3&gt;
+
+&lt;p&gt;If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to speak. In Python, this is accomplished with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; statement.&lt;/p&gt;
+
+&lt;p&gt;accomplished with the print statement.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, world!&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; statement is the easiest way to get your Python program to communicate with you. Being able to command this communication will be one of the most valuable tools in your programming toolbox.&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
-• Ch2. Practice 에서는 문자열 연습을 학습한다.&lt;/p&gt;
+• Ch1. Hello World! 에서는 print 문을 학습한다.    &lt;br /&gt;
+• 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.   &lt;br /&gt;
+• 우리는 컴퓨터에게 &lt;em&gt;Hello World!&lt;/em&gt; 라는 문장을 화면에 출력 시키라고 명령한 것이다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -109,870 +128,71 @@
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Set the following variables to their respective phrases:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;caesar&lt;/code&gt; to “Graham”&lt;/li&gt;
-      &lt;li&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;praline&lt;/code&gt; to “John”&lt;/li&gt;
-      &lt;li&gt;Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;viking&lt;/code&gt; to “Teresa”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Using a print statement, output a message of your choosing to the terminal.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• 변수 caesar = “Graham” 을 대입  &lt;br /&gt;
-• 변수 praline = “John”  을 대입&lt;br /&gt;
-• 변수 viking = “Teresa” 을 대입&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Make sure you use exactly the capitalization shown! Python takes things very literally.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• Python은 문자열의 대/소문자를 구별한다. 정확하게 사용해야 한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Assign your variables below, each on its own line!
-&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;caesar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Graham&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;praline&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;John&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;viking&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Teresa&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# Put your variables above this line
-&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;caesar&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;praline&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;viking&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• 각 변수에 문자열을 대입한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Graham
-John
-Teresa
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">01.Strings</title><link href="http://localhost:4000/020101-Strings/" rel="alternate" type="text/html" title="01.Strings" /><published>2019-08-23T00:00:00+09:00</published><updated>2019-08-23T00:00:00+09:00</updated><id>http://localhost:4000/020101-Strings</id><content type="html" xml:base="http://localhost:4000/020101-Strings/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;STRING &amp;amp; CONSOLE OUTPUT&lt;/font&gt;
-
-&lt;h3 id=&quot;1-strings&quot;&gt;1. Strings&lt;/h3&gt;
-
-&lt;p&gt;Another useful data type is the &lt;strong&gt;string&lt;/strong&gt;. A &lt;strong&gt;string&lt;/strong&gt; can contain letters, numbers, and symbols.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Ryan&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;19&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;food&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cheese&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;In the above example, we create a variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; and set it to the string value &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Ryan&quot;&lt;/code&gt;.
-We also set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;19&quot;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;food&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;cheese&quot;&lt;/code&gt;.
-Strings need to be within quotes.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]    &lt;br /&gt;
-• Ch1. Strings 에서는 문자열을 학습한다.  &lt;br /&gt;
-• 문자열(string)은 문자와, 숫자와, 기호도 사용할 수 있다.   &lt;br /&gt;
-• 문자열인데, 숫자도 사용할수 있다는 의미는 함수 int()를 활용하여 변환후 사용할수 있다.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Create a new variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;brian&lt;/code&gt; and assign it the string &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Hello life!&quot;&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• 변수 brian 를 만들고 &lt;em&gt;Hello life!&lt;/em&gt; 를 대입하라.&lt;/p&gt;
+• print 문을 사용하여 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜라.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Do you remember how to declare and assign variables in Python? If not, refresh your memory here!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]   &lt;br /&gt;
-• 문자열을 대입할때, 문자열의 양끝을 따옴표 ( “ “ ) or ( ‘ ‘ ) 를 사용하면 된다.   &lt;br /&gt;
-• 아래 소스를 실행시켜 보면 아래와 같은 결과를 얻는다.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brian&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello life!&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;brian1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'The man screamed &quot;I love Python!&quot; so that everyone could hear.'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;brian2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;The man screamed 'I love Python!' so that everyone could hear.&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brian&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brian1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;brian2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello life!
-The man screamed &quot;I love Python!&quot; so that everyone could hear.
-The man screamed 'I love Python!' so that everyone could hear.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;brian&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello life!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• 문자열을 대입할때, 문자열 양 끝에 따옴표 ( “ “ ) or ( ‘ ‘ )를 사용한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; #skip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">14.Review</title><link href="http://localhost:4000/010114-Review/" rel="alternate" type="text/html" title="14.Review" /><published>2019-08-22T00:00:00+09:00</published><updated>2019-08-22T00:00:00+09:00</updated><id>http://localhost:4000/010114-Review</id><content type="html" xml:base="http://localhost:4000/010114-Review/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;14-review&quot;&gt;14. Review&lt;/h3&gt;
-
-&lt;p&gt;Great! So far we’ve looked at:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Print statements&lt;/li&gt;
-  &lt;li&gt;How to create, modify, and use variables&lt;/li&gt;
-  &lt;li&gt;Arithmetic operations like addition, subtraction, division, and multiplication&lt;/li&gt;
-  &lt;li&gt;How to use comments to make your code easy to understand&lt;/li&gt;
-  &lt;li&gt;Different data types, including strings, ints, floats, and booleans&lt;/li&gt;
-  &lt;li&gt;Converting between data types&lt;/li&gt;
+  &lt;li&gt;Print a message by typing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; followed by your message in quotes, like this:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
-• 지금까지 1장 Python Syntax에서는   &lt;br /&gt;
-• print 문 사용법  &lt;br /&gt;
-• 변수 생성  &lt;br /&gt;
-• 사칙연산  &lt;br /&gt;
-• 주석처리  &lt;br /&gt;
-• 데이터 종류(integer, float, string, boolean)  &lt;br /&gt;
-• 테이터 형(type) 변환을 공부하였다.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Let’s apply all of the concepts you have learned one more time!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;skill_completed&lt;/code&gt; and set it equal to the string “Python Syntax”.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exercises_completed&lt;/code&gt; and set it equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;13&lt;/code&gt;. Create another variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;points_per_exercise&lt;/code&gt; and set it equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;point_total&lt;/code&gt; and set it equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;point_total&lt;/code&gt; to be what it was before plus the result of multiplying &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exercises_completed&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;points_per_exercise&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Add a comment above your declaration of points_per_exercise that says:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The amount of points for each exercise may change, because points don't exist yet    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Print a string to the console that says:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I got X points!
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;with the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;point_total&lt;/code&gt; where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X&lt;/code&gt; is.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]   &lt;br /&gt;
-• 변수 skill_completed 에 문자열 &lt;em&gt;Python Syntax&lt;/em&gt; 를 대입하라.   &lt;br /&gt;
-• 변수 exercises_completed 에 13 을 대입하라.      &lt;br /&gt;
-• 변수 points_per_exercise 에 5 를 대입하라.    &lt;br /&gt;
-• 변수 point_total 에  100 을 대입하라.  &lt;br /&gt;
-• 변수 point_total 에 기존 결과값 변수 point_total 값에 변수 exercises_completed * points_per_exercise 곱한 결과 값을 더하라.   &lt;br /&gt;
-• &lt;em&gt;The amount&lt;/em&gt; 부터 &lt;em&gt;yet&lt;/em&gt; 까지의 문자열을 주석 처리하라.   &lt;br /&gt;
-• &lt;em&gt;I got X points!&lt;/em&gt; 를 콘솔창에 출력하라.  &lt;br /&gt;
-• 변수 X 값은 변수 point_total 값이다.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You can add to a variable by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+=&lt;/code&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_to_add&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;which is shorthand for:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;old&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_to_add&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;You can cast a numerical variable to a string and then add it to another string:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;This is &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; long string!&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;This is 1 long string!&quot;&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Your Message!&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• += 기법을 사용하라. 
-• 함수 str() 사용하여, 숫자를 문자열로 바꾸어 출력한다.&lt;/p&gt;
+• print 문을 사용하여 &lt;em&gt;Your Message!&lt;/em&gt; 를 화면에 출력한다.&lt;/p&gt;
 
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;skill_completed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Python Syntax&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;exercises_completed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#The amount of points for each exercise may change, because points don't exist yet
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;points_per_exercise&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;point_total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;point_total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exercises_completed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;points_per_exercise&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;I got &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;point_total&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot; points!&quot;&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• 문자열, 정수형, 주석, += 연산, 사칙연산, 문자형 변환을 참조 하세요.&lt;/p&gt;
+• print 문을 사용하여 &lt;em&gt;Hello World!&lt;/em&gt; 를 출력하였다.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I got 165 points!
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">13.ValueError</title><link href="http://localhost:4000/010113-ValueError/" rel="alternate" type="text/html" title="13.ValueError" /><published>2019-08-21T00:00:00+09:00</published><updated>2019-08-21T00:00:00+09:00</updated><id>http://localhost:4000/010113-ValueError</id><content type="html" xml:base="http://localhost:4000/010113-ValueError/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;13-valueerror&quot;&gt;13. ValueError&lt;/h3&gt;
-
-&lt;p&gt;Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7&lt;/code&gt; is an &lt;strong&gt;integer&lt;/strong&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7.&lt;/code&gt; is a &lt;strong&gt;float&lt;/strong&gt;, “7” is a &lt;strong&gt;string&lt;/strong&gt;. Sometimes we will want to convert variables to different datatypes. For example, if we wanted to print out an &lt;strong&gt;integer&lt;/strong&gt; as part of a &lt;strong&gt;string&lt;/strong&gt;, we would want to convert that &lt;strong&gt;integer to a string&lt;/strong&gt; first. We can do that using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;str()&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;I am &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; years old!&quot;&lt;/span&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello World!
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]     &lt;br /&gt;
-• Ch13. ValueError 에서는 출력시 주의할 점을 학습한다.   &lt;br /&gt;
-• 변수 age 는 정수 13 이 대입 되었기에 정수형 변수가 된다.   &lt;br /&gt;
-• 정수형 변수 age 를 문자열로 출력 하기 위해선, 함수 str()를 사용한다.  &lt;br /&gt;
-• 정수형 변수 age 를 str(age)로 바꾸면 변수 age 는 문자열 형태로 출력된다.  &lt;br /&gt;
-• &lt;em&gt;주의)&lt;/em&gt; 정수형 age 를 출력 할때 문자열 형태로 출력하는 것이지, age 가 문자열형 변수가 되는것은 아니다.&lt;/p&gt;
-
-&lt;p&gt;This would print:&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;I am 13 years old!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Similarly, if we have a string like “7” and we want to perform arithmetic operations on it, we must convert it to a numeric datatype. We can do this using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int()&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;number1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;100&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;number2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;10&quot;&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;string_addition&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number2&lt;/span&gt; 
-&lt;span class=&quot;c1&quot;&gt;#string_addition now has a value of &quot;10010&quot;
-&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;int_addition&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;number1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;number2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#int_addition has a value of 110
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
-• 변수 number1 , number2 는 문자형 변수이다.   &lt;br /&gt;
-• Python 에서는 문자형 데이타 이지만, 데이타가 숫자를 뜻하면 계산을 할수가 있다.   &lt;br /&gt;
-• e.g. 문자열 “4”, “5.0”  &lt;br /&gt;
-• 단, 계산할때, 함수 int()를 사용하여 정수형으로 바꾸어 주어야 한다.   &lt;br /&gt;
-• &lt;em&gt;주의)&lt;/em&gt; 문자형 number1 , number2를 계산 목적으로 정수형으로 바꾸어 주는 것이지,변수 number1 , number2 에 들어있는 데이타가 정수형이 되는것은 아니다.&lt;/p&gt;
-
-&lt;p&gt;If you use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int()&lt;/code&gt; on a floating point number, it will round the number down. To preserve the decimal, you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float()&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;string_num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;7.5&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string_num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string_num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;7.5&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]  &lt;br /&gt;
-• 함수 int()를 사용하면 정수형 값으로 변경되어 반환된다.  &lt;br /&gt;
-• 함수 float()를 사용하면 실수형 값으로 변경되어 반환된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;product&lt;/code&gt; that contains the result of multiplying the float value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_2&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a string called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;big_string&lt;/code&gt; that says:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The product was X
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;with the value of product where the X is.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]   &lt;br /&gt;
-• 변수 product 를 만들어라.  &lt;br /&gt;
-• 변수 product 에 변수 float_1 , float_2 곱한 값을 대입하라.&lt;br /&gt;
-• 변수 big_string 를 만들어라.  &lt;br /&gt;
-• 변수 big_string 에 &lt;em&gt;The product was&lt;/em&gt; + str(product) 를 대입하라.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;You can combine strings by casting the numerical value to a string and using the + operator:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&quot;I have &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; dogs at home!&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• 변수 product 를 문자형으로 변환하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;float_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.25&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;float_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;40.0&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;product&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;float_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;float_2&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;big_string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;The product was &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;product&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]   &lt;br /&gt;
-• float 형(type) 변수 product 를 문자열 형(type) 으로 변환 해주고 대입한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;  &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">12.Booleans</title><link href="http://localhost:4000/010112-Boleeans/" rel="alternate" type="text/html" title="12.Booleans" /><published>2019-08-20T00:00:00+09:00</published><updated>2019-08-20T00:00:00+09:00</updated><id>http://localhost:4000/010112-Boleeans</id><content type="html" xml:base="http://localhost:4000/010112-Boleeans/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;12-booleans&quot;&gt;12. Booleans&lt;/h3&gt;
-
-&lt;p&gt;Sometimes we have a need for variables that are either true or false. This datatype, which can only ever take one of two values, is called a boolean. In Python, we define booleans using the keywords True and False:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;A boolean is actually a special case of an integer. A value of True corresponds to an integer value of 1, and will behave the same. A value of False corresponds to an integer value of 0.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]     &lt;br /&gt;
-• Ch12. Booleans 에서는 boolean 연산자를 학습한다.  &lt;br /&gt;
-• Python에서 참, 거짓을 표현해야 할 때가 있다.   &lt;br /&gt;
-• 참 은 문자열로 &lt;em&gt;True&lt;/em&gt; 로 표현한다.  &lt;br /&gt;
-• 거짓 은 문자열로 &lt;em&gt;False&lt;/em&gt; 로 표현한다.   &lt;br /&gt;
-• 참  의 값은 숫자 &lt;em&gt;1&lt;/em&gt; 이다.  &lt;br /&gt;
-• 거짓 의 값은 숫자 &lt;em&gt;0&lt;/em&gt; 이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/03-boolean-00.svg&quot; alt=&quot;codecademy&quot; width=&quot;70%&quot; height=&quot;70%&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Someone has introduced themselves to you using comments in script.py.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Read the comments and then create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;age_is_12&lt;/code&gt; and set it to be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt; depending on if this person’s age is 12.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name_is_maria&lt;/code&gt; and set it to be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;False&lt;/code&gt; depending on if this person’s name is Maria.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• 변수 age_is_12 를 만들어라.  &lt;br /&gt;
-• 주석에서 설명하는 사람의 나이가 12 살이면 True 를 대입하라.  &lt;br /&gt;
-• 12 살이 아니면, False 를 입력하라.   &lt;br /&gt;
-• 변수 name_is_maria 를 만들어라.  &lt;br /&gt;
-• 주석에서 설명하는 사람의 이름이 Maria 이면 True 를 대입하라.  &lt;br /&gt;
-• Maria 가 아니면, False 를 입력하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;To set a boolean to True, you would use:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;some_variable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• 주석 문을 읽고 True, False 를 이용하여 대입하라.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# Hi! I'm Maria and I live in script.py.
-# I'm an expert Python coder.
-# I'm 21 years old and I plan to program cool stuff forever.
-&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;age_is_12&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;name_is_maria&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• 주석에서 Python coder 나이는 21 살, 이름은 Maria 이다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;  &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">11.Multi Line Strings</title><link href="http://localhost:4000/010111-MultiLineStrings/" rel="alternate" type="text/html" title="11.Multi Line Strings" /><published>2019-08-19T00:00:00+09:00</published><updated>2019-08-19T00:00:00+09:00</updated><id>http://localhost:4000/010111-MultiLineStrings</id><content type="html" xml:base="http://localhost:4000/010111-MultiLineStrings/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;11-multi-line-strings&quot;&gt;11. Multi-line Strings&lt;/h3&gt;
-
-&lt;p&gt;We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;address_string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;136 Whowho Rd
-Apt 7
-Whosville, WZ 44494&quot;&quot;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This address spans multiple lines, and is still contained in one variable, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;address_string&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;When a string like this is not assigned to a variable, it works as a multi-line comment. This can be helpful as your code gets more complex:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot; The following piece of code does the following steps:
-takes in some input
-does An Important Calculation
-returns the modified input and a string that says &quot;Success!&quot; or &quot;Failure...&quot;
-&quot;&quot;&quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;complicated&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;piece&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]    &lt;br /&gt;
-• Ch11. Multi-line Strings 에서는 다중 주석을 학습한다.   &lt;br /&gt;
-• “”” “””  or ‘’’ ‘’’ 를 이용하여 여러줄의 문자열을 만들수 있다.  &lt;br /&gt;
-• 문자열도 만들수 있지만, 한 줄 주석(#) 외에 여러줄의 주석을 만들때도 사용한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;haiku&lt;/code&gt; and store this haiku as a multi-line string: The old pond, A frog jumps in: Plop!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• 변수 haiku 를 만들어라.  &lt;br /&gt;
-• 변수 haiku 에 다음 여러줄의 문자열을 저장하라.   &lt;br /&gt;
-• e.g. 문자열 : &lt;em&gt;The old pond, A frog jumps in: Plop!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Use the “”” “”” or ‘’’ ‘’’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• “”” “”” or ‘’’ ‘’’ 를 사용하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;haiku&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;The old pond,
-A frog jumps in:
-Plop!&quot;&quot;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;haiku&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• “”” “”” 사용하여 여러줄의 문자열을 변수에 대입한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The old pond,
-A frog jumps in:
-Plop!
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;  &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">10.Two Types of Division</title><link href="http://localhost:4000/010110-TwoTypesOfDivision/" rel="alternate" type="text/html" title="10.Two Types of Division" /><published>2019-08-12T00:00:00+09:00</published><updated>2019-08-12T00:00:00+09:00</updated><id>http://localhost:4000/010110-TwoTypesOfDivision</id><content type="html" xml:base="http://localhost:4000/010110-TwoTypesOfDivision/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]   &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;  &lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;10-two-types-of-division&quot;&gt;10. Two Types of Division&lt;/h3&gt;
-
-&lt;p&gt;In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# the value of quotient is now 3, which makes sense
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;However, if the numbers do not divide evenly, the result of the division is truncated into an integer. In other words, the quotient is rounded down to a whole number. This can be surprising when you expect to receive a decimal and you receive a rounded-down integer:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;''' the value of quotient is 3, even though the result
-  of the division here is 3.5 '''&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;To yield a float as the result instead, programmers often change either the numerator or the denominator (or both) to be a float:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;7.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# the value of quotient1 is 3.5
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quotient2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# the value of quotient2 is 3.5
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quotient3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;7.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot; the value of quotient3 is 3.5
- An alternative way is to use the float() method: &quot;&quot;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;quotient1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; 
-&lt;span class=&quot;c1&quot;&gt;# the value of quotient1 is 3.5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]     &lt;br /&gt;
-• Ch10. Two Types of Division 에서는 나눗셈 계산에서 주의할점을 학습한다.  &lt;br /&gt;
-• 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다.  &lt;br /&gt;
-• 정수 ( 7/2 ) 를 계산하면 3.5 이다. 3.5는 실수이다.  &lt;br /&gt;
-• 하지만, Python2 에서는 정수( 3 )만 남고, 나머지 0.5는 버린다.  &lt;br /&gt;
-• 이런 실수를 방지하기 위하여 값을 대입 할때 주의 해야한다.  &lt;br /&gt;
-• 항상, 계산한 결과값이 실수일 것을 대비하여야 한다.   &lt;br /&gt;
-• 입력값을 실수형으로 넣어 준다. ( e.g. 7.0 / 3)  &lt;br /&gt;
-• 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Python3 ]  &lt;br /&gt;
-• python3 에서는 이 문제를 해결 하였다.  &lt;br /&gt;
-• 정수 ( 7/2 ) 을 계산하면 3.5 로 자동 계산된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;You have come home from the grocery store with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100&lt;/code&gt; cucumbers to split amongst yourself and your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; roommates (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6&lt;/code&gt; people total).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; that holds &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_people&lt;/code&gt; that holds &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; that is the integer result of dividing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Print &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;whole_cucumbers_per_person&lt;/code&gt; to the console.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;You realize that the numbers don’t divide evenly and you don’t want to throw out the remaining cucumbers.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; that holds the float result of dividing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;num_people&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Print &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;float_cucumbers_per_person&lt;/code&gt; to the console.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]   &lt;br /&gt;
-• 100 개의 오이를 룸메이트 6 명과 나눠 가지는 프로그램을 만든다.   &lt;br /&gt;
-• 변수 cucumbers 에  100 을 대입하라.  &lt;br /&gt;
-• 변수 num_people 에 6 을 대입하라.   &lt;br /&gt;
-• 변수 whole_cucumbers_per_person 에 (cucumbers / num_people)을 대입하라.  &lt;br /&gt;
-• 변수 whole_cucumbers_per_person 를 출력하라.  &lt;br /&gt;
-• 16 이 출력되어 놀라운가?   &lt;br /&gt;
-• 예상한 바로는 100/6 은 16.66…으로 출력을 예상했는가?   &lt;br /&gt;
-• 변수 float_cucumbers_per_person 를 만들고, 실수 값이 출력 되도록 고쳐라.  &lt;br /&gt;
-• 변수 float_cucumbers_per_person 를 출력하라.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;You can do float division by casting either the numerator or denominator as a float:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;quotient_with_decimals&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#yields 2.5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• float() 함수를 사용하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;num_people&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;whole_cucumbers_per_person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_people&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;whole_cucumbers_per_person&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;float_cucumbers_per_person&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num_people&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;float_cucumbers_per_person&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• float_cucumbers_per_person 변수를 계산할때, float() 함수를 사용한다.  &lt;br /&gt;
-• float(cucumbers) 를 실수로 변경하여 계산한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;16
-16.6666666667
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">09.Numbers</title><link href="http://localhost:4000/010109-Numbers/" rel="alternate" type="text/html" title="09.Numbers" /><published>2019-08-09T00:00:00+09:00</published><updated>2019-08-09T00:00:00+09:00</updated><id>http://localhost:4000/010109-Numbers</id><content type="html" xml:base="http://localhost:4000/010109-Numbers/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;9-numbers&quot;&gt;9. Numbers&lt;/h3&gt;
-
-&lt;p&gt;Variables can also hold numeric values. The simplest kind of number in Python is the &lt;strong&gt;integer&lt;/strong&gt;, which is a whole number with no decimal point:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;int1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;int2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;int3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;A number with a decimal point is called a &lt;strong&gt;float&lt;/strong&gt;. You can define &lt;strong&gt;floats&lt;/strong&gt; with numbers after the decimal point or by just including a decimal point at the end:
-&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;float1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;float2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;10.&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;float3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;5.5&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-You can also define a &lt;strong&gt;float&lt;/strong&gt; using scientific notation, with e indicating the power of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# this evaluates to 150:
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;float4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;1.5e2&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]    &lt;br /&gt;
-• Ch9. Numbers 에서는 숫자를 학습한다.   &lt;br /&gt;
-• Python 에서는 숫자 관련 변수는 정수(integer)와 실수(float) 2 종류가 있다.  &lt;br /&gt;
-• 정수는 소숫점 이하를 표현할수 없다.  &lt;br /&gt;
-• 실수는 소수점을 표현할 수 있다.   &lt;br /&gt;
-• 생성되는 변수가 정수형인지, 실수형인지는 해당 값을 대입 할때 정해진다.  &lt;br /&gt;
-• 즉, 변수에 정수를 넣으면 정수형 변수가 되고, 실수를 넣으면 실수형 변수가 된다. &lt;br /&gt;
-• 과학적 표기법인(scientific notation) e 도 실수(float)형으로 표현한다.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;You are going shopping. Let’s make a grocery list so that you can plan your budget. Store the number of cucumbers you want to buy in a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cucumbers&lt;/code&gt;. Make sure it’s at least &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1&lt;/code&gt;, and that it’s the appropriate datatype! The store doesn’t sell partial cucumbers.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Each cucumber costs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.25&lt;/code&gt; doubloons. Store the price per cucumber in a variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;price_per_cucumber&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a new variable called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;total_cost&lt;/code&gt; which is the product of how many cucumbers you are going to buy and the cost per cucumber.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Print out &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;total_cost&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;What datatype is it?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]   &lt;br /&gt;
-• 변수 cucumbers 를 만들어라.  &lt;br /&gt;
-• 변수 cucumbers 에 정수 1 을 대입하라.  &lt;br /&gt;
-• 변수 price_per_cucumber 를 만들고, 3.25 를 대입하라.  &lt;br /&gt;
-• 변수 total_cost 를 만들고, 구매 할 오이의 총 가격을 계산하여 대입하라.  &lt;br /&gt;
-• 변수 total_cost 를 print 문을 사용하여, console 창에 출력하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Use the operator &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• 연산자 * 를 사용하여 총 합을 계산하라.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;price_per_cucumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;3.25&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;total_cost&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cucumbers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;price_per_cucumber&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;total_cost&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
-• 오이가 3개, 개당 가격이 3.25 이다.  &lt;br /&gt;
-• 전체 오이의 가격은 cucumbers * price_per_cucumber 이다.  &lt;br /&gt;
-• 변수 total_cost 에 계산한 결과 값을 저장한다.  &lt;br /&gt;
-• 정수 3과 실수 3.25의 계산값은 실수로 자동 계산된다.  &lt;br /&gt;
-• 입력 된 두 값( 3 , 3.25 ) 중 하나 ( 3.25 )가 실수 값 이다.  &lt;br /&gt;
-• Python은 내부적으로 실수로 계산되어지고, total_cost 는 실수형 변수가 된다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;9.75
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;  &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">08.Comments</title><link href="http://localhost:4000/010108-Comments/" rel="alternate" type="text/html" title="08.Comments" /><published>2019-08-08T00:00:00+09:00</published><updated>2019-08-08T00:00:00+09:00</updated><id>http://localhost:4000/010108-Comments</id><content type="html" xml:base="http://localhost:4000/010108-Comments/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;8-comments&quot;&gt;8. Comments&lt;/h3&gt;
+&lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!</title><link href="http://localhost:4000/welcome/" rel="alternate" type="text/html" title="[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!" /><published>2019-03-11T00:00:00+09:00</published><updated>2019-03-11T00:00:00+09:00</updated><id>http://localhost:4000/welcome</id><content type="html" xml:base="http://localhost:4000/welcome/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]&lt;/p&gt;
 
-&lt;p&gt;Most of the time, code should be written in such a way that it is easy to understand on its own. However, if you want to include a piece of information to explain a part of your code, you can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; sign. A line of text preceded by a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; is called a comment. The machine does not run this code — it is only for humans to read. When you look back at your code later, comments may help you figure out what it was intended to do.&lt;/p&gt;
+&lt;p&gt;(#Python #파이썬 #Codecademy #코드카데미 #한글 # 한국어 #정답 #solution #무료 #free)&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# this variable counts how many rows of
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;spreadsheet&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;we&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;have&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;row_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;welcome&quot;&gt;Welcome&lt;/h2&gt;
 
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
-• Ch8. Comments 에서는 주석을 학습한다.  &lt;br /&gt;
-• Python 에서 프로그램으로 인식되지 않는 부분을 주석(Comment) 이라고 한다.  &lt;br /&gt;
-• 주석의 사용 목적은 프로그램에 정보를 남겨두거나 설명하기 위해서이다.   &lt;br /&gt;
-• 주석 처리된 부분은 컴퓨터는 인식 못하고 오직 프로그램을 읽는 사람만이 인식한다.  &lt;br /&gt;
-• 주석을 만들때는 # 을 사용한다.   &lt;br /&gt;
-• 한줄 주석(Comment)은 # 으로 처리 한다.&lt;/p&gt;
+&lt;p&gt;[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 입니다.  &lt;br /&gt;
+Codecademy에서 한글 서비스를 예전에 지원 하였으, 현재는 지원되지 않고 있습니다. 
+혼자서 파이썬 공부 하기 좋은 사이트인 Codecademy가 영어로 되어 있다보니, 영어에 약한 한국인들이 정확한 지시사항을 이해 못하거나, 정답을 알지 못해 어려워 하는 부분을 해결하고자, 제가 Codecademy 한글(한국어) 가이드 프로젝트 블로그를 작성하였습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
+&lt;p&gt;Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는 다음 &lt;a href=&quot;/syllabus/&quot;&gt;Python&lt;/a&gt; 링크에 연결되어 있습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;상단의 &lt;a href=&quot;/syllabus/&quot;&gt;Python&lt;/a&gt;을 클릭하시어, Codecademy python2 를 활용하시면 됩니다.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Add a comment above the declaration of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;city_pop&lt;/code&gt; with a description of what you think the variable contains.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;상단의 Python 링크를 통하여 자료가 있는 page 로 넘어 가실수 있습니다.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Instruction ]  &lt;br /&gt;
-• 변수 city_pop 위에 주석을 만들어라.&lt;/p&gt;
-
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Hint ]  &lt;br /&gt;
-• # 을 활용 하라.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;city_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;St. Potatosburg&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;# This number tracks the population count of the spudizens of St. Potatosburg
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;city_pop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;340000&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Soluction ]  &lt;br /&gt;
-• # 을 사용하여, 변수 city_pop 에 저장한  34000 에 대한 설명을 남겨둔다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#skip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Syllabus 를 통하여 Codecademy &lt;a href=&quot;/codecademy/syllabus/&quot;&gt;Python&lt;/a&gt; 전체를 공부하시는 분에게 도움이 되시기를 기도합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;  &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry></feed>
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]</summary></entry></feed>

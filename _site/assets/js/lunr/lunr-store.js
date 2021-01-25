@@ -244,78 +244,8 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
-        "title": "03.String",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX3. String When printing things in Python, we are supplying a text block that we want to be printed. Text in Python is considered a specific type of data called a string. A string, so named because they’re a...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010103-String/",
-        "teaser":null},{
-        "title": "04.Handling Errors",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX4. Handling Errors As we get more familiar with the Python programming language, we run into errors and exceptions. These are complaints that Python makes when it doesn’t understand what you want it to do. Everyone runs into these...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010104-HandlingErrors/",
-        "teaser":null},{
-        "title": "05.Variables",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX5. Variables In Python, and when programming in general, we need to build systems for dealing with data that changes over time. That data could be the location of a plane, or the time of day, or the television...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010105-Variables/",
-        "teaser":null},{
-        "title": "06.Arithmetic",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX6. Arithmetic One thing computers are capable of doing exceptionally well is performing arithmetic. Addition, subtraction, multiplication, division, and other numeric calculations are easy to do in most programming languages, and Python is no exception. Some examples: mirthful_addition =...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010106-Arithmetic/",
-        "teaser":null},{
-        "title": "07.Updating Variables",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX7. Updating Variables Changing the contents of a variable is one of the essential operations. As the flow of a program progresses, data should be updated to reflect changes that have happened. fish_in_clarks_pond = 50print \"Catching fish\"number_of_fish_caught = 10fish_in_clarks_pond...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010107-UpdatingVariables/",
-        "teaser":null},{
-        "title": "08.Comments",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX8. Comments Most of the time, code should be written in such a way that it is easy to understand on its own. However, if you want to include a piece of information to explain a part of your...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010108-Comments/",
-        "teaser":null},{
-        "title": "09.Numbers",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX9. Numbers Variables can also hold numeric values. The simplest kind of number in Python is the integer, which is a whole number with no decimal point: int1 = 1int2 = 10int3 = -5A number with a decimal point...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010109-Numbers/",
-        "teaser":null},{
-        "title": "10.Two Types of Division",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX10. Two Types of Division In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine: quotient = 6/2# the value of quotient is now...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010110-TwoTypesOfDivision/",
-        "teaser":null},{
-        "title": "11.Multi Line Strings",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX11. Multi-line Strings We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes: address_string = \"\"\"136 Whowho RdApt 7Whosville,...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010111-MultiLineStrings/",
-        "teaser":null},{
-        "title": "12.Booleans",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX12. Booleans Sometimes we have a need for variables that are either true or false. This datatype, which can only ever take one of two values, is called a boolean. In Python, we define booleans using the keywords True...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010112-Boleeans/",
-        "teaser":null},{
-        "title": "13.ValueError",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX13. ValueError Python automatically assigns a variable the appropriate datatype based on the value it is given. A variable with the value 7 is an integer, 7. is a float, “7” is a string. Sometimes we will want to...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010113-ValueError/",
-        "teaser":null},{
-        "title": "14.Review",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] PYTHON SYNTAX14. Review Great! So far we’ve looked at: Print statements How to create, modify, and use variables Arithmetic operations like addition, subtraction, division, and multiplication How to use comments to make your code easy to understand Different data types,...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/010114-Review/",
-        "teaser":null},{
-        "title": "01.Strings",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] STRING &amp; CONSOLE OUTPUT1. Strings Another useful data type is the string. A string can contain letters, numbers, and symbols. name = \"Ryan\"age = \"19\"food = \"cheese\"In the above example, we create a variable name and set it to the...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/020101-Strings/",
-        "teaser":null},{
-        "title": "02.Practice",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] STRING &amp; CONSOLE OUTPUT2. Practice Excellent! Let’s get a little practice in with strings. 설명: [ Learn ] • Ch2. Practice 에서는 문자열 연습을 학습한다. Set the following variables to their respective phrases: Set caesar to “Graham” Set praline to...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/020102-Practice/",
-        "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] (#Python#파이썬#Codecademy#코드카데미#한글#정답#solution#무료#free) 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World Print Statements String Handling Errors Variables Arithmetic Updating Variables Comments Numbers Two Types of Division Multi-line Strings …… [ 2. String &amp;...","categories": [],
+        "excerpt":"#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free #Python#Codecademy#코드카데미#한글#Korea#설명#정답#Solves#목록#무료#Free 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World Print Statements String Handling Errors Variables Arithmetic Updating Variables Comments Numbers Two Types of Division Multi-line Strings …… [ 2. String...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},]
