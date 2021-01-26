@@ -10,9 +10,8 @@ last_modified_at: 2019-03-11T09:00:00-04:00
 #toc: true
 ---
     
-<br><br>   
+<br>   
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
-
 
 <table>
 	<tr>
@@ -22,3 +21,4 @@ last_modified_at: 2019-03-11T09:00:00-04:00
         </td>
 	</tr>
 </table>
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
