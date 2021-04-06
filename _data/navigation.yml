@@ -30,7 +30,8 @@ foo:
 # main links
 main:
   - title: "Codecademy"
-    url: /codecademy-python-list/
+    url: /syllabus/
+    #url: /codecademy-python-list/
   - title: "Python"
     url: /docs-main/
     #url: /syllabus/

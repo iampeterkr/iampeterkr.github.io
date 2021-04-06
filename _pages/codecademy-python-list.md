@@ -1,5 +1,5 @@
 ---
-#layout : archive
+layout : archive
 #title: "Codecademy Python 한글 List"
 permalink: /syllabus/
 #excerpt: "Python list of codecademy"
