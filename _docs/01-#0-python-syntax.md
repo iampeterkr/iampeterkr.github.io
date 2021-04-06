@@ -7,7 +7,10 @@ excerpt: "We learn about Python Syntax."
 redirect_from:
   - /theme-setup/
 toc: true
+toc_sticky: true
+toc_label: 목차
 ---
+
   
    
 <hr style="border: solid 1px #dddddd ;">    
