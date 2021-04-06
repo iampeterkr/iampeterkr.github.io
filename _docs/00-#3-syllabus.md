@@ -28,7 +28,7 @@ redirect_from:
 <hr/>     
 
 <b>2.	Strings and Console Output</b>     
-*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/) ![p2eng]({{ site.baseurl }}/assets/images/codecademy/python2-english.png){: width="10" height="10"}
+*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/) ![p2eng]({{ site.baseurl }}/assets/images/codecademy/python2-english.png){: width="100" height="100"}
       
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
