@@ -15,7 +15,7 @@ var store = [{
         "url": "http://localhost:4000/login/",
         "teaser":null},{
         "title": "Syllabus",
-        "excerpt":"1. Python Syntax A. Python Syntax § [Eng] [Kor]2. Strings and Console Output A. String &amp; Console Output § //assets/images/codecademy/p2-eng.png){: width=”100” height=”100”} B. Date and Time § 3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation §...","categories": [],
+        "excerpt":"1. Python Syntax A. Python Syntax § [Eng] [Kor]2. Strings and Console Output A. String &amp; Console Output § B. Date and Time § 3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp;...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/syllabus/",
         "teaser":null},{
