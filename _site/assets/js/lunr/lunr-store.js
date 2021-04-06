@@ -235,7 +235,7 @@ var store = [{
         "url": "http://localhost:4000/p3-taking-vacation/",
         "teaser":null},{
         "title": "[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트] (#Python #파이썬 #Codecademy #코드카데미 #한글 # 한국어 #정답 #solution #무료 #free) Welcome [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 입니다. Codecademy에서 한글 서비스를 예전에 지원 하였으, 현재는 지원되지 않고 있습니다. 혼자서 파이썬 공부 하기 좋은 사이트인 Codecademy가 영어로 되어 있다보니, 영어에 약한 한국인들이 정확한 지시사항을 이해 못하거나,...","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트] (#Python #파이썬 #Codecademy #코드카데미 #한글 # 한국어 #정답 #solution #무료 #free) Welcome [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 입니다. Codecademy에서 한글 서비스를 예전에 지원 하였으, 현재는 지원되지 않고 있습니다. 혼자서 파이썬 공부 하기 좋은 사이트인 Codecademy가 영어로 되어 있다보니, 영어가 익숙치 않은 분들이 지시사항을 정확히 이해...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/welcome/",
         "teaser":null},{
