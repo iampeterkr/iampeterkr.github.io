@@ -6,7 +6,7 @@ author_profile: true
 ---
 <br>
 
-*I like to ride road cycle, ski, and golf.*   
+I like to ride road cycle, ski, and golf.   
 *One time, I used to consider changing my jobs, in order to go skiing at the ski resorts during winter seasons.*    
 
 *I studied Computer Science(Software Engineering) at KAIST.*      
@@ -19,12 +19,3 @@ author_profile: true
 <br>
 
 ***From Peter***
-
-{% include group-by-array collection=site.posts field="categories" %}
-{% for category in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endfor %}
