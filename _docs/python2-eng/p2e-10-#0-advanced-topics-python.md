@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Advanced Topics in Python"
-permalink: /advanced-topics-python/
+permalink: /p2e-advanced-topics-python/
 excerpt: "We learn about Data structure, list comprehension, slicing, lambda Syntax."
 # last_modified_at: 2019-02-25T09:00:00-04:00
 redirect_from:

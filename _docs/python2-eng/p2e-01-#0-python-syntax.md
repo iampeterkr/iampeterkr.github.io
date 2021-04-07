@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Python Syntax"
-permalink: /python-syntax/
+permalink: /p2e-python-syntax/
 excerpt: "We learn about Python Syntax."
 # last_modified_at: 2018-11-19T09:00:00-04:00
 redirect_from:

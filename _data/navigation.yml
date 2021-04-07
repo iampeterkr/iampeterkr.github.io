@@ -76,7 +76,51 @@ docs:
         url: /community-forums/
       - title: " • Report a Bug"
         url: /report-bug/
-  - title: Python2
+  - title: Python2-korean
+    children:
+      - title: " 01. Python Syntax"
+        url: /p2k-python-syntax/
+      - title: " 02. String & Console Output"
+        url: /p2k-string-console-output/
+      - title: " ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time"
+        url: /p2k-date-and-time/
+      - title: " 03. Conditionals and Control Flow"
+        url: /p2k-conditionals-control-flow/
+      - title: "⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin"
+        url: /p2k-pyglatin/
+      - title: " 04. Functions "
+        url: /p2k-functions/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation"
+        url: /p2k-taking-vacation/
+      - title: " 05. Lists & Dictionaries"
+        url: /p2k-lists-dictionaries/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket"
+        url: /p2k-day-supermarket/
+      - title: " 06. Student Becomes the Teacher"
+        url: /p2k-student-becomes-teacher/
+      - title: " 07. Lists and Functions"
+        url: /p2k-lists-functions/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!"
+        url: /p2k-battleship/
+      - title: " 08. Loops"
+        url: /p2k-loops/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect"
+        url: /p2k-practice-makes-perfect/
+      - title: " 09. Exam Statistics"
+        url: /p2k-exam-statistics/
+      - title: " 10. Advanced Topics in Python"
+        url: /p2k-advanced-topics-python/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators"
+        url: /p2k-introduction-bitwise-operators/
+      - title: " 11. Introduction to Classes"
+        url: /p2k-introduction-classes/
+      - title: "⁯  ⁯⁯⁯  ⁯⤷ ° Classes"
+        url: /p2k-classes/
+      - title: " 12. File Input and Output"
+        url: /p2k-file-input-output/
+      - title: " 13. PYTHON FINAL PROJECT"
+        url: /p2k-python-final-project/
+  - title: Python2-english
     children:
       - title: " 01. Python Syntax"
         url: /python-syntax/

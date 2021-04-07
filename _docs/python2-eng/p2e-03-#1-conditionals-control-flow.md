@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Conditionals and Control Flow"
-permalink: /conditionals-control-flow/
+permalink: /p2e-conditionals-control-flow/
 excerpt: "We learn about Conditionals, Control Flow Syntax."
 # last_modified_at: 2019-01-30T09:00:00-04:00
 redirect_from:

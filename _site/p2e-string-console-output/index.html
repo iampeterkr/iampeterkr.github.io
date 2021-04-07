@@ -1,0 +1,2306 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>String &amp; Console Output -  Peter’s Blog</title>
+<meta name="description" content="We learn about String, Console, and Output Syntax.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's Blog ">
+<meta property="og:title" content="String &amp; Console Output">
+<meta property="og:url" content="http://localhost:4000/p2e-string-console-output/">
+
+
+  <meta property="og:description" content="We learn about String, Console, and Output Syntax.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-04-07T16:12:22+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/p2e-string-console-output/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/"> Peter's Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/syllabus/" >Codecademy</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/connect/" class="">Connect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/signin/" class="">SignIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/login/" class="">LogIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/bk-syllabus/" class="">Syllabus</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How to use</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/explain-screen/" class="">Explain Screen</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/learn/" class=""> • Learn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/instructions/" class=""> • Instructions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/stuck-get-a-hint/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/solution/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Solution?</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/community-forums/" class=""> • Community Forums</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/report-bug/" class=""> • Report a Bug</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2-korean</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2-english</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python3</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="String &amp; Console Output">
+    <meta itemprop="description" content="We learn about String, Console, and Output Syntax.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">String &amp; Console Output
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-strings">1. Strings</a></li>
+  <li><a href="#2-practice">2. Practice</a></li>
+  <li><a href="#3-escaping-characters">3. Escaping characters</a></li>
+  <li><a href="#4-access-by-index">4. Access by Index</a></li>
+  <li><a href="#5-string-methods">5. String methods</a></li>
+  <li><a href="#6-lower">6. lower()</a></li>
+  <li><a href="#7-upper">7. upper()</a></li>
+  <li><a href="#8-str">8. str()</a></li>
+  <li><a href="#9-dot-notation">9. Dot Notation</a></li>
+  <li><a href="#10-printing-strings">10. Printing Strings</a></li>
+  <li><a href="#11-printing-variables">11. Printing Variables</a></li>
+  <li><a href="#12-string-concatenation">12. String Concatenation</a></li>
+  <li><a href="#13-explicit-string-conversion">13. Explicit String Conversion</a></li>
+  <li><a href="#14-string-formatting-with--part-1">14. String Formatting with %, Part 1</a></li>
+  <li><a href="#15-string-formatting-with--part-2">15. String Formatting with %, Part 2</a></li>
+  <li><a href="#16-and-now-for-something-completely-familiar">16. And Now, For Something Completely Familiar</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the “print” keyword.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
+이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="1-strings">1. Strings</h3>
+
+<p>Another useful data type is the <strong>string</strong>. A <strong>string</strong> can contain letters, numbers, and symbols.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">"Ryan"</span>
+<span class="n">age</span> <span class="o">=</span> <span class="s">"19"</span>
+<span class="n">food</span> <span class="o">=</span> <span class="s">"cheese"</span>
+</code></pre></div></div>
+<p>In the above example, we create a variable <code class="language-plaintext highlighter-rouge">name</code> and set it to the string value <code class="language-plaintext highlighter-rouge">"Ryan"</code>.
+We also set <code class="language-plaintext highlighter-rouge">age</code> to <code class="language-plaintext highlighter-rouge">"19"</code> and <code class="language-plaintext highlighter-rouge">food</code> to <code class="language-plaintext highlighter-rouge">"cheese"</code>.
+Strings need to be within quotes.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch1. Strings 에서는 문자열을 학습한다.  <br />
+• 문자열(string)은 문자와, 숫자와, 기호도 사용할 수 있다.   <br />
+• 문자열인데, 숫자도 사용할수 있다는 의미는 함수 int()를 활용하여 변환후 사용할수 있다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Create a new variable <code class="language-plaintext highlighter-rouge">brian</code> and assign it the string <code class="language-plaintext highlighter-rouge">"Hello life!"</code>.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 brian 를 만들고 <em>Hello life!</em> 를 대입하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Do you remember how to declare and assign variables in Python? If not, refresh your memory here!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• 문자열을 대입할때, 문자열의 양끝을 따옴표 ( “ “ ) or ( ‘ ‘ ) 를 사용하면 된다.   <br />
+• 아래 소스를 실행시켜 보면 아래와 같은 결과를 얻는다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">brian</span> <span class="o">=</span> <span class="s">"Hello life!"</span>
+<span class="n">brian1</span> <span class="o">=</span> <span class="s">'The man screamed "I love Python!" so that everyone could hear.'</span>
+<span class="n">brian2</span> <span class="o">=</span> <span class="s">"The man screamed 'I love Python!' so that everyone could hear."</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">brian</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">brian1</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">brian2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello life!
+The man screamed "I love Python!" so that everyone could hear.
+The man screamed 'I love Python!' so that everyone could hear.
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">brian</span> <span class="o">=</span> <span class="s">"Hello life!"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 문자열을 대입할때, 문자열 양 끝에 따옴표 ( “ “ ) or ( ‘ ‘ )를 사용한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #skip
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="2-practice">2. Practice</h3>
+
+<p>Excellent! Let’s get a little practice in with strings.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch2. Practice 에서는 문자열 연습을 학습한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Set the following variables to their respective phrases:</p>
+
+    <ul>
+      <li>Set <code class="language-plaintext highlighter-rouge">caesar</code> to “Graham”</li>
+      <li>Set <code class="language-plaintext highlighter-rouge">praline</code> to “John”</li>
+      <li>Set <code class="language-plaintext highlighter-rouge">viking</code> to “Teresa”</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 caesar = “Graham” 을 대입  <br />
+• 변수 praline = “John”  을 대입<br />
+• 변수 viking = “Teresa” 을 대입</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Make sure you use exactly the capitalization shown! Python takes things very literally.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• Python은 문자열의 대/소문자를 구별한다. 정확하게 사용해야 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Assign your variables below, each on its own line!
+</span>
+<span class="n">caesar</span> <span class="o">=</span> <span class="s">"Graham"</span>
+<span class="n">praline</span> <span class="o">=</span> <span class="s">"John"</span>
+<span class="n">viking</span> <span class="o">=</span> <span class="s">"Teresa"</span>
+
+<span class="c1"># Put your variables above this line
+</span>
+<span class="k">print</span> <span class="n">caesar</span>
+<span class="k">print</span> <span class="n">praline</span>
+<span class="k">print</span> <span class="n">viking</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 각 변수에 문자열을 대입한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Graham
+John
+Teresa
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br />
+<img src="//assets/images/codecademy/line.png" alt="codecademy" /> <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="3-escaping-characters">3. Escaping characters</h3>
+
+<p>There are some characters that cause problems. For example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'There'</span><span class="n">s</span> <span class="n">a</span> <span class="n">snake</span> <span class="ow">in</span> <span class="n">my</span> <span class="n">boot</span><span class="err">!</span><span class="s">'
+</span></code></pre></div></div>
+
+<p>This code breaks because Python thinks the apostrophe in ‘There’s’ ends the string. We can use the backslash to fix the problem, like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'There</span><span class="se">\'</span><span class="s">s a snake in my boot!'</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch3. Escaping characters 에서는 <code class="language-plaintext highlighter-rouge">\</code> 사용법을 학습한다.  <br />
+• 우리는 문자열을 만들때, 따옴표( ‘ ‘ )를 사용해야 한다고 앞에서 배웠다.  <br />
+• 가령 ‘There’s’ 라는 문자열을 만들때 Python은 따옴표 ( ‘ )를 쿼터로 인식한다.   <br />
+• 이런 경우는 ( ‘ ) 가 쿼터가 아님을 표시해주는 <code class="language-plaintext highlighter-rouge">\</code> 를 앞에 둔다.  <br />
+• Python 은 <code class="language-plaintext highlighter-rouge">\</code> 이면 다음 문자를 단순 문자로 인식한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Fix the string in the editor!</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The string below is broken. Fix it using the escape backslash!
+</span>
+<span class="s">'This isn'</span><span class="n">t</span> <span class="n">flying</span><span class="p">,</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">falling</span> <span class="k">with</span> <span class="n">style</span><span class="err">!</span><span class="s">'
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 문자열 <em>ist’t</em> 를 수정하여 정상적인 문자열로 만들어라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>You can escape the ‘ just by adding a ‘ before it: '.</p>
+  </li>
+  <li>
+    <p>There’s another way to fix this problem. Can you think of it?</p>
+  </li>
+  <li>
+    <p>You cannot pass this exercise with the other methods.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• <code class="language-plaintext highlighter-rouge">\</code> 를 사용하라.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The string below is broken. Fix it using the escape backslash!
+</span>
+<span class="s">'This isn</span><span class="se">\'</span><span class="s">t flying, this is falling with style!'</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 문자열 <em>isn’t’</em> 를 <em>isn't</em> 로 수정 한다.   <br />
+• 또다른 방법은 가장 바깥쪽 문자열 쿼터 ( ‘ ‘ ) 를 ( “ “ ) 로 바꾸어 준다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The string below is broken. Fix it using the escape backslash!
+</span>
+<span class="n">a</span> <span class="o">=</span> <span class="s">'This isn</span><span class="se">\'</span><span class="s">t flying, this is falling with style!'</span>
+
+<span class="n">b</span> <span class="o">=</span> <span class="s">"This isn</span><span class="se">\'</span><span class="s">t flying, this is falling with style!"</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">b</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This isn't flying, this is falling with style!
+This isn't flying, this is falling with style!
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
+<p><br />
+<img src="//assets/images/codecademy/line.png" alt="codecademy" /> <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="4-access-by-index">4. Access by Index</h3>
+
+<p>Great work!</p>
+
+<p>Each character in a string is assigned a number. This number is called the index. Check out the diagram in the editor.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">c</span> <span class="o">=</span> <span class="s">"cats"</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">n</span> <span class="o">=</span> <span class="s">"Ryan"</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div></div>
+<ol>
+  <li>
+    <p>In the above example, we create a new variable called <code class="language-plaintext highlighter-rouge">c</code> and set it to <code class="language-plaintext highlighter-rouge">"c"</code>, the character at index zero of the string <code class="language-plaintext highlighter-rouge">"cats"</code>.</p>
+  </li>
+  <li>
+    <p>Next, we create a new variable called <code class="language-plaintext highlighter-rouge">n</code> and set it to <code class="language-plaintext highlighter-rouge">"n"</code>, the character at index three of the string <code class="language-plaintext highlighter-rouge">"Ryan"</code>.</p>
+  </li>
+</ol>
+
+<p>Notice that in the first <code class="language-plaintext highlighter-rouge">"cat"</code> example we are calling the 0th letter of <code class="language-plaintext highlighter-rouge">"cat"</code> and getting <code class="language-plaintext highlighter-rouge">"c"</code> in return. This is because in Python indices begin counting at 0. Therefore, in the string <code class="language-plaintext highlighter-rouge">"cats"</code>, the first letter, <code class="language-plaintext highlighter-rouge">"c"</code>, is at the 0th index and the last letter, <code class="language-plaintext highlighter-rouge">"s"</code>, is at the 3rd index.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+---+---+---+---+
+| c | a | t | s |
++---+---+---+---+
+  0   1   2   3  
+
++---+---+---+---+
+| R | y | a | n |
++---+---+---+---+
+  0   1   2   3  
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch4. Access by Index 에서는 문자열 주소 접근법을 학습한다.  <br />
+• 문자열은 위와 같이 메모리에 저장된다.  <br />
+• 그 메모리에는 0 번 부터 주소(index)가 매겨진다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""</span>
+</code></pre></div></div>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On line 13, assign the variable <code class="language-plaintext highlighter-rouge">fifth_letter</code> equal to the fifth letter of the string “MONTY”.</p>
+  </li>
+  <li>Remember that the fifth letter is not at index <code class="language-plaintext highlighter-rouge">5</code>.</li>
+  <li>Start counting your indices from zero.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 변수 fifth_letter 에 <em>MONTY</em> 중 5 번째 글자만 대입하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>The letter you want is <em>Y</em>.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 문자열 <em>MONTY</em> 에서 <em>Y</em> 만 출력 할려면 변수에 <em>Y</em> 만 대입해야 한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""</span>
+<span class="n">fifth_letter</span> <span class="o">=</span> <span class="s">"MONTY"</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="n">fifth_letter</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 문자열 <em>MONTY</em> 에서 <em>Y</em> 만 출력 할려면 <em>Y</em>가 다섯번째에 있는 글자 이다.  <br />
+• 하지만, 실제 인덱스 주소에는 4 번에 저장되어 있다.  <br />
+• “MONTY”[4] 즉, 4 번째 주소에 있는 글자만 변수에 대입해야 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Y
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="5-string-methods">5. String methods</h3>
+
+<p>Great work! Now that we know how to store strings, let’s see how we can change them using string methods.</p>
+
+<p>String methods let you perform specific tasks for strings.</p>
+
+<p>We’ll focus on four string methods:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">len()</code></li>
+  <li><code class="language-plaintext highlighter-rouge">lower()</code></li>
+  <li><code class="language-plaintext highlighter-rouge">upper()</code></li>
+  <li><code class="language-plaintext highlighter-rouge">str()</code></li>
+</ul>
+
+<p>Let’s start with <code class="language-plaintext highlighter-rouge">len()</code>, which gets the length (the number of characters) of a string!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch5. String methods 에서는 문자열 관련 함수를 학습한다.  <br />
+• 함수 len() 는 문자의 갯수를 알려주는 함수이다.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On line 1, create a variable named <code class="language-plaintext highlighter-rouge">parrot</code> and set it to the string “Norwegian Blue”.</p>
+  </li>
+  <li>On line 2, type <code class="language-plaintext highlighter-rouge">len(parrot)</code> after the word print, like so: <code class="language-plaintext highlighter-rouge">print len(parrot)</code>.</li>
+  <li>The output will be the number of characters in “Norwegian Blue”!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 1번 라인에, 변수 parrot 를 만들어라.  <br />
+• 변수 parrot 에 문자열 “Norwegian Blue” 를 대입하라.  <br />
+• 2번 라인에, print len(parrot) 라고 작성하자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Use the function <code class="language-plaintext highlighter-rouge">len()</code>.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 함수 len() 에 변수를 삽입하여 해당 변수에 들어 있는 문자의 갯수를 셀 수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">parrot</span> <span class="o">=</span> <span class="s">"Norwegian Blue"</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">parrot</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 함수 len()의 Parameter로 parrot 변수를 넣었다.  <br />
+• print 문으로 len(parrot) 를 출력하였다.  <br />
+• 변수 parrot 에 들어있는 문자열 <em>Norwegian Blue</em> 의 문자 갯수가 출력된다.  <br />
+• 그런데, 예상된 문자 갯수가 13개가 아니라, 14개가 출력 된다.  <br />
+• 이유는 공백(space)도 하나의 문자로 계산한다.  <br />
+• 중간에 공백을 몇개 넣고 RUN 해보면 바로 알수 있다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>14
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />   <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="6-lower">6. lower()</h3>
+
+<p>Well done!</p>
+
+<p>You can use the <code class="language-plaintext highlighter-rouge">lower()</code> method to get rid of all the capitalization in your strings. You call <code class="language-plaintext highlighter-rouge">lower()</code> like so:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"Ryan"</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+<p>which will return “ryan”.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch6. lower() 에서는 메서드 lower()를 학습한다.  <br />
+• 함수 lower() 는 대문자를 모두 소문자로 변경하여 반환한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Call <code class="language-plaintext highlighter-rouge">lower()</code> on parrot (after print) on line 3 in the editor.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 parrot 의 담긴 문자열을 함수 lower() 를 사용하여, 라인 3에서 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Your code should look something like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="n">parrot</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 함수 parrot.lower() 사용하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">parrot</span> <span class="o">=</span> <span class="s">"Norwegian Blue"</span>
+
+<span class="k">print</span> <span class="n">parrot</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 문자열에 ( . ) 을 붙이고 lower() 를 사용할 수 있다.  <br />
+• 변수에도 동일하게 ( . ) 을 붙이고 함수 lower() 를 사용할 수 있다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>norwegian blue
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="7-upper">7. upper()</h3>
+
+<p>Now your <strong>string</strong> is 100% lower case! A similar method exists to make a string completely upper case.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch7. upper() 에서는 메서드 upper()를 학습한다.   <br />
+• 함수 upper() 는 문자열을 모두 대문자로 바꿔주는 함수이다.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Call <code class="language-plaintext highlighter-rouge">upper()</code> on parrot (after print on line 3) in order to capitalize all the characters in the string!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 변수 parrot 을  함수 upper() 를 사용하여 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Use the same syntax as the previous exercise! Last time, you used:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="n">parrot</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 이전에 연습한 함수 lower() 사용법을 참조하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">parrot</span> <span class="o">=</span> <span class="s">"norwegian blue"</span>
+
+<span class="k">print</span> <span class="n">parrot</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 문자열에 ( . ) 을 붙이고 함수 upper() 를 사용할 수 있다.   <br />
+• 변수에도 ( . ) 을 붙이고 함수 upper() 를 사용할 수 있다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>NORWEGIAN BLUE
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="8-str">8. str()</h3>
+
+<p>Now let’s look at <code class="language-plaintext highlighter-rouge">str()</code>, which is a little less straightforward. The <code class="language-plaintext highlighter-rouge">str()</code> method turns non-strings into strings! For example:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">str</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>would turn <code class="language-plaintext highlighter-rouge">2</code> into <code class="language-plaintext highlighter-rouge">"2"</code>.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch8. str() 에서는 메서드 str()를 학습한다.   <br />
+• 함수 str() 는 문자열이 아닌것을 문자열로 변환해 준다.  <br />
+• e.g. integer 2 를 string “2” 로 변환해 준다.   <br />
+• e.g. float 2.0 를 string “2.0” 로 변환해 준다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Create a variable <code class="language-plaintext highlighter-rouge">pi</code> and set it to <code class="language-plaintext highlighter-rouge">3.14</code> on line 4.</p>
+  </li>
+  <li>
+    <p>Call <code class="language-plaintext highlighter-rouge">str(pi)</code> on line 5, after print.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 pi 를 만들고, 3.14 를 대입하라.  <br />
+• 라인 5 에서, str(pi) 를 사용하고, 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">str()</code> syntax is like the <code class="language-plaintext highlighter-rouge">len()</code> syntax:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">str</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 함수 str() 사용법은 함수 len() 사용법과 같다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""Declare and assign your variable on line 4,
+then call your method on line 5!"""</span>
+
+<span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14</span>
+<span class="k">print</span> <span class="nb">str</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• float 변수 pi 에 실수 3.14 를 대입한다.  <br />
+• 변수 pi 를 출력 할때는 str() 을 사용하여 문자열로 변환하여 출력 해야한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>3.14
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="9-dot-notation">9. Dot Notation</h3>
+
+<p>Let’s take a closer look at why you use <code class="language-plaintext highlighter-rouge">len(string)</code> and <code class="language-plaintext highlighter-rouge">str(object)</code>, but dot notation (such as <code class="language-plaintext highlighter-rouge">"String".upper()</code>) for the rest.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">lion</span> <span class="o">=</span> <span class="s">"roar"</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">lion</span><span class="p">)</span>
+<span class="n">lion</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+</code></pre></div></div>
+<p>Methods that use dot notation only work with strings.</p>
+
+<p>On the other hand, <code class="language-plaintext highlighter-rouge">len()</code> and <code class="language-plaintext highlighter-rouge">str()</code> can work on other data types.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch9. Dot Notation 에서는 메서드 접근법을 학습한다.  <br />
+• 문자열(대문자, 소문자)을 변환 할때는 ( . ) 을 사용한다.  <br />
+• 데이타 type 을 변환 할때는 함수 len() , str() 을 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>On line 3, call the <code class="language-plaintext highlighter-rouge">len()</code> function with the argument <code class="language-plaintext highlighter-rouge">ministry</code>.</p>
+  </li>
+  <li>
+    <p>On line 4, invoke the <code class="language-plaintext highlighter-rouge">ministry's .upper()</code> function.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 라인 3에서는 함수 len() 를 사용하여 출력하라.  <br />
+• 라인 4에서는 함수 .upper() 를 사용하여 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• skip</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ministry</span> <span class="o">=</span> <span class="s">"The Ministry of Silly Walks"</span>
+
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">ministry</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">ministry</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 함수 len(ministry) 는 변수 ministry 의 길이를 반환한다.  <br />
+• ministry.upper() 는 변수 ministry 의 문자열을 대문자로 변환한다.  <br />
+• <em>주의)</em> 변수 ministry 의 저장되어 있는 내용은 변하지 않는다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>27
+THE MINISTRY OF SILLY WALKS
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" /> <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="10-printing-strings">10. Printing Strings</h3>
+
+<p>The area where we’ve been writing our code is called the <strong>editor</strong>.</p>
+
+<p>The <strong>console</strong> (the window to the right of the editor) is where the results of your code is shown.</p>
+
+<p><code class="language-plaintext highlighter-rouge">print</code> simply displays your code in the console.</p>
+
+<p class="notice--info"><strong>설명:</strong>  [ Learn ]    <br />
+•Ch10. Printing Strings 에서는 문자열 출력방법을 학습한다.  <br />
+• print 는 editor 화면에서 작성한 프로그래밍을 console 창에 보여준다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Print “Monty Python” to the console.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 문자열 “Monty Python” 을 console 에 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>The syntax looks like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Your string goes here"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• print 문을 사용하여 문자열을 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""Tell Python to print "Monty Python"
+to the console on line 4!"""</span>
+
+<span class="k">print</span> <span class="s">"Monty Python"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• print 문을 사용하여 문자열 “Monty Python” 을 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Monty Python
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />   <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="11-printing-variables">11. Printing Variables</h3>
+
+<p>Great! Now that we’ve printed strings, let’s print variables</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch11. Printing Variables 에서는 변수 출력을 학습한다.   <br />
+• print 문은 변수도 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Declare a variable called <code class="language-plaintext highlighter-rouge">the_machine_goes</code> and assign it the string value “Ping!” on line 5.</p>
+  </li>
+  <li>
+    <p>Go ahead and print <code class="language-plaintext highlighter-rouge">the_machine_goes</code> in line 6.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 라인 5에서, 변수 the_machine_goes 에 “Ping” 을 대입하라.  <br />
+• 라인 6에서, 변수 the_machine_goes 를 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Make sure you’re setting your variable like this:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">the_machine_goes</span> <span class="o">=</span> <span class="s">"Ping!"</span>
+</code></pre></div></div>
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 변수 the_machine_goes = “Ping!”</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""Assign the string "Ping!" to
+the variable the_machine_goes on
+line 5, then print it out on line 6!"""</span>
+
+<span class="n">the_machine_goes</span> <span class="o">=</span> <span class="s">"Ping!"</span>
+<span class="k">print</span> <span class="n">the_machine_goes</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 변수 the_machine_goes 를 만들어라.  <br />
+• 변수 the_machine_goes 를 print 문을 사용하여 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ping!
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="12-string-concatenation">12. String Concatenation</h3>
+
+<p>You know about <strong>strings</strong>, and you know about arithmetic operators. Now let’s combine the two!</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Life "</span> <span class="o">+</span> <span class="s">"of "</span> <span class="o">+</span> <span class="s">"Brian"</span>
+<span class="n">This</span> <span class="n">will</span> <span class="k">print</span> <span class="n">out</span> <span class="n">the</span> <span class="n">phrase</span> <span class="n">Life</span> <span class="n">of</span> <span class="n">Brian</span><span class="p">.</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">+</code> operator between strings will <strong>‘add’</strong> them together, one after the other. Notice that there are spaces inside the quotation marks after Life and of so that we can make the combined <strong>string</strong> look like 3 words.</p>
+
+<p>Combining strings together like this is called <strong>concatenation</strong>. Let’s try concatenating a few strings together now!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch12. String Concatenation 에서는 문자열 연결을 학습한다.   <br />
+• 문자열은 ( + ) 연산자를 사용하여 연결할수 있다.  <br />
+• 문자열을 ( + ) 연산자를 사용하여 연결하는것을 concatenations 이라고 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Let’s give it a try. Print the concatenated strings “Spam “, “and “, “eggs” on line 3, just like the example above.</p>
+  </li>
+  <li>
+    <p>Make sure you include the spaces at the end of “Spam “ and “and “.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 라인 3 에서, “Spam “, “and “, “eggs”를 연결하라.      <br />
+• 주의할 점은 “Spam” 과 “and” 문자뒤에 공백이 있어야 한다.  <br />
+• e.g. “Spam “,   “and “</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Make sure you include the spaces and use the correct capitalization.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 문자열 “Spam “과 “and “ 다음에 공백이 있다는것을 주의한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Print the concatenation of "Spam and eggs" on line 3!
+</span>
+<span class="k">print</span> <span class="s">"Spam "</span> <span class="o">+</span> <span class="s">"and "</span> <span class="o">+</span> <span class="s">"eggs"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• Concatenation( + ) 는 문자 그대로 연결시켜 준다.  <br />
+• 임의로 공백을 주지 않으면 “Spamandeggs” 로 출력된다.  <br />
+• 문자열 (“ “) 사이에 공백을 적절히 넣어줘야 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Spam and eggs
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="13-explicit-string-conversion">13. Explicit String Conversion</h3>
+
+<p>Sometimes you need to combine a <strong>string</strong> with something that isn’t a string. In order to do that, you have to convert the <strong>non-string</strong> into a <strong>string</strong>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"I have "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> <span class="s">" coconuts!"</span>
+<span class="n">This</span> <span class="n">will</span> <span class="k">print</span> <span class="n">I</span> <span class="n">have</span> <span class="mi">2</span> <span class="n">coconuts</span><span class="err">!</span><span class="p">.</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">str()</code> method converts <strong>non-strings</strong> into strings. In the above example, you convert the number <code class="language-plaintext highlighter-rouge">2</code> into a <strong>string</strong> and then you concatenate the strings together just like in the previous exercise.</p>
+
+<p>Now try it yourself!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch13. Explicit String Conversion 에서는 출력시 문자열 변환을 학습한다.   <br />
+• 문자열과 숫자를 concatenation 시킬때는 숫자를 문자열 형태로 바꿔 줘야한다.  <br />
+• 바꿔주지 않으면 Python 해석기(interpreter)는 Error를 발생시킨다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Run the code as-is. You get an error!</p>
+  </li>
+  <li>
+    <p>Use <code class="language-plaintext highlighter-rouge">str()</code> to turn <code class="language-plaintext highlighter-rouge">3.14</code> into a string. Then run the code again.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• Editor 화면의 소스를 Run 시키면 Error 가 발생한다.  <br />
+• 실수 3.14 를 함수 str() 를 사용하여 문자열 형태로 바꾸어라.  <br />
+• Run  시켜라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>The code to turn the number 2 into a string is <code class="language-plaintext highlighter-rouge">str(2)</code>.</p>
+  </li>
+  <li>
+    <p>Can you convert the number <code class="language-plaintext highlighter-rouge">3.14</code> into a string?</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 숫자를 문자로 바꿔 주기 위해선, 함수 str() 를 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Turn 3.14 into a string on line 3!
+</span>
+<span class="k">print</span> <span class="s">"The value of pi is around "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mf">3.14</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 실수 3.14 를 문자열로 바꿔주는, 함수 str() 를 사용한다.  <br />
+• e.g. str(3.14) 로 변경 해야한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The value of pi is around 3.14
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="14-string-formatting-with--part-1">14. String Formatting with %, Part 1</h3>
+
+<p>When you want to print a variable with a <strong>string</strong>, there is a better method than <strong>concatenating</strong> strings together.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">"Mike"</span>
+<span class="k">print</span> <span class="s">"Hello %s"</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">%</code> operator after the string is used to combine a string with variables. The <code class="language-plaintext highlighter-rouge">%</code> operator will replace the <code class="language-plaintext highlighter-rouge">%s</code> in the string with the string variable that comes after it.</p>
+
+<p>If you’d like to print a variable that is an <strong>integer</strong>, you can <strong>“pad”</strong> it with zeros using <strong>%02d</strong>. The <code class="language-plaintext highlighter-rouge">0</code> means <strong>“pad with zeros”</strong>, the <code class="language-plaintext highlighter-rouge">2</code> means to pad to <code class="language-plaintext highlighter-rouge">2</code> characters wide, and the <code class="language-plaintext highlighter-rouge">d</code> means the <strong>number</strong> is a <strong>signed integer</strong> (can be positive or negative).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">day</span> <span class="o">=</span> <span class="mi">6</span>
+<span class="k">print</span> <span class="s">"03 - %s - 2019"</span> <span class="o">%</span>  <span class="p">(</span><span class="n">day</span><span class="p">)</span>
+<span class="c1"># 03 - 6 - 2019
+</span><span class="k">print</span> <span class="s">"03 - %02d - 2019"</span> <span class="o">%</span> <span class="p">(</span><span class="n">day</span><span class="p">)</span>
+<span class="c1"># 03 - 06 - 2019
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch14. String Formatting with %, Part 1 에서는 문자열 치환을 학습한다.  <br />
+• 문자열을 출력 할때, % 옵션을 사용하여 해당 변수를 치환한다.   <br />
+• %s 는 문자 변수를 치환한다.  <br />
+• %d 는 정수 변수를 치환한다.  <br />
+• %d 는 옵션을 추가하면, 숫자 앞 부분을 0 으로 채운다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Python3 ]   <br />
+• python3 에서는 문자열 메서드 format() 을 사용한다.  <br />
+• %s 대신에, {0}, {1}, {2}, {3} 등 인자의 위치를 알려준다.  <br />
+• 사용은 다음과 같이 한다.  <br />
+• ‘I am {0}, and i love {1}’.format(‘Peter’, ‘Python’)  <br />
+• 출력은 다음과 같이 된다.  <br />
+• ‘I am Peter, and i love Python</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Take a look at the code in the editor.</li>
+  <li>What do you think it’ll do? , Click Run when you think you know.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• Editor 화면에 있는 소스를 실행하고, 당신이 예상한대로 출력 되는지 검토하라.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Think about <code class="language-plaintext highlighter-rouge">%</code> and <code class="language-plaintext highlighter-rouge">%()</code></li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• % 와  %() 를 어떻게 사용하는지를 생각하라.</p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">string_1</span> <span class="o">=</span> <span class="s">"Camelot"</span>
+<span class="n">string_2</span> <span class="o">=</span> <span class="s">"place"</span>
+
+<span class="k">print</span> <span class="s">"Let's not go to %s. 'Tis a silly %s."</span> <span class="o">%</span> <span class="p">(</span><span class="n">string_1</span><span class="p">,</span> <span class="n">string_2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 1 번째 %s 에는 변수 string_1 이 할당되어 출력된다.  <br />
+• 2 번째 %s 에는 변수 string_2 가 할당되어 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Let's not go to Camelot. 'Tis a silly place.
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" /> <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="15-string-formatting-with--part-2">15. String Formatting with %, Part 2</h3>
+
+<p>Remember, we used the <code class="language-plaintext highlighter-rouge">%</code> operator to replace the <code class="language-plaintext highlighter-rouge">%s</code> placeholders with the variables in parentheses.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">"Mike"</span>
+<span class="k">print</span> <span class="s">"Hello %s"</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>You need the same number of %s terms in a string as the number of variables in parentheses:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"The %s who %s %s!"</span> <span class="o">%</span> <span class="p">(</span><span class="s">"Knights"</span><span class="p">,</span> <span class="s">"say"</span><span class="p">,</span> <span class="s">"Ni"</span><span class="p">)</span>
+<span class="c1"># This will print "The Knights who say Ni!"
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch15. String Formatting with %, Part 2 에서는 문자열 치환을 학습한다.     <br />
+• %s 옵션으로 직접 문자열을 입력하여 치환한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Now it’s your turn! We have ___ in the code to show you what you need to change!</p>
+
+    <ul>
+      <li>
+        <p>Inside the string, replace the three ___ with <code class="language-plaintext highlighter-rouge">%s</code>.</p>
+      </li>
+      <li>
+        <p>After the string but before the three variables, replace the final ___ with a <code class="language-plaintext highlighter-rouge">%</code>.</p>
+      </li>
+      <li>
+        <p>Hit Run.</p>
+      </li>
+      <li>
+        <p>Answer the questions in the console as they pop up!</p>
+      </li>
+      <li>
+        <p>Type in your answer and hit Enter.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• ___ 에 %s 를 대입하라.  <br />
+• 치환 할 변수 앞에는 % 를 대입하라.  <br />
+• Run 클릭하라.  <br />
+• Console 에 질문이 나오면, 입력하고, Enter 키 를 누른다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Remember, the syntax is:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"%s"</span> <span class="o">%</span> <span class="p">(</span><span class="n">string_variable</span><span class="p">)</span>
+</code></pre></div></div>
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">\</code> character on line 5 is a continuation marker.</li>
+  <li>It simply tells Python that line 5 continues onto line 6.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong>  [ Hint ]   <br />
+• %s 를 변수로 치환하는 문법을 사용한다.  <br />
+• <code class="language-plaintext highlighter-rouge">\</code> 는 문자열이 계속 된다는 것을 Python interpreter 에게 알려준다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"What is your name? "</span><span class="p">)</span>
+<span class="n">quest</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"What is your quest? "</span><span class="p">)</span>
+<span class="n">color</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"What is your favorite color? "</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="s">"Ah, so your name is %s, your quest is %s, "</span> \
+<span class="s">"and your favorite color is %s."</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">quest</span><span class="p">,</span> <span class="n">color</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• %s를 변수 치환 % 를 사용하여 치환한다.  <br />
+• Console 에서 질문에 답을 입력하고, Enter 키 를 누른다.  <br />
+• %s, %s, %s 에 %( name, quest, color) 값이 출력 된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>What is your name? iampeter
+What is your quest? earth
+What is your favorite color? yellow
+Ah, so your name is iampeter, your quest is earth, and your favorite color is yellow.
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="16-and-now-for-something-completely-familiar">16. And Now, For Something Completely Familiar</h3>
+
+<p>Great job! You’ve learned a lot in this unit, including:</p>
+
+<p>Three ways to create strings</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'Alpha'</span>
+<span class="s">"Bravo"</span>
+<span class="nb">str</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</code></pre></div></div>
+<p>String methods</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">len</span><span class="p">(</span><span class="s">"Charlie"</span><span class="p">)</span>
+<span class="s">"Delta"</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+<span class="s">"Echo"</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+<p>Printing a string</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Foxtrot"</span>
+</code></pre></div></div>
+<p>Advanced printing techniques</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">g</span> <span class="o">=</span> <span class="s">"Golf"</span>
+<span class="n">h</span> <span class="o">=</span> <span class="s">"Hotel"</span>
+<span class="k">print</span> <span class="s">"%s, %s"</span> <span class="o">%</span> <span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• 이 장에서는 ‘String &amp; Console Output’ 에서 배운 내용들을 전체 복습한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Let’s wrap it all up!</p>
+
+    <ul>
+      <li>On line 3, create the variable <code class="language-plaintext highlighter-rouge">my_string</code> and set it to <strong>any string</strong> you’d like.</li>
+      <li>On line 4, use <code class="language-plaintext highlighter-rouge">len()</code> to print the length of <code class="language-plaintext highlighter-rouge">my_string</code>.</li>
+      <li>On line 5, print the <code class="language-plaintext highlighter-rouge">.upper()</code> case version of <code class="language-plaintext highlighter-rouge">my_string</code>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 변수 my_string 을 만들고, 당신이 원하는 문자를 대입하라.  <br />
+• 라인 4 에서 함수 len() 를 사용하여 변수 my_string 길이를 출력하라.  <br />
+• 라인 5 에서 함수 .upper() 를 사용하여 변수 my_string 의 문자열을 대문자로 모두 변환하라. 그리고 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>You can <code class="language-plaintext highlighter-rouge">print</code> a variable with a method all on one line, like so:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="n">my_variable</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+</code></pre></div></div>
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 함수 .upper() 를 사용하고, 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Write your code below, starting on line 3!
+</span>
+<span class="n">my_string</span> <span class="o">=</span> <span class="s">"hey"</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_string</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">my_string</span><span class="p">.</span><span class="n">upper</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 변수 my_string 의 길이를 함수 len()를 사용하여 출력한다.  <br />
+• 변수 my_string 의 문자열을 함수 .upper() 를 사용하여 대문자로 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>3
+HEY
+</code></pre></div></div>
+
+        
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/p2e-python-syntax/" class="pagination--pager" title="Python Syntax
+">Previous</a>
+    
+    
+      <a href="/p2e-date-and-time/" class="pagination--pager" title="Date and Time
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<!--
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-dd+95-30-bo+wc"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-slot="4360630181"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+-->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+<!-- google add start -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-dd+95-30-bo+wc"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-slot="4360630181"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- google add end  -->
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>

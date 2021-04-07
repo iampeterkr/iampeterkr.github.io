@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Taking A Vacation"
-permalink: /taking-vacation/
+permalink: /p2e-taking-vacation/
 excerpt: "We learn about Funcations."
 # last_modified_at: 2019-02-09T09:00:00-04:00
 redirect_from:

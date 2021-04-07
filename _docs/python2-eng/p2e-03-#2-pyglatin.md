@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "PygLatin"
-permalink: /pyglatin/
+permalink: /p2e-pyglatin/
 excerpt: "We exercise until learning Python Syntaxk"
 # last_modified_at: 2018-11-30T09:00:00-04:00
 redirect_from:

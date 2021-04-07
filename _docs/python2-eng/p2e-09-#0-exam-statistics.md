@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Exam Statistics"
-permalink: /exam-statistics/
+permalink: /p2e-exam-statistics/
 excerpt: "We excercise EXAM STATISTICS by Exam Statistics ."
 # last_modified_at: 2019-02-25T09:00:00-04:00
 redirect_from:

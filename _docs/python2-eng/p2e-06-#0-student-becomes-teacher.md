@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Student becomes the teacher"
-permalink: /student-becomes-teacher/
+permalink: /p2e-student-becomes-teacher/
 excerpt: "We learn about using the list, dictionary Syntax."
 # last_modified_at: 2019-02-15T09:00:00-04:00
 redirect_from:

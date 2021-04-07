@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Loops"
-permalink: /loops/
+permalink: /p2e-loops/
 excerpt: "We learn about loops Syntax."
 # last_modified_at: 2019-02-20T09:00:00-04:00
 redirect_from:

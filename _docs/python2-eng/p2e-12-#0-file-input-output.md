@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "File Input/Output"
-permalink: /file-input-output/
+permalink: /p2e-file-input-output/
 excerpt: "We learn about File input/output Syntax."
 # last_modified_at: 2019-03-05T09:00:00-04:00
 redirect_from:

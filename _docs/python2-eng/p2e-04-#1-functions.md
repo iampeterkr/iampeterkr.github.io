@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Functions"
-permalink: /functions/
+permalink: /p2e-functions/
 excerpt: "We learn about Functions Syntax."
 # last_modified_at: 2018-12-04T09:00:00-04:00
 redirect_from:

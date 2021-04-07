@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Battleship!"
-permalink: /battleship/
+permalink: /p2e-battleship/
 excerpt: "Let's practice what we have learned so far."
 # last_modified_at: 2019-02-19T09:00:00-04:00
 redirect_from:

@@ -24,10 +24,11 @@ redirect_from:
 
 <b>1.	Python Syntax</b>     
 *  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)
-[![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/)
-[![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/) 
-[![p3-kor](https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/)
-[![p3-eng](https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/) 
+[![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){: width="95" height="100"}]({{site.baseurl}}
+/p2k-python-syntax/)
+[![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){: width="95" height="100"}]({{site.baseurl}}/p2e-python-syntax/) 
+[![p3-kor](https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png){: width="95" height="100"}]({{site.baseurl}}/p3k-python-syntax/)
+[![p3-eng](https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png){: width="95" height="100"}]({{site.baseurl}}/p3e-python-syntax/) 
 
 <hr/>     
 
