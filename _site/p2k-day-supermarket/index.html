@@ -1,0 +1,2214 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.13.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>A Day at the Supermarket -  Peter’s Blog</title>
+<meta name="description" content="We learn about list, dictionary Syntax.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content=" Peter's Blog ">
+<meta property="og:title" content="A Day at the Supermarket">
+<meta property="og:url" content="http://localhost:4000/p2k-day-supermarket/">
+
+
+  <meta property="og:description" content="We learn about list, dictionary Syntax.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-04-07T23:15:38+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/p2k-day-supermarket/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Peter Lee",
+      "url": "http://localhost:4000/",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Peter's Blog  Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+<!--
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block; border-bottom: initial;"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+-->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/"> Peter's Blog </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/syllabus/" >Codecademy</a>
+            </li><li class="masthead__menu-item">
+              <a href="/docs-main/" >Python</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/connect/" class="">Connect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/signin/" class="">SignIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/login/" class="">LogIn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/bk-syllabus/" class="">Syllabus</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How to use</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/explain-screen/" class="">Explain Screen</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/learn/" class=""> • Learn</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/instructions/" class=""> • Instructions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/stuck-get-a-hint/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Stuck? Get a hint</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/solution/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Solution?</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/community-forums/" class=""> • Community Forums</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/report-bug/" class=""> • Report a Bug</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2-korean</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-day-supermarket/" class="active">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p2k-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python2-english</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Python3</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-syntax/" class=""> 01. Python Syntax</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-string-console-output/" class=""> 02. String & Console Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-date-and-time/" class=""> ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-conditionals-control-flow/" class=""> 03. Conditionals and Control Flow</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-pyglatin/" class="">⁯⁯  ⁯⁯⁯  ⁯⤷ ° PygLatin</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-functions/" class=""> 04. Functions </a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-taking-vacation/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Taking A Vacation</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-dictionaries/" class=""> 05. Lists & Dictionaries</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-day-supermarket/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° A Day at the Supermarket</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-student-becomes-teacher/" class=""> 06. Student Becomes the Teacher</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-lists-functions/" class=""> 07. Lists and Functions</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-battleship/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Battleship!!</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-loops/" class=""> 08. Loops</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-practice-makes-perfect/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Practice Makes Perfect</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-exam-statistics/" class=""> 09. Exam Statistics</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-advanced-topics-python/" class=""> 10. Advanced Topics in Python</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-bitwise-operators/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Introduction to Bitwise Operators</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-introduction-classes/" class=""> 11. Introduction to Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-classes/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Classes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-file-input-output/" class=""> 12. File Input and Output</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/p3-python-final-project/" class=""> 13. PYTHON FINAL PROJECT</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="A Day at the Supermarket">
+    <meta itemprop="description" content="We learn about list, dictionary Syntax.">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">A Day at the Supermarket
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-befor-we-begin">1. BeFOR We Begin</a></li>
+  <li><a href="#2-this-is-key">2. This is KEY!</a></li>
+  <li><a href="#3-control-flow-and-looping">3. Control Flow and Looping</a></li>
+  <li><a href="#4-lists--functions">4. Lists + Functions</a></li>
+  <li><a href="#5-string-looping">5. String Looping</a></li>
+  <li><a href="#6-your-own-store">6. Your Own Store!</a></li>
+  <li><a href="#7-investing-in-stock">7. Investing in Stock</a></li>
+  <li><a href="#8-keeping-track-of-the-produce">8. Keeping Track of the Produce</a></li>
+  <li><a href="#9-something-of-value">9. Something of Value</a></li>
+  <li><a href="#10-shopping-at-the-market">10. Shopping at the Market</a></li>
+  <li><a href="#11-making-a-purchase">11. Making a Purchase</a></li>
+  <li><a href="#12-stocking-out">12. Stocking Out</a></li>
+  <li><a href="#13-lets-check-out">13. Let’s Check Out!</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>Let’s manage our own supermarket and buy some goods along the way!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 학습방향 ]   <br />
+수퍼마켓에서 물건 구입 및 계산하는 프로그램을 만들면서, 리스트와 딕셔너리의 기능을 학습하고, 연습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="1-befor-we-begin">1. BeFOR We Begin</h3>
+
+<p>Before we begin our exercise, we should go over the Python <strong>for</strong> loop one more time. For now, we are only going to go over the <strong>for</strong> loop in terms of how it relates to <strong>lists</strong> and <strong>dictionaries</strong>. We’ll explain more cool for loop uses in later courses.</p>
+
+<p><strong>for</strong> loops allow us to <strong>iterate</strong> through all of the elements in a list from the left-most (or zeroth element) to the right-most element. A sample loop would be structured as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="s">"List"</span><span class="p">,</span> <span class="s">"of"</span><span class="p">,</span> <span class="s">"some"</span><span class="p">,</span> <span class="s">"sort"</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span> 
+  <span class="c1"># Do something for every x
+</span></code></pre></div></div>
+
+<p>This loop will run all of the code in the indented block under the <code class="language-plaintext highlighter-rouge">for x in a:</code> statement. The item in the <strong>list</strong> that is currently being evaluated will be <code class="language-plaintext highlighter-rouge">x</code>. So running the following:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">21</span><span class="p">]:</span> 
+  <span class="k">print</span> <span class="n">item</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p>would print <strong>1</strong>, then <strong>3</strong>, and then <strong>21</strong>. The variable between for and in can be set to any variable name (currently item), but you should be careful to <strong>avoid using the word</strong> list as a variable, since that’s a <strong>reserved word</strong> (that is, it means something special) in the Python language.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch1. BeFOR We Begin 에서는 for문에서 리스트를 활용하는 연습을 한다.  <br />
+• ( for x in a: )는 리스트 a 에 있는 값들을 하나씩 추출하여 변수 x 에 넣어준다. <br />
+• Python 예약어를 변수로 사용하면 안된다.  <br />
+• e.g. for print in list: ( X )  <br />
+• 예약어 print 를 변수로 사용하면 안된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Use a for loop to print out all of the elements in the list names.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]       <br />
+• for 문을 사용하여, 리스트의 내용들을 하나씩 출력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Look at the sample code in the instructions if you need help!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• 상단의 Learn 에서 설명한 소스 코드를 참조하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Adam"</span><span class="p">,</span><span class="s">"Alex"</span><span class="p">,</span><span class="s">"Mariah"</span><span class="p">,</span><span class="s">"Martine"</span><span class="p">,</span><span class="s">"Columbus"</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">name</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]       <br />
+• 리스트 names 에 있는 항목(값)을 하나씩 추출해서 변수 name 에 하나씩 넣어 준다.   <br />
+• 변수 name 을 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Adam
+Alex
+Mariah
+Martine
+Columbus
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="2-this-is-key">2. This is KEY!</h3>
+
+<p>You can also use a <strong>for</strong> loop on a <strong>dictionary</strong> to loop through its <strong>keys</strong> with the following:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># A simple dictionary
+</span><span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s">"foo"</span> <span class="p">:</span> <span class="s">"bar"</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">d</span><span class="p">:</span> 
+  <span class="k">print</span> <span class="n">d</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>  <span class="c1"># prints "bar"
+</span></code></pre></div></div>
+
+<p>Note that dictionaries are unordered, meaning that any time you loop through a dictionary, you will go through every key, but you are not guaranteed to get them in any particular order.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch2. This is KEY! 에서는 for 문에서 딕셔너리를 활용하는 방법을 연습한다.     <br />
+• for 문으로 딕셔너리의 항목(값)을 추출할수 있다.   <br />
+• 딕셔너리를 for 문으로 추출할 때 모든 키를 추출한다.  <br />
+• 단, 주의 할점은  특정 순서로 키를 가져올 수는 없다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Use a for loop to go through the <code class="language-plaintext highlighter-rouge">webster</code> dictionary and print out all of the definitions.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 딕셔너리 webster 에서 for 문을 사용하여 딕셔너리 항목(값)을 출력하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>The definitions are the values associated with each key.</li>
+  <li>
+    <p>print webster[“Aardvark”] will give you an output of “A star of a popular children’s cartoon show.”</p>
+  </li>
+  <li>Since you can loop through every key, you should be able to get every value</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• 딕셔너리는 key 값과 매치되는 value 가 있다.  <br />
+• 딕셔너리 webster 는 key 값을 지정하여 해당 value 를 가져올 수 있다.  <br />
+• e.g. print webster[“Aardvark”]  <br />
+• 모든 key 값을 for 문을 반복하면서 key 에 해당하는 value 값을 가져올 수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">webster</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"Aardvark"</span> <span class="p">:</span> <span class="s">"A star of a popular children's cartoon show."</span><span class="p">,</span>
+  <span class="s">"Baa"</span> <span class="p">:</span> <span class="s">"The sound a goat makes."</span><span class="p">,</span>
+  <span class="s">"Carpet"</span><span class="p">:</span> <span class="s">"Goes on the floor."</span><span class="p">,</span>
+  <span class="s">"Dab"</span><span class="p">:</span> <span class="s">"A small amount."</span>
+<span class="p">}</span>
+
+<span class="c1"># Add your code below!
+</span><span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">webster</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">webster</span><span class="p">[</span><span class="n">word</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 word 에 리스트 webster 의 key 값이 저장된다.  <br />
+• 해당 key 의 value 를 출력하기 위해서는 리스트 webster[word] 로 출력할 수 있다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A star of a popular children's cartoon show.
+Goes on the floor.
+A small amount.
+The sound a goat makes.
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="3-control-flow-and-looping">3. Control Flow and Looping</h3>
+
+<p>The blocks of code in a <strong>for</strong> loop can be as big or as small as they need to be.</p>
+
+<p>While looping, you may want to perform different actions depending on the particular item in the list.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span> 
+  <span class="k">if</span> <span class="n">number</span> <span class="o">&gt;</span> <span class="mi">6</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">number</span>
+<span class="k">print</span> <span class="s">"We printed 7."</span>
+</code></pre></div></div>
+
+<p>In the above example, we create a list with 4 numbers in it.
+Then we loop through the numbers list and store each item in the list in the variable number.
+On each loop, if number is greater than 6, we print it out.   <br />
+So, we print 7.
+Finally, we print out a sentence.
+Make sure to keep track of your indentation or you may get confused!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch3. Control Flow and Looping 에서는 for문 안에서 if 문을 사용하는 것을 학습한다.  <br />
+• for 문의 코드블럭 영역에는 크다/작다 와 같이 비교할수 있는 if 문을 작성할 수 있다.  <br />
+• 위 예제에서 for 문으로 리스트의 항목(값)을 추출한다.  <br />
+• 그리고 for 문 영역 안에서 if 문으로 6보다 큰 경우만 출력하도록 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Like step 2 above, loop through each item in the list called <code class="language-plaintext highlighter-rouge">a</code>.</p>
+  </li>
+  <li>
+    <p>Like step 3 above, if the <code class="language-plaintext highlighter-rouge">number</code> is <strong>even</strong>, print it out. You can test if the <code class="language-plaintext highlighter-rouge">item % 2 == 0</code> to help you out.</p>
+  </li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 리스트 a 에서 항목을 호출하여 변수 number 에 저장하라.   <br />
+• 변수 number 의 항목값이 짝수(item % 2 == 0)만 출력 되게하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>A <code class="language-plaintext highlighter-rouge">number</code> is even if it’s evenly divisible by 2.</li>
+  <li>You can determine divisibility with the modulus operator: %.</li>
+  <li>For example, to check if the value inside of the variable item is divisible by 10, you can do <code class="language-plaintext highlighter-rouge">item % 10 == 0</code>. This will evaluate to True if the <code class="language-plaintext highlighter-rouge">number</code> in item is evenly divisible by 10 (yielding a remainder of zero).</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 변수 number 가 2로 나누어 지면 짝수이다.  <br />
+• 연산자 ( % )를 이용하여 나누어 지는것을 확인할 수 있다.  <br />
+• e.g. ( item % 10 == 0 )은 10 으로 나눠서 나머지가 0 이 되는것 이라는 의미이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">number</span>
+
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 리스트 a 의 값 중 짝수( number % 2 )인 경우만 출력한다.  <br />
+• for 문으로 리스트 a 의 값을 변수 number에 저장한다.  <br />
+• 변수 number 를 2 로 나누어 나머지가 0 이면 짝수이므로 출력한다.  <br />
+• 짝수가 아니면 다시 for 문에서 리스트의 다음 값을 number 에 저장후, 반복한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0
+2
+4
+6
+8
+10
+12
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="4-lists--functions">4. Lists + Functions</h3>
+
+<p>Functions can also take lists as inputs and perform various operations on those lists.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">count_small</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
+  <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+      <span class="n">total</span> <span class="o">=</span> <span class="n">total</span> <span class="o">+</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">total</span>
+
+<span class="n">lotto</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">42</span><span class="p">]</span>
+<span class="n">small</span> <span class="o">=</span> <span class="n">count_small</span><span class="p">(</span><span class="n">lotto</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">small</span>
+</code></pre></div></div>
+
+<ul>
+  <li>In the above example, we define a function <code class="language-plaintext highlighter-rouge">count_small</code> that has one parameter, numbers.</li>
+  <li>We initialize a variable <code class="language-plaintext highlighter-rouge">total</code> that we can use in the for loop.</li>
+  <li>For each item n in <code class="language-plaintext highlighter-rouge">numbers</code>, if n is less than 10, we increment <code class="language-plaintext highlighter-rouge">total</code>.</li>
+  <li>After the for loop, we return <code class="language-plaintext highlighter-rouge">total</code>.</li>
+  <li>After the function definition, we create an array of numbers called <code class="language-plaintext highlighter-rouge">lotto</code>.</li>
+  <li>We call the <code class="language-plaintext highlighter-rouge">count_small</code> function, pass in <code class="language-plaintext highlighter-rouge">lotto</code>, and store the returned result in <code class="language-plaintext highlighter-rouge">small</code>.</li>
+  <li>Finally, we print out the returned result, which is 2 since only 4 and 8 are less than 10.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch4. Lists + Functions 에서는 함수 호출시 리스트값을 넘겨 처리하는것을 학습한다.  <br />
+• 함수도 리스트를 입력 값으로 사용할 수 있다.  <br />
+• 리스트 lotto 항목 중에서 10 보다 작은값의 갯수를 반환한다.  <br />
+• 소스는 다음과 같이 동작한다.   <br />
+• 함수 count_samll(numbers) 을 정의한다. parameter 로 numbers 를 가진다.  <br />
+• 10 보다 작은 값을 저장하고 반환할 변수 total 을 선언후 초기화 한다.  <br />
+• parameter 로 받은, 리스트 numbers 의 항목값 n 이 10 보다 작은지 비교한다.  <br />
+• 변수 n 값이 10 보다 작으면 변수 total 에 저장한다.  <br />
+• for 문이 종료되면 결과값 total 을 반환한다.  <br />
+• 리스트 lotto 의 값을 함수 count_samll(lotto) 을 호출한다.  <br />
+• 함수 count_small(lotto) 의 결과값을 변수 small 에 저장한다.  <br />
+• 변수 small 을 출력한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Write a function that counts how many times the string “fizz” appears in a list.</li>
+  <li>Write a function called <code class="language-plaintext highlighter-rouge">fizz_count</code> that takes a list <code class="language-plaintext highlighter-rouge">x</code> as input.</li>
+  <li>
+    <p>Create a variable <code class="language-plaintext highlighter-rouge">count</code> to hold the ongoing count. Initialize it to zero.</p>
+  </li>
+  <li>
+    <p>for each <code class="language-plaintext highlighter-rouge">item in x</code>:, if that item is equal to the string “fizz” then <strong>increment</strong> the count variable.</p>
+  </li>
+  <li>
+    <p>After the loop, please return the count variable.</p>
+  </li>
+  <li>For example, fizz_count([“fizz”,”cat”,”fizz”]) should return 2.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 리스트의 값 중 문자열 <em>fizz</em> 의 갯수를 알려주는 함수를 작성하라.  <br />
+• 함수명은 fizz_count(x) 이다. parameter 는 x 값을 가진다.  <br />
+• 변수 count 를 초기화 하고, 이 변수는 fizz 의 갯수를 세어 저장하는 변수이다.  <br />
+• for 문을 사용하여, 입력받은 리스트 x 의 값을 추출하여, 변수 item 에 저장한다.  <br />
+• if 문으로 변수 item 이 문자열 <em>fizz</em> 인지를 비교한다.  <br />
+• 만일, 문자열 <em>fixx</em> 와 같으면, 변수 count 를 1 증가 시킨다.   <br />
+• for 문이 종료되고, 최종 증가된 변수 count 를 반환(return) 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>We need to count how many times “fizz” appears in our list.</li>
+  <li>To do this, make a counter variable (for example, count) in your function.</li>
+  <li>The counter variable could initially be set to zero. After that, you can loop through the list that you take as input and increase count by one every time an item in the list is equal to the string “fizz”.</li>
+  <li>At the end, don’t forget to return the number of “fizz”s!</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 리스트에 문자열 <em>fizz</em> 가 몇 개 있는지 계산한다.  <br />
+• 함수에서 카운터할때 사용할 변수 count 를 만든다.  <br />
+• 카운터 변수는 초기에 0 으로 설정해야 한다.   <br />
+• if 문을 사용하여 문자열 <em>fizz</em> 와 같은 입력값이 있으면 개수를 하나씩 늘린다.  <br />
+• 마지막으로, <em>fizz</em> 의 수를 반환하는 것을 잊지 말자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Write your function below!
+</span><span class="k">def</span> <span class="nf">fizz_count</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+  <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">item</span> <span class="o">==</span> <span class="s">"fizz"</span><span class="p">:</span>
+      <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">count</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 리스트 x 의 값에 <em>fizz</em> 의 갯수를 세어주는 함수 fizz_count(x) 이다. <br />
+• 함수 fizz_count(x) 는 다음과 같이 작동한다.  <br />
+• 변수 count 를 초기화 한다. 이 변수는 문자열 <em>fizz</em> 의 갯수를 저장한다.  <br />
+• 리스트 x 에서 항목을 하나씩 추출하여, 변수 item 에 저장한다.  <br />
+• 변수 item 이 문자열 <em>fizz</em> 와 같으면, 변수 count 값을 1 증가 시킨다.  <br />
+• 리스트 x 의 모든 값을 추출하여 비교한다. 그리고 계속 반복한다.  <br />
+• 최종 결과값 변수 count 를 반환(return) 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="5-string-looping">5. String Looping</h3>
+
+<p>As we’ve mentioned, strings are like lists with characters as elements. You can loop through strings the same way you loop through lists! While we won’t ask you to do that in this section, we’ve put an example in the editor of how looping through a string might work.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]      <br />
+• Ch5. String Looping 에서는 문자열을 관리하는 방법을 학습한다.  <br />
+• 문자열은 문자들의 리스트 이다.   <br />
+• 그러므로, for 문을 통하여 문자 하나씩 추출 할수 있다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Run the code to see string iteration in action!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 문자열을 반복적으로 문자 하나씩 출력하는 프로그램을 실행하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 소스를 읽어보고, Run을 실행하라.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="s">"Codecademy"</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">letter</span>
+    
+<span class="c1"># Empty lines to make the output pretty
+</span><span class="k">print</span>
+<span class="k">print</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s">"Programming is fun!"</span>
+
+<span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">word</span><span class="p">:</span>
+  <span class="c1"># Only print out the letter i
+</span>  <span class="k">if</span> <span class="n">letter</span> <span class="o">==</span> <span class="s">"i"</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">letter</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 첫번째 for 문은 문자열 <em>Codecademy</em> 의 문자를 하나씩 출력하는 것이다.  <br />
+• 두번째 for 문은 문자열 <em>Programming is fun</em> 의 문자중 문자 <em>i</em> 만 출력한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C
+o
+d
+e
+c
+a
+d
+e
+m
+y
+
+
+i
+i
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="6-your-own-store">6. Your Own Store!</h3>
+
+<p>Okay—on to the core of our project.</p>
+
+<p>Congratulations! You are now the proud owner of your very own Codecademy brand supermarket.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">animal_counts</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"ant"</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+  <span class="s">"bear"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+  <span class="s">"crow"</span><span class="p">:</span> <span class="mi">2</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>In the example above, we create a <strong>new dictionary</strong> called <code class="language-plaintext highlighter-rouge">animal_counts</code> with three entries. One of the entries has the key “ant” and the value 3.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch6. Your Own Store! 에서는 딕셔너리 활용을 학습한다.  <br />
+• 딕셔너리 animal_counts 는 3개의 key / value 쌍을 가지고 있다.   <br />
+• “ant” : 3, “bear” : 6, “crow” : 2</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Create a new dictionary called <code class="language-plaintext highlighter-rouge">prices</code> using {} format like the example above.</p>
+  </li>
+  <li>
+    <p>Put these values in your prices dictionary, in between the {}:</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+<span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+<span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span>
+<span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>Yeah, this place is really expensive. (Your supermarket subsidizes the zoo from the last course.)</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 딕셔너리 prices 를 {} 를 사용하여 작성하라.   <br />
+• 딕셔너리 prices = { } 에 key / value 값들을 넣어라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>dictionary uses as <code class="language-plaintext highlighter-rouge">dic = { "aa":4, "bb":5 }</code></li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 딕셔너리는 다음 예제와 같이 사용한다.   <br />
+• e.g. dic = {“aa” : 4, “bb” : 5}</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">prices</span> <span class="o">=</span> <span class="p">{</span><span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span><span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span><span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span><span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 딕셔너리 prices 는 4 개의 key / value 를 가진다.   <br />
+• “banana” : 4,  “apple” : 2,  “orange” : 1.5,  “pear” : 3</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="7-investing-in-stock">7. Investing in Stock</h3>
+
+<p>Good work! As a store manager, you’re also in charge of keeping track of your stock/inventory.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch7. Investing in Stock 에서는 딕셔너리 변경하는 방법을 학습한다.  <br />
+• 딕셔너리를 이용하여 재고(stock / inventory)를 정리하는 프로그램을 연습해 보자.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Create a <code class="language-plaintext highlighter-rouge">stock</code> dictionary with the values below.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"banana"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+<span class="s">"apple"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+<span class="s">"orange"</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+<span class="s">"pear"</span><span class="p">:</span> <span class="mi">15</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 딕셔너리 stock 을 작성하라.   <br />
+• 딕셔너리 stock 의 항목값은 아래 내용을 넣어라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember to use curly braces to make a dictionary. Don’t forget to separate each key/value pair with a comma!</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 딕셔너리를 만들때 ( {} ) 와, key / value 사이에 ( , ) 로 구분 하는것을 잊지말자.  <br />
+• e.g. ddd = { “apple” : 1, “banana” : 2}</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">prices</span> <span class="o">=</span> <span class="p">{</span><span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span><span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span><span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span><span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="p">{</span><span class="s">"banana"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="s">"apple"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s">"orange"</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span> <span class="s">"pear"</span><span class="p">:</span> <span class="mi">15</span><span class="p">}</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 재고 정보를 가지고 있는 딕셔너리 prices, stock 을 정의 하였다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="8-keeping-track-of-the-produce">8. Keeping Track of the Produce</h3>
+
+<p>Now that you have all of your product info, you should print out all of your inventory information.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">once</span>  <span class="o">=</span> <span class="p">{</span><span class="s">'a'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'b'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+<span class="n">twice</span> <span class="o">=</span> <span class="p">{</span><span class="s">'a'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'b'</span><span class="p">:</span> <span class="mi">4</span><span class="p">}</span>
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">once</span><span class="p">:</span>
+  <span class="k">print</span> <span class="s">"Once: %s"</span> <span class="o">%</span> <span class="n">once</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+  <span class="k">print</span> <span class="s">"Twice: %s"</span> <span class="o">%</span> <span class="n">twice</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>In the above example, we create two dictionaries, once and twice, that have the same keys.
+Because we know that they have the same keys, we can loop through one dictionary and print values from both once and twice.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch8. Keeping Track of the Produce 에서는 딕셔너리의 key / value 값을 활용하는 방법을 학습한다.       <br />
+• Key 이름은 딕셔너리 별로 관리된다.  <br />
+• 2개의 딕셔너리에서 key 이름이 같아도, 딕셔너리 이름이 다르면 다른 key 로 인식한다.  <br />
+• 딕셔너리별로 해당 키 값을 호출 하면, 해당 딕셔너리 key의 value 값이 반환된다.   <br />
+• e.g. once[key], twice[kye] , key 이름은 같지만, value 값은 다르다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Loop through each key in prices.</p>
+  </li>
+  <li>
+    <p>Like the example above, for each key, print out the key along with its price and stock information.</p>
+  </li>
+  <li>
+    <p>Print the answer in EXACTLY the following format:</p>
+  </li>
+</ul>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apple
+price: 2
+stock: 0
+</code></pre></div></div>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Like the example above, because you know that the prices and stock dictionary have the same keys, you can access the stock dictionary while you are looping through prices.</p>
+  </li>
+  <li>
+    <p>When you’re printing, you can use the syntax from the example above.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 다음과 같이 출력 되도록 코드를 수정하라.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apple
+price: 2 
+stock: 0
+</code></pre></div></div>
+<p class="notice--info">• 참고로, 위와같이 출력할려면, 딕셔너리 price, stock 의 각 key 값이 apple 이어야 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Reference above example !!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 상단의 Learn 예제를 참조하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">prices</span> <span class="o">=</span> <span class="p">{</span><span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span><span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span><span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span><span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="p">{</span><span class="s">"banana"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="s">"apple"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s">"orange"</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span> <span class="s">"pear"</span><span class="p">:</span> <span class="mi">15</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">food</span> <span class="ow">in</span> <span class="n">prices</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">food</span>
+  <span class="k">print</span> <span class="s">"price: %s"</span> <span class="o">%</span> <span class="n">prices</span><span class="p">[</span><span class="n">food</span><span class="p">]</span>
+  <span class="k">print</span> <span class="s">"stock: %s"</span> <span class="o">%</span> <span class="n">stock</span><span class="p">[</span><span class="n">food</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 딕셔너리 prices 의 key 를 기준으로 잡는다.  <br />
+• for 문을 돌면서 prices 의 key 값을 추출한다.  <br />
+• 딕셔너리 prices 의 key 값을 출력한다.  <br />
+• 딕셔너리 prices 의 key 의 value 를 출력한다.  <br />
+• e.g. print price: %s prices[food]  <br />
+• 딕셔너리 stock 의 key 의 value 를 출력한다.  <br />
+• e.g. print stock: %s stock[food]</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>orange
+price: 1.5
+stock: 32
+pear
+price: 3
+stock: 15
+banana
+price: 4
+stock: 6
+apple
+price: 2
+stock: 0
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="9-something-of-value">9. Something of Value</h3>
+
+<p>For paperwork and accounting purposes, let’s record the total value of your inventory. It’s nice to know what we’re worth!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch9. Something of Value 에서는 서로 다른 딕셔너리의 항목값을 계산하는 방법을 학습한다.  <br />
+• 이 장에서는 모든 물품의 재고와 가격을 정리하는 프로그램을 이해한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Let’s determine how much money you would make if you sold all of your food.</p>
+
+    <ul>
+      <li>Create a variable called <code class="language-plaintext highlighter-rouge">total</code> and set it to zero.</li>
+      <li>Loop through the <code class="language-plaintext highlighter-rouge">prices</code> dictionary.</li>
+      <li>For each key in <code class="language-plaintext highlighter-rouge">prices</code>, <strong>multiply</strong> the number in prices by the number in stock. Print that value into the console and then <strong>add</strong> it to <code class="language-plaintext highlighter-rouge">total</code>.</li>
+      <li>Finally, outside your loop, <strong>print</strong> <code class="language-plaintext highlighter-rouge">total</code>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 가지고 있는 모든 물건을 판매했을 경우 전체 금액이 얼마인지 계산해 보자.  <br />
+• 변수 total 을 만들고, 0 으로 초기화 한다.  <br />
+• 딕셔너리 prices 를 for 문으로 순환하며 계산한다.     <br />
+• prices 와 stock 의 각 key 별 value 를 곱하여 항목별 전체 금액을 계산한다.   <br />
+• for 문이 끝나면 최종 total 값을 출력한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>
+    <p>The value of any given product is its number of items in stock multiplied by its price. For instance, the total cost for bananas would be 24 (a price of 4 multiplied by 6 bananas in stock).</p>
+  </li>
+  <li>
+    <p>You should print the number all by itself—no need for any additional text!</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 변수 total 에 각 항목별 재고 갯수와 가격을 곱한 금액을 추가로 더한다.  <br />
+• e.g. 바나나의 전체 가격은 (개별 가격 : 4) x (제고 : 6) = 24 이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">prices</span> <span class="o">=</span> <span class="p">{</span><span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span><span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span><span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span><span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="p">{</span><span class="s">"banana"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="s">"apple"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s">"orange"</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span> <span class="s">"pear"</span><span class="p">:</span> <span class="mi">15</span><span class="p">}</span>
+
+<span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">food</span> <span class="ow">in</span> <span class="n">prices</span><span class="p">:</span>
+  <span class="k">print</span> <span class="n">prices</span><span class="p">[</span><span class="n">food</span><span class="p">]</span> <span class="o">*</span> <span class="n">stock</span><span class="p">[</span><span class="n">food</span><span class="p">]</span>
+  <span class="n">total</span> <span class="o">=</span> <span class="n">total</span> <span class="o">+</span> <span class="n">prices</span><span class="p">[</span><span class="n">food</span><span class="p">]</span> <span class="o">*</span> <span class="n">stock</span><span class="p">[</span><span class="n">food</span><span class="p">]</span>
+<span class="k">print</span> <span class="n">total</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 변수 total 을 초기화 한다.   <br />
+• 딕셔너리 prices 를 for 문으로 순환하면서 prices 와 stock 의 value 를 추출한다.  <br />
+• 추출한 값을 변수 food 에 저장한다.  <br />
+• 딕셔너리 prices[food] 값과 stock[food] 값을 곱하여 출력한다.(제품별 전체 값)  <br />
+• 변수 total 에 먼저 출력한 제품별 전체값을 계산하여 더한다.  <br />
+• for 문이 완료되면, 전체 제품의 가격을 더한 변수 total 을 출력한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>48.0
+45
+24
+0
+117.0
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="10-shopping-at-the-market">10. Shopping at the Market</h3>
+
+<p>Great work! Now we’re going to take a step back from the management side and take a look through the eyes of the shopper.</p>
+
+<p>In order for customers to order online, we are going to have to make a consumer interface. Don’t worry: it’s easier than it sounds!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]        <br />
+• Ch10. Shopping at the Market 에서는 리스트 활용을 학습한다.  <br />
+• 온라인 구매자의 사용 프로그램을 만들어 보면서, 리스트의 활용법을 숙지하자.  <br />
+• 차근 차근히 진행하니 천천히 따라하면 된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>First, make a list called <code class="language-plaintext highlighter-rouge">groceries</code> with the values “banana”,”orange”, and “apple”.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 리스트 groceries 를 작성하라.  <br />
+• groceries 는 다음 값( “banana”, “orange”, apple” )을 가진다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Remember to use square brackets for a list: <code class="language-plaintext highlighter-rouge">[]</code>.</li>
+</ul>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 이 장은 리스트를 학습한다. 리스트 표현은 ( [] ) 을 사용한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">groceries</span> <span class="o">=</span> <span class="p">[</span><span class="s">"banana"</span><span class="p">,</span> <span class="s">"orange"</span><span class="p">,</span> <span class="s">"apple"</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 리스트 groceries 를 만들어서, 항목(“banana”, “orange”, “apple”)을 대입한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="11-making-a-purchase">11. Making a Purchase</h3>
+
+<p>Good! Now you’re going to need to know <strong>how much</strong> you’re <strong>paying</strong> for all of the items on your grocery list.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">sum</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
+  <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
+    <span class="n">total</span> <span class="o">+=</span> <span class="n">number</span>
+  <span class="k">return</span> <span class="n">total</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">sum</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>In the above example, we first define a function called <code class="language-plaintext highlighter-rouge">sum</code> with a parameter <code class="language-plaintext highlighter-rouge">numbers</code>.
+We initialize the variable <code class="language-plaintext highlighter-rouge">total</code> which we will use as our running <code class="language-plaintext highlighter-rouge">sum</code>.
+For each <code class="language-plaintext highlighter-rouge">number</code> in the list, we add that <code class="language-plaintext highlighter-rouge">number</code> to the running sum <code class="language-plaintext highlighter-rouge">total</code>.
+At the end of the function, we return the running <code class="language-plaintext highlighter-rouge">sum</code>.
+After the function, we create, <code class="language-plaintext highlighter-rouge">n</code>, a list of numbers.
+Finally, we call the <code class="language-plaintext highlighter-rouge">sum(numbers)</code> function with the variable <code class="language-plaintext highlighter-rouge">n</code> and print the result.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch11. Making a Purchase  에서는 함수에서 리스트의 활용법을 학습한다.  <br />
+• 함수 sum(numbers) 은 리스트 numbers를 입력 받는다.   <br />
+• 함수 sum(numbers) 은 리스트의 각 값을 더하여 최종 반환한다.  <br />
+• 함수 sum(n) 은 리스트 ( n=[1,2,5,10,13] )을 arguments 로 입력하여 호출한다.  <br />
+• 함수 sum(n) 의 결과값 을 출력한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Define a function <code class="language-plaintext highlighter-rouge">compute_bill</code> that takes one argument <code class="language-plaintext highlighter-rouge">food</code> as input.</p>
+  </li>
+  <li>
+    <p>In the function, create a variable <code class="language-plaintext highlighter-rouge">total</code> with an initial value of zero.</p>
+  </li>
+  <li>
+    <p>For each item in the <code class="language-plaintext highlighter-rouge">food</code> list, add the price of that item to <code class="language-plaintext highlighter-rouge">total</code>.</p>
+  </li>
+  <li>
+    <p>Finally, return the <code class="language-plaintext highlighter-rouge">total</code>.</p>
+  </li>
+  <li>
+    <p>Ignore whether or not the item you’re billing for is in stock. Note that your function should work for any <code class="language-plaintext highlighter-rouge">food</code> list.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 함수 compute_bill(food) 을 작성하라.  <br />
+• 이 함수는 argument 로 food 를 입력 받는다.  <br />
+• 다음과 같이 구현하라.  <br />
+• 변수 total 을 만들고 0 으로 초기화 하라.   <br />
+• 입력 받은 리스트 food 의 항목을 하나씩 추출하여 변수 total 에 저장하라.  <br />
+• 최종 변수 total 값을 반환(return)하라.   <br />
+• 청구 대상 품목의 재고가 있는지 여부는 신경쓰지 마라.  <br />
+• 리스트에 있는것은 재고 목록에 있다는 전제하에 작성한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>Only add the prices of the items !!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]        <br />
+• 리스트의 항목별 가격만 더하는 것이다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">shopping_list</span> <span class="o">=</span> <span class="p">[</span><span class="s">"banana"</span><span class="p">,</span> <span class="s">"orange"</span><span class="p">,</span> <span class="s">"apple"</span><span class="p">]</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"banana"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+  <span class="s">"apple"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+  <span class="s">"orange"</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+  <span class="s">"pear"</span><span class="p">:</span> <span class="mi">15</span>
+<span class="p">}</span>
+    
+<span class="n">prices</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+  <span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+  <span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span>
+  <span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span>
+<span class="p">}</span>
+
+<span class="c1"># Write your code below!
+</span><span class="k">def</span> <span class="nf">compute_bill</span><span class="p">(</span><span class="n">food</span><span class="p">):</span>
+  <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">food</span><span class="p">:</span>
+    <span class="n">total</span> <span class="o">=</span> <span class="n">total</span> <span class="o">+</span> <span class="n">prices</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
+  <span class="k">return</span> <span class="n">total</span>
+
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 함수 compute_bill(food) 을 작성하였다.  <br />
+• 이 함수는 입력 받은 리스트 food 의 해당 항목의 가격을 찾는다.(e.g. “banana”) <br />
+• for 문에서, food 에서 찾은 “banana” 의 가격을 리스트 prices 에서 찾는다.  <br />
+• 전체 값을 저장하는 변수 total 에 “banana” 의 가격을 더하여 저장한다.  <br />
+• 최종 total 값을 반환(return) 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="12-stocking-out">12. Stocking Out</h3>
+
+<p>Now you need your <code class="language-plaintext highlighter-rouge">compute_bill</code> function to take the stock/inventory of a particular item into account when computing the cost.</p>
+
+<p>Ultimately, if an item isn’t in stock, then it shouldn’t be included in the total. You can’t buy or sell what you don’t have!</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
+• Ch12. Stocking Out 에서는 딕셔너리의 value를 조작하는 방법을 학습한다.   <br />
+• 함수 compute_bill() 을 통하여 쇼핑하는 프로그램을 만들었다.  <br />
+• 이 장에서는 재고가 없는 상품은 구매 할 수 없는 기능을 추가한다.  <br />
+• 재고가 없는 상품은 가격을 계산하면 안된다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>
+    <p>Make the following changes to your <code class="language-plaintext highlighter-rouge">compute_bill</code> function:</p>
+  </li>
+  <li>
+    <p>While you loop through each item of food, <strong>only add the price</strong> of the item to total if the item’s <strong>stock count</strong> is greater than zero.</p>
+  </li>
+  <li>
+    <p>if the item is in stock and after you add the price to the total, subtract one from the item’s stock count.</p>
+  </li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]        <br />
+• 함수 compute_bill() 을 계산할때, 딕셔너리 stock 항목 중 재고가 있는 것만 계산한다.  <br />
+• 딕셔너리 stock 에 재고가 0 인것은 계산하면 안된다.  <br />
+• 만약, 상품이 재고가 있으면, 그 가격을 전체 total 에 추가한다.  <br />
+• 그리고, 해당 제품의 숫자를 1 개 감소 시켜야 한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>If you’re buying a banana, check if it’s in stock (larger than zero). If it’s in stock, add the cost of a banana to your bill. Finally, decrement the stock of bananas by one!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]       <br />
+• “banana” 는 재고가 존재하므로, 가격을 구할수 있다.  <br />
+• “apple” 은 재고가 0 이므로 함수에서 재고 유무를 점검해야 한다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">shopping_list</span> <span class="o">=</span> <span class="p">[</span><span class="s">"banana"</span><span class="p">,</span> <span class="s">"orange"</span><span class="p">,</span> <span class="s">"apple"</span><span class="p">]</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"banana"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+  <span class="s">"apple"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+  <span class="s">"orange"</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+  <span class="s">"pear"</span><span class="p">:</span> <span class="mi">15</span>
+<span class="p">}</span>
+    
+<span class="n">prices</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+  <span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+  <span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span>
+  <span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span>
+<span class="p">}</span>
+
+<span class="c1"># Write your code below!
+</span><span class="k">def</span> <span class="nf">compute_bill</span><span class="p">(</span><span class="n">food</span><span class="p">):</span>
+  <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">food</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">stock</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="n">total</span> <span class="o">+=</span> <span class="n">prices</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
+      <span class="n">stock</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">total</span>
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]        <br />
+• 함수 compute_bill(food) 에서는 딕셔너리 stock[item] &gt; 0 인 것들만 계산한다.  <br />
+• 딕셔너리 stock[item] 이 0 보다 크면, 그 가격을 변수 total 에 추가한다.  <br />
+• 그리고 stock[item] 의 갯수를 하나 줄여준다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+</code></pre></div></div>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><img src="//assets/images/codecademy/line.png" alt="codecademy" />  <br />
+<br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">A DAY AT THE SUPERMARKET</font>
+<h3 id="13-lets-check-out">13. Let’s Check Out!</h3>
+
+<p>Perfect! You’ve done a great job with lists and dictionaries in this project. You’ve practiced:</p>
+
+<ul>
+  <li>Using for loops with lists and dictionaries</li>
+  <li>Writing functions with loops, lists, and dictionaries</li>
+  <li>Updating data in response to changes in the environment (for instance, decreasing the number of bananas in stock by 1 when you sell one).
+Thanks for shopping at the Codecademy supermarket!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
+• Ch13. Let’s Check Out! 에서는 지금까지 작성한 소스를 정리해 보자.  <br />
+• 리스트와 딕셔너리를 for 문에서 사용하는 방법을 배웠다.   <br />
+• 함수에서 리스트, 딕셕너리, for 문을 활용하는 방법을 배웠다.  <br />
+• 딕셔너리의 값을 추가, 삭제 하는 방법을 배웠다.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>Print your result and click Run to finish this course.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]    <br />
+• 지금까지 작성한 소스를 실행시켜 보아라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<ul>
+  <li>skip</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]    <br />
+• skip</p>
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">shopping_list</span> <span class="o">=</span> <span class="p">[</span><span class="s">"banana"</span><span class="p">,</span> <span class="s">"orange"</span><span class="p">,</span> <span class="s">"apple"</span><span class="p">]</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"banana"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+  <span class="s">"apple"</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+  <span class="s">"orange"</span><span class="p">:</span> <span class="mi">32</span><span class="p">,</span>
+  <span class="s">"pear"</span><span class="p">:</span> <span class="mi">15</span>
+<span class="p">}</span>
+    
+<span class="n">prices</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s">"banana"</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+  <span class="s">"apple"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+  <span class="s">"orange"</span><span class="p">:</span> <span class="mf">1.5</span><span class="p">,</span>
+  <span class="s">"pear"</span><span class="p">:</span> <span class="mi">3</span>
+<span class="p">}</span>
+
+<span class="c1"># Write your code below!
+</span><span class="k">def</span> <span class="nf">compute_bill</span><span class="p">(</span><span class="n">food</span><span class="p">):</span>
+  <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">food</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">stock</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="n">total</span> <span class="o">+=</span> <span class="n">prices</span><span class="p">[</span><span class="n">item</span><span class="p">]</span>
+      <span class="n">stock</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">1</span>
+  <span class="k">return</span> <span class="n">total</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">compute_bill</span><span class="p">(</span><span class="n">shopping_list</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 함수 compute_bill(shopping_list) 을 호출하여 출력한다.   <br />
+• 함수는 재고 항목 딕셔너리 food 의 항목을 하나씩 읽어서 재고가 있는지 확인한다.  <br />
+• 재고가 있으면 (item &gt; 0) 해당 물품의 가격을 딕셔너리 prices 에서 찾는다.  <br />
+• 변수 total 에 item 의 가격을 추가한다.  <br />
+• 물품의 전체 가격이 저장된 변수 total 을 반환(return)한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5.5
+</code></pre></div></div>
+
+        
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/p2k-lists-dictionaries/" class="pagination--pager" title="Lists &amp; Dictionaries
+">Previous</a>
+    
+    
+      <a href="/p2k-student-becomes-teacher/" class="pagination--pager" title="Student becomes the teacher
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+    </div>
+
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<!--
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-dd+95-30-bo+wc"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-slot="4360630181"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+-->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+<!-- google add start -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-dd+95-30-bo+wc"
+     data-ad-client="ca-pub-7193702121518663"
+     data-ad-slot="4360630181"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- google add end  -->
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+
+
+</html>

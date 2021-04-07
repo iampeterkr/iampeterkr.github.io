@@ -24,17 +24,17 @@ redirect_from:
 
 <b>1.	Python Syntax</b>     
 *  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)
-<a href="/python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png" align="right" height="100px" width="95px">
+<a href="/p3k-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png" align="right" height="100px" width="95px">
 </a>
-<a href="/python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png" align="right" height="100px" width="95px">
+<a href="/p3e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png" align="right" height="100px" width="95px">
 </a>
-<a href="/python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="100px" width="95px">
+<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="100px" width="95px">
 </a>
-<a href="/python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="100px" width="95px">
+<a href="/p2k-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="100px" width="95px">
 </a>
 
    
-<!--
+<!-- mark down link, align, resize
 [![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){:.alignright}{: width="95" height="100"}]({{site.baseurl}}/p2k-python-syntax/)
 [![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){:.alignright}{: width="95" height="100"}]({{site.baseurl}}/p2e-python-syntax/) 
 [![p3-kor](https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png){:.alignright}{: width="95" height="100"}]({{site.baseurl}}/p3k-python-syntax/)
@@ -44,11 +44,7 @@ redirect_from:
 <hr/>     
 
 <b>2.	Strings and Console Output</b>     
-*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)
-[![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/)
-[![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/) 
-[![p3-kor](https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/)
-[![p3-eng](https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png){: width="95" height="100"}]({{site.baseurl}}/string-console-output/) 
+*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/) 
       
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     

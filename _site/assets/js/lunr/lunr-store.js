@@ -299,6 +299,111 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2e-python-final-project/",
         "teaser":null},{
+        "title": "Python Syntax",
+        "excerpt":"LESSON 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며, 객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. PYTHON SYNTAX1. Hello World! If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax/",
+        "teaser":null},{
+        "title": "String & Console Output",
+        "excerpt":"LESSON This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the “print” keyword. 설명: [ 학습방향 ] 이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다. STRING &amp; CONSOLE OUTPUT1. Strings Another...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output/",
+        "teaser":null},{
+        "title": "Date and Time",
+        "excerpt":"LESSON This lesson is a follow up to Unit 2: Strings and Console input and will give you practice with the concepts introduced in that lesson. 설명: [ 학습방향 ] 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The datetime Library A lot of times...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-date-and-time/",
+        "teaser":null},{
+        "title": "Conditionals and Control Flow",
+        "excerpt":"LESSON In this lesson, we’ll learn how to create programs that generate different outcomes based on user input! 설명: [ 학습방향 ] 이 장에서는 사용자의 의도에 따라 다른 결과 값을 생성하는 프로그램을 만드는 연습을 한다. CONDITIONALS &amp; CONTROL FLOW1. Go With the Flow Just like in real life, sometimes we’d...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-conditionals-control-flow/",
+        "teaser":null},{
+        "title": "PygLatin",
+        "excerpt":"LESSON In this lesson we’ll put together all of the Python skills we’ve learned so far including string manipulation and branching. We’ll be building a Pyg Latin translator. (That’s Pig Latin for Python Programmers!) 설명: [ 학습방향 ] 이 장에서는 지금까지 배운 것을 복습 해보자. PYGLATIN1. Break It Down Now...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-pyglatin/",
+        "teaser":null},{
+        "title": "Functions",
+        "excerpt":"LESSON A function is a reusable section of code written to perform a specific task in a program. We gave you a taste of functions in Unit 3; here, you’ll learn how to create your own. 설명: [ 학습방향 ] 이 장에서는 함수에 대해서 기본적으로 배웁니다. 함수는 프로그램 내에서 특정...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-functions/",
+        "teaser":null},{
+        "title": "Taking A Vacation",
+        "excerpt":"LESSON Hard day at work? Rough day at school? Take a load off with a programming vacation! 설명: [ 학습방향 ] 이 장에서는 여행의 경비를 계산해주는 함수를 만들어 보면서, 관련 함수를 만드는 연습을 통하여 함수에 대한 개념과 사용법에 대하여 익숙해지자. TAKING A VACATION1. Before We Begin Let’s first quickly review...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-taking-vacation/",
+        "teaser":null},{
+        "title": "Lists & Dictionaries",
+        "excerpt":"LESSON Lists and dictionaries are powerful tools you can use to store, organize, and manipulate all kinds of information. 설명: [ 학습방향 ] 이 장에서는 리스트와 딕셔너리를 학습한다. 이들은 모든 종류의 데이타를 저장, 구성 및 조작 하는데 활용할 수 있는 강력한 도구이다. PYTHON LISTS AND DICTIONARIES1. Introduction to Lists Lists...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-lists-dictionaries/",
+        "teaser":null},{
+        "title": "A Day at the Supermarket",
+        "excerpt":"LESSON Let’s manage our own supermarket and buy some goods along the way! 설명: [ 학습방향 ] 수퍼마켓에서 물건 구입 및 계산하는 프로그램을 만들면서, 리스트와 딕셔너리의 기능을 학습하고, 연습한다. A DAY AT THE SUPERMARKET1. BeFOR We Begin Before we begin our exercise, we should go over the Python for loop...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-day-supermarket/",
+        "teaser":null},{
+        "title": "Student becomes the teacher",
+        "excerpt":"LESSON Use what you’ve learned so far to manage your own class. 설명: [ 학습방향 ] 지금까지 배운 것을 반복 연습하여, 자신의 것으로 완전히 만들자. STUDENTS BECOMES THE TEACHER1. Lesson Number One Welcome to this “Challenge Course”. Until now we’ve been leading you by the hand and working on some...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-student-becomes-teacher/",
+        "teaser":null},{
+        "title": "Lists and Functions",
+        "excerpt":"LESSON Now that you’ve learned about lists, let’s turbo-charge them with functions. 설명: [ 학습방향 ] 지금까지 리스트에 관한 것들을 배웠고, 지금부터 리스트와 함수를 강화해 보자. LISTS AND FUNCTIONS1. List accessing This exercise goes over just pulling information from a list, which we’ve covered in a previous section! 설명: [...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-lists-functions/",
+        "teaser":null},{
+        "title": "Battleship!",
+        "excerpt":"LESSON In this lesson, we will make a simplified version of the classic board game Battleship! We’ll use functions, lists, and conditionals to make our game. 설명: [ 학습방향 ] 이 장에서는 고전 게임인 배틀쉽을 구현해 보자. 게임을 구현하면서, 함수, 리스트, 조건절 등을 연습해 보자. BATTLESHIP!1. Welcome to Battleship! In...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-battleship/",
+        "teaser":null},{
+        "title": "Loops",
+        "excerpt":"LESSON Loops allow you to quickly iterate over information in Python. In this lesson, we’ll cover two types of loop: ‘while’ and ‘for’. 설명: [ 학습방향 ] 이 장에서는 while 문과, for 문을 학습한다. 반복문을 활용하여 데이타를 신속하게 처리하는 방법을 학습한다. LOOPS1. While you’re here The while loop is similar...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-loops/",
+        "teaser":null},{
+        "title": "Practice Makes Perfect",
+        "excerpt":"LESSON You know a lot of Python now. Let’s do some practice problems! 설명: [ 학습방향 ] Python 의 다양한 문제들을 연습하자. PRACTICE MAKES PERFECT1. Practice! Practice Practice! The best way to get good at anything is a lot of practice. This lesson is full of practice problems for you...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-practice-makes-perfect/",
+        "teaser":null},{
+        "title": "Exam Statistics",
+        "excerpt":"LESSON Your students just took their first test. It’s time to see how everyone did. Let’s write a program to compute the mean, variance, and standard deviation of the test scores. 설명: [ 학습방향 ] 학생들의 시험 점수를 가지고, 평균, 분산 및 표준편차를 계산하는 연습을 해보자. EXAM STATISTICS1. Let’s look...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-exam-statistics/",
+        "teaser":null},{
+        "title": "Advanced Topics in Python",
+        "excerpt":"LESSON In this lesson, we’ll cover some of the more complex aspects of Python, including iterating over data structures, list comprehensions, list slicing, and lambda expressions. 설명: [ 학습방향 ] 이 장에서는 Python 을 활용한 다양한 자료구조를 학습한다. Data structure, list comprehension, list slicing, lambda 를 배워보자. ADVANCED TOPICS IN...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-advanced-topics-python/",
+        "teaser":null},{
+        "title": "Introduction to Bitwise Operators",
+        "excerpt":"LESSON Bitwise operations directly manipulate bits—patterns of 0s and 1s. Though they can be tricky to learn at first, their speed makes them a useful addition to any programmer’s toolbox. 설명: [ 학습방향 ] 이 장에서는 비트(bit) 0, 1 에 관한 것을 다룰 것이다. 처음에는 배우기가 어렵지만, 익숙 해지면 코딩의...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-introduction-bitwise-operators/",
+        "teaser":null},{
+        "title": "Introduction to Classes",
+        "excerpt":"LESSON Classes are a crucial part of object-oriented programming (OOP). In this lesson, we’ll explain what classes are, why they’re important, and how to use them effectively. 설명: [ 학습방향 ] 클래스는 객체지향의 끝판왕 이라고 말할수 있다. 이 장에서는, 우리는 클래스가 무엇이며, 왜 중요하며, 어떻게 효과적으로 사용하는지를 학습한다. INTRODUCTION TO...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-introduction-classes/",
+        "teaser":null},{
+        "title": "Classes",
+        "excerpt":"LESSON Make your own Car and learn how to driveCar()! 설명: [ 학습방향 ] 이 장에서는 자동차를 가지고 작은 프로젝트를 단계별 진행하면서 클래스에 대하여 좀 더 깊이 있게 이해하고 연습해 보자. CLASSES1. Class basics Classes can be very useful for storing complicated objects with their own methods and variables. Defining...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-classes/",
+        "teaser":null},{
+        "title": "File Input/Output",
+        "excerpt":"LESSON Now that you understand Python syntax and have been introduced to some Python best practices, let’s apply what you’ve learned to a real-world application: writing data to a file. 설명: [ 학습방향 ] 이 장에서는 Python 을 활용한 File 입/출력 구조를 학습한다. 그 외 지금까지 배워온 Python 문법을 이해하고...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-file-input-output/",
+        "teaser":null},{
+        "title": "PYTHON FINAL PROJECT",
+        "excerpt":"LESSON 설명: [ 학습방향 ]   Python 기초 작업을 모두 마쳤습니다.  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-final-project/",
+        "teaser":null},{
         "title": "Syllabus (Python3)",
         "excerpt":"1. Python Syntax A. Python Syntax §2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp; Dictionaries A. Python...","categories": [],
         "tags": [],
