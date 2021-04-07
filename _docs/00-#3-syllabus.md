@@ -29,10 +29,10 @@ redirect_from:
 
 <b>2.	Strings and Console Output</b>     
 *  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)
-[![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/)
-[![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/) 
-[![p3-kor](https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/)
-[![p3-eng](https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/) 
+[![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){: width="100" height="100"}]({{site.baseurl}}/string-console-output/)
+[![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){: width="100" height="100"}]({{site.baseurl}}/string-console-output/) 
+[![p3-kor](https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png){: width="100" height="100"}]({{site.baseurl}}/string-console-output/)
+[![p3-eng](https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png){: width="100" height="100"}]({{site.baseurl}}/string-console-output/) 
       
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
