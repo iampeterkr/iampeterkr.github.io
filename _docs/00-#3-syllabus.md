@@ -23,12 +23,16 @@ redirect_from:
 
 
 <b>1.	Python Syntax</b>     
-*  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)  [[Eng]({{site.baseurl}}/python-syntax/)]  [[Kor]({{site.baseurl}}/python-syntax/)] 
+*  A.	Python Syntax [§]({{site.baseurl}}/python-syntax/)  [[Python2/Eng]({{site.baseurl}}/python-syntax/)]  [[Python2(Kor)]({{site.baseurl}}/python-syntax/)] 
 
 <hr/>     
 
 <b>2.	Strings and Console Output</b>     
-*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/) [![p3-eng](https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png){: width="110" height="110"}]({{site.baseurl}}/string-console-output/)[![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){: width="110" height="110"}]({{site.baseurl}}/string-console-output/) 
+*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)
+[![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/)
+[![p2-eng](https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/) 
+[![p3-kor](https://iampeterkr.github.io/assets/images/codecademy/p3-kor.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/)
+[![p3-eng](https://iampeterkr.github.io/assets/images/codecademy/p3-eng.png){: width="105" height="105"}]({{site.baseurl}}/string-console-output/) 
       
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
