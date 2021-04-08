@@ -26,7 +26,10 @@ LESSON
 ### 1. Hello World!    
 
 
-만약, 프로그래밍이 사용자와 컴퓨터간의 대화를 하기 위하여 필요한것을 가르치는 어떤 행위라면, 제일 먼저, 어떻게 말하는지를 가르치는것이 가장 유용할 것이다.    
+생각해보자. 
+사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면
+제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다.
+
 Python 에선, `print` 문을 사용하여 컴퓨터가 말하는것을 사용자가 이해한다. 
 
 아래는 print 문장을 사용하는 예를 설명한다. 
@@ -37,7 +40,7 @@ print "Hello, world!"
 print "Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?"
 ```
 
-`print`문은 Python 프로그램과 대화하기 가장 쉬운 방법이다.    
+`print` 문은 Python 프로그램밍에서 대화하기 가장 쉬운 방법중 하나이다.    
 사용자와 대화를 가능케하는 `print` 문은 당신이 가지고 있는 프로그래밍 관련 도구상자에서 가장 유용한 도구중 하나가 될 것이다.   
 
 **설명:** [ Learn ]     
