@@ -27,7 +27,7 @@ LESSON
 
 
 만약, 프로그래밍이 사용자와 컴퓨터간의 대화를 하기 위하여 필요한것을 가르치는 어떤 행위라면, 제일 먼저, 어떻게 말하는지를 가르치는것이 가장 유용할 것이다.    
-Python 에선, `print` 문을 사용하여 컴퓨터가 말하는것을 이해한다. 
+Python 에선, `print` 문을 사용하여 컴퓨터가 말하는것을 사용자가 이해한다. 
 
 아래는 print 문장을 사용하는 예를 설명한다. 
    
@@ -38,7 +38,7 @@ print "Water—there is not a drop of water there! Were Niagara but a cataract o
 ```
 
 `print`문은 Python 프로그램과 대화하기 가장 쉬운 방법이다.    
-대화를 가능케하는 `print`문은 당신의 프로그래밍 관련 도구상자에서 가장 유용한 도구중 하나일 것이다.   
+사용자와 대화를 가능케하는 `print` 문은 당신이 가지고 있는 프로그래밍 관련 도구상자에서 가장 유용한 도구중 하나가 될 것이다.   
 
 **설명:** [ Learn ]     
 • Ch1. Hello World! 에서는 print 문을 학습한다.      
@@ -53,7 +53,7 @@ print "Water—there is not a drop of water there! Were Niagara but a cataract o
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* `print`문을 사용하여, 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜보아라.
+* `print`문을 사용하여, 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜 보아라.
 
 
 <br>
