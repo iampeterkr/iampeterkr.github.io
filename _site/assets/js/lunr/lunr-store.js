@@ -300,7 +300,7 @@ var store = [{
         "url": "http://localhost:4000/p2e-python-final-project/",
         "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"LESSON 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며, 객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. PYTHON SYNTAX1. Hello World! If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to...","categories": [],
+        "excerpt":"LESSON 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며, 객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. PYTHON SYNTAX1. Hello World! 만약, 프로그래밍이 사용자와 컴퓨터간의 대화를 하기 위하여 필요한것을 가르치는 어떤 행위라면, 제일 먼저, 어떻게 말하는지를 가르치는것이 가장 유용할 것이다. Python 에선, print 문을 사용하여 컴퓨터가 말하는것을 이해한다. 아래는...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax/",
         "teaser":null},{

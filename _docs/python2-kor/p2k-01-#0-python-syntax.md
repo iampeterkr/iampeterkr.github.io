@@ -26,9 +26,10 @@ LESSON
 ### 1. Hello World!    
 
 
-If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to speak. In Python, this is accomplished with the `print` statement.
+만약, 프로그래밍이 사용자와 컴퓨터간의 대화를 하기 위하여 필요한것을 가르치는 어떤 행위라면, 제일 먼저, 어떻게 말하는지를 가르치는것이 가장 유용할 것이다.    
+Python 에선, `print` 문을 사용하여 컴퓨터가 말하는것을 이해한다. 
 
-accomplished with the print statement.
+아래는 print 문장을 사용하는 예를 설명한다. 
    
 
 ```python
@@ -36,9 +37,8 @@ print "Hello, world!"
 print "Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?"
 ```
 
-
-
-A `print` statement is the easiest way to get your Python program to communicate with you. Being able to command this communication will be one of the most valuable tools in your programming toolbox.
+`print`문은 Python 프로그램과 대화하기 가장 쉬운 방법이다.    
+대화를 가능케하는 `print`문은 당신의 프로그래밍 관련 도구상자에서 가장 유용한 도구중 하나일 것이다.   
 
 **설명:** [ Learn ]     
 • Ch1. Hello World! 에서는 print 문을 학습한다.      
@@ -53,12 +53,7 @@ A `print` statement is the easiest way to get your Python program to communicate
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Using a print statement, output a message of your choosing to the terminal.   
-
-
-**설명:** [ Instruction ]    
-• print 문을 사용하여 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜라. 
-{: .notice--info}
+* `print`문을 사용하여, 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜보아라.
 
 
 <br>
@@ -67,16 +62,13 @@ A `print` statement is the easiest way to get your Python program to communicate
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
 
-* Print a message by typing `print` followed by your message in quotes, like this:
+* 아래와 같이 `print`문을 쓰고, 그 뒷편에 "Your Message!" 를 입력하고 출력 시키면 된다.   
 
 ```python
 print "Your Message!"
 ```
 
 
-**설명:** [ Hint ]    
-• print 문을 사용하여 *Your Message!* 를 화면에 출력한다. 
-{: .notice--info}
 
 <br>
 <hr/>
