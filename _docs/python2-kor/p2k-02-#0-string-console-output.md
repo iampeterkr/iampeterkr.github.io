@@ -7,7 +7,8 @@ excerpt: "We learn about String, Console, and Output Syntax."
 redirect_from:
   - /theme-setup/
 toc: true
-toc_sticky: true 
+# toc_sticky: true # true : 고정
+toc_sticky: 
 toc_label: 목차
 ---
     

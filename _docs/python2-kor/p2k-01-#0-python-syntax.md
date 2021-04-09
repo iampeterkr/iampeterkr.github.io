@@ -7,7 +7,8 @@ excerpt: "We learn about Python Syntax."
 redirect_from:
   - /theme-setup/
 toc: true
-toc_sticky: true
+#toc_sticky: true
+toc_sticky:
 toc_label: 목차
 ---
 
