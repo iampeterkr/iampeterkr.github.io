@@ -423,7 +423,7 @@ In the above example, we defined a variable called `greeting_message` and set it
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Create a variable called `toodays_date` and assign a value that will represent today's date to that variable.
+* Create a variable called `todays_date` and assign a value that will represent today's date to that variable.
 
 **설명:** [ Instruction ]     
 • 변수 todays_date 를 만들고, 이 변수 todays_date에 오늘 날짜를 넣어라.

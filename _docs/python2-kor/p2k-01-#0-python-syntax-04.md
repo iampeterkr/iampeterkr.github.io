@@ -113,7 +113,7 @@ print "You take away its chair!"
 
 
 **설명:** [ Solution ]     
-• 문자열을 표현할때는 처음과 끝의 쿼트 모양이 같아야 한다.
+• 문자열을 표현할때는 처음과 끝의 따옴표 모양이 같아야 한다.
 {: .notice--info}
 
 

@@ -314,8 +314,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-04/",
         "teaser":null},{
+        "title": "Variables",
+        "excerpt":"LESSON 이 장에서는 변수를 배울 것이다. PYTHON SYNTAX5. Variables Python 프로그래밍에서, 시간의 변화에 따라 데이타를 처리하는 시스템을 만든다고 가정해 보자. 그 데이타는 비행기의 위치가 될수도 있고, 하루중 시간 또는 여러분이 시청하고 있는 텔레비젼 쇼의 시간이 될 수도 있다. 중요한것은 이것들은 시간에 따라 값이 달라질 수 있는 것이다. Python 은 변수를...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-05/",
+        "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
