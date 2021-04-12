@@ -1,18 +1,28 @@
 ---
 #layout : archive
-title: "Lecture"
+title: "Python"
 permalink: /docs-main/
 excerpt: "Main Pages for pythone of Codecademy."
-last_modified_at: 2019-03-11T09:00:00-04:00
 # redirect_from:
 #   - /theme-setup/
 # On this page disable
 #toc: true
 ---
     
-<br>   
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
+<img src="/assets/images/codecademy_logo.svg" width="250" height="150" align="center">
+<hr style="border: solid 1px #dddddd ;">    
 
+<a href="/p2k-python-syntax-01/"><img src="https://iampeterkr.github.io/assets/images/codecademy/python2-korean.png" align="center" height="200px" width="200px">
+</a>
+
+
+<hr style="border: solid 1px #dddddd ;">    
+
+<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/python2-english.png" align="center" height="200px" width="200px" >
+</a>
+
+
+<!--
 <table>
 	<tr>
 		<td align="center"><img src="/assets/images/codecademy_logo.svg" width="250" height="150"></td>
@@ -21,4 +31,5 @@ last_modified_at: 2019-03-11T09:00:00-04:00
         </td>
 	</tr>
 </table>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
+-->
+<hr style="border: solid 1px #dddddd ;">    
