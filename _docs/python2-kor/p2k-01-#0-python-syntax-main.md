@@ -19,7 +19,7 @@ Index
 
 ####  1. Hello World! [[Link]({{site.baseurl}}/p2k-python-syntax-01/)]      
 ####  2. Print Statements [[Link]({{site.baseurl}}/p2k-python-syntax-02/)]        
-####  3. String   [[Link]({{site.baseurl}}/p2k-python-syntax-03]    
+####  3. String [[Link]({{site.baseurl}}/p2k-python-syntax-03)]    
 ####  4. Handling Errors    
 ####  5. Variables    
 ####  6. Arithmetic   

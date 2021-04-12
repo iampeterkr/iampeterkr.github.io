@@ -310,7 +310,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-02/",
         "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String   [[Link](//p2k-python-syntax-03] 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
