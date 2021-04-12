@@ -32,7 +32,7 @@ redirect_from:
 -->
 <a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="100px" width="95px">
 </a>
-<a href="/p2k-python-syntax-01/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="100px" width="95px">
+<a href="/p2k-python-syntax-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="100px" width="95px">
 </a>
 
    

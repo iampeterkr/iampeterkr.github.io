@@ -315,7 +315,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-05/",
         "teaser":null},{
         "title": "Arithmetic",
-        "excerpt":"LESSON 이 장에서는 산술 연산자를 배울 것이다. PYTHON SYNTAX PYTHON SYNTAX6. Arithmetic 컴퓨터들이 예외적으로 잘할 수 있는 한가지는 계산하는 것이다. 더하기, 빼기, 곱하기, 나누기, 등 다른 숫자 계산들은 모든 대부분 프로그래밍에서 수행할 수 있고, Python 도 예외는 아니다. 아례 몇 가지 예를 보자… mirthful_addition = 12381 + 91817amazing_subtraction = 981...","categories": [],
+        "excerpt":"LESSON 이 장에서는 산술 연산자를 배울 것이다. PYTHON SYNTAX6. Arithmetic 컴퓨터들이 예외적으로 잘할 수 있는 한가지는 계산하는 것이다. 더하기, 빼기, 곱하기, 나누기, 등 다른 숫자 계산들은 모든 대부분 프로그래밍에서 수행할 수 있고, Python 도 예외는 아니다. 아례 몇 가지 예를 보자… mirthful_addition = 12381 + 91817amazing_subtraction = 981 - 312trippy_multiplication...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-06/",
         "teaser":null},{
