@@ -22,7 +22,7 @@ Index
 ####  3. String [[Link]({{site.baseurl}}/p2k-python-syntax-03)]    
 ####  4. Handling Errors [[Link]({{site.baseurl}}/p2k-python-syntax-04)]     
 ####  5. Variables [[Link]({{site.baseurl}}/p2k-python-syntax-05)]      
-####  6. Arithmetic   
+####  6. Arithmetic [[Link]({{site.baseurl}}/p2k-python-syntax-06)]     
 ####  7. Updating Variables   
 ####  8. Comments   
 ####  9. Numbers   

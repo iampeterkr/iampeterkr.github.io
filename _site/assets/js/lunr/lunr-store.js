@@ -319,8 +319,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-05/",
         "teaser":null},{
+        "title": "Arithmetic",
+        "excerpt":"LESSON 이 장에서는 산술 연산자를 배울 것이다. PYTHON SYNTAX PYTHON SYNTAX6. Arithmetic One thing computers are capable of doing exceptionally well is performing arithmetic. Addition, subtraction, multiplication, division, and other numeric calculations are easy to do in most programming languages, and Python is no exception. Some examples:컴퓨터들이 예외적으로 잘할 수...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-06/",
+        "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
