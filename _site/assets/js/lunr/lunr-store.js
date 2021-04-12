@@ -184,11 +184,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/--/",
         "teaser":null},{
-        "title": "Syllabus",
-        "excerpt":"https://codecademy.com 1. Python Syntax A. Python Syntax §2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § Syllabus 5. Lists &amp; Dictionaries...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/bk-syllabus/",
-        "teaser":null},{
         "title": "Advanced Topics in Python",
         "excerpt":"LESSON In this lesson, we’ll cover some of the more complex aspects of Python, including iterating over data structures, list comprehensions, list slicing, and lambda expressions. 설명: [ 학습방향 ] 이 장에서는 Python 을 활용한 다양한 자료구조를 학습한다. 딕셔너리, 리스트 등을 합칙, 분리하고, lambda 표현등을 학습한다. ADVANCED TOPICS IN PYTHON...","categories": [],
         "tags": [],
