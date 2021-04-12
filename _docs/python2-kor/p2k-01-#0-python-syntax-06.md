@@ -26,7 +26,6 @@ LESSON
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 6. Arithmetic    
 
-One thing computers are capable of doing exceptionally well is performing arithmetic. Addition, subtraction, multiplication, division, and other numeric calculations are easy to do in most programming languages, and Python is no exception. Some examples:
 컴퓨터들이 예외적으로 잘할 수 있는 한가지는 계산하는 것이다.    
 더하기, 빼기, 곱하기, 나누기, 등 다른 숫자 계산들은 모든 대부분 프로그래밍에서 수행할 수 있고, Python 도 예외는 아니다.     
 아례 몇 가지 예를 보자...
