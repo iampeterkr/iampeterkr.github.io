@@ -86,7 +86,8 @@ print "Hello " + "Nicole"
 ```
 
 **설명:** [ Hint ]     
-• 우리는 두개의 문자열을 ( + ) 기호를 사용하여, 문장을 연결할 수 있다. 
+• 우리는 두개의 문자열을 ( + ) 기호를 사용하여, 문장을 연결할 수 있다.    
+• hello 다음 공백을 주의하라.    
 {: .notice--info}
 
 
@@ -98,7 +99,7 @@ print "Hello " + "Nicole"
 
 
 ```python
-print "Hello " + "Wonyoung Lee"
+print "Hello " + "Peter Lee"
 ```
 
 **설명:** [ Solution ]     
@@ -108,5 +109,5 @@ print "Hello " + "Wonyoung Lee"
 
 **결과**     
 ``` 
-Hello Wonyoung Lee
+Hello Peter Lee
 ```   

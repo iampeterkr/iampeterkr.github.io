@@ -309,8 +309,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-02/",
         "teaser":null},{
+        "title": "Handling Errors",
+        "excerpt":"LESSON 이 장에서는 Error 를 관리하는 방법을 배울 것이다. PYTHON SYNTAX4. Handling Errors As we get more familiar with the Python programming language, we run into errors and exceptions. These are complaints that Python makes when it doesn’t understand what you want it to do. Everyone runs into these issues,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-04/",
+        "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{

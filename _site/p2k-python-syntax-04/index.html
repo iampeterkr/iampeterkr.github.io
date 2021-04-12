@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Run and display Error -  Peter’s Blog</title>
-<meta name="description" content="Explaining how to use run and Error displayed.">
+<!-- begin _includes/seo.html --><title>Handling Errors -  Peter’s Blog</title>
+<meta name="description" content="We learn about Errors of Python Syntax.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Run and display Error">
-<meta property="og:url" content="http://localhost:4000/run-error/">
+<meta property="og:title" content="Handling Errors">
+<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-04/">
 
 
-  <meta property="og:description" content="Explaining how to use run and Error displayed.">
+  <meta property="og:description" content="We learn about Errors of Python Syntax.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/run-error/">
+<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-04/">
 
 
 
@@ -260,7 +260,7 @@
             
             
 
-            <li><a href="/run-error/" class="active">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
+            <li><a href="/run-error/" class="">⁯  ⁯⁯⁯  ⁯⤷ ° Run and Error</a></li>
           
             
             
@@ -839,15 +839,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Run and display Error">
-    <meta itemprop="description" content="Explaining how to use run and Error displayed.">
+    <meta itemprop="headline" content="Handling Errors">
+    <meta itemprop="description" content="We learn about Errors of Python Syntax.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Run and display Error
+          <h1 id="page-title" class="page__title" itemprop="headline">Handling Errors
 </h1>
           
         </header>
@@ -855,19 +855,104 @@
 
       <section class="page__content" itemprop="text">
         
-        <hr />
+        <hr style="border: solid 1px #dddddd ;" />
 
-<p><img src="//assets/images/codecademy/00-run-error-00.png" alt="codecademy" /></p>
+<p>LESSON</p>
+
+<p>이 장에서는 Error 를 관리하는 방법을 배울 것이다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
+<font size="3" face="돋움">PYTHON SYNTAX</font>
+<h2 id="4-handling-errors">4. Handling Errors</h2>
+
+<p>As we get more familiar with the Python programming language, we run into errors and exceptions. These are complaints that Python makes when it doesn’t understand what you want it to do. Everyone runs into these issues, so it is a good habit to read and understand them. Here are some common errors that we might run into when printing strings:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Mismatched quotes will cause a SyntaxError'
+print Without quotes will cause a NameError
+</span></code></pre></div></div>
+
+<p>If the quotes are mismatched Python will notice this and inform you that your code has an error in its syntax because the line ended (called an <code class="language-plaintext highlighter-rouge">EOL</code>) before the double-quote that was supposed to close the string appeared. The program will abruptly stop running with the following message:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SyntaxError: EOL <span class="k">while </span>scanning a string literal
+This means that a string wasn<span class="s1">'t closed, or wasn'</span>t closed 
+with the same quote-character that started it.
+</code></pre></div></div>
+
+<p>Another issue you might run into is attempting to create a string without quotes at all. Python treats words not in quotes as commands, like the print statement. If it fails to recognize these words as defined (in Python or by your program elsewhere) Python will complain the code has a NameError. This means that Python found what it thinks is a command, but doesn’t know what it means because it’s not defined anywhere.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]      <br />
+• Ch4. Handling Errors 에서는 Error에 대하여 학습한다.   <br />
+• 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 <em>EOL Error</em>를 발생시킨다. <br />
+• e.g. SyntaxError: EOL while scanning string literal  <br />
+• <em>EOL : End Of Line</em><br />
+• <em>EOL Error</em>는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.  <br />
+• 시작이 (‘) 이면 끝도 (‘) 이어야 한다.  <br />
+• 시작이 (“) 이면 끝도 (“) 이어야 한다.   <br />
+• 문자열의 양 끝에 쿼트(quotes)가 없으면 Python은 해당 문자열을 변수로 인식한다.  <br />
+• 또는 print 와 같은 명령문으로 인식한다.  <br />
+• 이런 경우 Python 은 해당 문자열을 명령어(or 변수) 리스트에서 찾는다.  <br />
+• 만약, 리스트에서 찾을수 없으면 <em>NameError</em> 를 발생시킨다.</p>
 
 <p><br /></p>
 <hr />
 
-<h3 id="run--error">RUN &amp; Error</h3>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<p class="notice--info"><strong>설명:</strong> [ Run ]  <br />
-• Editor 화면에서 지시사항(Instruction)을 작성(coding)한 후,  <br />
-• <code class="language-plaintext highlighter-rouge">Run</code> 버튼을 누른다.   <br />
-• <code class="language-plaintext highlighter-rouge">Display</code> 화면에서 Error 또는 정상 메시지를 확인 한다.</p>
+<ul>
+  <li>We’ve written two <code class="language-plaintext highlighter-rouge">print</code> statements that will raise errors.</li>
+  <li>
+    <p>One has mismatched quotes and the other has no quotes at all.</p>
+  </li>
+  <li>Fix the two print statements to successfully debug the program!</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
+• 쿼트(quotes)를 잘못 사용하면 Error 가 발생한다.  <br />
+• 잘못된 Python 프로그램을 수정하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>A <code class="language-plaintext highlighter-rouge">print</code> statement should start with the word print and then should have the message inside matching quote marks.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">'This is a good print statement'</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Double quotes are also fine:</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"This is also a good print statement"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• 문자열은 쿼트(quotes)의 처음과 끝이 같은 모양이어야 한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"How do you make a hot dog stand?"</span>
+<span class="k">print</span> <span class="s">"You take away its chair!"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 문자열을 표현할때는 처음과 끝의 쿼트 모양이 같아야 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>How do you make a hot dog stand?
+You take away its chair!
+</code></pre></div></div>
 
         
         
@@ -886,11 +971,11 @@
       
   <nav class="pagination">
     
-      <a href="/stuck-get-a-hint/" class="pagination--pager" title="Stuck? Get a hint
+      <a href="/p2k-python-syntax-02/" class="pagination--pager" title="Print Statements
 ">Previous</a>
     
     
-      <a href="/solution/" class="pagination--pager" title="Solution
+      <a href="/p2k-python-syntax-main/" class="pagination--pager" title="Python Syntax
 ">Next</a>
     
   </nav>
