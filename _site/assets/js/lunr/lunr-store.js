@@ -310,7 +310,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-02/",
         "teaser":null},{
         "title": "Handling Errors",
-        "excerpt":"LESSON 이 장에서는 Error 를 관리하는 방법을 배울 것이다. PYTHON SYNTAX4. Handling Errors As we get more familiar with the Python programming language, we run into errors and exceptions. These are complaints that Python makes when it doesn’t understand what you want it to do. Everyone runs into these issues,...","categories": [],
+        "excerpt":"LESSON 이 장에서는 Error 를 관리하는 방법을 배울 것이다. PYTHON SYNTAX4. Handling Errors 여러분은 Python 프로그래밍을 하다보면, errors 와 예외처리를 만나게 될 것이다. 이것들이 발생하는 이유는 Python 입장에선 당신이 무엇을 시키는지를 이해할수 없을때 나타나는 불만들이다. 모두들 프로그래밍 과정에서 이러한 문제들에 부딪히게 되므로, error 와 예외처리들을 읽고 이해할수 있어야 합니다. 여기에...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-04/",
         "teaser":null},{
