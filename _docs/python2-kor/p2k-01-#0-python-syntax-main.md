@@ -18,7 +18,7 @@ Index
 <hr style="border: solid 1px #dddddd ;">    
 
 ####  1. Hello World! [[Link]({{site.baseurl}}/p2k-python-syntax-01/)]      
-####  2. Print Statements    
+####  2. Print Statements [[Link]({{site.baseurl}}/p2k-python-syntax-02/)]        
 ####  3. String    
 ####  4. Handling Errors    
 ####  5. Variables    

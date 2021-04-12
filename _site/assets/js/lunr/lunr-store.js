@@ -304,8 +304,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-01/",
         "teaser":null},{
+        "title": "2. Print Statements",
+        "excerpt":"LESSON PYTHON SYNTAX2. Print Statements There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has parentheses. print \"Hello World!\"print \"Deep into distant woodlands winds...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-02/",
+        "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
