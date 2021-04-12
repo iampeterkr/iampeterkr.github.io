@@ -1,6 +1,6 @@
 ---
 # layout : rchive
-title: "1. Hello World!"
+title: "Hello World!"
 permalink: /p2k-python-syntax-01/
 excerpt: "We learn about print of Python Syntax."
 # last_modified_at: 2018-11-19T09:00:00-04:00

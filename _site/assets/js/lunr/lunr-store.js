@@ -299,12 +299,12 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2e-python-final-project/",
         "teaser":null},{
-        "title": "1. Hello World!",
+        "title": "Hello World!",
         "excerpt":"LESSON 이 장에서는 수많은 독립형 프로젝트들과 스크립트형 응용 프로그램에 사용할수 있는 객체지향 프로그래밍 언어인 Python2 를 소개할 것이다. PYTHON SYNTAX1. Hello World! 생각해보자! 사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다. 이것이 프로그래밍이다. Python 프로그래밍에선, print 문을 사용하여 컴퓨터가...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-01/",
         "teaser":null},{
-        "title": "2. Print Statements",
+        "title": "Print Statements",
         "excerpt":"LESSON 이 장에서는 Python2 와 Python3 의 문법 차이를 설명한다. PYTHON SYNTAX2. Print Statements Python 에는 2 종류의 버젼이 있다. Pyhton2, Python3 모두 광범위하게 사용되고 있다. 두 버젼의 가장 큰 차이점은 print 문을 작성하는 방법이다. Python3 에는 print 문은 괄호가 사용 됩니다. print \"Hello World!\"print \"Deep into distant woodlands winds...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-02/",

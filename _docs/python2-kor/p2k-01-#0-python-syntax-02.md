@@ -1,6 +1,6 @@
 ---
 # layout : rchive
-title: "2. Print Statements"
+title: "Print Statements"
 permalink: /p2k-python-syntax-02/
 excerpt: "We learn about Print Statements of Python Syntax."
 redirect_from:
@@ -91,8 +91,3 @@ print ("Hello World!")
 ```
 Hello World!
 ```
-<br>
-<br>
-<br>
-<p style="page-break-before: always;"></p>
-<br>
