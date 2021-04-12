@@ -8,17 +8,17 @@ excerpt: "Main Pages for pythone of Codecademy."
 # On this page disable
 #toc: true
 ---
-    
-<img src="/assets/images/codecademy_logo.svg" width="250" height="150" align="center">
+
+<br>    
+
+<table align="center">
+<img src="/assets/images/codecademy_logo.svg" width="250" height="150">
 <hr style="border: solid 1px #dddddd ;">    
+</table>
 
-<a href="/p2k-python-syntax-01/"><img src="https://iampeterkr.github.io/assets/images/codecademy/python2-korean.png" align="center" height="200px" width="200px">
-</a>
-
-
-<hr style="border: solid 1px #dddddd ;">    
-
-<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/python2-english.png" align="center" height="200px" width="200px" >
+<a href="/p2k-python-syntax-01/"><img src="https://iampeterkr.github.io/assets/images/codecademy/python2-korean.png" align="center" height="150px" width="150px">
+</a> 
+<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/python2-english.png" align="center" height="150px" width="150px" >
 </a>
 
 
@@ -32,4 +32,3 @@ excerpt: "Main Pages for pythone of Codecademy."
 	</tr>
 </table>
 -->
-<hr style="border: solid 1px #dddddd ;">    
