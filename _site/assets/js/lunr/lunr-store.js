@@ -305,7 +305,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-01/",
         "teaser":null},{
         "title": "2. Print Statements",
-        "excerpt":"LESSON PYTHON SYNTAX2. Print Statements There are two different Python versions. Both Python 2 and Python 3 are used throughout the globe. The most significant difference between the two is how you write a print statement. In Python 3, print has parentheses. print \"Hello World!\"print \"Deep into distant woodlands winds...","categories": [],
+        "excerpt":"LESSON PYTHON SYNTAX2. Print Statements Python 에는 2 종류의 버젼이 있다. Pyhton2, Python3 모두 광범위하게 사용되고 있다. 두 버젼의 가장 큰 차이점은 print 문을 작성하는 방법이다. Python3 에는 print 문은 괄호가 사용 됩니다. print \"Hello World!\"print \"Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-02/",
         "teaser":null},{
