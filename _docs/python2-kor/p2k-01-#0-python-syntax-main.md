@@ -17,7 +17,8 @@ redirect_from:
 Index    
 <hr style="border: solid 1px #dddddd ;">    
 
-####  1. Hello World!    [[Link]({{site.baseurl}}/p2k-python-syntax-1/)]      
+####  1. Hello World!
+[[Link]({{site.baseurl}}/p2k-python-syntax-01/)]      
 ####  2. Print Statements    
 ####  3. String    
 ####  4. Handling Errors    
