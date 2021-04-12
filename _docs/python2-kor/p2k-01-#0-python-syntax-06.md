@@ -22,8 +22,6 @@ LESSON
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 ### 6. Arithmetic    
 
 컴퓨터들이 예외적으로 잘할 수 있는 한가지는 계산하는 것이다.    
