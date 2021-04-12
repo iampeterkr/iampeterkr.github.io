@@ -5,31 +5,29 @@ permalink: /p2k-python-syntax-main/
 excerpt: "Show the the index of Python Syntax's page."
 redirect_from:
   - /theme-setup/
-toc: true
-toc_sticky: true
+# toc: true
+# toc_sticky: true
 #toc_sticky:
-toc_label: 목차
+# toc_label: 목차
 ---
 
   
    
 <hr style="border: solid 1px #dddddd ;">    
 Index    
-
 <hr style="border: solid 1px #dddddd ;">    
-<br>
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
 
-### 1. Hello World!    
-
-### 2. Print Statements    
-
-### 3. String    
-
-### 4. Handling Errors    
-
-### 5. Variables    
-
-### 6. Arithmetic    
-
+####  1. Hello World!    [[Link]({{site.baseurl}}/p2k-python-syntax-1/)]      
+####  2. Print Statements    
+####  3. String    
+####  4. Handling Errors    
+####  5. Variables    
+####  6. Arithmetic   
+####  7. Updating Variables   
+####  8. Comments   
+####  9. Numbers   
+#### 10. Two Types of Division   
+#### 11. Multi-line Strings   
+#### 12. Booleans   
+#### 13. ValueError   
+#### 14. Review   
