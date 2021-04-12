@@ -12,15 +12,11 @@ redirect_from:
 ---
 
 
-  
-   
 <hr style="border: solid 1px #dddddd ;">    
-LESSON    
+LESSON   
 
-<p style="page-break-before: always;"></p>
-<br>
-
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/line.png)    
+이 장에서는 Python2 와 Python3 의 문법 차이를 설명한다.  
+<hr style="border: solid 1px #dddddd ;">    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font> 

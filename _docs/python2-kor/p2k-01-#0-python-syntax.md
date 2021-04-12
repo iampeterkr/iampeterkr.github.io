@@ -18,8 +18,7 @@ toc_label: 목차
 LESSON    
 
 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며,     
-객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. 
-
+객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다.
 <hr style="border: solid 1px #dddddd ;">    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
