@@ -310,7 +310,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-02/",
         "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String   [[Link](//p2k-python-syntax-03] 4. Handling Errors 5. Variables 6. Arithmetic 7. Updating Variables 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
@@ -418,6 +418,11 @@ var store = [{
         "excerpt":"LESSON 설명: [ 학습방향 ]   Python 기초 작업을 모두 마쳤습니다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-final-project/",
+        "teaser":null},{
+        "title": "String",
+        "excerpt":"LESSON 이 장에서는 문자열에 관하여 설명할 것이다. PYTHON SYNTAX3. String Python 에서 무언가를 출력할때, 우리는 문자 형태로 출력할 것이다. Python 에서 문자는 string 이라고 불리는 특정한 데이타 형태로 여겨진다. 이름이 문자열, 이렇게 붙여진 이유는 일련의 문자, 숫자, 기호의 연결로 되어 있기 때문이며, 이것은 마치 문자열로 서로 연결되 있습니다. 문자열은 다른...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-03/",
         "teaser":null},{
         "title": "Syllabus (Python3)",
         "excerpt":"1. Python Syntax A. Python Syntax §2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp; Dictionaries A. Python...","categories": [],

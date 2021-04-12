@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Hello World! -  Peter’s Blog</title>
-<meta name="description" content="We learn about print of Python Syntax.">
+<!-- begin _includes/seo.html --><title>String -  Peter’s Blog</title>
+<meta name="description" content="We learn about String of Python Syntax.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Hello World!">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-01/">
+<meta property="og:title" content="String">
+<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-03/">
 
 
-  <meta property="og:description" content="We learn about print of Python Syntax.">
+  <meta property="og:description" content="We learn about String of Python Syntax.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-01/">
+<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-03/">
 
 
 
@@ -839,15 +839,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Hello World!">
-    <meta itemprop="description" content="We learn about print of Python Syntax.">
+    <meta itemprop="headline" content="String">
+    <meta itemprop="description" content="We learn about String of Python Syntax.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Hello World!
+          <h1 id="page-title" class="page__title" itemprop="headline">String
 </h1>
           
         </header>
@@ -859,71 +859,81 @@
 
 <p>LESSON</p>
 
-<p>이 장에서는 수많은 독립형 프로젝트들과 스크립트형 응용 프로그램에 사용할수 있는 
-객체지향 프로그래밍 언어인 Python2 를 소개할 것이다.</p>
-
+<p>이 장에서는 문자열에 관하여 설명할 것이다.</p>
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+
 <font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="1-hello-world">1. Hello World!</h3>
+<h3 id="3-string">3. String</h3>
 
-<p>생각해보자! <br />
-사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면
-제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다.  <br />
-이것이 프로그래밍이다.</p>
+<p>Python 에서 무언가를 출력할때, 우리는 문자 형태로 출력할 것이다.  <br />
+Python 에서 문자는 <code class="language-plaintext highlighter-rouge">string</code> 이라고 불리는 특정한 데이타 형태로 여겨진다.  <br />
+이름이 문자열, 이렇게 붙여진 이유는 일련의 문자, 숫자, 기호의 연결로 되어 있기 때문이며, 이것은 마치 문자열로 서로 연결되 있습니다. <br />
+문자열은 다른 방법들로 정의 될 수도 있다.</p>
 
-<p>Python 프로그래밍에선, <code class="language-plaintext highlighter-rouge">print</code> 문을 사용하여 컴퓨터가 말하는것을 사용자가 이해한다.</p>
-
-<p>아래는 print 문장을 사용하는 프로그래밍 예를 설명한다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello, world!"</span>
-<span class="k">print</span> <span class="s">"Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"This is a good string"</span>
+<span class="k">print</span> <span class="s">'You can use single quotes or double quotes for a string'</span>
 </code></pre></div></div>
 
-<p><code class="language-plaintext highlighter-rouge">print</code> 문은 Python 프로그램밍에서 대화하기 가장 쉬운 방법중 하나이다.  <br />
-사용자와 대화를 가능케하는 <code class="language-plaintext highlighter-rouge">print</code> 문은 당신이 가지고 있는 프로그래밍 관련 도구상자에서 가장 유용한 도구중 하나가 될 것이다.</p>
+<p>상단은, 우리가 두가지 방법으로 문자열을 출력한 것입니다.  <br />
+하나는 쌍 따옴표를 이용하여 문자열을 출력하였고, 다른 하나는 홋 따옴표를 이용하여 문자열을 출력하였습니다.  <br />
+이 두가지 방법은 모두 사용이 가능합니다.  <br />
+다만, 시작이 쌍따옴표면 끝도 쌍따옴표가 되어야 합니다.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-• Ch1. Hello World! 에서는 print 문을 학습한다.    <br />
-• 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.   <br />
-• 우리는 컴퓨터에게 <em>Hello World!</em> 라는 문장을 화면에 출력 시키라고 명령한 것이다.</p>
+<p>We can combine multiple strings using +, like so: <br />
+우리는 <code class="language-plaintext highlighter-rouge">+</code> 기호를 사용하여, 아래의 예와 문자열을 연결도 할수 있습니다.</p>
 
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"This is "</span> <span class="o">+</span> <span class="s">"a good string"</span>
+</code></pre></div></div>
+
+<p>이 코드는 “This is a good string” 이라고 출력 될 것이다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch3. String 에서는 문자열을 학습한다.   <br />
+• 문자열을 Python 에서는 String 이라고 부른다.   <br />
+• String은 작은 따옴표(‘ ‘) 또는 큰 따옴표(“ “) 사이에 문자를 넣는다.  <br />
+• 이후 부터는 우리는 따옴표를 쿼터(quotes)라고 부른다.   <br />
+• 문자열은 여러 문자열을 예제와 같이 ( + ) 기호를 사용하여 붙일 수 있다.</p>
+
+<p style="page-break-before: always;"></p>
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">print</code>문을 사용하여, 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜 보아라.</li>
+  <li>여러분의 이름을 <code class="language-plaintext highlighter-rouge">+</code> 기호를 사용하여, 다음과 같이 출력되도록 Python 프로그램을 하시오. “Hello [your_name]”</li>
 </ul>
 
-<p><br /></p>
+<p class="notice--info"><strong>설명:</strong> [ Instruction ]   <br />
+• 두개의 문자열 사이에 ( + ) 기호를 사용하여 두 문자열을 연결하라.  <br />
+• e.g.  <em>Hello Hongkildong</em> 을 출력하라.</p>
+
 <hr />
 
 <p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
 
-<ul>
-  <li>아래와 같이 <code class="language-plaintext highlighter-rouge">print</code>문을 쓰고, 그 뒷편에 “Your Message!” 를 입력하고 출력 시키면 된다.</li>
-</ul>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Your Message!"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello "</span> <span class="o">+</span> <span class="s">"Nicole"</span>
 </code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• 우리는 두개의 문자열을 ( + ) 기호를 사용하여, 문장을 연결할 수 있다.</p>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello World!"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello "</span> <span class="o">+</span> <span class="s">"Wonyoung Lee"</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
-• print 문을 사용하여 <em>Hello World!</em> 를 출력하였다.</p>
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• 두 개의 스트링을 연결 할때는 ( + ) 기호를 사용한다.</p>
 
 <p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello World!
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello Wonyoung Lee
 </code></pre></div></div>
 
         
@@ -943,11 +953,11 @@
       
   <nav class="pagination">
     
-      <a href="/p2e-python-final-project/" class="pagination--pager" title="PYTHON FINAL PROJECT
+      <a href="/p2k-python-final-project/" class="pagination--pager" title="PYTHON FINAL PROJECT
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-02/" class="pagination--pager" title="Print Statements
+      <a href="/p3-syllabus/" class="pagination--pager" title="Syllabus (Python3)
 ">Next</a>
     
   </nav>
