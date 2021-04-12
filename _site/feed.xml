@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-12T15:09:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-12T15:51:59+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free&lt;/p&gt;
 
 &lt;p&gt;#Python#Codecademy#코드카데미#한글#Korea#설명#정답#Solves#목록#무료#Free&lt;/p&gt;
 
@@ -182,10 +182,10 @@ Codecademy에서 한글 서비스를 예전에 지원 하였으, 현재는 지�
 Codecademy python 한글(한국어) 가이드 프로젝트 블로그를 작성 하였습니다.&lt;/p&gt;
 
 &lt;p&gt;Python Code cademy(파이썬 코드카데미)의 전체 한글 설명서는  &lt;br /&gt;
-다음 &lt;a href=&quot;/syllabus/&quot;&gt;Python&lt;/a&gt; 링크에  &lt;br /&gt;
+다음 &lt;a href=&quot;/p2k-python-syntax-main/&quot;&gt;Python&lt;/a&gt; 링크에  &lt;br /&gt;
 연결되어 있습니다.&lt;/p&gt;
 
-&lt;p&gt;상단의 &lt;a href=&quot;/syllabus/&quot;&gt;Python&lt;/a&gt;을 클릭하시어,  &lt;br /&gt;
+&lt;p&gt;상단의 &lt;a href=&quot;/syllabus/&quot;&gt;Codecademy&lt;/a&gt;을 클릭하시어,  &lt;br /&gt;
 Codecademy python2 를 활용하시면 됩니다.&lt;/p&gt;
 
 &lt;ul&gt;
