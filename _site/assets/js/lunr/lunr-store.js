@@ -325,7 +325,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-07/",
         "teaser":null},{
         "title": "Comments",
-        "excerpt":"LESSON 이 장에서는 주석을 배울 것이다. PYTHON SYNTAX8. Comments 대부분, 코드는 자신이 이해하기 쉽도록 쓰여져야 한다. 하지만, 여러분의 코드에 여러 정보가 표현되기를 원한다면, 여러분은 # 기호를 사용할수 있다. 코드의 라인 첫부분에 # 가 있는것을 주석이라 부른다. 기계는 주석처리된 이 부분을 읽지 못한다. 다만 여러분만이 읽을수 있다. 향후, 여러분이 코드를 다시...","categories": [],
+        "excerpt":"LESSON 이 장에서는 주석을 배울 것이다. PYTHON SYNTAX8. Comments 대부분, 코드는 자신이 이해하기 쉽도록 작성되어야 한다. 하지만, 여러분의 코드에 여러 정보를 표현하기는 쉽지 않다. 이런 부족한 정보를 더 알려주기 위하여, 여러분은 # 기호를 사용할 수 있다. 코드의 라인 첫부분에 # 기호가 있는것을 주석이라 부른다. 기계는 주석 처리된 이 부분을 읽지...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-08/",
         "teaser":null},{
