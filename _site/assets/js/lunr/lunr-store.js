@@ -339,8 +339,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-10/",
         "teaser":null},{
+        "title": "Multi-line Strings",
+        "excerpt":"LESSON 이 장에서는 Multi-line 문자열에 대하여 배울 것이다. PYTHON SYNTAX11. Multi-line Strings We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:우리는 문자열을 정의할때, 쌍따옴표, 홋따옴표로 정의하는 것을 해보았다. 만일,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-11/",
+        "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers [Link] 10. Two Types of Division [Link] 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers [Link] 10. Two Types of Division [Link] 11. Multi-line Strings [Link] 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{

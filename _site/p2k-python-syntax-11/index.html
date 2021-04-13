@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Hello World! -  Peter’s Blog</title>
-<meta name="description" content="We learn about print of Python Syntax.">
+<!-- begin _includes/seo.html --><title>Multi-line Strings -  Peter’s Blog</title>
+<meta name="description" content="We learn about Multi-line Strings of Python Syntax.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Hello World!">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-01/">
+<meta property="og:title" content="Multi-line Strings">
+<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-11/">
 
 
-  <meta property="og:description" content="We learn about print of Python Syntax.">
+  <meta property="og:description" content="We learn about Multi-line Strings of Python Syntax.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-01/">
+<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-11/">
 
 
 
@@ -839,15 +839,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Hello World!">
-    <meta itemprop="description" content="We learn about print of Python Syntax.">
+    <meta itemprop="headline" content="Multi-line Strings">
+    <meta itemprop="description" content="We learn about Multi-line Strings of Python Syntax.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Hello World!
+          <h1 id="page-title" class="page__title" itemprop="headline">Multi-line Strings
 </h1>
           
         </header>
@@ -859,36 +859,41 @@
 
 <p>LESSON</p>
 
-<p>이 장에서는 수많은 독립형 프로젝트들과 스크립트형 응용 프로그램에 사용할수 있는 
-객체지향 프로그래밍 언어인 Python2 를 소개할 것이다.</p>
+<p>이 장에서는 Multi-line 문자열에 대하여 배울 것이다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
 <font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="1-hello-world">1. Hello World!</h3>
+<h3 id="11-multi-line-strings">11. Multi-line Strings</h3>
 
-<p>생각해보자! <br />
-사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면
-제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다.  <br />
-이것이 프로그래밍이다.</p>
+<p>We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:
+우리는 문자열을 정의할때, 쌍따옴표, 홋따옴표로 정의하는 것을 해보았다.  <br />
+만일, 우리가 문자열을 여러줄에 걸쳐 만들기를 원한다면, 우리는 따옴표 3개를 이용하여 만들 수 있다.</p>
 
-<p>Python 프로그래밍에선, <code class="language-plaintext highlighter-rouge">print</code> 문을 사용하여 컴퓨터가 말하는것을 사용자가 이해한다.</p>
-
-<p>아래는 print 문장을 사용하는 프로그래밍 예를 설명한다.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello, world!"</span>
-<span class="k">print</span> <span class="s">"Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">address_string</span> <span class="o">=</span> <span class="s">"""136 Whowho Rd
+Apt 7
+Whosville, WZ 44494"""</span>
 </code></pre></div></div>
 
-<p><code class="language-plaintext highlighter-rouge">print</code> 문은 Python 프로그램밍에서 대화하기 가장 쉬운 방법중 하나이다.  <br />
-사용자와 대화를 가능케하는 <code class="language-plaintext highlighter-rouge">print</code> 문은 당신이 가지고 있는 프로그래밍 관련 도구상자에서 가장 유용한 도구중 하나가 될 것이다.</p>
+<p>이 주소는 여러줄로 되어 있고, 이것은 변수 <code class="language-plaintext highlighter-rouge">address_string</code>에 저장되어 있다.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]   <br />
-• Ch1. Hello World! 에서는 print 문을 학습한다.    <br />
-• 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.   <br />
-• 우리는 컴퓨터에게 <em>Hello World!</em> 라는 문장을 화면에 출력 시키라고 명령한 것이다.</p>
+<p>다음과 같이 변수에 저장하는 것이 아니라, 주석처리를 여러라인에 걸쳐 할수도 있다.  <br />
+이 방식은 당신의 복잡한 코드를 좀더 편리하게 도와줄 것이다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">""" The following piece of code does the following steps:
+takes in some input
+does An Important Calculation
+returns the modified input and a string that says "Success!" or "Failure..."
+"""</span>
+<span class="p">...</span> <span class="n">a</span> <span class="n">complicated</span> <span class="n">piece</span> <span class="n">of</span> <span class="n">code</span> <span class="n">here</span><span class="p">...</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]    <br />
+• Ch11. Multi-line Strings 에서는 다중 주석을 학습한다.   <br />
+• “”” “””  or ‘’’ ‘’’ 를 이용하여 여러줄의 문자열을 만들수 있다.  <br />
+• 문자열도 만들수 있지만, 한 줄 주석(#) 외에 여러줄의 주석을 만들때도 사용한다.</p>
 
 <p><br /></p>
 <hr />
@@ -896,34 +901,40 @@
 <p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">print</code>문을 사용하여, 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜 보아라.</li>
+  <li>변수 <code class="language-plaintext highlighter-rouge">haiku</code>를 만들고, 여러줄의 문자열을 저장하라.
+    <ul>
+      <li>저장할 문자열 :The old pond, A frog jumps in: Plop!</li>
+    </ul>
+  </li>
 </ul>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
-
 <ul>
-  <li>아래와 같이 <code class="language-plaintext highlighter-rouge">print</code>문을 쓰고, 그 뒷편에 “Your Message!” 를 입력하고 출력 시키면 된다.</li>
+  <li><code class="language-plaintext highlighter-rouge">""" """</code> or ` ‘’’ ‘’’ ` 를 사용하라.</li>
 </ul>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Your Message!"</span>
-</code></pre></div></div>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello World!"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">haiku</span> <span class="o">=</span> <span class="s">"""The old pond,
+A frog jumps in:
+Plop!"""</span>
+
+<span class="k">print</span> <span class="n">haiku</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
-• print 문을 사용하여 <em>Hello World!</em> 를 출력하였다.</p>
+• “”” “”” 사용하여 여러줄의 문자열을 변수에 대입한다.</p>
 
 <p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello World!
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The old pond,
+A frog jumps in:
+Plop!
 </code></pre></div></div>
 
         
@@ -943,11 +954,11 @@
       
   <nav class="pagination">
     
-      <a href="/p2e-python-final-project/" class="pagination--pager" title="PYTHON FINAL PROJECT
+      <a href="/p2k-python-syntax-10/" class="pagination--pager" title="Two Types of Division
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-02/" class="pagination--pager" title="Print Statements
+      <a href="/p2k-python-syntax-main/" class="pagination--pager" title="Python Syntax
 ">Next</a>
     
   </nav>
