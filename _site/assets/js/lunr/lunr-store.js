@@ -319,13 +319,18 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-06/",
         "teaser":null},{
-        "title": "Arithmetic",
+        "title": "Updating Variables",
         "excerpt":"LESSON 이 장에서는 변수의 값을 변경 시키는것을 배울 것이다. PYTHON SYNTAX7. Updating Variables 변수의 내용들을 변경시키는 것은 필수적인 작업들중 하나이다. 프로그램의 흐름이 진행됨에 따라, 변경되어진 데이타는 변수에 반영되어야 한다. fish_in_clarks_pond = 50print \"Catching fish\"number_of_fish_caught = 10fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught위의 예에서, 연못에 50 마리가 있다. 이후, 물고기 10 마리를 잡았고,...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/p2k-python-syntax-06/",
+        "url": "http://localhost:4000/p2k-python-syntax-07/",
+        "teaser":null},{
+        "title": "Comments",
+        "excerpt":"LESSON 이 장에서는 주석을 배울 것이다. PYTHON SYNTAX8. Comments 대부분, 코드는 자신이 이해하기 쉽도록 쓰여져야 한다. 하지만, 여러분의 코드에 여러 정보가 표현되기를 원한다면, 여러분은 # 기호를 사용할수 있다. 코드의 라인 첫부분에 # 가 있는것을 주석이라 부른다. 기계는 주석처리된 이 부분을 읽지 못한다. 다만 여러분만이 읽을수 있다. 향후, 여러분이 코드를 다시...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-08/",
         "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{

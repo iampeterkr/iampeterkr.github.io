@@ -24,7 +24,7 @@ Index
 ####  5. Variables [[Link]({{site.baseurl}}/p2k-python-syntax-05)]      
 ####  6. Arithmetic [[Link]({{site.baseurl}}/p2k-python-syntax-06)]     
 ####  7. Updating Variables [[Link]({{site.baseurl}}/p2k-python-syntax-07)]      
-####  8. Comments   
+####  8. Comments [[Link]({{site.baseurl}}/p2k-python-syntax-08)]       
 ####  9. Numbers   
 #### 10. Two Types of Division   
 #### 11. Multi-line Strings   

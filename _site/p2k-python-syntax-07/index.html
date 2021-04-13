@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Handling Errors -  Peter’s Blog</title>
-<meta name="description" content="We learn about Errors of Python Syntax.">
+<!-- begin _includes/seo.html --><title>Updating Variables -  Peter’s Blog</title>
+<meta name="description" content="We learn about Updating Variables of Python Syntax.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Handling Errors">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-04/">
+<meta property="og:title" content="Updating Variables">
+<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-07/">
 
 
-  <meta property="og:description" content="We learn about Errors of Python Syntax.">
+  <meta property="og:description" content="We learn about Updating Variables of Python Syntax.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-04/">
+<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-07/">
 
 
 
@@ -839,15 +839,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Handling Errors">
-    <meta itemprop="description" content="We learn about Errors of Python Syntax.">
+    <meta itemprop="headline" content="Updating Variables">
+    <meta itemprop="description" content="We learn about Updating Variables of Python Syntax.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Handling Errors
+          <h1 id="page-title" class="page__title" itemprop="headline">Updating Variables
 </h1>
           
         </header>
@@ -859,64 +859,72 @@
 
 <p>LESSON</p>
 
-<p>이 장에서는 Error 를 관리하는 방법을 배울 것이다.</p>
+<p>이 장에서는 변수의 값을 변경 시키는것을 배울 것이다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
-
 <font size="3" face="돋움">PYTHON SYNTAX</font>
-<h2 id="4-handling-errors">4. Handling Errors</h2>
+<h3 id="7-updating-variables">7. Updating Variables</h3>
 
-<p>여러분은 Python 프로그래밍을 하다보면, errors 와 예외처리를 만나게 될 것이다.   <br />
-이것들이 발생하는 이유는 Python 입장에선 당신이 무엇을 시키는지를 이해할수 없을때 나타나는 불만들이다.  <br />
-모두들 프로그래밍 과정에서 이러한 문제들에 부딪히게 되므로, error 와 예외처리들을 읽고 이해할수 있어야 합니다.  <br />
-여기에 문자열을 출력할때 여러분이 겪을 몇가지 공통된 error 들이 있습니다.</p>
+<p>변수의 내용들을 변경시키는 것은 필수적인 작업들중 하나이다.   <br />
+프로그램의 흐름이 진행됨에 따라, 변경되어진 데이타는 변수에 반영되어야 한다.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Mismatched quotes will cause a SyntaxError'
-print Without quotes will cause a NameError
-</span></code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fish_in_clarks_pond</span> <span class="o">=</span> <span class="mi">50</span>
 
-<p><code class="language-plaintext highlighter-rouge">print</code> 문에서 따옴표가 일치하지 않으면, Python은 당신의 코드에 문법적 error 가 발생했다고 알려줄 것이다.  <br />
-왜냐하면, 문장의 끝인 마무리 전에 쌍 따옴표가 올것이라고 예상했는데, 홋 따옴표가 왔기때문이다. 프로그램은 아래와 같이 메시지를 화면에 출력하고, 즉각 동작을 멈출 것이다.</p>
+<span class="k">print</span> <span class="s">"Catching fish"</span>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SyntaxError: EOL <span class="k">while </span>scanning a string literal
-This means that a string wasn<span class="s1">'t closed, or wasn'</span>t closed 
-with the same quote-character that started it.
+<span class="n">number_of_fish_caught</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="n">fish_in_clarks_pond</span> <span class="o">=</span> 
+<span class="n">fish_in_clarks_pond</span> <span class="o">-</span> 
+<span class="n">number_of_fish_caught</span>
 </code></pre></div></div>
 
-<p>다른예로, 여러분이 <code class="language-plaintext highlighter-rouge">print</code> 문을 작성할때, 문장의 양 끝에 따옴표가 없이 만들수도 있다.    <br />
-Python은 <code class="language-plaintext highlighter-rouge">print</code> 문과 같이 문자열에 따옴표가 없으면 명령어로 인식을 하고 처리를 한다.   <br />
-먼저, 명령어 목록중 해당 명령어가 있는지 찾아보고, 없으면 python은 <code class="language-plaintext highlighter-rouge">NameError</code> 를 발생시킨다.  <br />
-이것은 python 이 명령어로 인식하고, 명렁어 목록에서 찾았지만, 정의된 어느 곳에서도 찾을수 없기에 더이상 무슨 뜻인지 모르겠다고 대답하는 것이다.</p>
+<p>위의 예에서, 연못에 50 마리가 있다.  <br />
+이후, 물고기 10 마리를 잡았고, 원래 연못에 있던 50 마리에서 10마리를 제외한 값으로 변경해주어야 한다.  <br />
+최종적으로 변수 <code class="language-plaintext highlighter-rouge">fish_in_clarks_pond</code> 에는 40 마리의 물고기가 들어가 있을 것이다.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ 요약 ]      <br />
-• Ch4. Handling Errors 에서는 Error에 대하여 학습한다.   <br />
-• 쿼트(quotes)가 시작과 끝이 같지 않으면, Python은 <em>EOL Error</em>를 발생시킨다. <br />
-• e.g. SyntaxError: EOL while scanning string literal  <br />
-• <em>EOL : End Of Line</em><br />
-• <em>EOL Error</em>는 Python이 문자열을 만드는 과정에서 문법적 Error가 발생했다는 뜻이다.  <br />
-• 시작이 (‘) 이면 끝도 (‘) 이어야 한다.  <br />
-• 시작이 (“) 이면 끝도 (“) 이어야 한다.   <br />
-• 문자열의 양 끝에 쿼트(quotes)가 없으면 Python은 해당 문자열을 print 와 같은 명령문(or 변수)으로 인식한다.  <br />
-• 이런 경우 Python 은 해당 문자열을 명령어(or 변수) 리스트에서 찾는다.  <br />
-• 만약, 해당 리스트에서 찾을수 없으면 <em>NameError</em> 를 발생시킨다.</p>
+<p>원래의 변수에 더하거나 빼거나하여 원래의 변수를 업데이트 하는것은 변수를 빠르고 쉽게 읽을수 있게 만든다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
+• Ch7. Updating Variables 에서는 변수 변경을 학습한다.  <br />
+• 변수 fish_in_clarks_pond 에 50 을 대입하라.  <br />
+• 변수 number_of_fish_caught 에 10 을 대입하라.  <br />
+• 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught 값을 저장한다.     <br />
+• 변수 fish_in_clarks_pond 에는 50 - 10 의 값이 계산된 40 이 저장된다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">money_in_wallet</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="n">sandwich_price</span> <span class="o">=</span> <span class="mf">7.50</span>
+<span class="n">sales_tax</span> <span class="o">=</span> <span class="p">.</span><span class="mi">08</span> <span class="o">*</span> <span class="n">sandwich_price</span>
+
+<span class="n">sandwich_price</span> <span class="o">+=</span> <span class="n">sales_tax</span>
+<span class="n">money_in_wallet</span> <span class="o">-=</span> <span class="n">sandwich_price</span>
+</code></pre></div></div>
+
+<p>위의 예에서, 우리는 판매세가 포함된 샌드위치 가격을 사용한다.  <br />
+판매세를 계산한후, 우리는 샌드위치의 전체 값에 포함 시킨다.  <br />
+마지막으로, 우리는 우리의 지갑 <code class="language-plaintext highlighter-rouge">money_in_wallet</code>에서 판매세가 포함된 샌드위치 값을 뺀다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 요약 ]   <br />
+• 변수에 숫자를 곱하여도 계산 할 수 있음을 보여준다.   <br />
+• +=, -= 연산자를 활용하는 법을 보여준다.   <br />
+• a = a + 1, a += 1, 이 두 표현은 같은 표현이다.  <br />
+• a = a - 1, a -= 1, 이 두 표현은 같은 표현이다.</p>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
-
 <ul>
-  <li>우리는 error 가 발생되는 2개의 <code class="language-plaintext highlighter-rouge">print</code> 을 작성했다.</li>
-  <li>하나는 따옴표가 일치 하지 않고, 다른 하나는 따옴표가 없다.</li>
-  <li>2개의 잘못된 <code class="language-plaintext highlighter-rouge">print</code> 문을 바르게 수정하라.</li>
+  <li>우리는 작년에 얼마나 비가 왔었는지를 파악하려고 한다.  <br />
+9월부터 12월까지의 비의 양을 변수 <code class="language-plaintext highlighter-rouge">annual_rainfall</code> 에 누적하여 변경하여라.</li>
 </ul>
 
 <p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-• 쿼트(quotes)를 잘못 사용하면 Error 가 발생한다.  <br />
-• 잘못된 Python 프로그램을 수정하라.</p>
+• 작년에 얼마나 많은 비가 왔는지 계산 하는 문제이다.  <br />
+• 변수 annual_rainfall 에, 9월 부터 12월 까지의 비의 양을 누적하여 값을 더하라.</p>
 
 <p><br /></p>
 <hr />
@@ -924,18 +932,20 @@ Python은 <code class="language-plaintext highlighter-rouge">print</code> 문과
 <p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">print</code> 문 뒤에는 반드시 동일한 따옴표가 오고, 그 따옴표 속에는 문자열이 있어야 한다.</li>
+  <li>Use the <code class="language-plaintext highlighter-rouge">+=</code> syntax to add a value to an existing variable:</li>
+  <li><code class="language-plaintext highlighter-rouge">+=</code> 구문을 사용하여 기존 변수에 값을 더하라.</li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">'This is a good print statement'</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">september_rainfall</span>
 </code></pre></div></div>
 
 <ul>
-  <li>쌍 따옴표를 사용해도 된다.</li>
+  <li>나머지 달들도 모두 더하라.</li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"This is also a good print statement"</span>
-</code></pre></div></div>
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• += 연산자를 사용하라. 
+• A += B 는 A = A + B 이다.</p>
 
 <p style="page-break-before: always;"></p>
 <p><br /></p>
@@ -943,16 +953,35 @@ Python은 <code class="language-plaintext highlighter-rouge">print</code> 문과
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"How do you make a hot dog stand?"</span>
-<span class="k">print</span> <span class="s">"You take away its chair!"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">january_to_june_rainfall</span> <span class="o">=</span> <span class="mf">1.93</span> <span class="o">+</span> <span class="mf">0.71</span> <span class="o">+</span> <span class="mf">3.53</span> <span class="o">+</span> <span class="mf">3.41</span> <span class="o">+</span> <span class="mf">3.69</span> <span class="o">+</span> <span class="mf">4.50</span>
+<span class="n">annual_rainfall</span> <span class="o">=</span> <span class="n">january_to_june_rainfall</span>
+
+<span class="n">july_rainfall</span> <span class="o">=</span> <span class="mf">1.05</span>
+<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">july_rainfall</span>
+
+<span class="n">august_rainfall</span> <span class="o">=</span> <span class="mf">4.91</span>
+<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">august_rainfall</span>
+
+<span class="n">september_rainfall</span> <span class="o">=</span> <span class="mf">5.16</span>
+<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">september_rainfall</span>
+
+<span class="n">october_rainfall</span> <span class="o">=</span> <span class="mf">7.20</span>
+<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">october_rainfall</span>
+
+<span class="n">november_rainfall</span> <span class="o">=</span> <span class="mf">5.06</span>
+<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">november_rainfall</span>
+
+<span class="n">december_rainfall</span> <span class="o">=</span> <span class="mf">4.06</span>
+<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">december_rainfall</span>
+<span class="k">print</span> <span class="n">annual_rainfall</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• 문자열을 표현할때는 처음과 끝의 따옴표 모양이 같아야 한다.</p>
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• += 연산자를 사용하여 매월 비의 양을 추가 한다.   <br />
+• 변수 annual_rainfall 의 마지막 값을 출력 한다.</p>
 
 <p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>How do you make a hot dog stand?
-You take away its chair!
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>45.21
 </code></pre></div></div>
 
         
@@ -972,11 +1001,11 @@ You take away its chair!
       
   <nav class="pagination">
     
-      <a href="/p2k-python-syntax-02/" class="pagination--pager" title="Print Statements
+      <a href="/p2k-python-syntax-06/" class="pagination--pager" title="Arithmetic
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-05/" class="pagination--pager" title="Variables
+      <a href="/p2k-python-syntax-08/" class="pagination--pager" title="Comments
 ">Next</a>
     
   </nav>

@@ -1,7 +1,7 @@
 ---
 # layout : rchive
-title: "Arithmetic"
-permalink: /p2k-python-syntax-06/
+title: "Updating Variables"
+permalink: /p2k-python-syntax-07/
 excerpt: "We learn about Updating Variables of Python Syntax."
 redirect_from:
   - /theme-setup/
