@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Updating Variables -  Peter’s Blog</title>
-<meta name="description" content="We learn about Updating Variables of Python Syntax.">
+<!-- begin _includes/seo.html --><title>Two Types of Division -  Peter’s Blog</title>
+<meta name="description" content="We learn about Two Type of Division of Python Syntax.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Updating Variables">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-07/">
+<meta property="og:title" content="Two Types of Division">
+<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-10/">
 
 
-  <meta property="og:description" content="We learn about Updating Variables of Python Syntax.">
+  <meta property="og:description" content="We learn about Two Type of Division of Python Syntax.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-07/">
+<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-10/">
 
 
 
@@ -839,15 +839,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Updating Variables">
-    <meta itemprop="description" content="We learn about Updating Variables of Python Syntax.">
+    <meta itemprop="headline" content="Two Types of Division">
+    <meta itemprop="description" content="We learn about Two Type of Division of Python Syntax.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Updating Variables
+          <h1 id="page-title" class="page__title" itemprop="headline">Two Types of Division
 </h1>
           
         </header>
@@ -859,129 +859,137 @@
 
 <p>LESSON</p>
 
-<p>이 장에서는 변수의 값을 변경 시키는것을 배울 것이다.</p>
+<p>이 장에서는 2가지 형태의 나눗셈에 대하여 배울 것이다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
 <font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="7-updating-variables">7. Updating Variables</h3>
+<h3 id="10-two-types-of-division">10. Two Types of Division</h3>
 
-<p>변수의 내용들을 변경시키는 것은 필수적인 작업들중 하나이다.   <br />
-프로그램의 흐름이 진행됨에 따라, 변경되어진 데이타는 변수에 반영되어야 한다.</p>
+<p>In Python 2, when we divide two integers, we get an integer as a result. When the quotient is a whole number, this works fine:
+Python2 에서, 우리는 정수 2개를 나누기하면, 정수값을 몫으로 가진다.  <br />
+몫이 정수이면, 문제가 없다.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fish_in_clarks_pond</span> <span class="o">=</span> <span class="mi">50</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient</span> <span class="o">=</span> <span class="mi">6</span><span class="o">/</span><span class="mi">2</span>
+<span class="c1"># the value of quotient is now 3, which makes sense
+</span></code></pre></div></div>
 
-<span class="k">print</span> <span class="s">"Catching fish"</span>
+<p>하지만, 숫자가 2로 나누어지지 않는 경우라면, 그 결과 값은 정수에서 소수점이 잘라진 값을 얻게 된다.  <br />
+다르게 이야기하면, 몫의 소수점 이하 값이 버려진다.  <br />
+여러분은 소수점이 있는 값을 받을것을 기대했지만, 반내림 한 정수값을 받으면 당황하게 될 겁니다.</p>
 
-<span class="n">number_of_fish_caught</span> <span class="o">=</span> <span class="mi">10</span>
-
-<span class="n">fish_in_clarks_pond</span> <span class="o">=</span> 
-<span class="n">fish_in_clarks_pond</span> <span class="o">-</span> 
-<span class="n">number_of_fish_caught</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient</span> <span class="o">=</span> <span class="mi">7</span><span class="o">/</span><span class="mi">2</span>
+<span class="s">''' the value of quotient is 3, even though the result
+  of the division here is 3.5 '''</span>
 </code></pre></div></div>
 
-<p>위의 예에서, 연못에 50 마리가 있다.  <br />
-이후, 물고기 10 마리를 잡았고, 원래 연못에 있던 50 마리에서 10마리를 제외한 값으로 변경해주어야 한다.  <br />
-최종적으로 변수 <code class="language-plaintext highlighter-rouge">fish_in_clarks_pond</code> 에는 40 마리의 물고기가 들어가 있을 것이다.</p>
+<p>실수(float)로 그 결과값을 받을려면, 프로그래머는 분자값 또는 분모값을 실수로 변형해 주어야 한다.</p>
 
-<p>원래의 변수에 더하거나 빼거나하여 원래의 변수를 업데이트 하는것은 변수를 빠르고 쉽게 읽을수 있게 만든다.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient1</span> <span class="o">=</span> <span class="mf">7.</span><span class="o">/</span><span class="mi">2</span>
+<span class="c1"># the value of quotient1 is 3.5
+</span><span class="n">quotient2</span> <span class="o">=</span> <span class="mi">7</span><span class="o">/</span><span class="mf">2.</span>
+<span class="c1"># the value of quotient2 is 3.5
+</span><span class="n">quotient3</span> <span class="o">=</span> <span class="mf">7.</span><span class="o">/</span><span class="mf">2.</span>
+<span class="s">""" the value of quotient3 is 3.5
+ An alternative way is to use the float() method: """</span>
 
-<p class="notice--info"><strong>설명:</strong> [ Learn ]     <br />
-• Ch7. Updating Variables 에서는 변수 변경을 학습한다.  <br />
-• 변수 fish_in_clarks_pond 에 50 을 대입하라.  <br />
-• 변수 number_of_fish_caught 에 10 을 대입하라.  <br />
-• 변수 fish_in_clarks_pond = fish_in_clarks_pond - number_of_fish_caught 값을 저장한다.     <br />
-• 변수 fish_in_clarks_pond 에는 50 - 10 의 값이 계산된 40 이 저장된다.</p>
+<span class="n">quotient1</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span> 
+<span class="c1"># the value of quotient1 is 3.5
+</span></code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">money_in_wallet</span> <span class="o">=</span> <span class="mi">40</span>
-<span class="n">sandwich_price</span> <span class="o">=</span> <span class="mf">7.50</span>
-<span class="n">sales_tax</span> <span class="o">=</span> <span class="p">.</span><span class="mi">08</span> <span class="o">*</span> <span class="n">sandwich_price</span>
+<p class="notice--info"><strong>설명:</strong> [ 요약 ]     <br />
+• Ch10. Two Types of Division 에서는 나눗셈 계산에서 주의할점을 학습한다.  <br />
+• 두수를 나누어 정수로 딱 떨어지면, 해당 변수를 정수형 변수로 인식한다.  <br />
+• 정수 ( 7/2 ) 를 계산하면 3.5 이다. 3.5는 실수이다.  <br />
+• 하지만, Python2 에서는 정수( 3 )만 남고, 나머지 0.5는 버린다.  <br />
+• 이런 실수를 방지하기 위하여 값을 대입 할때 주의 해야한다.  <br />
+• 항상, 계산한 결과값이 실수일 것을 대비하여야 한다.   <br />
+• 입력값을 실수형으로 넣어 준다. ( e.g. 7.0 / 3)  <br />
+• 입력값을 float(7) 실수형 값으로 변경 후 계산 되도록 한다.</p>
 
-<span class="n">sandwich_price</span> <span class="o">+=</span> <span class="n">sales_tax</span>
-<span class="n">money_in_wallet</span> <span class="o">-=</span> <span class="n">sandwich_price</span>
-</code></pre></div></div>
-
-<p>위의 예에서, 우리는 판매세가 포함된 샌드위치 가격을 사용한다.  <br />
-판매세를 계산한후, 우리는 샌드위치의 전체 값에 포함 시킨다.  <br />
-마지막으로, 우리는 우리의 지갑 <code class="language-plaintext highlighter-rouge">money_in_wallet</code>에서 판매세가 포함된 샌드위치 값을 뺀다.</p>
-
-<p class="notice--info"><strong>설명:</strong> [ 요약 ]   <br />
-• 변수에 숫자를 곱하여도 계산 할 수 있음을 보여준다.   <br />
-• +=, -= 연산자를 활용하는 법을 보여준다.   <br />
-• a = a + 1, a += 1, 이 두 표현은 같은 표현이다.  <br />
-• a = a - 1, a -= 1, 이 두 표현은 같은 표현이다.</p>
+<p class="notice--info"><strong>설명:</strong> [ Python3 ]  <br />
+• python3 에서는 이 문제를 해결 하였다.  <br />
+• 정수 ( 7/2 ) 을 계산하면 3.5 로 자동 계산된다.</p>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
-<ul>
-  <li>우리는 작년에 얼마나 비가 왔었는지를 파악하려고 한다.  <br />
-9월부터 12월까지의 비의 양을 변수 <code class="language-plaintext highlighter-rouge">annual_rainfall</code> 에 누적하여 변경하여라.</li>
-</ul>
-
-<p class="notice--info"><strong>설명:</strong> [ Instruction ]  <br />
-• 작년에 얼마나 많은 비가 왔는지 계산 하는 문제이다.  <br />
-• 변수 annual_rainfall 에, 9월 부터 12월 까지의 비의 양을 누적하여 값을 더하라.</p>
-
-<p><br /></p>
-<hr />
-
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
 
 <ul>
-  <li>Use the <code class="language-plaintext highlighter-rouge">+=</code> syntax to add a value to an existing variable:</li>
-  <li><code class="language-plaintext highlighter-rouge">+=</code> 구문을 사용하여 기존 변수에 값을 더하라.</li>
+  <li>
+    <p>당신은 식료품 가게에서 구매한 100 개의 오이를 집으로 들고 왔다. 그리고 당신은 룸메이트 5명과 오이를 나누어 가지려고 한다. (본인 포함 6명)</p>
+  </li>
+  <li>
+    <p>변수 <code class="language-plaintext highlighter-rouge">cucumbers</code>를 만들고, 여기에 값 <code class="language-plaintext highlighter-rouge">100</code> 을 저장하고, 변수 <code class="language-plaintext highlighter-rouge">num_people</code>를 만들고, 여기에 값 <code class="language-plaintext highlighter-rouge">6</code>을 할당하라.</p>
+  </li>
+  <li>Create a variable called <code class="language-plaintext highlighter-rouge">whole_cucumbers_per_person</code> that is the integer result of dividing <code class="language-plaintext highlighter-rouge">cucumbers</code> by <code class="language-plaintext highlighter-rouge">num_people</code>.</li>
+  <li>
+    <p>변수 <code class="language-plaintext highlighter-rouge">whole_cucumbers_per_person</code>을 만들고, 변수 <code class="language-plaintext highlighter-rouge">cucumbers</code>를 변수 <code class="language-plaintext highlighter-rouge">num_people</code>로 나눈 정수값을 할당하라.</p>
+  </li>
+  <li>
+    <p>변수 <code class="language-plaintext highlighter-rouge">whole_cucumbers_per_person</code>을 출력하라.</p>
+  </li>
+  <li>
+    <p>당신은 숫자가 딱 떨어지지 않고, 나누지 못한 남은 오이를 버리고 싶지 않을 것이다.</p>
+  </li>
+  <li>
+    <p>변수 <code class="language-plaintext highlighter-rouge">float_cucumbers_per_person</code> 을 생성하고, 여기에, 변수 <code class="language-plaintext highlighter-rouge">cucumbers</code>를 변수 <code class="language-plaintext highlighter-rouge">num_people</code>로 나눈 실수값을 할당하라.</p>
+  </li>
+  <li>변수 <code class="language-plaintext highlighter-rouge">float_cucumbers_per_person</code> 를 출력하라.</li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">september_rainfall</span>
-</code></pre></div></div>
-
-<ul>
-  <li>나머지 달들도 모두 더하라.</li>
-</ul>
-
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• += 연산자를 사용하라. 
-• A += B 는 A = A + B 이다.</p>
+<p class="notice--info"><strong>설명:</strong> [ 요약 ]   <br />
+• 100 개의 오이를 룸메이트 6 명과 나눠 가지는 프로그램을 만든다.   <br />
+• 변수 cucumbers 에  100 을 대입하라.  <br />
+• 변수 num_people 에 6 을 대입하라.   <br />
+• 변수 whole_cucumbers_per_person 에 (cucumbers / num_people)을 대입하라.  <br />
+• 변수 whole_cucumbers_per_person 를 출력하라.  <br />
+• 16 이 출력되어 놀라운가?   <br />
+• 예상한 바로는 100/6 은 16.66…으로 출력을 예상했는가?   <br />
+• 변수 float_cucumbers_per_person 를 만들고, 실수 값이 출력 되도록 고쳐라.  <br />
+• 변수 float_cucumbers_per_person 를 출력하라.</p>
 
 <p style="page-break-before: always;"></p>
 <p><br /></p>
 <hr />
 
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>당신은 분자 또는 분모값을 실수로 변환하여 사용할 수 있다.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient_with_decimals</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+<span class="c1">#yields 2.5
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
+• float() 함수를 사용하라.</p>
+
+<p><br /></p>
+<hr />
+
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">january_to_june_rainfall</span> <span class="o">=</span> <span class="mf">1.93</span> <span class="o">+</span> <span class="mf">0.71</span> <span class="o">+</span> <span class="mf">3.53</span> <span class="o">+</span> <span class="mf">3.41</span> <span class="o">+</span> <span class="mf">3.69</span> <span class="o">+</span> <span class="mf">4.50</span>
-<span class="n">annual_rainfall</span> <span class="o">=</span> <span class="n">january_to_june_rainfall</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">cucumbers</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">num_people</span> <span class="o">=</span> <span class="mi">6</span>
 
-<span class="n">july_rainfall</span> <span class="o">=</span> <span class="mf">1.05</span>
-<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">july_rainfall</span>
+<span class="n">whole_cucumbers_per_person</span> <span class="o">=</span> <span class="n">cucumbers</span><span class="o">/</span><span class="n">num_people</span>
+<span class="k">print</span> <span class="n">whole_cucumbers_per_person</span>
 
-<span class="n">august_rainfall</span> <span class="o">=</span> <span class="mf">4.91</span>
-<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">august_rainfall</span>
-
-<span class="n">september_rainfall</span> <span class="o">=</span> <span class="mf">5.16</span>
-<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">september_rainfall</span>
-
-<span class="n">october_rainfall</span> <span class="o">=</span> <span class="mf">7.20</span>
-<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">october_rainfall</span>
-
-<span class="n">november_rainfall</span> <span class="o">=</span> <span class="mf">5.06</span>
-<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">november_rainfall</span>
-
-<span class="n">december_rainfall</span> <span class="o">=</span> <span class="mf">4.06</span>
-<span class="n">annual_rainfall</span> <span class="o">+=</span> <span class="n">december_rainfall</span>
-<span class="k">print</span> <span class="n">annual_rainfall</span>
+<span class="n">float_cucumbers_per_person</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">cucumbers</span><span class="p">)</span><span class="o">/</span><span class="n">num_people</span>
+<span class="k">print</span> <span class="n">float_cucumbers_per_person</span>
 </code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
-• += 연산자를 사용하여 매월 비의 양을 추가 한다.   <br />
-• 변수 annual_rainfall 의 마지막 값을 출력 한다.</p>
+• float_cucumbers_per_person 변수를 계산할때, float() 함수를 사용한다.  <br />
+• float(cucumbers) 를 실수로 변경하여 계산한다.</p>
 
 <p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>45.21
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>16
+16.6666666667
 </code></pre></div></div>
 
         
@@ -1001,11 +1009,11 @@
       
   <nav class="pagination">
     
-      <a href="/p2k-python-syntax-06/" class="pagination--pager" title="Arithmetic
+      <a href="/p2k-python-syntax-09/" class="pagination--pager" title="Numbers
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-08/" class="pagination--pager" title="Comments
+      <a href="/p2k-python-syntax-main/" class="pagination--pager" title="Python Syntax
 ">Next</a>
     
   </nav>
