@@ -25,7 +25,6 @@ LESSON
 ### 11. Multi-line Strings     
 
 
-We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:
 우리는 문자열을 정의할때, 쌍따옴표, 홋따옴표로 정의하는 것을 해보았다.    
 만일, 우리가 문자열을 여러줄에 걸쳐 만들기를 원한다면, 우리는 따옴표 3개를 이용하여 만들 수 있다.    
 

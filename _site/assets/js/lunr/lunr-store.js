@@ -340,7 +340,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-10/",
         "teaser":null},{
         "title": "Multi-line Strings",
-        "excerpt":"LESSON 이 장에서는 Multi-line 문자열에 대하여 배울 것이다. PYTHON SYNTAX11. Multi-line Strings We have seen how to define a string with single quotes and with double quotes. If we want a string to span multiple lines, we can also use triple quotes:우리는 문자열을 정의할때, 쌍따옴표, 홋따옴표로 정의하는 것을 해보았다. 만일,...","categories": [],
+        "excerpt":"LESSON 이 장에서는 Multi-line 문자열에 대하여 배울 것이다. PYTHON SYNTAX11. Multi-line Strings 우리는 문자열을 정의할때, 쌍따옴표, 홋따옴표로 정의하는 것을 해보았다. 만일, 우리가 문자열을 여러줄에 걸쳐 만들기를 원한다면, 우리는 따옴표 3개를 이용하여 만들 수 있다. address_string = \"\"\"136 Whowho RdApt 7Whosville, WZ 44494\"\"\"이 주소는 여러줄로 되어 있고, 이것은 변수 address_string에 저장되어...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-11/",
         "teaser":null},{
