@@ -86,7 +86,6 @@ quotient1 = float(7)/2
 
 * 변수 `cucumbers`를 만들고, 여기에 값 `100` 을 저장하고, 변수 `num_people`를 만들고, 여기에 값 `6`을 할당하라.    
 
-* Create a variable called `whole_cucumbers_per_person` that is the integer result of dividing `cucumbers` by `num_people`.
 * 변수 `whole_cucumbers_per_person`을 만들고, 변수 `cucumbers`를 변수 `num_people`로 나눈 정수값을 할당하라.    
 
 * 변수 `whole_cucumbers_per_person`을 출력하라.    
