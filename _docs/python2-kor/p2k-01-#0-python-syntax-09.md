@@ -34,8 +34,8 @@ int2 = 10
 int3 = -5
 ```
 
-A number with a decimal point is called a **float**. You can define **floats** with numbers after the decimal point or by just including a decimal point at the end:
-소수점이 있는 숫자를 **실수(float)** 라고 부른다.    
+소수점이 있는 숫자를 **실수(float)** 라고 부른다.  
+숫자뒤에 소수점이 있거나, 소숫점뒤에 숫자가 있는 형태를 **실수(float)** 정의할수 있다.      
 
 
 ```python
@@ -44,7 +44,6 @@ float2 = 10.
 float3 = -5.5
 ```
 
-You can also define a **float** using scientific notation, with `e` indicating the power of `10`:
 실수(float)형 변수는 과학적 표기에도 사용할수 있습니다.     
 10의 거듭제곱으로 `e`를 사용할수 있습니다.     
 
