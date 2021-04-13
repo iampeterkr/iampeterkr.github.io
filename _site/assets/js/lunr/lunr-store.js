@@ -329,8 +329,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-08/",
         "teaser":null},{
+        "title": "Numbers",
+        "excerpt":"LESSON 이 장에서는 숫자 변수에 대하여 배울 것이다. PYTHON SYNTAX9. Numbers 변수들은 숫자 값들을 담을수 있다. Python 에서 가장 간단한 숫자는 정수(integer) 이다. 정수는 소수점이 없는 숫자이다. int1 = 1int2 = 10int3 = -5A number with a decimal point is called a float. You can define floats with numbers after...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-09/",
+        "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers [Link] 10. Two Types of Division 11. Multi-line Strings 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
