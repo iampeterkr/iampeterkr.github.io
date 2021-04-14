@@ -33,7 +33,14 @@ Python은 입력되는 값에 따라 변수 타입이 자동으로 정해진다.
 ```python
 age = 13
 print "I am " + str(age) + " years old!"
+```   
+
+다음과 같이 출력 될 것이다. :   
+
+``` python
+>>> "I am 13 years old!"
 ```
+
 **설명:** [ 요약 ]       
 • Ch13. ValueError 에서는 출력시 주의할 점을 학습한다.     
 • 변수 age 는 정수 13 이 대입 되었기에 정수형 변수가 된다.     
@@ -42,10 +49,6 @@ print "I am " + str(age) + " years old!"
 • *주의)* 정수형 age 를 출력 할때 문자열 형태로 출력하는 것이지, age 가 문자열형 변수가 되는것은 아니다.  
 {: .notice--info}
 
-This would print:
-``` python
->>> "I am 13 years old!"
-```
 
 비슷한 예로, 여러분이 문자열 `"7"` 을 가지고, 계산을 하려면, 문자열 `"7"` 을 숫자로 변경해주어야 한다.    
 이때, 여러분은 `int()` 함수를 이용할 수 있다.     
@@ -70,7 +73,7 @@ int_addition = int(number1) + int(number2)
 {: .notice--info}
 
 `int()` 함수에서 실수를 사용하면, 소수점 절삭이 된다.    
-소수를 보존하려면, `float()`를 사용해야 한다.    
+소수점을 보존하려면, `float()`를 사용해야 한다.    
 
 ```python
 string_num = "7.5"
@@ -114,7 +117,7 @@ The product was X
 
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-hint-01.png)    
-* 여러분은 숫자값을 문자값으로 변환한 문자열을 `+` 연산자를 이용하여 연결할수 있다.    
+* 여러분은 숫자값을 문자값으로 변환후, 문자열들을 `+` 연산자를 이용하여 연결할수 있다.    
 
 ```python
 "I have " + str(18) + " dogs at home!"

@@ -41,7 +41,6 @@ LESSON
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* Let's apply all of the concepts you have learned one more time!    
 * 지금까지 배운 모든것을 한번에 적용해 보자.    
 
 * 변수 `skill_completed` 를 생성하고, 문자열 "Python Syntax" 를 대입하라.    
@@ -51,14 +50,14 @@ LESSON
 
 * 변수 `point_total` 을 생성하고, 정수 `100`을 대입하라.   
 
-* 생성된 변수 `point_total` 에 변수 `exercises_completed` 와 `points_per_exercise` 곱한 값으로 변경하라.    
+* 생성된 변수 `point_total` 에, 변수 `exercises_completed` 와 `points_per_exercise` 곱한 값으로 변경하라.    
 
-* 변수 `points_per_exercise` 위헤 다음과 같이 주석처리 하라.    
+* 변수 `points_per_exercise` 위에, 다음과 같이 주석처리 하라.    
 ```
 The amount of points for each exercise may change, because points don't exist yet    
 ```    
      
-* 화면에 다음과 같이 출력하라. (X 자리에 변수 `point_total` 값이 위치)
+* 화면에 다음과 같이 출력하라. (X 자리에 변수 `point_total` 값이 위치한다.)
 ```    
 I got X points!
 ```    
@@ -88,13 +87,12 @@ I got X points!
 total += number_to_add
 ```
 
-* `+=`는 아래 예와 같이 단축 방법이다. 
-
+* `+=`는 아래 예와 같이 단축 방법이다.    
 ```python
 [new value of] total = [old value of] total + number_to_add
-```
-* 정수값을 `str()`을 사용하여 문자열화 하고, 나머지 문자열을 붙여라.    
+```   
 
+* 정수값을 `str()`을 사용하여 문자열화 하고, 나머지 문자열을 붙여라.    
 ```python
 print "This is " + str(1) + " long string!"
 >>> "This is 1 long string!"
