@@ -51,7 +51,7 @@ returns the modified input and a string that says "Success!" or "Failure..."
 
 
 
-**설명:** [ Learn ]      
+**설명:** [ 요약 ]      
 • Ch11. Multi-line Strings 에서는 다중 주석을 학습한다.     
 • """ """  or ''' ''' 를 이용하여 여러줄의 문자열을 만들수 있다.    
 • 문자열도 만들수 있지만, 한 줄 주석(#) 외에 여러줄의 주석을 만들때도 사용한다.

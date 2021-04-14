@@ -344,6 +344,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-11/",
         "teaser":null},{
+        "title": "Booleans",
+        "excerpt":"LESSON 이 장에서는 논리 연산자(Booleans) 에 대하여 배울 것이다. PYTHON SYNTAX12. Booleans 가끔씩, 우리는 값이 참 or 거짓이 필요한 변수가 필요하다. 이 논리 연산자는 참, 거짓중 하나의 값만 가질수 있습니다. 이런 테이타 형태를 논리 연산자(boolean)이라고 한다. Python 에서는, True , False 값을 참과, 거짓 키워드로 사용합니다. a = Trueb =...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-12/",
+        "teaser":null},{
         "title": "Python Syntax",
         "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers [Link] 10. Two Types of Division [Link] 11. Multi-line Strings [Link] 12. Booleans 13. ValueError 14. Review ","categories": [],
         "tags": [],

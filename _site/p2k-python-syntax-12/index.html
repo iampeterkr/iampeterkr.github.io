@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Comments -  Peter’s Blog</title>
-<meta name="description" content="We learn about Comments of Python Syntax.">
+<!-- begin _includes/seo.html --><title>Booleans -  Peter’s Blog</title>
+<meta name="description" content="We learn about Booleans of Python Syntax.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Comments">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-08/">
+<meta property="og:title" content="Booleans">
+<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-12/">
 
 
-  <meta property="og:description" content="We learn about Comments of Python Syntax.">
+  <meta property="og:description" content="We learn about Booleans of Python Syntax.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-08/">
+<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-12/">
 
 
 
@@ -839,15 +839,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Comments">
-    <meta itemprop="description" content="We learn about Comments of Python Syntax.">
+    <meta itemprop="headline" content="Booleans">
+    <meta itemprop="description" content="We learn about Booleans of Python Syntax.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Comments
+          <h1 id="page-title" class="page__title" itemprop="headline">Booleans
 </h1>
           
         </header>
@@ -859,69 +859,94 @@
 
 <p>LESSON</p>
 
-<p>이 장에서는 주석을 배울 것이다.</p>
+<p>이 장에서는 논리 연산자(Booleans) 에 대하여 배울 것이다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
 <font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="8-comments">8. Comments</h3>
+<h3 id="12-booleans">12. Booleans</h3>
 
-<p>대부분, 코드는 자신이 이해하기 쉽도록 작성되어야 한다.  <br />
-하지만, 여러분의 코드에 여러 정보를 표현하기는 쉽지 않다. 이런 부족한 정보를 더 알려주기 위하여, 여러분은 <code class="language-plaintext highlighter-rouge">#</code> 기호를 사용할 수 있다.  <br />
-코드의 라인 첫부분에 <code class="language-plaintext highlighter-rouge">#</code> 기호가 있는것을 주석이라 부른다.  <br />
-기계는 주석 처리된 이 부분을 읽지 못한다. 다만 여러분만이 읽을 수 있다.  <br />
-향후, 여러분이 코드를 다시 볼때, 주석은 이 코드가 작성된 의도를 쉽게 파악할 수 있게 도와줄 것이다.</p>
+<p>가끔씩, 우리는 값이 참 or 거짓이 필요한 변수가 필요하다.  <br />
+이 논리 연산자는 참, 거짓중 하나의 값만 가질수 있습니다.  <br />
+이런 테이타 형태를 논리 연산자(boolean)이라고 한다.  <br />
+Python 에서는, <code class="language-plaintext highlighter-rouge">True</code> , <code class="language-plaintext highlighter-rouge">False</code> 값을 참과, 거짓 키워드로 사용합니다.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># this variable counts how many rows of
-</span><span class="n">the</span> <span class="n">spreadsheet</span> <span class="n">we</span> <span class="n">have</span><span class="p">:</span>
-<span class="n">row_count</span> <span class="o">=</span> <span class="mi">13</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">b</span> <span class="o">=</span> <span class="bp">False</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ 정리 ]   <br />
-• Ch8. Comments 에서는 주석을 학습한다.  <br />
-• Python 에서 프로그램으로 인식되지 않는 부분을 주석(Comment) 이라고 한다.  <br />
-• 주석의 사용 목적은 프로그램에 정보를 남겨두거나 설명하기 위해서이다.   <br />
-• 주석 처리된 부분은 컴퓨터는 인식 못하고 오직 프로그램을 읽는 사람만이 인식한다.  <br />
-• 주석을 만들때는 <code class="language-plaintext highlighter-rouge">#</code> 을 사용한다.   <br />
-• 한줄 주석(Comment)은 <code class="language-plaintext highlighter-rouge">#</code> 으로 처리 한다.</p>
+<p>논리연산자는 정수의 특이한 경우이다. <br />
+<code class="language-plaintext highlighter-rouge">True</code> 값은 정수값 1과 일치하며, 1로 사용할수 있다.  <br />
+<code class="language-plaintext highlighter-rouge">False</code> 값은 정수값 0과 일치하며, 0으로 사용할수 있다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 요약 ]     <br />
+• Ch12. Booleans 에서는 boolean 연산자를 학습한다.  <br />
+• Python에서 참, 거짓을 표현해야 할 때가 있다.   <br />
+• 참 은 문자열로 <em>True</em> 로 표현한다.  <br />
+• 거짓 은 문자열로 <em>False</em> 로 표현한다.   <br />
+• 참  의 값은 숫자 <em>1</em> 이다.  <br />
+• 거짓 의 값은 숫자 <em>0</em> 이다.</p>
+
+<p><img src="//assets/images/codecademy/03-boolean-00.svg" alt="codecademy" width="70%" height="70%" /></p>
 
 <p><br /></p>
-<hr />
-
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
-
-<ul>
-  <li>이 변수의 용도가 무엇인지를 알수 있는 내용을 변수 <code class="language-plaintext highlighter-rouge">city_pop</code> 위에 주석으로 추가하라.</li>
-</ul>
 
 <p style="page-break-before: always;"></p>
 <p><br /></p>
 <hr />
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 <ul>
-  <li>기호 <code class="language-plaintext highlighter-rouge">#</code> 을 사용하라.</li>
+  <li>
+    <p>script.py 프로그램 안에서 주석 처리로 무언가를 설명하고 있다.</p>
+  </li>
+  <li>
+    <p>주석을 읽고, 변수 <code class="language-plaintext highlighter-rouge">age_is_12</code>를 생성하고, 주석을 읽은 내용에서 사람의 나이가 12살이면 변수에 <code class="language-plaintext highlighter-rouge">True</code>를 대입하고, 아니면 <code class="language-plaintext highlighter-rouge">False</code>를 대입하라.</p>
+  </li>
+  <li>
+    <p>변수 <code class="language-plaintext highlighter-rouge">name_is_maria</code>를 생성하고, 주석에서 설명한 사람의 이름이 Maria 이면 <code class="language-plaintext highlighter-rouge">True</code>를 대입하고, 아니면 <code class="language-plaintext highlighter-rouge">False</code>를 대입하라.</p>
+  </li>
 </ul>
 
+<p class="notice--info"><strong>설명:</strong> [ 요약 ]  <br />
+• 변수 age_is_12 를 만들어라.  <br />
+• 주석에서 설명하는 사람의 나이가 12 살이면 True 를 대입하라.  <br />
+• 12 살이 아니면, False 를 입력하라.   <br />
+• 변수 name_is_maria 를 만들어라.  <br />
+• 주석에서 설명하는 사람의 이름이 Maria 이면 True 를 대입하라.  <br />
+• Maria 가 아니면, False 를 입력하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>주석문을 읽고 적당한 <code class="language-plaintext highlighter-rouge">True</code> or <code class="language-plaintext highlighter-rouge">False</code> 를 입력하라.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">some_variable</span> <span class="o">=</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<p style="page-break-before: always;"></p>
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">city_name</span> <span class="o">=</span> <span class="s">"St. Potatosburg"</span>
-
-<span class="c1"># This number tracks the population count of the spudizens of St. Potatosburg
-</span><span class="n">city_pop</span> <span class="o">=</span> <span class="mi">340000</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Hi! I'm Maria and I live in script.py.
+# I'm an expert Python coder.
+# I'm 21 years old and I plan to program cool stuff forever.
+</span>
+<span class="n">age_is_12</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">name_is_maria</span> <span class="o">=</span> <span class="bp">True</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Soluction ]  <br />
-• <code class="language-plaintext highlighter-rouge">#</code> 을 사용하여, 변수 <code class="language-plaintext highlighter-rouge">city_pop</code> 에 저장한  34000 에 대한 설명을 추가한다.</p>
+<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
+• 주석에서 Python coder 나이는 21 살, 이름은 Maria 이다.</p>
 
-<p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
-</code></pre></div></div>
 
         
         
@@ -940,11 +965,11 @@
       
   <nav class="pagination">
     
-      <a href="/p2k-python-syntax-07/" class="pagination--pager" title="Updating Variables
+      <a href="/p2k-python-syntax-11/" class="pagination--pager" title="Multi-line Strings
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-09/" class="pagination--pager" title="Numbers
+      <a href="/p2k-python-syntax-main/" class="pagination--pager" title="Python Syntax
 ">Next</a>
     
   </nav>
