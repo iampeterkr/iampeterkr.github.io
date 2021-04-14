@@ -354,6 +354,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-13/",
         "teaser":null},{
+        "title": "Review",
+        "excerpt":"LESSON 이 장에서는 Python Syntax 전체에 대하여 정리한다. PYTHON SYNTAX14. Review 훌륭합니다. 지금까지 공부한 것을 살펴 보겠습니다. Print 사용법 변수 생성, 수정, 변수 사용방법 사칙연산 주석처리 방법 데이터 종류(strings, ints, floats, and booleans) 데이터 형(type) 변환 Let’s apply all of the concepts you have learned one more time! 지금까지 배운...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-14/",
+        "teaser":null},{
         "title": "Python Syntax",
         "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers [Link] 10. Two Types of Division [Link] 11. Multi-line Strings [Link] 12. Booleans [Link] 13. ValueError [Link] 14. Review...","categories": [],
         "tags": [],
