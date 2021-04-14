@@ -349,8 +349,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-12/",
         "teaser":null},{
+        "title": "ValueError",
+        "excerpt":"LESSON 이 장에서는 값의 오류에 대하여 배울 것이다. PYTHON SYNTAX13. ValueError Python은 입력되는 값에 따라 변수 타입이 자동으로 정해진다. 값 7 을 가지는 변수는 정수형 변수가 되고, 값 7. 을 가지는 변수는 실수형 변수가 되고, 값 \"7\" 을 가지는 변수는 문자열 변수가 된다. 가끔식 여러분은 입력된 데이타 값의 종류를 바꾸는것이...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-python-syntax-13/",
+        "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers [Link] 10. Two Types of Division [Link] 11. Multi-line Strings [Link] 12. Booleans 13. ValueError 14. Review ","categories": [],
+        "excerpt":"Index 1. Hello World! [Link] 2. Print Statements [Link] 3. String [Link] 4. Handling Errors [Link] 5. Variables [Link] 6. Arithmetic [Link] 7. Updating Variables [Link] 8. Comments [Link] 9. Numbers [Link] 10. Two Types of Division [Link] 11. Multi-line Strings [Link] 12. Booleans [Link] 13. ValueError [Link] 14. Review...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{

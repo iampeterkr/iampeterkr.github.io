@@ -28,6 +28,6 @@ Index
 ####  9. Numbers [[Link]({{site.baseurl}}/p2k-python-syntax-09)]         
 #### 10. Two Types of Division [[Link]({{site.baseurl}}/p2k-python-syntax-10)]           
 #### 11. Multi-line Strings [[Link]({{site.baseurl}}/p2k-python-syntax-11)]           
-#### 12. Booleans   
-#### 13. ValueError   
-#### 14. Review   
+#### 12. Booleans [[Link]({{site.baseurl}}/p2k-python-syntax-12)]        
+#### 13. ValueError [[Link]({{site.baseurl}}/p2k-python-syntax-13)]          
+#### 14. Review [[Link]({{site.baseurl}}/p2k-python-syntax-14)]            
