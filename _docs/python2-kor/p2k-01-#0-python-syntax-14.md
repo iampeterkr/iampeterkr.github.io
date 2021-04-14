@@ -71,7 +71,7 @@ I got X points!
 • 변수 point_total 에 기존 결과값 변수 point_total 값에 변수 exercises_completed * points_per_exercise 곱한 결과 값을 더하라.     
 • *The amount* 부터 *yet* 까지의 문자열을 주석 처리하라.     
 • *I got X points!* 를 콘솔창에 출력하라.    
-• 변수 X 값은 변수 point_total 값이다.
+• 변수 X 위치에, 변수 point_total 값이다.
 {: .notice--info}
 
 
