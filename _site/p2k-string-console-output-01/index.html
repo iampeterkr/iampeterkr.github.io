@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>SingIn -  Peter’s Blog</title>
-<meta name="description" content="Shows that How to Sign In to Codecademy.com">
+<!-- begin _includes/seo.html --><title>Strings -  Peter’s Blog</title>
+<meta name="description" content="We learn about Strings.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="SingIn">
-<meta property="og:url" content="http://localhost:4000/signin/">
+<meta property="og:title" content="Strings">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-01/">
 
 
-  <meta property="og:description" content="Shows that How to Sign In to Codecademy.com">
+  <meta property="og:description" content="We learn about Strings.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/signin/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-01/">
 
 
 
@@ -176,7 +176,7 @@
             
             
 
-            <li><a href="/signin/" class="active">SignIn</a></li>
+            <li><a href="/signin/" class="">SignIn</a></li>
           
             
             
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="SingIn">
-    <meta itemprop="description" content="Shows that How to Sign In to Codecademy.com">
+    <meta itemprop="headline" content="Strings">
+    <meta itemprop="description" content="We learn about Strings.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">SingIn
+          <h1 id="page-title" class="page__title" itemprop="headline">Strings
 </h1>
           
         </header>
@@ -839,34 +839,70 @@
 
       <section class="page__content" itemprop="text">
         
-        <hr />
+        <hr style="border: solid 1px #dddddd ;" />
 
+<p>LESSON</p>
+
+<p>이 장에서는 <code class="language-plaintext highlighter-rouge">print</code> 키워드를 사용하여, 다양한 문자열 함수를 호출하여 문자열 리터럴을 생성하며, python의 문자열들을 화면에 출력하는것을 소개할 것이다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+<h3 id="1-strings">1. Strings</h3>
+
+<p>또다른 유용한 데이타 타입은 <code class="language-plaintext highlighter-rouge">string</code> 타입이다. <code class="language-plaintext highlighter-rouge">string</code> 은 문자, 숫자, 기호도 포함한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">"Ryan"</span>
+<span class="n">age</span> <span class="o">=</span> <span class="s">"19"</span>
+<span class="n">food</span> <span class="o">=</span> <span class="s">"cheese"</span>
+</code></pre></div></div>
+
+<p>상단의 예에서, 우리는 변수 <code class="language-plaintext highlighter-rouge">name</code>을 만들고, 값으로 <code class="language-plaintext highlighter-rouge">"Ryan"</code>을 대입한다.  <br />
+우리는 또한 변수 <code class="language-plaintext highlighter-rouge">age</code> 에 <code class="language-plaintext highlighter-rouge">"19"</code> 를 대입하고, 변수 <code class="language-plaintext highlighter-rouge">food</code> 에 <code class="language-plaintext highlighter-rouge">"cheese" </code> 를 대입한다.  <br />
+문자열을 대입할때는 쌍 따옴표가 필요하다.</p>
+
+<p class="notice--info"><strong>설명:</strong> [ 요약 ]    <br />
+• 문자열(string)은 문자와, 숫자와, 기호도 사용할 수 있다.   <br />
+• 19는 정수이지만, “” 를 사용했기에, 문자로 인식된다.</p>
+
+<p style="page-break-before: always;"></p>
 <p><br /></p>
-
-<p><img src="//assets/images/codecademy/00-signin-00.png" alt="signin" /></p>
 <hr />
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-1단계  <br />
-Codecademy 사이트로 이동합니다.  <br />
-주소 : www.codecademy.com</p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-2단계  <br />
-<code class="language-plaintext highlighter-rouge">Username</code> 을 등록합니다.</p>
+<ul>
+  <li>변수 <code class="language-plaintext highlighter-rouge">brian</code> 을 만들고, 문자열 <code class="language-plaintext highlighter-rouge">"Hello life!"</code> 를 대입하라.</li>
+</ul>
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-3단계  <br />
-<code class="language-plaintext highlighter-rouge">Email</code> 을 등록합니다.</p>
+<p><br /></p>
+<hr />
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-4단계     <br />
-<code class="language-plaintext highlighter-rouge">Password</code> 를 등록합니다.</p>
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>앞 장에서 배운, 변수를 만들고 값을 대입하는것을 기억하는가?  <br />
+만일, 기억나지 않는다면, 앞장을 다시 한번 확인하다.</li>
+</ul>
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-5단계     <br />
-<code class="language-plaintext highlighter-rouge">Start coding now</code> 를 눌러 등록을 완료합니다.   <br />
-또는 지메일, 페이스북 등의 어카운터를 활용하여 로그인 할 수 있습니다.</p>
+<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
+• 문자열을 대입할때, 문자열의 양끝을 따옴표 ( “ “ ) or ( ‘ ‘ ) 를 사용한다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">brian</span> <span class="o">=</span> <span class="s">"Hello life!"</span>
+<span class="n">brian1</span> <span class="o">=</span> <span class="s">'The man screamed "I love Python!" so that everyone could hear.'</span>
+<span class="n">brian2</span> <span class="o">=</span> <span class="s">"The man screamed 'I love Python!' so that everyone could hear."</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">brian</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">brian1</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">brian2</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello life!
+The man screamed "I love Python!" so that everyone could hear.
+The man screamed 'I love Python!' so that everyone could hear.
+</code></pre></div></div>
 
         
         
@@ -885,11 +921,11 @@ Codecademy 사이트로 이동합니다.  <br />
       
   <nav class="pagination">
     
-      <a href="/connect/" class="pagination--pager" title="Connect
+      <a href="/p2k-python-syntax/" class="pagination--pager" title="Python Syntax
 ">Previous</a>
     
     
-      <a href="/login/" class="pagination--pager" title="LogIn
+      <a href="/p2k-string-console-output-main/" class="pagination--pager" title="String &amp; Console Output
 ">Next</a>
     
   </nav>

@@ -369,6 +369,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax/",
         "teaser":null},{
+        "title": "Strings",
+        "excerpt":"LESSON 이 장에서는 print 키워드를 사용하여, 다양한 문자열 함수를 호출하여 문자열 리터럴을 생성하며, python의 문자열들을 화면에 출력하는것을 소개할 것이다. STRING &amp; CONSOLE OUTPUT1. Strings 또다른 유용한 데이타 타입은 string 타입이다. string 은 문자, 숫자, 기호도 포함한다. name = \"Ryan\"age = \"19\"food = \"cheese\"상단의 예에서, 우리는 변수 name을 만들고, 값으로 \"Ryan\"을...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-01/",
+        "teaser":null},{
         "title": "String & Console Output",
         "excerpt":"Index 1. Strings! [Link] 2. Practice 3. Escaping characters 4. Access by Index 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String Formatting with %,...","categories": [],
         "tags": [],

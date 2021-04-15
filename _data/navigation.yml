@@ -80,9 +80,10 @@ docs:
     children:
       - title: " 01. Python Syntax"
         url: /p2k-python-syntax-main/
-        #url: /p2k-python-syntax/
+        # url: /p2k-python-syntax/
       - title: " 02. String & Console Output"
-        url: /p2k-string-console-output/
+        url: /p2k-string-console-output-main/
+        # url: /p2k-string-console-output/
       - title: " ⁯⁯  ⁯⁯⁯  ⁯⤷ ° Date and Time"
         url: /p2k-date-and-time/
       - title: " 03. Conditionals and Control Flow"
