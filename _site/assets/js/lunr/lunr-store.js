@@ -365,7 +365,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"LESSON 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며, 객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. PYTHON SYNTAX생각해보자!1. Hello World! 생각해보자! 사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다. Python 에선, print 문을 사용하여 컴퓨터가 말하는것을 사용자가...","categories": [],
+        "excerpt":"LESSON 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며, 객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. PYTHON SYNTAX1. Hello World! 생각해보자! 사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다. Python 에선, print 문을 사용하여 컴퓨터가 말하는것을 사용자가...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax/",
         "teaser":null},{

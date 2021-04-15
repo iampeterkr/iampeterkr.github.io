@@ -23,9 +23,9 @@ LESSON
 <hr style="border: solid 1px #dddddd ;">    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">PYTHON SYNTAX</font> 
-### 1. Hello World!    
+<font size="3"  face="돋움">PYTHON SYNTAX</font>     
 
+### 1. Hello World!    
 
 생각해보자!   
 사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면
@@ -35,7 +35,6 @@ LESSON
 Python 프로그래밍에선, `print` 문을 사용하여 컴퓨터가 말하는것을 사용자가 이해한다. 
 
 아래는 print 문장을 사용하는 프로그래밍 예를 설명한다. 
-   
 
 ```python
 print "Hello, world!"

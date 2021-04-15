@@ -23,7 +23,6 @@ LESSON
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">PYTHON SYNTAX</font>
-<font size="3"  face="돋움">생각해보자!</font> 
 
 ### 1. Hello World!    
 
