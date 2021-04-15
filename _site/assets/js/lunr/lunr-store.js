@@ -15,7 +15,7 @@ var store = [{
         "url": "http://localhost:4000/login/",
         "teaser":null},{
         "title": "Syllabus",
-        "excerpt":"1. Python Syntax A. Python Syntax §2. Strings and Console Output A. String &amp; Console Output § B. Date and Time § 3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp; Dictionaries A....","categories": [],
+        "excerpt":"1. Python Syntax A. Python Syntax &lt;!– A. Python Syntax §–&gt;2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/syllabus/",
         "teaser":null},{
@@ -365,9 +365,14 @@ var store = [{
         "url": "http://localhost:4000/p2k-python-syntax-main/",
         "teaser":null},{
         "title": "Python Syntax",
-        "excerpt":"LESSON 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며, 객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. PYTHON SYNTAX1. Hello World! 생각해보자! 사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다. Python 에선, print 문을 사용하여 컴퓨터가 말하는것을 사용자가...","categories": [],
+        "excerpt":"LESSON 이장에서는 독립형 프로젝트들과 스크립트형 응용 프로그램에 수없이 사용되며, 객체지향 프로그래밍 언어로 다양하게 활용되는 Python2 를 소개할 것이다. PYTHON SYNTAX생각해보자!1. Hello World! 생각해보자! 사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다. Python 에선, print 문을 사용하여 컴퓨터가 말하는것을 사용자가...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-python-syntax/",
+        "teaser":null},{
+        "title": "String & Console Output",
+        "excerpt":"Index 1. Strings! [Link] 2. Practice 3. Escaping characters 4. Access by Index 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String Formatting with %,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{
         "title": "String & Console Output",
         "excerpt":"LESSON This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the “print” keyword. 설명: [ 학습방향 ] 이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다. STRING &amp; CONSOLE OUTPUT1. Strings Another...","categories": [],
