@@ -18,7 +18,7 @@ Index
 <hr style="border: solid 1px #dddddd ;">    
 
 ####  1. Strings! [[Link]({{site.baseurl}}/p2k-string-console-output-01/)]      
-####  2. Practice
+####  2. Practice [[Link]({{site.baseurl}}/p2k-string-console-output-02/)]      
 ####  3. Escaping characters
 ####  4. Access by Index
 ####  5. String methods

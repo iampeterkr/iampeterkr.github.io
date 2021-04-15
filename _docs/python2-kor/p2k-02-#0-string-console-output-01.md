@@ -81,3 +81,25 @@ Hello life!
 The man screamed "I love Python!" so that everyone could hear.
 The man screamed 'I love Python!' so that everyone could hear.
 ```
+
+
+<p style="page-break-before: always;"></p>     
+<br>
+<hr/>
+
+
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+brian = "Hello life!"
+```
+
+**설명:** [ Solution ]    
+• 문자열을 대입할때, 문자열 양 끝에 따옴표 ( " " ) or ( ' ' )를 사용한다. 
+{: .notice--info}
+
+**결과**
+```
+ #skip
+```

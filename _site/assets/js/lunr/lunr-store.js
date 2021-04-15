@@ -374,8 +374,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-01/",
         "teaser":null},{
+        "title": "Practice",
+        "excerpt":"LESSON 문자열을 연습한다. STRING &amp; CONSOLE OUTPUT2. Practice 훌륭합니다. 문자열을 조금 연습해 봅시다. 다음 아래 변수에 각각의 구문을 대입 하세요. 변수 caesar 에 “Graham” 변수 parline 에 “John” 변수 viking 에 “Teresa” caesar = \"Graham\" praline = \"John\" viking = \"Teresa\" 여러분은 대소문자를 정확히 구분해야 한다. Python은 대소문자를 엄격히 구분한다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-02/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice 3. Escaping characters 4. Access by Index 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String Formatting with %,...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters 4. Access by Index 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String Formatting with...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{
