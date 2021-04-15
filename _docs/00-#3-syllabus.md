@@ -26,7 +26,7 @@ redirect_from:
 <hr/>     
 
 <b>2.	Strings and Console Output</b>     
-*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/) 
+*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)
 <a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="100px" width="95px">
 </a>
 <a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="100px" width="95px">
