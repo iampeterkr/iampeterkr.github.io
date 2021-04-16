@@ -5,9 +5,11 @@ title: "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 �
 
 [ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]    
 
-자세한 아래 "Syllabus" 링크 클릭....    
-* Codecademy python <a href="/syllabus/">Syllabus</a> 
+### 코드카데미(codecademy) 한국어 python 강의 목록 
 
+자세한 아래 <a href="/syllabus/">Syllabus</a> 링크 클릭....    
+<br>
+<hr/>    
 
 <b>1.	Python Syntax</b>     
 *  A.	Python Syntax 
