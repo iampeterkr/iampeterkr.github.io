@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-15T17:26:25+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-16T09:55:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free&lt;/p&gt;
 
 &lt;p&gt;#Python#Codecademy#코드카데미#한글#Korea#설명#정답#Solves#목록#무료#Free&lt;/p&gt;
 
@@ -169,15 +169,15 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;br /&gt;
 &lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!</title><link href="http://localhost:4000/welcome/" rel="alternate" type="text/html" title="[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!" /><published>2019-03-11T00:00:00+09:00</published><updated>2019-03-11T00:00:00+09:00</updated><id>http://localhost:4000/welcome</id><content type="html" xml:base="http://localhost:4000/welcome/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]&lt;/p&gt;
 
-&lt;p&gt;(#Python #파이썬 #Codecademy #코드카데미 #한글 # 한국어 #정답 #solution #무료 #free)&lt;/p&gt;
+&lt;p&gt;(#Python #파이썬 #Codecademy #코드카데미 #한글 #한국어 #정답 #solution #Instruction #Hint #무료 #free #Python2 # Python3)&lt;/p&gt;
 
 &lt;h2 id=&quot;welcome&quot;&gt;Welcome&lt;/h2&gt;
 
 &lt;p&gt;[Python Codecademy]  &lt;br /&gt;
 파이썬 코드카데미 한글설명 가이드 프로젝트 입니다.  &lt;br /&gt;
-Codecademy에서 한글 서비스를 예전에 지원 하였으, 현재는 지원되지 않고 있습니다. &lt;br /&gt;
-혼자서 파이썬 공부 하기 좋은 사이트인 Codecademy가 영어로 되어 있다보니,  &lt;br /&gt;
-영어가 익숙치 않은 분들이 지시사항을 정확히 이해 못하시거나,  &lt;br /&gt;
+Codecademy에서 자체 한글 서비스를 예전엔 지원 하였으나, 현재는 지원하지 않고 있습니다. &lt;br /&gt;
+혼자서 파이썬 공부하기 좋은 사이트인 Codecademy가 영어로 되어 있다보니,  &lt;br /&gt;
+영어가 익숙치 않은 분들이 지시사항(Instruction)을 정확히 이해 못하시거나,  &lt;br /&gt;
 문제를 풀고서도, 정답을 알지 못해 어려워 하는 부분을 해결하고자,  &lt;br /&gt;
 Codecademy python 한글(한국어) 가이드 프로젝트 블로그를 작성 하였습니다.&lt;/p&gt;
 
@@ -190,14 +190,14 @@ Codecademy python2 Korean 를 활용하시면 됩니다.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Codecademy 를 활용한 무료 python2, python3 교육 관련 자료가 있습니다.&lt;/p&gt;
+    &lt;p&gt;Codecademy 를 활용한 무료 python2, python3(준비중) 교육 관련 자료가 있습니다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;상단의 Python 링크를 통하여 자료가 있는 page 로 넘어 가실수 있습니다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Syllabus 를 통하여 Codecademy &lt;a href=&quot;/codecademy/syllabus/&quot;&gt;Python&lt;/a&gt; 전체를 공부하시는 분에게 도움이 되시기를 기도합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//syllabus/&quot;&gt;Syllabus&lt;/a&gt; 를 참고하시어, Python 기초를 공부사시는데 분에게 도움이 되시기를 기도합니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
