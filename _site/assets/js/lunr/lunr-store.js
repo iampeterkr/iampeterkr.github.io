@@ -379,8 +379,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-02/",
         "teaser":null},{
+        "title": "Escaping characters",
+        "excerpt":"LESSON 이스케이프 문자열을 연습한다. STRING &amp; CONSOLE OUTPUT3. Escaping characters 아래와 같이, 몇가지 문자들은 문제들을 일으킨다. 'There's a snake in my boot!'이 코드는 문제점이 있다. 왜냐하면, Python은 'There' 의 문자열이 끝났다고 생각한다. 우리는 역 슬래쉬를 사용하여, 아래와 같이 이 문제를 해결할 수 있다. 'There\\'s a snake in my boot!'설명: [...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-03/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters 4. Access by Index 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String Formatting with...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String Formatting...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{

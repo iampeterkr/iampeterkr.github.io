@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Print Statements -  Peter’s Blog</title>
-<meta name="description" content="We learn about Print Statements of Python Syntax.">
+<!-- begin _includes/seo.html --><title>Escaping characters -  Peter’s Blog</title>
+<meta name="description" content="We learn Escaping characters.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Print Statements">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-02/">
+<meta property="og:title" content="Escaping characters">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-03/">
 
 
-  <meta property="og:description" content="We learn about Print Statements of Python Syntax.">
+  <meta property="og:description" content="We learn Escaping characters.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-02/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-03/">
 
 
 
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Print Statements">
-    <meta itemprop="description" content="We learn about Print Statements of Python Syntax.">
+    <meta itemprop="headline" content="Escaping characters">
+    <meta itemprop="description" content="We learn Escaping characters.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Print Statements
+          <h1 id="page-title" class="page__title" itemprop="headline">Escaping characters
 </h1>
           
         </header>
@@ -843,42 +843,49 @@
 
 <p>LESSON</p>
 
-<p>이 장에서는 Python2 와 Python3 의 문법 차이를 설명한다.</p>
+<p>이스케이프 문자열을 연습한다.</p>
+
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
-<font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="2-print-statements">2. Print Statements</h3>
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+<h3 id="3-escaping-characters">3. Escaping characters</h3>
 
-<p>Python 에는 2 종류의 버젼이 있다.   <br />
-Pyhton2, Python3 모두 광범위하게 사용되고 있다.  <br />
-두 버젼의 가장 큰 차이점은 <code class="language-plaintext highlighter-rouge">print</code> 문을 작성하는 방법이다.  <br />
-Python3 에는 <code class="language-plaintext highlighter-rouge">print</code> 문은 괄호가 사용 됩니다.</p>
+<p>아래와 같이, 몇가지 문자들은 문제들을 일으킨다.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Hello World!"</span>
-<span class="k">print</span> <span class="s">"Deep into distant woodlands winds a mazy way, reaching to overlapping spurs of mountains bathed in their hill-side blue."</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'There'</span><span class="n">s</span> <span class="n">a</span> <span class="n">snake</span> <span class="ow">in</span> <span class="n">my</span> <span class="n">boot</span><span class="err">!</span><span class="s">'
+</span></code></pre></div></div>
+
+<p>이 코드는 문제점이 있다.  <br />
+왜냐하면, Python은 <code class="language-plaintext highlighter-rouge">'There'</code> 의 문자열이 끝났다고 생각한다.  <br />
+우리는 역 슬래쉬를 사용하여, 아래와 같이 이 문제를 해결할 수 있다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'There</span><span class="se">\'</span><span class="s">s a snake in my boot!'</span>
 </code></pre></div></div>
 
-<p>이 과정에서는 Python2 를 사용할 것이다.   <br />
-당신이 Python3 를 사용한다면, 두 버젼의 차이점을 관심있게 지켜보는것이 유용할 수 있다.</p>
-
-<p class="notice--info"><strong>설명:</strong> [ Learn ]  <br />
-• Ch2. Print Statements 에서는 python2 vs python3 의 차이를 학습한다.  <br />
-• Python2 와 Python3는 문법이 조금 틀리다.   <br />
-• Python2 는 () 사용하지 않는다.  <br />
-• Python3 는 () 를 사용한다.  <br />
-• Python2와 Python3는 Python을 배우는데, 크게 차이는 없다.   <br />
-• 그리고 Python version 3.x 이상은 Python2 문법이 모두 통용이 된다.</p>
+<p class="notice--info"><strong>설명:</strong> [ 요약 ]     <br />
+• Ch3. Escaping characters 에서는 <code class="language-plaintext highlighter-rouge">\</code> 사용법을 학습한다.  <br />
+• 우리는 문자열을 만들때, 따옴표( ‘ ‘ )를 사용해야 한다고 앞에서 배웠다.  <br />
+• 가령 ‘There’s’ 라는 문자열을 만들때 Python은 따옴표 ( ‘ )를 쿼터로 인식한다.   <br />
+• 이런 경우는 ( ‘ ) 가 쿼터가 아님을 표시해주는 <code class="language-plaintext highlighter-rouge">\</code> 를 앞에 둔다.  <br />
+• Python 은 <code class="language-plaintext highlighter-rouge">\</code> 이면 다음 문자를 단순 문자로 인식한다.</p>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
-
 <ul>
-  <li>Python3 문법을 사용하여 무언가를 출력하여라.</li>
+  <li>Edit 창에 있는 문자열을 수정하라!</li>
 </ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The string below is broken. Fix it using the escape backslash!
+</span>
+<span class="s">'This isn'</span><span class="n">t</span> <span class="n">flying</span><span class="p">,</span> <span class="n">this</span> <span class="ow">is</span> <span class="n">falling</span> <span class="k">with</span> <span class="n">style</span><span class="err">!</span><span class="s">'
+</span></code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong>    <br />
+• 문자열 <em>ist’t</em> 를 수정하여 정상적인 문자열로 만들어라.</p>
 
 <p style="page-break-before: always;"></p>
 <p><br /></p>
@@ -887,29 +894,43 @@ Python3 에는 <code class="language-plaintext highlighter-rouge">print</code> �
 <p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
 
 <ul>
-  <li>Python3 는 괄호를 사용하는것을 기억하라.</li>
+  <li>여러분은 이스케이프 문자(<code class="language-plaintext highlighter-rouge">\</code>)를 <code class="language-plaintext highlighter-rouge">'</code> 이전에 추가하면 된다.</li>
+  <li>이문제를 해결할 다른 방법이 있다. 생각해본적이 있는가?</li>
+  <li>여러분은 이 문제를 다른 방법으로 해결해선 안됩니다.</li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">"Your message!"</span><span class="p">)</span>
-</code></pre></div></div>
+<p class="notice--info"><strong>설명:</strong>   <br />
+• 반드시 <code class="language-plaintext highlighter-rouge">\</code> 를 사용하여 해결 해야 한다.</p>
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]   <br />
-• Python3 는 print 문을 사용시 괄호<code class="language-plaintext highlighter-rouge">()</code> 가 필요하다.</p>
-
-<p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The string below is broken. Fix it using the escape backslash!
+</span>
+<span class="s">'This isn</span><span class="se">\'</span><span class="s">t flying, this is falling with style!'</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]  <br />
-• Python3 는 print 문을 사용시 괄호<code class="language-plaintext highlighter-rouge">()</code> 를 사용한다.</p>
+<p class="notice--info"><strong>설명:</strong>   <br />
+• 문자열 <em>isn’t’</em> 를 <em>isn't</em> 로 수정 한다.   <br />
+• 또다른 방법은 가장 바깥쪽 문자열 쿼터 ( ‘ ‘ ) 를 ( “ “ ) 로 바꾸어 준다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># The string below is broken. Fix it using the escape backslash!
+</span>
+<span class="n">a</span> <span class="o">=</span> <span class="s">'This isn</span><span class="se">\'</span><span class="s">t flying, this is falling with style!'</span>
+
+<span class="n">b</span> <span class="o">=</span> <span class="s">"This isn</span><span class="se">\'</span><span class="s">t flying, this is falling with style!"</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">b</span><span class="p">)</span>
+
+</code></pre></div></div>
 
 <p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello World!
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This isn't flying, this is falling with style!
+This isn't flying, this is falling with style!
 </code></pre></div></div>
+
 
         
         
@@ -928,11 +949,11 @@ Python3 에는 <code class="language-plaintext highlighter-rouge">print</code> �
       
   <nav class="pagination">
     
-      <a href="/p2k-python-syntax-01/" class="pagination--pager" title="Hello World!
+      <a href="/p2k-string-console-output-02/" class="pagination--pager" title="Practice
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-04/" class="pagination--pager" title="Handling Errors
+      <a href="/p2k-string-console-output-main/" class="pagination--pager" title="String &amp; Console Output
 ">Next</a>
     
   </nav>
