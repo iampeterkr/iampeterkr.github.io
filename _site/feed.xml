@@ -1,6 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-16T09:55:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-16T11:16:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]&lt;/p&gt;
 
-&lt;p&gt;#Python#Codecademy#코드카데미#한글#Korea#설명#정답#Solves#목록#무료#Free&lt;/p&gt;
+&lt;p&gt;자세한 아래 “Syllabus” 링크에 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Codecademy python &lt;a href=&quot;/syllabus/&quot;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;1.	Python Syntax&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Python Syntax 
+&lt;a href=&quot;/p2e-python-syntax/&quot;&gt;&lt;img src=&quot;https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png&quot; align=&quot;right&quot; height=&quot;100px&quot; width=&quot;95px&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/p2k-python-syntax-main/&quot;&gt;&lt;img src=&quot;https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png&quot; align=&quot;right&quot; height=&quot;100px&quot; width=&quot;95px&quot; /&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- mark down link, align, resize
+[![p2-kor](https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png){:.alignright}{: width=&quot;95&quot; height=&quot;100&quot;}](//p2k-python-syntax/)
+--&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;2.	Strings and Console Output&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	String &amp;amp; Console Output &lt;a href=&quot;//string-console-output/&quot;&gt;§&lt;/a&gt;
+&lt;a href=&quot;/p2e-python-syntax/&quot;&gt;&lt;img src=&quot;https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png&quot; align=&quot;right&quot; height=&quot;100px&quot; width=&quot;95px&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/p2k-string-console-output-main/&quot;&gt;&lt;img src=&quot;https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png&quot; align=&quot;right&quot; height=&quot;100px&quot; width=&quot;95px&quot; /&gt;
+&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Date and Time &lt;a href=&quot;//date-and-time/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;3.	Conditionals and Control Flow&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Conditionals &amp;amp; Control Flow &lt;a href=&quot;//conditionals-control-flow/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	PygLatin &lt;a href=&quot;//pyglatin/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;4.	Functions&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Functions &lt;a href=&quot;//functions/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Taking a Vacation &lt;a href=&quot;//taking-vacation/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;5.	Lists &amp;amp; Dictionaries&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Python Lists and Dictionaries &lt;a href=&quot;//lists-dictionaries/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	A Day at the Supermarket &lt;a href=&quot;//day-supermarket/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;6.	Student Becomes the Teacher&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Student Becomes the Teacher &lt;a href=&quot;//student-becomes-teacher/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;7.	Lists and Functions&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Lists and Functions &lt;a href=&quot;//lists-functions/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Battleship! &lt;a href=&quot;//battleship/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;8.	Loops&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Loops &lt;a href=&quot;//loops/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Practice Makes Perfect &lt;a href=&quot;//practice-makes-perfect/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;9.	Exam Statistics&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Exam Statistics &lt;a href=&quot;//exam-statistics/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;10.	Advanced Topics in Python&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Advanced Topics in Python &lt;a href=&quot;//advanced-topics-python/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Introduction to Bitwise Operators &lt;a href=&quot;//introduction-bitwise-operators/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p style=&quot;page-break-before: always;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;11.	Introduction to Classes&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	Introduction to Classes &lt;a href=&quot;//introduction-classes/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;B.	Classes &lt;a href=&quot;//classes/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;12.	File Input and Output&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A.	File Input / Output &lt;a href=&quot;//file-input-output/&quot;&gt;§&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;b&gt;13.	PYTHON FINAL PROJECT&lt;/b&gt;&lt;a href=&quot;//python-final-project/&quot;&gt;§&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;무료-codecademy-python2-한글-설명-및-목록&quot;&gt;무료 Codecademy python2 한글 설명 및 목록&lt;/h2&gt;
 
@@ -77,18 +178,7 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;더 많은 내용은 아래 “python” 링크에 있습니다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Codecademy &lt;a href=&quot;/codecademy/syllabus/&quot;&gt;Python&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free</summary></entry><entry><title type="html">01.Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="01.Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Peter Lee</name></author><summary type="html">[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]</summary></entry><entry><title type="html">01.Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="01.Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
@@ -167,9 +257,8 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!</title><link href="http://localhost:4000/welcome/" rel="alternate" type="text/html" title="[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!" /><published>2019-03-11T00:00:00+09:00</published><updated>2019-03-11T00:00:00+09:00</updated><id>http://localhost:4000/welcome</id><content type="html" xml:base="http://localhost:4000/welcome/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]&lt;/p&gt;
-
-&lt;p&gt;(#Python #파이썬 #Codecademy #코드카데미 #한글 #한국어 #정답 #solution #Instruction #Hint #무료 #free #Python2 # Python3)&lt;/p&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!</title><link href="http://localhost:4000/welcome/" rel="alternate" type="text/html" title="[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!" /><published>2019-03-11T00:00:00+09:00</published><updated>2019-03-11T00:00:00+09:00</updated><id>http://localhost:4000/welcome</id><content type="html" xml:base="http://localhost:4000/welcome/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]  &lt;br /&gt;
+[#Python #파이썬 #Codecademy #코드카데미 #한글 #한국어 #정답 #solution #Solve #Instruction #Hint #무료 #free #Python2 # Python3]&lt;/p&gt;
 
 &lt;h2 id=&quot;welcome&quot;&gt;Welcome&lt;/h2&gt;
 
@@ -202,4 +291,4 @@ Codecademy python2 Korean 를 활용하시면 됩니다.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]</summary></entry></feed>
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트] [#Python #파이썬 #Codecademy #코드카데미 #한글 #한국어 #정답 #solution #Solve #Instruction #Hint #무료 #free #Python2 # Python3]</summary></entry></feed>

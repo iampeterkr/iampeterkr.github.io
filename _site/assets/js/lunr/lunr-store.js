@@ -530,7 +530,7 @@ var store = [{
         "url": "http://localhost:4000/p3-taking-vacation/",
         "teaser":null},{
         "title": "[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!",
-        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트] (#Python #파이썬 #Codecademy #코드카데미 #한글 #한국어 #정답 #solution #Instruction #Hint #무료 #free #Python2 # Python3) Welcome [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 입니다. Codecademy에서 자체 한글 서비스를 예전엔 지원 하였으나, 현재는 지원하지 않고 있습니다. 혼자서 파이썬 공부하기 좋은 사이트인 Codecademy가 영어로 되어 있다보니, 영어가 익숙치 않은...","categories": [],
+        "excerpt":"[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트] [#Python #파이썬 #Codecademy #코드카데미 #한글 #한국어 #정답 #solution #Solve #Instruction #Hint #무료 #free #Python2 # Python3] Welcome [Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 입니다. Codecademy에서 자체 한글 서비스를 예전엔 지원 하였으나, 현재는 지원하지 않고 있습니다. 혼자서 파이썬 공부하기 좋은 사이트인 Codecademy가 영어로 되어 있다보니, 영어가 익숙치...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/welcome/",
         "teaser":null},{
@@ -540,7 +540,7 @@ var store = [{
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"#Python #Codecademy #코드카데미 #한글 #Korea #설명 #정답 #Solves #목록 #무료 #Free #Python#Codecademy#코드카데미#한글#Korea#설명#정답#Solves#목록#무료#Free 무료 Codecademy python2 한글 설명 및 목록 [ 1. Python Syntax ] (Python Syntax) 1. Hello World Print Statements String Handling Errors Variables Arithmetic Updating Variables Comments Numbers Two Types of Division Multi-line Strings …… [ 2. String...","categories": [],
+        "excerpt":"[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3] 자세한 아래 “Syllabus” 링크에 있습니다. Codecademy python Syllabus1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},]
