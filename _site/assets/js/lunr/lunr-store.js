@@ -535,12 +535,12 @@ var store = [{
         "url": "http://localhost:4000/welcome/",
         "teaser":null},{
         "title": "01.Hello World",
-        "excerpt":"[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록] LESSON This lesson will introduce you to Python 2, a general-purpose, object-oriented interpreted language you can use for countless standalone projects or scripting applications. 설명: [ 학습방향 ] 이 장에서는 객체 지향 프로그램 언어인 Python2 을 소개합니다. Python은 수많은 독립형...","categories": [],
+        "excerpt":"[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3] 원본[English] LESSON 이 장에서는 수많은 독립형 프로젝트들과 스크립트형 응용 프로그램에 사용할수 있는 객체지향 프로그래밍 언어인 Python2 를 소개할 것이다. PYTHON SYNTAX1. Hello World! 생각해보자! 사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다. 이것이 프로그래밍이다. Python 프로그래밍에선, print...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/010101-HelloWorld/",
         "teaser":null},{
         "title": "[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록",
-        "excerpt":"[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3] 코드카데미(codecademy) 한국어 python 강의 목록 자세한 아래 “Syllabus” 링크 클릭…. Codecademy python1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A....","categories": [],
+        "excerpt":"[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3] 코드카데미(codecademy) 한국어 python 강의 목록 자세한 아래 Syllabus 링크 클릭…. 1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/codecademy-post-list/",
         "teaser":null},]

@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-16T11:27:39+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-16T14:33:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> Peter’s Blog </title><subtitle>This is Python Guide for Korean by Codecademy.com website.</subtitle><author><name>Peter Lee</name></author><entry><title type="html">[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록</title><link href="http://localhost:4000/codecademy-post-list/" rel="alternate" type="text/html" title="[Python Codecademy] 무료 파이썬 코드카데미 한글 설명 및 정답 가이드 목록" /><published>2019-08-26T00:00:00+09:00</published><updated>2019-08-26T00:00:00+09:00</updated><id>http://localhost:4000/codecademy-post-list</id><content type="html" xml:base="http://localhost:4000/codecademy-post-list/">&lt;p&gt;[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]&lt;/p&gt;
 
 &lt;h3 id=&quot;코드카데미codecademy-한국어-python-강의-목록&quot;&gt;코드카데미(codecademy) 한국어 python 강의 목록&lt;/h3&gt;
 
-&lt;p&gt;자세한 아래 “Syllabus” 링크 클릭….&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Codecademy python&lt;br /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;자세한 아래 &lt;a href=&quot;/syllabus/&quot;&gt;Syllabus&lt;/a&gt; 링크 클릭….  &lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;b&gt;1.	Python Syntax&lt;/b&gt;&lt;/p&gt;
@@ -182,7 +179,80 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Peter Lee</name></author><summary type="html">[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]</summary></entry><entry><title type="html">01.Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="01.Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Peter Lee</name></author><summary type="html">[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]</summary></entry><entry><title type="html">01.Hello World</title><link href="http://localhost:4000/010101-HelloWorld/" rel="alternate" type="text/html" title="01.Hello World" /><published>2019-08-01T00:00:00+09:00</published><updated>2019-08-01T00:00:00+09:00</updated><id>http://localhost:4000/010101-HelloWorld</id><content type="html" xml:base="http://localhost:4000/010101-HelloWorld/">&lt;p&gt;[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/p2e-python-syntax/&quot;&gt;원본[English]&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;LESSON&lt;/p&gt;
+
+&lt;p&gt;이 장에서는 수많은 독립형 프로젝트들과 스크립트형 응용 프로그램에 사용할수 있는 
+객체지향 프로그래밍 언어인 Python2 를 소개할 것이다.&lt;/p&gt;
+
+&lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+&lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
+
+&lt;h3 id=&quot;1-hello-world&quot;&gt;1. Hello World!&lt;/h3&gt;
+
+&lt;p&gt;생각해보자! &lt;br /&gt;
+사용자와 컴퓨터가 서로 대화를 하기 위하여, 사용자가 컴퓨터에게 가르칠것이 있다면
+제일 먼저, 사용자는 컴퓨터가 어떻게 말하는지를 가르치는 것이 필요할 것이다.  &lt;br /&gt;
+이것이 프로그래밍이다.&lt;/p&gt;
+
+&lt;p&gt;Python 프로그래밍에선, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; 문을 사용하여 컴퓨터가 말하는것을 사용자가 이해한다.&lt;/p&gt;
+
+&lt;p&gt;아래는 print 문장을 사용하는 프로그래밍 예를 설명한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello, world!&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Water—there is not a drop of water there! Were Niagara but a cataract of sand, would you travel your thousand miles to see it?&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; 문은 Python 프로그램밍에서 대화하기 가장 쉬운 방법중 하나이다.  &lt;br /&gt;
+사용자와 대화를 가능케하는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; 문은 당신이 가지고 있는 프로그래밍 관련 도구상자에서 가장 유용한 도구중 하나가 될 것이다.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Learn ]   &lt;br /&gt;
+• Ch1. Hello World! 에서는 print 문을 학습한다.    &lt;br /&gt;
+• 상단 검정 박스안의 Python 소스를 Editor 화면에 복사하여 실행(Run) 해 보자.   &lt;br /&gt;
+• 우리는 컴퓨터에게 &lt;em&gt;Hello World!&lt;/em&gt; 라는 문장을 화면에 출력 시키라고 명령한 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-instruction-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt;문을 사용하여, 당신이 쓰고 싶은 문장이 화면에 출력되도록 컴퓨터에게 시켜 보아라.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-hint-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;아래와 같이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt;문을 쓰고, 그 뒷편에 “Your Message!” 를 입력하고 출력 시키면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Your Message!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;//assets/images/codecademy/00-solution-03.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;설명:&lt;/strong&gt; [ Solution ]  &lt;br /&gt;
+• print 문을 사용하여 &lt;em&gt;Hello World!&lt;/em&gt; 를 출력하였다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello World!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr style=&quot;border: solid 1px #dddddd ;&quot; /&gt;
 
@@ -199,7 +269,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;
 &lt;img src=&quot;//assets/images/codecademy/00-learn-01.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;
 &lt;font size=&quot;3&quot; face=&quot;돋움&quot;&gt;PYTHON SYNTAX&lt;/font&gt;
-&lt;h3 id=&quot;1-hello-world&quot;&gt;1. Hello World!&lt;/h3&gt;
+&lt;h3 id=&quot;1-hello-world-1&quot;&gt;1. Hello World!&lt;/h3&gt;
 
 &lt;p&gt;If programming is the act of teaching a computer to have a conversation with a user, it would be most useful to first teach the computer how to speak. In Python, this is accomplished with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print&lt;/code&gt; statement.&lt;/p&gt;
 
@@ -261,7 +331,7 @@ Python은 수많은 독립형 프로젝트와 스크립트 응용 프로그램 �
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[#Python #Codecademy #코드카데미 #한글 #설명 #정답 # solves # 목록]</summary></entry><entry><title type="html">[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!</title><link href="http://localhost:4000/welcome/" rel="alternate" type="text/html" title="[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!" /><published>2019-03-11T00:00:00+09:00</published><updated>2019-03-11T00:00:00+09:00</updated><id>http://localhost:4000/welcome</id><content type="html" xml:base="http://localhost:4000/welcome/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]  &lt;br /&gt;
+&lt;img src=&quot;//assets/images/codecademy/line.png&quot; alt=&quot;codecademy&quot; /&gt;&lt;/p&gt;</content><author><name>Peter Lee</name></author><summary type="html">[ #Python#파이썬##Codecademy#코드카데미#한글#한국어#Korean#설명#정답#가이드#Solution#정답#Solve#Instruction#Hint#무료#Free#Python2#Python3]</summary></entry><entry><title type="html">[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!</title><link href="http://localhost:4000/welcome/" rel="alternate" type="text/html" title="[Python Codecademy] 파이썬 코드카데미 한글설명 가이드 프로젝트 블로그 안내!" /><published>2019-03-11T00:00:00+09:00</published><updated>2019-03-11T00:00:00+09:00</updated><id>http://localhost:4000/welcome</id><content type="html" xml:base="http://localhost:4000/welcome/">&lt;p&gt;[#Python #Codecademy(코드카데미) #한글설명가이드프로젝트]  &lt;br /&gt;
 [#Python #파이썬 #Codecademy #코드카데미 #한글 #한국어 #정답 #solution #Solve #Instruction #Hint #무료 #free #Python2 # Python3]&lt;/p&gt;
 
 &lt;h2 id=&quot;welcome&quot;&gt;Welcome&lt;/h2&gt;
