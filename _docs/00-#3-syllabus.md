@@ -29,7 +29,7 @@ redirect_from:
 *  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)
 <a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="100px" width="95px">
 </a>
-<a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="100px" width="95px">
+<a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor-s.png" align="right" height="100px" width="95px">
 </a>
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
