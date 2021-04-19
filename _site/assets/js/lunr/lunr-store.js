@@ -15,7 +15,7 @@ var store = [{
         "url": "http://localhost:4000/login/",
         "teaser":null},{
         "title": "Syllabus",
-        "excerpt":"1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow §[P3-Kor] [P3-Eng] [P2-Kor] [P2-Eng] B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp;...","categories": [],
+        "excerpt":"1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § [P3-Kor] [P3-Eng] [P2-Kor] [P2-Eng] B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/syllabus/",
         "teaser":null},{
@@ -384,8 +384,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-03/",
         "teaser":null},{
+        "title": "Access by Index",
+        "excerpt":"LESSON Index 에 접근하는 법을 연습한다. STRING &amp; CONSOLE OUTPUT4. Access by Index Great work! 문자열에 있는 문자는 각각 번호가 매겨져 있다. 이 매겨진 번호가 Index 이다. Editor 에 있는 그림을 확인해 보자. c = \"cats\"[0]n = \"Ryan\"[3] 위, 예에서, 우리는 변수 c 를 만들고, 변수에 문자 \"c\"를 대입한다. 문자...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-03/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String Formatting...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{

@@ -13,10 +13,9 @@ redirect_from:
 <hr/>
 
 <b>1.	Python Syntax</b>     
-*  A.	Python Syntax 
-<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
+*  A.	Python Syntax <a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
 </a>
-<a href="/p2k-python-syntax-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="75px" width="70px">
+<a href="/p2k-python-syntax-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
 </a>
 
    
@@ -26,16 +25,16 @@ redirect_from:
 <hr/>     
 
 <b>2.	Strings and Console Output</b>     
-*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)
-<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="100px" width="95px">
+*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)     
+<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
 </a>
-<a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="100px" width="95px">
+<a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
 </a>
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
 
 <b>3.	Conditionals and Control Flow</b>      
-* A.	Conditionals & Control Flow [§]({{site.baseurl}}/conditionals-control-flow/)
+* A.	Conditionals & Control Flow [§]({{site.baseurl}}/conditionals-control-flow/)     
 [[P3-Kor]({{site.baseurl}}/conditionals-control-flow/)] 
 [[P3-Eng]({{site.baseurl}}/conditionals-control-flow/)] 
 [[P2-Kor]({{site.baseurl}}/conditionals-control-flow/)] 

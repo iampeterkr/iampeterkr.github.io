@@ -20,7 +20,7 @@ Index
 ####  1. Strings! [[Link]({{site.baseurl}}/p2k-string-console-output-01/)]      
 ####  2. Practice [[Link]({{site.baseurl}}/p2k-string-console-output-02/)]      
 ####  3. Escaping characters [[Link]({{site.baseurl}}/p2k-string-console-output-03/)]      
-####  4. Access by Index
+####  4. Access by Index  [[Link]({{site.baseurl}}/p2k-string-console-output-04/)]      
 ####  5. String methods
 ####  6. lower()
 ####  7. upper()
