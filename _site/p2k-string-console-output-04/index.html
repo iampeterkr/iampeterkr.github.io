@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Report a bug -  Peter’s Blog</title>
-<meta name="description" content="Explaining Report a bug.">
+<!-- begin _includes/seo.html --><title>Access by Index -  Peter’s Blog</title>
+<meta name="description" content="We learn Access by Index.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Report a bug">
-<meta property="og:url" content="http://localhost:4000/report-bug/">
+<meta property="og:title" content="Access by Index">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-04/">
 
 
-  <meta property="og:description" content="Explaining Report a bug.">
+  <meta property="og:description" content="We learn Access by Index.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/report-bug/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-04/">
 
 
 
@@ -268,7 +268,7 @@
             
             
 
-            <li><a href="/report-bug/" class="active"> • Report a Bug</a></li>
+            <li><a href="/report-bug/" class=""> • Report a Bug</a></li>
           
         </ul>
         
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Report a bug">
-    <meta itemprop="description" content="Explaining Report a bug.">
+    <meta itemprop="headline" content="Access by Index">
+    <meta itemprop="description" content="We learn Access by Index.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Report a bug
+          <h1 id="page-title" class="page__title" itemprop="headline">Access by Index
 </h1>
           
         </header>
@@ -839,26 +839,125 @@
 
       <section class="page__content" itemprop="text">
         
-        <hr />
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>Index 에 접근하는 법을 연습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+<h3 id="4-access-by-index">4. Access by Index</h3>
+
+<p>Great work!</p>
+
+<p>문자열에 있는 문자는 각각 번호가 매겨져 있다. 이 매겨진 번호가 Index 이다. <br />
+Editor 에 있는 그림을 확인해 보자.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">c</span> <span class="o">=</span> <span class="s">"cats"</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">n</span> <span class="o">=</span> <span class="s">"Ryan"</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div></div>
+<ul>
+  <li>
+    <p>위, 예에서, 우리는 변수 <code class="language-plaintext highlighter-rouge">c</code> 를 만들고, 변수에 문자 <code class="language-plaintext highlighter-rouge">"c"</code>를 대입한다. 문자 <code class="language-plaintext highlighter-rouge">"c"</code>는 문자열 <code class="language-plaintext highlighter-rouge">"cats"</code>의 index 값은 0 이다.</p>
+  </li>
+  <li>
+    <p>다음으로, 우리는 변수 <code class="language-plaintext highlighter-rouge">n</code>을 만들고, 변수에 문자 <code class="language-plaintext highlighter-rouge">"n"</code>을 대입한다. 문자 <code class="language-plaintext highlighter-rouge">"n"</code>은 문자열 <code class="language-plaintext highlighter-rouge">"Ryan"</code>의 index 값은 3 이다.</p>
+  </li>
+</ul>
+
+<p>주의 할점은, 첫번째 <code class="language-plaintext highlighter-rouge">"cats"</code> 에서, <code class="language-plaintext highlighter-rouge">"cats"</code>의 index 0의 문자열은 <code class="language-plaintext highlighter-rouge">"c"</code> 가 반환된다. 이유는 Python에서는 index 값을 0 부터 붙여준다.  <br />
+그러므로, 문자열 <code class="language-plaintext highlighter-rouge">"cats"</code> 에서 첫번째 문자는 <code class="language-plaintext highlighter-rouge">"c"</code>이며, index 값은 0이다. 그리고, 마지막 문자 <code class="language-plaintext highlighter-rouge">"s"</code>는 index 값이 3이다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+---+---+---+---+
+| c | a | t | s |
++---+---+---+---+
+  0   1   2   3  
+
++---+---+---+---+
+| R | y | a | n |
++---+---+---+---+
+  0   1   2   3  
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong>      <br />
+• Ch4. Access by Index 에서는 문자열 주소 접근법을 학습한다.  <br />
+• 문자열은 위와 같이 메모리에 저장된다.  <br />
+• 그 메모리에는 0 번 부터 주소(index)가 매겨진다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""</span>
+</code></pre></div></div>
 
 <p><br /></p>
-
-<p><img src="//assets/images/codecademy/00-report-00.png" alt="codecademy" />  <br />
-<br /></p>
 <hr />
 
-<p><img src="//assets/images/codecademy/00-report-02.png" alt="codecademy" />  <br />
-<br /></p>
-<hr />
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<p><img src="//assets/images/codecademy/00-report-01.png" alt="codecademy" /></p>
-<hr />
-
-<p>If you see a bug or any other issue with this page, please report it <a href="">here</a>.</p>
+<ul>
+  <li>13 라인에서, 변수 <code class="language-plaintext highlighter-rouge">fifth_letter</code>에 문자열 <code class="language-plaintext highlighter-rouge">"MONTY"</code>의 5번째 문자를 대입하라.</li>
+  <li>5번째 글자는 index 값 5가 아니다라는 것을 기억하라.</li>
+  <li>Index의 시작은 0 부터 시작한다.</li>
+</ul>
 
 <p class="notice--info"><strong>설명:</strong>   <br />
-• <code class="language-plaintext highlighter-rouge">here</code> 를 클릭하면, 설문 조사 화면이 나타난다.   <br />
-• 자신의 의견을 선택하고, 남길 메시지를 적고 제출 하면 된다.</p>
+• 변수 fifth_letter 에 <em>MONTY</em> 중 5 번째 글자만 대입하라.</p>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+<ul>
+  <li>문자 <code class="language-plaintext highlighter-rouge">"Y"</code>가 당신이 찾고자 하는 글자이다.</li>
+</ul>
+
+<p class="notice--info"><strong>설명:</strong>   <br />
+• 문자열 <em>MONTY</em> 에서 <em>Y</em> 만 출력 할려면 변수에 <em>Y</em> 만 대입해야 한다.</p>
+
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""</span>
+<span class="n">fifth_letter</span> <span class="o">=</span> <span class="s">"MONTY"</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+
+<span class="k">print</span> <span class="n">fifth_letter</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong>   <br />
+• 문자열 <em>MONTY</em> 에서 <em>Y</em> 만 출력 할려면 <em>Y</em>가 다섯번째에 있는 글자 이다.  <br />
+• 하지만, 실제 인덱스 주소에는 4 번에 저장되어 있다.  <br />
+• “MONTY”[4] 즉, 4 번째 주소에 있는 글자만 변수에 대입해야 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Y
+</code></pre></div></div>
 
         
         
@@ -877,11 +976,11 @@
       
   <nav class="pagination">
     
-      <a href="/community-forums/" class="pagination--pager" title="Community and Forums
+      <a href="/p2k-string-console-output-03/" class="pagination--pager" title="Escaping characters
 ">Previous</a>
     
     
-      <a href="/python-syntax/" class="pagination--pager" title="Python Syntax
+      <a href="/p2k-string-console-output-main/" class="pagination--pager" title="String &amp; Console Output
 ">Next</a>
     
   </nav>

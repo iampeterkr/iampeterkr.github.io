@@ -1,7 +1,7 @@
 ---
 # layout : rchive
 title: "Access by Index"
-permalink: /p2k-string-console-output-03/
+permalink: /p2k-string-console-output-04/
 excerpt: "We learn Access by Index."
 redirect_from:
   - /theme-setup/
