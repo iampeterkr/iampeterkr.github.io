@@ -389,8 +389,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-04/",
         "teaser":null},{
+        "title": "String methods",
+        "excerpt":"LESSON String 메소드를 연습한다. STRING &amp; CONSOLE OUTPUT5. String methods 훌륭합니다!. 현재, 우리는 문자열을 어떻게 저장하는지 알고 있습니다. 지금부터 문자열 메소드를 사용하여 문자열을 어떻게 변경하는지를 배워봅시다. 문자열 메소드를 사용하면, 여러분은 문자열의 특별한 작업들을 수행할 수 있습니다. 우리는 4개의 문자열 메소드를 관심을 가질 것입니다. len() lower() upper() str()len() 메소드는 문자열의 길이를...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-05/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15. String...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{

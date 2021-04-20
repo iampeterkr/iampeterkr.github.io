@@ -29,7 +29,7 @@ redirect_from:
 <a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
 </a>
 <a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
-</a>
+</a>    
 *  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
 <hr/>     
 

@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Arithmetic -  Peter’s Blog</title>
-<meta name="description" content="We learn about Arithmetic of Python Syntax.">
+<!-- begin _includes/seo.html --><title>String methods -  Peter’s Blog</title>
+<meta name="description" content="We learn String methods.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Arithmetic">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-06/">
+<meta property="og:title" content="String methods">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-05/">
 
 
-  <meta property="og:description" content="We learn about Arithmetic of Python Syntax.">
+  <meta property="og:description" content="We learn String methods.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-06/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-05/">
 
 
 
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Arithmetic">
-    <meta itemprop="description" content="We learn about Arithmetic of Python Syntax.">
+    <meta itemprop="headline" content="String methods">
+    <meta itemprop="description" content="We learn String methods.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Arithmetic
+          <h1 id="page-title" class="page__title" itemprop="headline">String methods
 </h1>
           
         </header>
@@ -843,117 +843,76 @@
 
 <p>LESSON</p>
 
-<p>이 장에서는 산술 연산자를 배울 것이다.</p>
+<p>String 메소드를 연습한다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
-<font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="6-arithmetic">6. Arithmetic</h3>
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+<h3 id="5-string-methods">5. String methods</h3>
 
-<p>컴퓨터들이 예외적으로 잘할 수 있는 한가지는 계산하는 것이다.  <br />
-더하기, 빼기, 곱하기, 나누기, 등 다른 숫자 계산들은 모든 대부분 프로그래밍에서 수행할 수 있고, Python 도 예외는 아니다.   <br />
-아례 몇 가지 예를 보자…</p>
+<p>훌륭합니다!.  <br />
+현재, 우리는 문자열을 어떻게 저장하는지 알고 있습니다. <br />
+지금부터 문자열 메소드를 사용하여 문자열을 어떻게 변경하는지를 배워봅시다.   <br />
+문자열 메소드를 사용하면, 여러분은 문자열의 특별한 작업들을 수행할 수 있습니다.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mirthful_addition</span> <span class="o">=</span> <span class="mi">12381</span> <span class="o">+</span> <span class="mi">91817</span>
-<span class="n">amazing_subtraction</span> <span class="o">=</span> <span class="mi">981</span> <span class="o">-</span> <span class="mi">312</span>
-<span class="n">trippy_multiplication</span> <span class="o">=</span> <span class="mi">38</span> <span class="o">*</span> <span class="mi">902</span>
-<span class="n">happy_division</span> <span class="o">=</span> <span class="mi">540</span> <span class="o">/</span> <span class="mi">45</span>
-<span class="n">sassy_combinations</span> <span class="o">=</span> <span class="mi">129</span> <span class="o">*</span> <span class="mi">1345</span> <span class="o">+</span> <span class="mi">120</span> <span class="o">/</span> <span class="mi">6</span> <span class="o">-</span> <span class="mi">12</span>
-</code></pre></div></div>
+<p>우리는 4개의 문자열 메소드를 관심을 가질 것입니다.</p>
 
-<p>상단을 보면, 산술 계산이 있고, 각 변수에 할당되어 있다.  <br />
-변수는 각 계산식의 결과 값을 저장하고 있을 것이다. <br />
-산술식의 조합들은 연사자들의 일반적 처리 순서에 따라 동작된다.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">len()</code></li>
+  <li><code class="language-plaintext highlighter-rouge">lower()</code></li>
+  <li><code class="language-plaintext highlighter-rouge">upper()</code></li>
+  <li><code class="language-plaintext highlighter-rouge">str()</code></li>
+</ul>
 
-<p>Python 은 모듈 연산자로 불리는 나눗셈과 비슷한 연산자를 제공합니다.  <br />
-모듈 연산자는 <code class="language-plaintext highlighter-rouge">%</code> 로 사용되며, 그 결과값은 나누기로 수행된후 남은 나머지를 반환 합니다.</p>
+<p><code class="language-plaintext highlighter-rouge">len()</code> 메소드는 문자열의 길이를 알려주는 메소드입니다.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">is_this_number_odd</span> <span class="o">=</span> <span class="mi">15</span> <span class="o">%</span> <span class="mi">2</span>
-<span class="n">is_this_number_divisible_by_seven</span> <span class="o">=</span> <span class="mi">133</span> <span class="o">%</span> <span class="mi">7</span>
-</code></pre></div></div>
-
-<p>상단의 코드 예에서, 우리는 15 를 2로 나눈후 남은 나머지를 찾기 위하여 모듈 연산자를 사용한다.  <br />
-왜냐하면, 15는 홀수 이기에 계속 나누면 1 이 남게 된다.</p>
-
-<p>우리는 또한 133/7 의 나머지도 확인한다.  <br />
-왜냐하면, 133 을 7 로 나누면 나머지가 없다.   <br />
-133%7 의 계산값을 구하면 나머지는 0 이다.</p>
-
-<p class="notice--info"><strong>설명:</strong> [ 요약 ]   <br />
-• Ch6. Arithmetic 에서는 수식을 학습한다.   <br />
-• 컴퓨터의 많은 기능 중 하나는 계산하는 것이다.   <br />
-• Python도 사칙연산( + , − , × , ÷ )을 지원한다.  <br />
-• Python 에선 × → * , ÷ → / 로 표시한다.  <br />
-• 모듈(module)연산자도 지원한다.   <br />
-• 모듈 연산자 중 하나인 % 는 나머지를 계산 해준다.  <br />
-• e.g. 15 % 2 = 1, 만약 133 % 7 같이 딱 떨어지면 나머지는 0 이다.</p>
-
-<p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
 <ul>
-  <li>
-    <p>변수 <code class="language-plaintext highlighter-rouge">product</code> 를 만들고, 이 변수에 2개의 숫자를 곱하여 대입하라.</p>
-  </li>
-  <li>
-    <p>1398 / 11 의 너머지 값은 무엇일까? 변수 <code class="language-plaintext highlighter-rouge">remainder</code>에 그 결과값을 저장하라.</p>
-  </li>
+  <li>라인 1번에서, 변수 <code class="language-plaintext highlighter-rouge">parrot</code>를 만들고, 그 변수에 <code class="language-plaintext highlighter-rouge">"Norwegian Blue"</code>를 대입하라.</li>
+  <li>라인 1번에서, <code class="language-plaintext highlighter-rouge">len(parrot)</code> 를 치고, 그 결과를 출력하라. 아래 예를 참조…</li>
 </ul>
 
-<p class="notice--info"><strong>설명:</strong> [ 요약 ]  <br />
-• 변수 product 를 만들어라.  <br />
-• 변수 product 에 2개의 숫자를 곱하여 대입하라.<br />
-• 1398 / 11  의 나머지는 무엇일까?   <br />
-• 변수 remainder 를 만들어라.  <br />
-• 변수 remainder 에 1397 / 11 의 나머지 값을 저장하라.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">parrot</span><span class="p">)</span>
+</code></pre></div></div>
+<ul>
+  <li>입력 문자열 “Norwegian Blue”의 문자 갯수가 출력될 것이다.</li>
+</ul>
 
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
-
 <ul>
-  <li>변수를 만드는것은 다른 뭔가를 = 시키는 것만큼 단순하다는 것을 기억하라. 변수 quotient`를 만들고, 아래와 같이 값을 정의 할수 있다.</li>
+  <li><code class="language-plaintext highlighter-rouge">len()</code> 메소드를 사용하라.</li>
 </ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">quotient</span> <span class="o">=</span> <span class="mi">30</span> <span class="o">/</span> <span class="mi">5</span>
-</code></pre></div></div>
+<p class="notice--info"><strong>설명:</strong>   <br />
+• 함수 len() 에 변수를 삽입하여 해당 변수에 들어 있는 문자의 갯수를 셀 수 있다.</p>
 
-<ul>
-  <li>나머지를 찾는 모듈 연산자는 <code class="language-plaintext highlighter-rouge">%</code> 를 사용한다는 것을 기억하라.</li>
-</ul>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">1908</span> <span class="o">%</span> <span class="mi">3</span>
-</code></pre></div></div>
-
-<ul>
-  <li>1908 을 3 으로 나누어 떨어지기에, 값은 0 일 것이다.</li>
-</ul>
-
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• 상기 예는 변수 quotient 에 두 수를 나눗셈 한 것이다.  <br />
-• % 는 나머지를 구하는 모듈(module) 연산자 이다.</p>
-
-<p style="page-break-before: always;"></p>
 <p><br /></p>
 <hr />
 
 <p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">product</span> <span class="o">=</span> <span class="mi">18</span> <span class="o">*</span> <span class="mi">13</span>
-<span class="n">remainder</span> <span class="o">=</span> <span class="mi">1398</span> <span class="o">%</span> <span class="mi">11</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">parrot</span> <span class="o">=</span> <span class="s">"Norwegian Blue"</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">parrot</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-•  곱셈 연산자는 * 이다.   <br />
-•  나머지를 구하는 모듈(module) 연산자는 % 이다.</p>
+<p class="notice--info"><strong>설명:</strong>   <br />
+• 함수 len()의 Parameter로 parrot 변수를 넣었다.  <br />
+• print 문으로 len(parrot) 를 출력하였다.  <br />
+• 변수 parrot 에 들어있는 문자열 <em>Norwegian Blue</em> 의 문자 갯수가 출력된다.  <br />
+• 그런데, 예상된 문자 갯수가 13개가 아니라, 14개가 출력 된다.  <br />
+• 이유는 공백(space)도 하나의 문자로 계산한다.  <br />
+• 중간에 공백을 몇개 넣고 RUN 해보면 바로 알수 있다.</p>
 
 <p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>14
 </code></pre></div></div>
 
         
@@ -973,11 +932,11 @@
       
   <nav class="pagination">
     
-      <a href="/p2k-python-syntax-05/" class="pagination--pager" title="Variables
+      <a href="/p2k-string-console-output-04/" class="pagination--pager" title="Access by Index
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-07/" class="pagination--pager" title="Updating Variables
+      <a href="/p2k-string-console-output-main/" class="pagination--pager" title="String &amp; Console Output
 ">Next</a>
     
   </nav>
