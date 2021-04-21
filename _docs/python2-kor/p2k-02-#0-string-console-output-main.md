@@ -23,7 +23,7 @@ Index
 ####  4. Access by Index  [[Link]({{site.baseurl}}/p2k-string-console-output-04/)]      
 ####  5. String methods [[Link]({{site.baseurl}}/p2k-string-console-output-05/)]      
 ####  6. lower() [[Link]({{site.baseurl}}/p2k-string-console-output-06/)]      
-####  7. upper()
+####  7. upper() [[Link]({{site.baseurl}}/p2k-string-console-output-07/)]      
 ####  8. str()
 ####  9. Dot Notation
 ####  10. Printing Strings

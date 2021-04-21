@@ -399,8 +399,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-06/",
         "teaser":null},{
+        "title": "upper()",
+        "excerpt":"LESSON String 메소드 upper() 연습한다. STRING &amp; CONSOLE OUTPUT7. upper() Now your string is 100% lower case! A similar method exists to make a string completely upper case.현재, 여러분의 문자열은 100% 소문자들 이다. 이와 비슷한 기능으로 문자열을 대문자로 만드는 메소드가 있다. 설명: • Ch7. upper() 에서는 메서드 upper()를 학습한다. •...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-07/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{
