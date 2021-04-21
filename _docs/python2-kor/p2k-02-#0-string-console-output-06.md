@@ -23,7 +23,8 @@ String 메소드 lower() 연습한다.
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 6. lower()     
-
+     
+     
 여러분은 `lower()` 메소드를 사용하여, 문자열에 있는 대문자를 모두 소문자로 만들수 있다.    
 사용법은 아래와 같다.    
 
@@ -80,7 +81,7 @@ print parrot.lower()
 
 **설명:**     
 • 문자열에 ( . ) 을 붙이고 lower() 를 사용할 수 있다.    
-• 변수에도 동일하게 ( . ) 을 붙이고 함수 lower() 를 사용할 수 있다.
+• 변수에도 동일하게 ( . ) 을 붙이고 함수 lower() 를 사용할 수 있다.    
 • [참고] Command 창에서, dir(parrot)를 입력하면, 사용할수 있는 메소드 리스트가 출력된다. 
 {: .notice--info}
 
