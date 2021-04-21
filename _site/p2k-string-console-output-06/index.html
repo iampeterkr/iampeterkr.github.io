@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Community and Forums -  Peter’s Blog</title>
-<meta name="description" content="Explaining Community and Forums.">
+<!-- begin _includes/seo.html --><title>lower() -  Peter’s Blog</title>
+<meta name="description" content="We learn String methods, lower().">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Community and Forums">
-<meta property="og:url" content="http://localhost:4000/community-forums/">
+<meta property="og:title" content="lower()">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-06/">
 
 
-  <meta property="og:description" content="Explaining Community and Forums.">
+  <meta property="og:description" content="We learn String methods, lower().">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/community-forums/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-06/">
 
 
 
@@ -260,7 +260,7 @@
             
             
 
-            <li><a href="/community-forums/" class="active"> • Community Forums</a></li>
+            <li><a href="/community-forums/" class=""> • Community Forums</a></li>
           
             
             
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Community and Forums">
-    <meta itemprop="description" content="Explaining Community and Forums.">
+    <meta itemprop="headline" content="lower()">
+    <meta itemprop="description" content="We learn String methods, lower().">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Community and Forums
+          <h1 id="page-title" class="page__title" itemprop="headline">lower()
 </h1>
           
         </header>
@@ -839,28 +839,71 @@
 
       <section class="page__content" itemprop="text">
         
-        <hr />
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>String 메소드 lower() 연습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+
+<h3 id="6-lower">6. lower()</h3>
+
+<p>여러분은 <code class="language-plaintext highlighter-rouge">lower()</code> 메소드를 사용하여, 문자열에 있는 대문자를 모두 소문자로 만들수 있다.  <br />
+사용법은 아래와 같다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"Ryan"</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+<p>결과 값은 “ryan” 이 반환될 것이다.</p>
+
+<p class="notice--info"><strong>설명:</strong>    <br />
+• Ch6. lower() 에서는 메서드 lower()를 학습한다.  <br />
+• 함수 lower() 는 대문자를 모두 소문자로 변경하여 반환한다.</p>
 
 <p><br /></p>
-
-<p><img src="//assets/images/codecademy/00-community-00.png" alt="codecademy" />  <br />
-<br /></p>
 <hr />
 
-<p><img src="//assets/images/codecademy/00-community-01.png" alt="codecademy" /></p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<p>Here are some helpful links to the top questions asked by coders about this exercise:</p>
+<ul>
+  <li>3 라인에서, 변수 <code class="language-plaintext highlighter-rouge">parrot</code>에 담긴 문자열을 <code class="language-plaintext highlighter-rouge">lower()</code> 메소를 사용하여 그 결과값을 출력하라.</li>
+</ul>
 
-<ol>
-  <li>What is a block of code?</li>
-  <li>What is an interpreted language?</li>
-  <li>Is there any reason to use double or single quotes?</li>
-</ol>
+<p style="page-break-before: always;"></p>
+<p><br /></p>
+<hr />
 
-<p>Still have questions? View this exercise’s thread in the <a href="https://discuss.codecademy.com">Codecademy Forums</a></p>
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul>
+  <li>여러분의 코드는 다음 예처럼 보여야 한다.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="n">parrot</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">parrot</span> <span class="o">=</span> <span class="s">"Norwegian Blue"</span>
+
+<span class="k">print</span> <span class="n">parrot</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span>
+</code></pre></div></div>
 
 <p class="notice--info"><strong>설명:</strong>   <br />
-Codecademy를 사용하던중, 의문점이나 의견 개진이 필요한 경우, 연결된 링크를 통하여 <a href="https://discuss.codecademy.com">Codecademy Forums</a> 사이트에 의견을 보낼수 있다.</p>
+• 문자열에 ( . ) 을 붙이고 lower() 를 사용할 수 있다.  <br />
+• 변수에도 동일하게 ( . ) 을 붙이고 함수 lower() 를 사용할 수 있다.
+• [참고] Command 창에서, dir(parrot)를 입력하면, 사용할수 있는 메소드 리스트가 출력된다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>norwegian blue
+</code></pre></div></div>
 
         
         
@@ -879,11 +922,11 @@ Codecademy를 사용하던중, 의문점이나 의견 개진이 필요한 경우
       
   <nav class="pagination">
     
-      <a href="/solution/" class="pagination--pager" title="Solution
+      <a href="/p2k-string-console-output-05/" class="pagination--pager" title="String methods
 ">Previous</a>
     
     
-      <a href="/report-bug/" class="pagination--pager" title="Report a bug
+      <a href="/p2k-string-console-output-main/" class="pagination--pager" title="String &amp; Console Output
 ">Next</a>
     
   </nav>

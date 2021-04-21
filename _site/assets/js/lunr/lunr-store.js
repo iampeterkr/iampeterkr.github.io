@@ -394,8 +394,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-05/",
         "teaser":null},{
+        "title": "lower()",
+        "excerpt":"LESSON String 메소드 lower() 연습한다. STRING &amp; CONSOLE OUTPUT6. lower() 여러분은 lower() 메소드를 사용하여, 문자열에 있는 대문자를 모두 소문자로 만들수 있다. 사용법은 아래와 같다. \"Ryan\".lower()결과 값은 “ryan” 이 반환될 것이다. 설명: • Ch6. lower() 에서는 메서드 lower()를 학습한다. • 함수 lower() 는 대문자를 모두 소문자로 변경하여 반환한다. 3 라인에서, 변수...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-06/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1 15....","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part 1...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{

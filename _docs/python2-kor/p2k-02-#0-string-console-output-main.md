@@ -22,7 +22,7 @@ Index
 ####  3. Escaping characters [[Link]({{site.baseurl}}/p2k-string-console-output-03/)]      
 ####  4. Access by Index  [[Link]({{site.baseurl}}/p2k-string-console-output-04/)]      
 ####  5. String methods [[Link]({{site.baseurl}}/p2k-string-console-output-05/)]      
-####  6. lower()
+####  6. lower() [[Link]({{site.baseurl}}/p2k-string-console-output-06/)]      
 ####  7. upper()
 ####  8. str()
 ####  9. Dot Notation
