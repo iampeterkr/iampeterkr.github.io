@@ -404,8 +404,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-07/",
         "teaser":null},{
+        "title": "str()",
+        "excerpt":"LESSON String 메소드 str() 을 연습한다. STRING &amp; CONSOLE OUTPUT8. str() 이제, str() 메소드를 살펴보자. str() 메소드는 문자열이 아닌 값을 문자열로 반환해 준다. 다음 예를 살펴보자. str(2)숫자 2 를 문자열 \"2\"로 변환된다. 설명: • Ch8. str() 에서는 메서드 str()를 학습한다. • 함수 str() 는 문자열이 아닌것을 문자열로 변환해 준다. •...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-08/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %, Part...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %,...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{

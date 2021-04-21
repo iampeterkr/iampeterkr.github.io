@@ -24,7 +24,7 @@ Index
 ####  5. String methods [[Link]({{site.baseurl}}/p2k-string-console-output-05/)]      
 ####  6. lower() [[Link]({{site.baseurl}}/p2k-string-console-output-06/)]      
 ####  7. upper() [[Link]({{site.baseurl}}/p2k-string-console-output-07/)]      
-####  8. str()
+####  8. str()  [[Link]({{site.baseurl}}/p2k-string-console-output-08/)]      
 ####  9. Dot Notation
 ####  10. Printing Strings
 ####  11. Printing Variables
