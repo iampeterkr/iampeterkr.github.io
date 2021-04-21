@@ -21,7 +21,9 @@ Index 에 접근하는 법을 연습한다.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
-### 4. Access by Index    
+
+### 4. Access by Index     
+   
 
 Great work!
 

@@ -21,7 +21,9 @@ String 메소드를 연습한다.
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
+
 ### 5. String methods    
+
 
 훌륭합니다!.    
 현재, 우리는 문자열을 어떻게 저장하는지 알고 있습니다.   

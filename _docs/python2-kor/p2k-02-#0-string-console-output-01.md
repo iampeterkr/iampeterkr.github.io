@@ -22,7 +22,9 @@ LESSON
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
-### 1. Strings     
+
+### 1. Strings      
+
 
 또다른 유용한 데이타 타입은 `string` 타입이다. `string` 은 문자, 숫자, 기호도 포함한다.    
 

@@ -21,15 +21,16 @@ LESSON
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
+
 ### 3. Escaping characters     
 
-아래와 같이, 몇가지 문자들은 문제들을 일으킨다.    
+
+아래와 같이, 이 코드는 몇가지 문자들은 문제들을 일으킨다.    
 
 ```python
 'There's a snake in my boot!'
 ```
 
-이 코드는 문제점이 있다.    
 왜냐하면, Python은 `'There'` 의 문자열이 끝났다고 생각한다.    
 우리는 역 슬래쉬를 사용하여, 아래와 같이 이 문제를 해결할 수 있다.    
 

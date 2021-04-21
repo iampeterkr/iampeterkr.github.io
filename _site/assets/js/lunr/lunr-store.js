@@ -375,12 +375,12 @@ var store = [{
         "url": "http://localhost:4000/p2k-string-console-output-01/",
         "teaser":null},{
         "title": "Practice",
-        "excerpt":"LESSON 문자열을 연습한다. STRING &amp; CONSOLE OUTPUT2. Practice 훌륭합니다. 문자열을 조금 연습해 봅시다. 다음 아래 변수에 각각의 구문을 대입 하세요. 변수 caesar 에 “Graham” 변수 parline 에 “John” 변수 viking 에 “Teresa” caesar = \"Graham\" praline = \"John\" viking = \"Teresa\" 여러분은 대소문자를 정확히 구분해야 한다. Python은 대소문자를 엄격히 구분한다....","categories": [],
+        "excerpt":"LESSON 문자열을 연습한다. STRING &amp; CONSOLE OUTPUT2. Practice 훌륭합니다. 문자열을 조금 더 연습해 봅시다. 다음 아래 변수에 각각의 구문을 대입 하세요. 변수 caesar 에 “Graham” 변수 parline 에 “John” 변수 viking 에 “Teresa” caesar = \"Graham\" praline = \"John\" viking = \"Teresa\" 여러분은 대소문자를 정확히 구분해야 한다. Python은 대소문자를 엄격히...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-02/",
         "teaser":null},{
         "title": "Escaping characters",
-        "excerpt":"LESSON 이스케이프 문자열을 연습한다. STRING &amp; CONSOLE OUTPUT3. Escaping characters 아래와 같이, 몇가지 문자들은 문제들을 일으킨다. 'There's a snake in my boot!'이 코드는 문제점이 있다. 왜냐하면, Python은 'There' 의 문자열이 끝났다고 생각한다. 우리는 역 슬래쉬를 사용하여, 아래와 같이 이 문제를 해결할 수 있다. 'There\\'s a snake in my boot!'설명: [...","categories": [],
+        "excerpt":"LESSON 이스케이프 문자열을 연습한다. STRING &amp; CONSOLE OUTPUT3. Escaping characters 아래와 같이, 이 코드는 몇가지 문자들은 문제들을 일으킨다. 'There's a snake in my boot!'왜냐하면, Python은 'There' 의 문자열이 끝났다고 생각한다. 우리는 역 슬래쉬를 사용하여, 아래와 같이 이 문제를 해결할 수 있다. 'There\\'s a snake in my boot!'설명: [ 요약 ]...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-03/",
         "teaser":null},{

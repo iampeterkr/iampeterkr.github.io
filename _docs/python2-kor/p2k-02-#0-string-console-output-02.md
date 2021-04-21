@@ -21,10 +21,12 @@ LESSON
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
-### 2. Practice     
+
+### 2. Practice        
+
 
 훌륭합니다.    
-문자열을 조금 연습해 봅시다.    
+문자열을 조금 더 연습해 봅시다.    
 
 <br>
 <hr/>
