@@ -409,8 +409,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-08/",
         "teaser":null},{
+        "title": "Dot Notation",
+        "excerpt":"LESSON Dot Notation 을 연습한다. STRING &amp; CONSOLE OUTPUT9. Dot Notation 여러분이 사용한 len(string)과 str(object) 이외에도 \"String\".upper()와 같은 dot notation 방법이 있다. lion = \"roar\"len(lion)lion.upper()dot notation 메서드는 오직 문자열에서만 사용한다. len()과 str()은 다른 데이타 형태에서도 사용이 가능하다. 설명: • Ch9. Dot Notation 에서는 메서드 접근법을 학습한다. • 문자열(대문자, 소문자)을 변환...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-09/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with %,...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{
