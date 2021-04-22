@@ -26,7 +26,7 @@ Index
 ####  7. upper() [[Link]({{site.baseurl}}/p2k-string-console-output-07/)]      
 ####  8. str()  [[Link]({{site.baseurl}}/p2k-string-console-output-08/)]      
 ####  9. Dot Notation  [[Link]({{site.baseurl}}/p2k-string-console-output-09/)]      
-####  10. Printing Strings
+####  10. Printing Strings   [[Link]({{site.baseurl}}/p2k-string-console-output-10/)]      
 ####  11. Printing Variables
 ####  12. String Concatenation
 ####  13. Explicit String Conversion

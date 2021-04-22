@@ -414,8 +414,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-09/",
         "teaser":null},{
+        "title": "Printing Strings",
+        "excerpt":"LESSON 문자열 출력 방법을 연습한다. STRING &amp; CONSOLE OUTPUT10. Printing Strings The area where we’ve been writing our code is called the editor.여러분이 코드를 작성하는 공간을 에디터라고 부릅니다. 오른쪽의 바깥쪽 창에는 여러분이 작성한 코드의 결과값을 보여주는데, 이곳을 콘솔 이라고 합니다. print 는 여러분의 코드를 콘솔창에 보여줍니다. 설명: •Ch10. Printing Strings...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-10/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting with...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{
