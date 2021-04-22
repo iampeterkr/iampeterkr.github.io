@@ -419,8 +419,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-10/",
         "teaser":null},{
+        "title": "Printing Variables",
+        "excerpt":"LESSON 문자열 출력 변수들을 연습한다. STRING &amp; CONSOLE OUTPUT11. Printing Variables 지금까지 우리는 문자열을 출력하였습니다. 지금부터는 출력 변수들을 알아보도록 합시다. 5 라인에서, 변수 the_machine_goes를 만들고, 문자열 값 “Ping!”을 대입하라. 6 라인에서, 변수 the_machine_goes를 출력하라. 변수에 아래와 같이 정확히 대입하라.the_machine_goes = \"Ping!\" \"\"\"Assign the string \"Ping!\" tothe variable the_machine_goes online 5,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-11/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables 12. String Concatenation 13. Explicit String Conversion 14. String Formatting...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables [Link] 12. String Concatenation 13. Explicit String Conversion 14. String...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{

@@ -27,7 +27,7 @@ Index
 ####  8. str()  [[Link]({{site.baseurl}}/p2k-string-console-output-08/)]      
 ####  9. Dot Notation  [[Link]({{site.baseurl}}/p2k-string-console-output-09/)]      
 ####  10. Printing Strings   [[Link]({{site.baseurl}}/p2k-string-console-output-10/)]      
-####  11. Printing Variables
+####  11. Printing Variables    [[Link]({{site.baseurl}}/p2k-string-console-output-11/)]      
 ####  12. String Concatenation
 ####  13. Explicit String Conversion
 ####  14. String Formatting with %, Part 1
