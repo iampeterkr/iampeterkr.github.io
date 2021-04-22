@@ -415,7 +415,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-string-console-output-09/",
         "teaser":null},{
         "title": "Printing Strings",
-        "excerpt":"LESSON 문자열 출력 방법을 연습한다. STRING &amp; CONSOLE OUTPUT10. Printing Strings The area where we’ve been writing our code is called the editor.여러분이 코드를 작성하는 공간을 에디터라고 부릅니다. 오른쪽의 바깥쪽 창에는 여러분이 작성한 코드의 결과값을 보여주는데, 이곳을 콘솔 이라고 합니다. print 는 여러분의 코드를 콘솔창에 보여줍니다. 설명: •Ch10. Printing Strings...","categories": [],
+        "excerpt":"LESSON 문자열 출력 방법을 연습한다. STRING &amp; CONSOLE OUTPUT10. Printing Strings 여러분이 코드를 작성하는 공간을 에디터라고 부릅니다. 오른쪽의 바깥쪽 창에는 여러분이 작성한 코드의 결과값을 보여주는데, 이곳을 콘솔 이라고 합니다. print 는 여러분의 코드를 콘솔창에 보여줍니다. 설명: •Ch10. Printing Strings 에서는 문자열 출력방법을 학습한다. • print 는 에디터 화면에서 작성한 프로그래밍의...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-10/",
         "teaser":null},{

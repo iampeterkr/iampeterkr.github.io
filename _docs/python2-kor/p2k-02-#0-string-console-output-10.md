@@ -24,7 +24,6 @@ LESSON
 
 ### 10. Printing Strings    
 <br>
-The area where we've been writing our code is called the **editor**.
 여러분이 코드를 작성하는 공간을 에디터라고 부릅니다.    
 오른쪽의 바깥쪽 창에는 여러분이 작성한 코드의 결과값을 보여주는데, 이곳을 콘솔 이라고 합니다.    
 `print` 는 여러분의 코드를 콘솔창에 보여줍니다.   
