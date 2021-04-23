@@ -429,8 +429,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-12/",
         "teaser":null},{
+        "title": "Explicit String Conversion",
+        "excerpt":"LESSON 문자열 변환을 연습한다. STRING &amp; CONSOLE OUTPUT13. Explicit String Conversion 간혹, 문자열이 아닌 값들을 문자열과 연결해야할 때가 있습니다. 이런 경우에, 여러분은 문자열이 아닌 값을 문자열로 변환할수 있습니다. print \"I have \" + str(2) + \" coconuts!\"This will print I have 2 coconuts!.str() 메소드는 문자열이 아닌 값을 문자열로 변환해 줍니다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-13/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables [Link] 12. String Concatenation [Link] 13. Explicit String Conversion 14....","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables [Link] 12. String Concatenation [Link] 13. Explicit String Conversion [Link]...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{

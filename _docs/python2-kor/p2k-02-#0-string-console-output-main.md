@@ -29,7 +29,7 @@ Index
 ####  10. Printing Strings   [[Link]({{site.baseurl}}/p2k-string-console-output-10/)]      
 ####  11. Printing Variables    [[Link]({{site.baseurl}}/p2k-string-console-output-11/)]      
 ####  12. String Concatenation  [[Link]({{site.baseurl}}/p2k-string-console-output-12/)]      
-####  13. Explicit String Conversion
+####  13. Explicit String Conversion  [[Link]({{site.baseurl}}/p2k-string-console-output-13/)]      
 ####  14. String Formatting with %, Part 1
 ####  15. String Formatting with %, Part 2
 ####  16. And Now, For Something Completely Familiar
