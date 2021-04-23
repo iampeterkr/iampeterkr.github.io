@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>SingIn -  Peter’s Blog</title>
-<meta name="description" content="Shows that How to Sign In to Codecademy.com">
+<!-- begin _includes/seo.html --><title>String Concatenation -  Peter’s Blog</title>
+<meta name="description" content="We learn about String Concatenation.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="SingIn">
-<meta property="og:url" content="http://localhost:4000/signin/">
+<meta property="og:title" content="String Concatenation">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-12/">
 
 
-  <meta property="og:description" content="Shows that How to Sign In to Codecademy.com">
+  <meta property="og:description" content="We learn about String Concatenation.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/signin/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-12/">
 
 
 
@@ -176,7 +176,7 @@
             
             
 
-            <li><a href="/signin/" class="active">SignIn</a></li>
+            <li><a href="/signin/" class="">SignIn</a></li>
           
             
             
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="SingIn">
-    <meta itemprop="description" content="Shows that How to Sign In to Codecademy.com">
+    <meta itemprop="headline" content="String Concatenation">
+    <meta itemprop="description" content="We learn about String Concatenation.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">SingIn
+          <h1 id="page-title" class="page__title" itemprop="headline">String Concatenation
 </h1>
           
         </header>
@@ -839,34 +839,85 @@
 
       <section class="page__content" itemprop="text">
         
-        <hr />
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>문자열 연결을 연습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+<p><br /></p>
+<h3 id="12-string-concatenation">12. String Concatenation</h3>
+
+<p>여러분은 문자열과, 수의 연산자에 대하여 배웠다.  <br />
+지금부터 문자를 연결해 보자.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Life "</span> <span class="o">+</span> <span class="s">"of "</span> <span class="o">+</span> <span class="s">"Brian"</span>
+<span class="c1"># This will print out the phrase Life of Brian.
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">+</code> 연산자는 문자열의 앞뒤를 서로 연결해 준다. <br />
+주의할 점은, 3개의 문자열을 연결할때, “Life “, “of “ 다음에 공백을 꼭 따옴표 안에 넣어 주어야 한다.</p>
+
+<p>문자열을 서로 연결하는것을 <code class="language-plaintext highlighter-rouge">concatenation</code> 이라고 부른다.  <br />
+지금부터 여러 문자열을 연결해 보도록 하자.</p>
+
+<p class="notice--info"><strong>설명:</strong>     <br />
+• Ch12. String Concatenation 에서는 문자열 연결을 학습한다.   <br />
+• 문자열은 ( + ) 연산자를 사용하여 연결할수 있다. <br />
+• 문자열 사이의 공백을 주의하자. 
+• 문자열을 ( + ) 연산자를 사용하여 연결하는것을 concatenations 이라고 한다.</p>
 
 <p><br /></p>
-
-<p><img src="//assets/images/codecademy/00-signin-00.png" alt="signin" /></p>
 <hr />
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-1단계  <br />
-Codecademy 사이트로 이동합니다.  <br />
-주소 : www.codecademy.com</p>
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-2단계  <br />
-<code class="language-plaintext highlighter-rouge">Username</code> 을 등록합니다.</p>
+<ul>
+  <li>라인 3에서, <code class="language-plaintext highlighter-rouge">"Spam "</code>, <code class="language-plaintext highlighter-rouge">"and "</code>, <code class="language-plaintext highlighter-rouge">"eggs"</code>를 연결하여 출력하라.</li>
+  <li>주의할점은, <code class="language-plaintext highlighter-rouge">"Spam "</code>과 <code class="language-plaintext highlighter-rouge">"and "</code> 다음에 공백이 있어야 한다.</li>
+  <li>상단 설명에서 공부한 내용을 자세히 보아라.</li>
+</ul>
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-3단계  <br />
-<code class="language-plaintext highlighter-rouge">Email</code> 을 등록합니다.</p>
+<p class="notice--info"><strong>설명:</strong>   <br />
+• 라인 3 에서, “Spam “, “and “, “eggs”를 연결하라.      <br />
+• 주의할 점은 “Spam” 과 “and” 문자뒤에 공백이 있어야 한다.  <br />
+• e.g. “Spam “,   “and “</p>
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-4단계     <br />
-<code class="language-plaintext highlighter-rouge">Password</code> 를 등록합니다.</p>
+<p><br /></p>
+<hr />
 
-<p class="notice--info"><strong>설명:</strong> [ 회원가입 ]   <br />
-5단계     <br />
-<code class="language-plaintext highlighter-rouge">Start coding now</code> 를 눌러 등록을 완료합니다.   <br />
-또는 지메일, 페이스북 등의 어카운터를 활용하여 로그인 할 수 있습니다.</p>
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
+
+<ul class="notice--info">
+  <li>Make sure you include the spaces and use the correct capitalization.</li>
+  <li>공백과 대/소문자를 
+<strong>설명:</strong> [ Hint ]  <br />
+• 문자열 “Spam “과 “and “ 다음에 공백이 있다는것을 주의한다.</li>
+</ul>
+
+<p><br /></p>
+<hr />
+
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Print the concatenation of "Spam and eggs" on line 3!
+</span>
+<span class="k">print</span> <span class="s">"Spam "</span> <span class="o">+</span> <span class="s">"and "</span> <span class="o">+</span> <span class="s">"eggs"</span>
+</code></pre></div></div>
+
+<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
+• Concatenation( + ) 는 문자 그대로 연결시켜 준다.  <br />
+• 임의로 공백을 주지 않으면 “Spamandeggs” 로 출력된다.  <br />
+• 문자열 (“ “) 사이에 공백을 적절히 넣어줘야 한다.</p>
+
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Spam and eggs
+</code></pre></div></div>
 
         
         
@@ -885,11 +936,11 @@ Codecademy 사이트로 이동합니다.  <br />
       
   <nav class="pagination">
     
-      <a href="/connect/" class="pagination--pager" title="Connect
+      <a href="/p2k-string-console-output-11/" class="pagination--pager" title="Printing Variables
 ">Previous</a>
     
     
-      <a href="/login/" class="pagination--pager" title="LogIn
+      <a href="/p2k-string-console-output-main/" class="pagination--pager" title="String &amp; Console Output
 ">Next</a>
     
   </nav>

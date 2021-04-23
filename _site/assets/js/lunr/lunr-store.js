@@ -424,8 +424,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-11/",
         "teaser":null},{
+        "title": "String Concatenation",
+        "excerpt":"LESSON 문자열 연결을 연습한다. STRING &amp; CONSOLE OUTPUT 12. String Concatenation 여러분은 문자열과, 수의 연산자에 대하여 배웠다. 지금부터 문자를 연결해 보자. print \"Life \" + \"of \" + \"Brian\"# This will print out the phrase Life of Brian.+ 연산자는 문자열의 앞뒤를 서로 연결해 준다. 주의할 점은, 3개의 문자열을 연결할때, “Life...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-12/",
+        "teaser":null},{
         "title": "String & Console Output",
-        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables [Link] 12. String Concatenation 13. Explicit String Conversion 14. String...","categories": [],
+        "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables [Link] 12. String Concatenation [Link] 13. Explicit String Conversion 14....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-main/",
         "teaser":null},{
