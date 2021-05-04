@@ -25,14 +25,13 @@ redirect_from:
 <hr/>     
 
 <b>2.	Strings and Console Output</b>     
-*  A.	String & Console Output [§]({{site.baseurl}}/string-console-output/)     
-<a href="/p2e-string-console-output/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
+*  A.	String & Console Output <a href="/p2e-string-console-output/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
 </a>
 <a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
 </a>    
-*  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)<a href="/p2e-date-and-time/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
+*  B.	Date and Time <a href="/p2e-date-and-time/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
 </a>
-<a href="/p2e-date-and-time-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
+<a href="/p2k-date-and-time-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
 </a>     
 <hr/>     
 
