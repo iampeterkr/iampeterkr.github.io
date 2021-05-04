@@ -31,13 +31,12 @@ name = "Mike"
 print "Hello %s" % (name)
 ```
 
-The `%` operator after the string is used to combine a string with variables. The `%` operator will replace the `%s` in the string with the string variable that comes after it.
 문자열 뒤에 `%` 연산자는 문자열 변수와 같이 사용되기도 한다.   
-`%`연산자는 문자열 변수가 있는 문자열 속에서 `%s`로 대체 될것이다.  
+`%`연산자는 문자열 속에서 `%s` 뒤에 오는 문자열 변수로 대체 될것이다.  
 
 If you'd like to print a variable that is an **integer**, you can **"pad"** it with zeros using **%02d**. The `0` means **"pad with zeros"**, the `2` means to pad to `2` characters wide, and the `d` means the **number** is a **signed integer** (can be positive or negative).
 
-여러분이 정수 변수를 출력하기를 원할때는 `%02d` 같이 0을 추가할수 있다.     
+여러분이 정수 변수를 출력하기를 원할때는 `%02d` 같이 0을 추가할 수 있다.     
 숫자 `0`의 의미는 0으로 채우라는 의미이며, 숫자 `2`의 의미는 2자릿수라는 의미이며, `d`는 양수 or 음수의 숫자라는 의미이다.    
 
 ```python
@@ -73,14 +72,9 @@ print "03 - %02d - 2019" % (day)
 
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
-* 에디터속의 코드를 보시오.    
-* 여러분이 생각하기에 어떤 일이 일어 날가요? Run 버턴을 클릭하여 여러분의 생각과 비교해 보세요.    
+* 에디터속의 코드를 살펴 보세요.     
+* 어떤 일이 발생할까요? Run 버턴을 클릭하여 예상한대로 출력 되는지 살펴보세요. 
 
-
-
-**설명:**      
-• Editor 화면에 있는 소스를 실행하고, 당신이 예상한대로 출력 되는지 검토하라. 
-{: .notice--info}
 
 
 
