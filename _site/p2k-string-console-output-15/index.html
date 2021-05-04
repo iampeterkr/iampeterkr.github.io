@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Printing Strings -  Peter’s Blog</title>
-<meta name="description" content="We learn about Printing Strings.">
+<!-- begin _includes/seo.html --><title>String Formatting with %, Part 2 -  Peter’s Blog</title>
+<meta name="description" content="We learn about String Formatting with %.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Printing Strings">
-<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-10/">
+<meta property="og:title" content="String Formatting with %, Part 2">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-15/">
 
 
-  <meta property="og:description" content="We learn about Printing Strings.">
+  <meta property="og:description" content="We learn about String Formatting with %.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-10/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-15/">
 
 
 
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Printing Strings">
-    <meta itemprop="description" content="We learn about Printing Strings.">
+    <meta itemprop="headline" content="String Formatting with %, Part 2">
+    <meta itemprop="description" content="We learn about String Formatting with %.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Printing Strings
+          <h1 id="page-title" class="page__title" itemprop="headline">String Formatting with %, Part 2
 </h1>
           
         </header>
@@ -843,61 +843,95 @@
 
 <p>LESSON</p>
 
-<p>문자열 출력 방법을 연습한다.</p>
+<p>문자열 포맷을 연습한다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
 <font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+<p>
+### 15. String Formatting with %, Part 2    
+<p>
 
-<h3 id="10-printing-strings">10. Printing Strings</h3>
-<p><br />
-여러분이 코드를 작성하는 공간을 에디터라고 부릅니다.  <br />
-오른쪽의 바깥쪽 창에는 여러분이 작성한 코드의 결과값을 보여주는데, 이곳을 콘솔 이라고 합니다.  <br />
-<code class="language-plaintext highlighter-rouge">print</code> 는 여러분의 코드를 콘솔창에 보여줍니다.</p>
+`%s` 자리에는 `%`뒤의 괄호안 변수로 대체된다.     
 
-<p class="notice--info"><strong>설명:</strong>      <br />
-•Ch10. Printing Strings 에서는 문자열 출력방법을 학습한다.  <br />
-• print 는 에디터 화면에서 작성한 프로그래밍의 결과 값을 콘솔창에 보여준다.</p>
+```python
+name = "Mike"
+print "Hello %s" % (name)
+```
 
-<p><br /></p>
+괄호안의 변수의 갯수와 문자열 안의 `%s`의 수는 같아야 한다.    
+
+
+```python
+print "The %s who %s %s!" % ("Knights", "say", "Ni")
+# This will print "The Knights who say Ni!"
+```
+
+<p style="page-break-before: always;"></p>
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<ul>
-  <li>문자열 “Monty Python”을 콘솔창에 출력하라.</li>
-</ul>
+![codecademy](//assets/images/codecademy/00-instruction-01.png)    
 
-<p><br /></p>
+* Now it's your turn! We have ___ in the code to show you what you need to change!    
+* 코드상에서 여러분이 바꾸기를 원하는 부분을 보여줄 것입니다.    
+  * 문자열속 ___ 자리에는 `%s` 를 넣으세요.        
+  * 치환할 3개의 변수 앞에는 `%`를 넣으세요.    
+  * Run 을 클릭하세요.     
+  * 콘솔창에서 질문창이 뜰 것입니다.    
+  * 질문에 대한 당신의 답을 입력하고 엔터를 치세요.    
+
+
+
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
-<ul>
-  <li>아래와 같이 <code class="language-plaintext highlighter-rouge">print</code>문을 사용하여 작성하라.</li>
-</ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Your string goes here"</span>
-</code></pre></div></div>
+![codecademy](//assets/images/codecademy/00-hint-01.png)    
 
-<p><br /></p>
+* 아래 문법을 잘 기억하세요.   
+
+```python
+print "%s" % (string_variable)
+```
+* 라인 5에서의 `\` 문자는 계속 연결된다는 의미이다.
+* 파이썬은 라인 5와 6이 연결된다는것을 Python interpreter(해석기)에게 알려주는 것이다.   
+
+<p style="page-break-before: always;"></p>
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""Tell Python to print "Monty Python"
-to the console on line 4!"""</span>
+![codecademy](//assets/images/codecademy/00-solution-03.png)    
 
-<span class="k">print</span> <span class="s">"Monty Python"</span>
-</code></pre></div></div>
 
-<p class="notice--info"><strong>설명:</strong>   <br />
-• print 문을 사용하여 문자열 “Monty Python” 을 출력한다.</p>
+```python
+name = raw_input("What is your name? ")
+quest = raw_input("What is your quest? ")
+color = raw_input("What is your favorite color? ")
 
-<p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Monty Python
-</code></pre></div></div>
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+```    
+
+**설명:**     
+• %s를 변수 치환 % 를 사용하여 치환한다.    
+• Console 에서 질문에 답을 입력하고, Enter 키 를 누른다.    
+• %s, %s, %s 에 %( name, quest, color) 값이 출력 된다.
+{: .notice--info}
+
+
+**결과**
+```
+What is your name? iampeter
+What is your quest? earth
+What is your favorite color? yellow
+Ah, so your name is iampeter, your quest is earth, and your favorite color is yellow.
+```     
+</p></p>
 
         
         
@@ -916,11 +950,11 @@ to the console on line 4!"""</span>
       
   <nav class="pagination">
     
-      <a href="/p2k-string-console-output-09/" class="pagination--pager" title="Dot Notation
+      <a href="/p2k-string-console-output-14/" class="pagination--pager" title="String Formatting with %, Part 1
 ">Previous</a>
     
     
-      <a href="/p2k-string-console-output-11/" class="pagination--pager" title="Printing Variables
+      <a href="/p2k-string-console-output-16/" class="pagination--pager" title="And Now, For Something Completely Familiar
 ">Next</a>
     
   </nav>

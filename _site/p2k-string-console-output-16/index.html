@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Printing Strings -  Peter’s Blog</title>
-<meta name="description" content="We learn about Printing Strings.">
+<!-- begin _includes/seo.html --><title>And Now, For Something Completely Familiar -  Peter’s Blog</title>
+<meta name="description" content="We review about String &amp; Console Output">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Printing Strings">
-<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-10/">
+<meta property="og:title" content="And Now, For Something Completely Familiar">
+<meta property="og:url" content="http://localhost:4000/p2k-string-console-output-16/">
 
 
-  <meta property="og:description" content="We learn about Printing Strings.">
+  <meta property="og:description" content="We review about String &amp; Console Output">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-10/">
+<link rel="canonical" href="http://localhost:4000/p2k-string-console-output-16/">
 
 
 
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Printing Strings">
-    <meta itemprop="description" content="We learn about Printing Strings.">
+    <meta itemprop="headline" content="And Now, For Something Completely Familiar">
+    <meta itemprop="description" content="We review about String &amp; Console Output">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Printing Strings
+          <h1 id="page-title" class="page__title" itemprop="headline">And Now, For Something Completely Familiar
 </h1>
           
         </header>
@@ -843,61 +843,101 @@
 
 <p>LESSON</p>
 
-<p>문자열 출력 방법을 연습한다.</p>
+<p>지금까지 배운 문자열 전체 복습한다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
 <font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
+<p>
 
-<h3 id="10-printing-strings">10. Printing Strings</h3>
-<p><br />
-여러분이 코드를 작성하는 공간을 에디터라고 부릅니다.  <br />
-오른쪽의 바깥쪽 창에는 여러분이 작성한 코드의 결과값을 보여주는데, 이곳을 콘솔 이라고 합니다.  <br />
-<code class="language-plaintext highlighter-rouge">print</code> 는 여러분의 코드를 콘솔창에 보여줍니다.</p>
+### 16. And Now, For Something Completely Familiar
 
-<p class="notice--info"><strong>설명:</strong>      <br />
-•Ch10. Printing Strings 에서는 문자열 출력방법을 학습한다.  <br />
-• print 는 에디터 화면에서 작성한 프로그래밍의 결과 값을 콘솔창에 보여준다.</p>
+<p>
+여러분은 문자열을 활용하는 여러가지 방법들을 배웠습니다.    
+문자열을 만드는 3가지 방법은 아래와 같습니다.    
 
-<p><br /></p>
+```python
+'Alpha'
+"Bravo"
+str(3)
+```   
+
+문자열 메소드들    
+
+```python
+len("Charlie")
+"Delta".upper()
+"Echo".lower()
+```    
+
+문자열 출력    
+
+```python
+print "Foxtrot"
+```
+
+
+개선된 출력방식들...    
+
+```python
+g = "Golf"
+h = "Hotel"
+print "%s, %s" % (g, h)
+```
+
+<p style="page-break-before: always;"></p>     
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<ul>
-  <li>문자열 “Monty Python”을 콘솔창에 출력하라.</li>
-</ul>
+![codecademy](//assets/images/codecademy/00-instruction-01.png)    
 
-<p><br /></p>
+* 한방에 진행해 봅시다.    
+  * 라인 3에서, 변수 `my_string`를 만들고, 어떤 문자열을 대입하세요.    
+  * 라인 4에서, `len()` 메서드를 사용하여, 변수 `my_string`에 저장된 값의 길이를 출력하세요.     
+  * 라인 5에서, `.upper()`메서드를 사용하여, 변수 `my_string`에 저장된 문자열을 모두 대문자로 변환후 출력하세요.   
+
+
+
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
-<ul>
-  <li>아래와 같이 <code class="language-plaintext highlighter-rouge">print</code>문을 사용하여 작성하라.</li>
-</ul>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"Your string goes here"</span>
-</code></pre></div></div>
+![codecademy](//assets/images/codecademy/00-hint-01.png)    
 
-<p><br /></p>
+* 여러분은 아래와 같이 `print` 출력시, 한줄에 표현할수 있다.     
+
+``` python
+print my_variable.upper()
+```
+<p style="page-break-before: always;"></p>
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""Tell Python to print "Monty Python"
-to the console on line 4!"""</span>
+![codecademy](//assets/images/codecademy/00-solution-03.png)    
+```python
+# Write your code below, starting on line 3!
 
-<span class="k">print</span> <span class="s">"Monty Python"</span>
-</code></pre></div></div>
+my_string = "hey"
+print len(my_string)
+print my_string.upper()
+```
 
-<p class="notice--info"><strong>설명:</strong>   <br />
-• print 문을 사용하여 문자열 “Monty Python” 을 출력한다.</p>
+**설명:**     
+• 변수 my_string 의 길이를 함수 len()를 사용하여 출력한다.    
+• 변수 my_string 의 문자열을 함수 .upper() 를 사용하여 대문자로 출력한다. 
+{: .notice--info}
 
-<p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Monty Python
-</code></pre></div></div>
+
+**결과**
+```
+3
+HEY
+```
+</p></p>
 
         
         
@@ -916,11 +956,11 @@ to the console on line 4!"""</span>
       
   <nav class="pagination">
     
-      <a href="/p2k-string-console-output-09/" class="pagination--pager" title="Dot Notation
+      <a href="/p2k-string-console-output-15/" class="pagination--pager" title="String Formatting with %, Part 2
 ">Previous</a>
     
     
-      <a href="/p2k-string-console-output-11/" class="pagination--pager" title="Printing Variables
+      <a href="/p2k-string-console-output-main/" class="pagination--pager" title="String &amp; Console Output
 ">Next</a>
     
   </nav>

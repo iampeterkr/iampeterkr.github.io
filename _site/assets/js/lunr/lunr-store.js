@@ -15,7 +15,7 @@ var store = [{
         "url": "http://localhost:4000/login/",
         "teaser":null},{
         "title": "Syllabus",
-        "excerpt":"1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output § B. Date and Time §3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § [P3-Kor] [P3-Eng] [P2-Kor] [P2-Eng] B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists...","categories": [],
+        "excerpt":"1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output B. Date and Time 3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § [P3-Kor] [P3-Eng] [P2-Kor] [P2-Eng] B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp;...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/syllabus/",
         "teaser":null},{
@@ -435,9 +435,19 @@ var store = [{
         "url": "http://localhost:4000/p2k-string-console-output-13/",
         "teaser":null},{
         "title": "String Formatting with %, Part 1",
-        "excerpt":"LESSON 문자열 치환을 연습한다. STRING &amp; CONSOLE OUTPUT14. String Formatting with %, Part 1 여러분이 문자열 변수를 출력할때, 문자열을 연결하는것보다 효율적인 방법이 있다. name = \"Mike\"print \"Hello %s\" % (name)The % operator after the string is used to combine a string with variables. The % operator will replace the %s...","categories": [],
+        "excerpt":"LESSON 문자열 치환을 연습한다. STRING &amp; CONSOLE OUTPUT14. String Formatting with %, Part 1 여러분이 문자열 변수를 출력할때, 문자열을 연결하는것보다 효율적인 방법이 있다. name = \"Mike\"print \"Hello %s\" % (name)문자열 뒤에 % 연산자는 문자열 변수와 같이 사용되기도 한다. %연산자는 문자열 속에서 %s 뒤에 오는 문자열 변수로 대체 될것이다. 여러분이 정수...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-14/",
+        "teaser":null},{
+        "title": "String Formatting with %, Part 2",
+        "excerpt":"LESSON 문자열 포맷을 연습한다. STRING &amp; CONSOLE OUTPUT### 15. String Formatting with %, Part 2 `%s` 자리에는 `%`뒤의 괄호안 변수로 대체된다. ```pythonname = \"Mike\"print \"Hello %s\" % (name)```괄호안의 변수의 갯수와 문자열 안의 `%s`의 수는 같아야 한다. ```pythonprint \"The %s who %s %s!\" % (\"Knights\", \"say\", \"Ni\")# This will print \"The...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-15/",
+        "teaser":null},{
+        "title": "And Now, For Something Completely Familiar",
+        "excerpt":"LESSON 지금까지 배운 문자열 전체 복습한다. STRING &amp; CONSOLE OUTPUT### 16. And Now, For Something Completely Familiar여러분은 문자열을 활용하는 여러가지 방법들을 배웠습니다. 문자열을 만드는 3가지 방법은 아래와 같습니다. ```python'Alpha'\"Bravo\"str(3)``` 문자열 메소드들 ```pythonlen(\"Charlie\")\"Delta\".upper()\"Echo\".lower()``` 문자열 출력 ```pythonprint \"Foxtrot\"```개선된 출력방식들... ```pythong = \"Golf\"h = \"Hotel\"print \"%s, %s\" % (g, h)``` ![codecademy](//assets/images/codecademy/00-instruction-01.png) * 한방에...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-16/",
         "teaser":null},{
         "title": "String & Console Output",
         "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables [Link] 12. String Concatenation [Link] 13. Explicit String Conversion [Link]...","categories": [],
@@ -448,6 +458,11 @@ var store = [{
         "excerpt":"LESSON This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the “print” keyword. 설명: [ 학습방향 ] 이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다. STRING &amp; CONSOLE OUTPUT1. Strings Another...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output/",
+        "teaser":null},{
+        "title": "Date and Time",
+        "excerpt":"Index 1. The datetime Library  [Link] 2. Getting the Current Date and Time 3. Extracting Information 4. Hot Date 5. Pretty Time 6. Grand Finale ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-date-and-time-main/",
         "teaser":null},{
         "title": "Date and Time",
         "excerpt":"LESSON This lesson is a follow up to Unit 2: Strings and Console input and will give you practice with the concepts introduced in that lesson. 설명: [ 학습방향 ] 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The datetime Library A lot of times...","categories": [],
