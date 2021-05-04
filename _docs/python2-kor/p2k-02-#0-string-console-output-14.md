@@ -22,9 +22,9 @@ LESSON
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
-### 14. String Formatting with %, Part 1      
+### 14. String Formatting with %, Part 1  
 <br>   
-여러분이 문자열 변수를 출력할때, 문자열을 연결하는것보다 효율적인 방법이 있다.   
+여러분이 문자열 변수를 출력할때, 문자열을 연결하는것보다 효율적인 방법이 있다.      
 
 ```python
 name = "Mike"
@@ -33,8 +33,6 @@ print "Hello %s" % (name)
 
 문자열 뒤에 `%` 연산자는 문자열 변수와 같이 사용되기도 한다.   
 `%`연산자는 문자열 속에서 `%s` 뒤에 오는 문자열 변수로 대체 될것이다.  
-
-If you'd like to print a variable that is an **integer**, you can **"pad"** it with zeros using **%02d**. The `0` means **"pad with zeros"**, the `2` means to pad to `2` characters wide, and the `d` means the **number** is a **signed integer** (can be positive or negative).
 
 여러분이 정수 변수를 출력하기를 원할때는 `%02d` 같이 0을 추가할 수 있다.     
 숫자 `0`의 의미는 0으로 채우라는 의미이며, 숫자 `2`의 의미는 2자릿수라는 의미이며, `d`는 양수 or 음수의 숫자라는 의미이다.    
