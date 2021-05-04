@@ -30,7 +30,10 @@ redirect_from:
 </a>
 <a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
 </a>    
-*  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)     
+*  B.	Date and Time [§]({{site.baseurl}}/date-and-time/)<a href="/p2e-python-syntax/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-eng.png" align="right" height="80px" width="75px">
+</a>
+<a href="/p2k-string-console-output-main/"><img src="https://iampeterkr.github.io/assets/images/codecademy/p2-kor.png" align="right" height="80px" width="75px">
+</a>     
 <hr/>     
 
 <b>3.	Conditionals and Control Flow</b>      
