@@ -22,8 +22,8 @@ LESSON
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
-### 14. String Formatting with %, Part 1    
-
+### 14. String Formatting with %, Part 1      
+<br>   
 여러분이 문자열 변수를 출력할때, 문자열을 연결하는것보다 효율적인 방법이 있다.   
 
 ```python
