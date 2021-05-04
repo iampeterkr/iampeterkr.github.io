@@ -31,6 +31,6 @@ Index
 ####  12. String Concatenation  [[Link]({{site.baseurl}}/p2k-string-console-output-12/)]      
 ####  13. Explicit String Conversion  [[Link]({{site.baseurl}}/p2k-string-console-output-13/)]      
 ####  14. String Formatting with %, Part 1   [[Link]({{site.baseurl}}/p2k-string-console-output-14/)]     
-####  15. String Formatting with %, Part 2
-####  16. And Now, For Something Completely Familiar
+####  15. String Formatting with %, Part 2  [[Link]({{site.baseurl}}/p2k-string-console-output-15/)]     
+####  16. And Now, For Something Completely Familiar  [[Link]({{site.baseurl}}/p2k-string-console-output-16/)]     
  
