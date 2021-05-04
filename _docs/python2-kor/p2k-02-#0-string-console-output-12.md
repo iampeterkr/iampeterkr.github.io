@@ -22,8 +22,9 @@ LESSON
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 <br>
-### 12. String Concatenation    
 
+### 12. String Concatenation    
+<br>
 여러분은 문자열과, 수의 연산자에 대하여 배웠다.    
 지금부터 문자를 연결해 보자.   
 
