@@ -23,7 +23,7 @@ LESSON
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
 
 ### 13. Explicit String Conversion    
-
+<br>
 간혹, 문자열이 아닌 값들을 문자열과 연결해야할 때가 있습니다.    
 이런 경우에, 여러분은 문자열이 아닌 값을 문자열로 변환할수 있습니다.    
 
