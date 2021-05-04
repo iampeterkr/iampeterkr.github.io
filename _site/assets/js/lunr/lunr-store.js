@@ -434,6 +434,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-13/",
         "teaser":null},{
+        "title": "String Formatting with %, Part 1",
+        "excerpt":"LESSON 문자열 치환을 연습한다. STRING &amp; CONSOLE OUTPUT14. String Formatting with %, Part 1 여러분이 문자열 변수를 출력할때, 문자열을 연결하는것보다 효율적인 방법이 있다. name = \"Mike\"print \"Hello %s\" % (name)The % operator after the string is used to combine a string with variables. The % operator will replace the %s...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-string-console-output-14/",
+        "teaser":null},{
         "title": "String & Console Output",
         "excerpt":"Index 1. Strings! [Link] 2. Practice [Link] 3. Escaping characters [Link] 4. Access by Index [Link] 5. String methods [Link] 6. lower() [Link] 7. upper() [Link] 8. str() [Link] 9. Dot Notation [Link] 10. Printing Strings [Link] 11. Printing Variables [Link] 12. String Concatenation [Link] 13. Explicit String Conversion [Link]...","categories": [],
         "tags": [],
