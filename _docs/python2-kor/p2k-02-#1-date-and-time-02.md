@@ -6,7 +6,7 @@ excerpt: "We learn about Getting the Current Date and Time."
 # last_modified_at: 2019-01-30T09:00:00-04:00
 redirect_from:
   - /theme-setup/
-toc: true
+#toc: true
 ---
     
     
