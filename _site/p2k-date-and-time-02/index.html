@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Connect -  Peter’s Blog</title>
-<meta name="description" content="Show that How to connect to Codecademy.com">
+<!-- begin _includes/seo.html --><title>Getting the Current Date and Time -  Peter’s Blog</title>
+<meta name="description" content="We learn about Getting the Current Date and Time.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Connect">
-<meta property="og:url" content="http://localhost:4000/connect/">
+<meta property="og:title" content="Getting the Current Date and Time">
+<meta property="og:url" content="http://localhost:4000/p2k-date-and-time-02/">
 
 
-  <meta property="og:description" content="Show that How to connect to Codecademy.com">
+  <meta property="og:description" content="We learn about Getting the Current Date and Time.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/connect/">
+<link rel="canonical" href="http://localhost:4000/p2k-date-and-time-02/">
 
 
 
@@ -168,7 +168,7 @@
             
             
 
-            <li><a href="/connect/" class="active">Connect</a></li>
+            <li><a href="/connect/" class="">Connect</a></li>
           
             
             
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Connect">
-    <meta itemprop="description" content="Show that How to connect to Codecademy.com">
+    <meta itemprop="headline" content="Getting the Current Date and Time">
+    <meta itemprop="description" content="We learn about Getting the Current Date and Time.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Connect
+          <h1 id="page-title" class="page__title" itemprop="headline">Getting the Current Date and Time
 </h1>
           
         </header>
@@ -839,17 +839,119 @@
 
       <section class="page__content" itemprop="text">
         
-        <hr />
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#2-getting-the-current-date-and-time">2. Getting the Current Date and Time</a></li>
+</ul>
 
-<p><img src="//assets/images/codecademy_logo.svg" alt="codecademy" /></p>
-<h4 id="reference-httpscodecademycom">[Reference] <a href="https://codecademy.com">https://codecademy.com</a></h4>
+
+<!-- google add starts -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 0;">
+    <ins class="adsbygoogle"
+        style="display:block; border-bottom: initial;"
+        data-ad-client="ca-pub-7193702121518663"
+        data-ad-format="auto"
+        data-ad-format="fluid">
+        </ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+<!-- google add end -->
+
+
+      
+
+
+            </nav>
+          </aside>
+        
+        <hr style="border: solid 1px #dddddd ;" />
+
+<p>LESSON</p>
+
+<p>이 장에서는 현재 날짜와 시간을 가져오는 방법을 학습한다.</p>
+
+<hr style="border: solid 1px #dddddd ;" />
+
+<p><br />
+<img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
+<font size="3" face="돋움">DATA AND TIME</font>
+
+<h3 id="2-getting-the-current-date-and-time">2. Getting the Current Date and Time</h3>
+<p>
+
+여러분은 `datetime.now()` 함수를 사용하여, 현재 날짜와 시간을 추출할 수가 있습니다.     
+ 
+
+```python
+from datetime import datetime
+print datetime.now()
+```
+첫번째 라인에서 `datetime` 라이브러리를 불러오고 사용할 것입니다.    
+두번째 라인에서 현재 날짜와 시간을 출력할 것입니다.    
+
+
+**설명:**     
+• datetime.now() 는 현재 날짜와 시간을 알려주는 함수이다.    
+• datetime 을 사용하기 위해서는 클래스 datetime 기본제공 함수를 사용한다.    
+{: .notice--info}
+
+
+
+<br />
 <hr />
 
-<h2 id="시작하기">시작하기</h2>
 
-<p class="notice--info"><strong>목표:</strong>  <br />
-우리는 Codecademy의 Python 교육 환경을 이용하여, 초보자도 Python 추가설치 없이 아주 쉽게 Python 문법을 배우는것을 목표로 합니다.</p>
+![codecademy](//assets/images/codecademy/00-instruction-01.png)    
 
+* 변수 `now`를 생성하고, 이 변수에 `datetime.now()`의 결과값을 대입하라.     
+* 그리고, `now`를 출력하라. 
+
+
+<p style="page-break-before: always;"></p>
+<br />
+<hr />
+
+
+![codecademy](//assets/images/codecademy/00-hint-01.png)    
+* 변수 `now`에 값을 대입하는 방법은 `=` 연산자를 활용하는것을 기억하세요.   
+* 예를 들면, 값 4를 대입하는것은 아래와 같이 합니다.    
+
+```python
+now = 4
+```
+
+<br />
+<hr />
+
+
+![codecademy](//assets/images/codecademy/00-solution-03.png)    
+
+
+```python
+from datetime import datetime
+
+now = datetime.now()
+print now
+```
+
+**설명:**     
+• 클래스 datetime 를 import 한다.     
+• 변수 now 를 만들고, datetime.now() 를 저장한다.      
+• datetime.now() 는 현재 일자와 날짜를 반환한다.    
+• 변수 now 를 출력한다. 
+{: .notice--info}
+
+
+**결과**
+```
+2018-11-27 10:27:29.102097
+```    
+</p>
 
         
         
@@ -868,10 +970,11 @@
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/p2k-date-and-time-01/" class="pagination--pager" title="The datetime Library
+">Previous</a>
     
     
-      <a href="/signin/" class="pagination--pager" title="SingIn
+      <a href="/p2k-date-and-time-main/" class="pagination--pager" title="Date and Time
 ">Next</a>
     
   </nav>

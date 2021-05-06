@@ -464,6 +464,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/p2k-date-and-time-01/",
         "teaser":null},{
+        "title": "Getting the Current Date and Time",
+        "excerpt":"LESSON 이 장에서는 현재 날짜와 시간을 가져오는 방법을 학습한다. DATA AND TIME2. Getting the Current Date and Time 여러분은 `datetime.now()` 함수를 사용하여, 현재 날짜와 시간을 추출할 수가 있습니다. ```pythonfrom datetime import datetimeprint datetime.now()```첫번째 라인에서 `datetime` 라이브러리를 불러오고 사용할 것입니다. 두번째 라인에서 현재 날짜와 시간을 출력할 것입니다. **설명:** • datetime.now() 는...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-date-and-time-02/",
+        "teaser":null},{
         "title": "Date and Time",
         "excerpt":"Index 1. The datetime Library  [Link] 2. Getting the Current Date and Time 3. Extracting Information 4. Hot Date 5. Pretty Time 6. Grand Finale ","categories": [],
         "tags": [],

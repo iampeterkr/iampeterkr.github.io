@@ -100,9 +100,9 @@ We can use a function called `datetime.now()` to retrieve the current **date** a
 from datetime import datetime
 print datetime.now()
 ```
-The first line `imports` the `datetime` library so that we can use it.
+The first line imports the `datetime` library so that we can use it.
 
-The second line will `print` out the current **date** and **time**.
+The second line will print out the current **date** and **time**.
 
 
 
