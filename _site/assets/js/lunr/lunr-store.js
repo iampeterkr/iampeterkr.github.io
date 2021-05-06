@@ -460,7 +460,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-string-console-output/",
         "teaser":null},{
         "title": "The datetime Library",
-        "excerpt":"LESSON 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The datetime Library 여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다. 이럴때, 파이썬에서는 `datetime` 클래스를 사용한다. `datetime`은 날짜와 시간을 보기좋게 출력해준다. ![codecademy](//assets/images/codecademy/00-instruction-01.png) * `Run`을 클릭후 실행하세요. ![codecademy](//assets/images/codecademy/00-hint-01.png) * skip![codecademy](//assets/images/codecademy/00-solution-03.png) ```pythonfrom datetime import datetime```**설명:** •...","categories": [],
+        "excerpt":"LESSON 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The datetime Library 여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다. 이럴때, 파이썬에서는 `datetime` 클래스를 사용한다. `datetime` 은 날짜와 시간을 보기좋게 출력해준다. ![codecademy](//assets/images/codecademy/00-instruction-01.png) * `Run` 을 클릭후 실행하세요. ![codecademy](//assets/images/codecademy/00-hint-01.png) * skip![codecademy](//assets/images/codecademy/00-solution-03.png) ```pythonfrom datetime import...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-date-and-time-01/",
         "teaser":null},{
@@ -470,7 +470,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-date-and-time-02/",
         "teaser":null},{
         "title": "Date and Time",
-        "excerpt":"Index 1. The datetime Library  [Link] 2. Getting the Current Date and Time 3. Extracting Information 4. Hot Date 5. Pretty Time 6. Grand Finale ","categories": [],
+        "excerpt":"Index 1. The datetime Library  [Link] 2. Getting the Current Date and Time  [Link] 3. Extracting Information 4. Hot Date 5. Pretty Time 6. Grand Finale ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-date-and-time-main/",
         "teaser":null},{

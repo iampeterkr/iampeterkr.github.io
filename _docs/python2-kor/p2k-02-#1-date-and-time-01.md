@@ -23,10 +23,12 @@ LESSON
 <font size="3"  face="돋움">DATA AND TIME</font> 
 
 ### 1. The datetime Library    
+
 <p>
 
-여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다. 이럴때, 파이썬에서는 `datetime` 클래스를 사용한다.     
-`datetime`은 날짜와 시간을 보기좋게 출력해준다.     
+여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다.     
+이럴때, 파이썬에서는 `datetime` 클래스를 사용한다.     
+`datetime` 은 날짜와 시간을 보기좋게 출력해준다.     
 
 
 <p style="page-break-before: always;"></p>
@@ -34,9 +36,9 @@ LESSON
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)   
 
-* `Run`을 클릭후 실행하세요.    
+* `Run` 을 클릭후 실행하세요.    
 
 
 <br>

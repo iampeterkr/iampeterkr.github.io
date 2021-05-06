@@ -18,7 +18,7 @@ Index
 
 
 ####  1. The datetime Library  [[Link]({{site.baseurl}}/p2k-date-and-time-01/)]      
-####  2. Getting the Current Date and Time
+####  2. Getting the Current Date and Time  [[Link]({{site.baseurl}}/p2k-date-and-time-02/)]      
 ####  3. Extracting Information
 ####  4. Hot Date
 ####  5. Pretty Time
