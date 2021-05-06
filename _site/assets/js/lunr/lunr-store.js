@@ -460,12 +460,12 @@ var store = [{
         "url": "http://localhost:4000/p2k-string-console-output/",
         "teaser":null},{
         "title": "The datetime Library",
-        "excerpt":"LESSON 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The datetime Library 여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다. 이럴때, 파이썬에서는 `datetime` 클래스를 사용한다. `datetime` 은 날짜와 시간을 보기좋게 출력해준다. ![codecademy](//assets/images/codecademy/00-instruction-01.png) * `Run` 을 클릭후 실행하세요. ![codecademy](//assets/images/codecademy/00-hint-01.png) * skip![codecademy](//assets/images/codecademy/00-solution-03.png) ```pythonfrom datetime import...","categories": [],
+        "excerpt":"LESSON 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The datetime Library 여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다. 이럴때, 파이썬에서는 datetime 클래스를 사용한다. datetime 은 날짜와 시간을 보기좋게 출력해준다. Run 을 클릭후 실행하세요. skip from datetime import datetime설명: • 클래스 datetime...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-date-and-time-01/",
         "teaser":null},{
         "title": "Getting the Current Date and Time",
-        "excerpt":"LESSON 이 장에서는 현재 날짜와 시간을 가져오는 방법을 학습한다. DATA AND TIME2. Getting the Current Date and Time 여러분은 `datetime.now()` 함수를 사용하여, 현재 날짜와 시간을 추출할 수가 있습니다. ```pythonfrom datetime import datetimeprint datetime.now()``` 첫번째 라인에서 `datetime` 라이브러리를 불러오고 사용할 것입니다. 두번째 라인에서 현재 날짜와 시간을 출력할 것입니다. **설명:** • datetime.now()...","categories": [],
+        "excerpt":"LESSON 이 장에서는 현재 날짜와 시간을 가져오는 방법을 학습한다. DATA AND TIME2. Getting the Current Date and Time 여러분은 `datetime.now()` 함수를 사용하여, 현재 날짜와 시간을 추출할 수가 있습니다. ```pythonfrom datetime import datetimeprint datetime.now()```첫번째 라인에서 `datetime` 라이브러리를 불러오고 사용할 것입니다. 두번째 라인에서 현재 날짜와 시간을 출력할 것입니다. **설명:**• datetime.now() 는 현재...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-date-and-time-02/",
         "teaser":null},{

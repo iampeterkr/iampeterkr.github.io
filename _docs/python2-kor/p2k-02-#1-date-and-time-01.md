@@ -23,8 +23,7 @@ LESSON
 <font size="3"  face="돋움">DATA AND TIME</font>     
 
 ### 1. The datetime Library    
-
-<p>
+<br>
 
 여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다.     
 이럴때, 파이썬에서는 `datetime` 클래스를 사용한다.     
