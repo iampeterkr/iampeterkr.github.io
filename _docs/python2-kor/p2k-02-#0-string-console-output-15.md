@@ -21,13 +21,13 @@ LESSON
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
-<p>
+
 ### 15. String Formatting with %, Part 2    
-<p>
+<br>
 
 `%s` 자리에는 `%`뒤의 괄호안 변수로 대체된다.     
 
-```python
+```python    
 name = "Mike"
 print "Hello %s" % (name)
 ```

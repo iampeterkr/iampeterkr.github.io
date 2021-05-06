@@ -29,7 +29,7 @@
 
 
 
-  <meta property="article:published_time" content="2021-05-06T16:37:42+09:00">
+  <meta property="article:published_time" content="2021-05-06T16:43:32+09:00">
 
 
 
@@ -850,88 +850,82 @@
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
 <font size="3" face="돋움">STRING &amp; CONSOLE OUTPUT</font>
-<p>
-### 15. String Formatting with %, Part 2    
-<p>
 
-`%s` 자리에는 `%`뒤의 괄호안 변수로 대체된다.     
+<h3 id="15-string-formatting-with--part-2">15. String Formatting with %, Part 2</h3>
+<p><br /></p>
 
-```python
-name = "Mike"
-print "Hello %s" % (name)
-```
+<p><code class="language-plaintext highlighter-rouge">%s</code> 자리에는 <code class="language-plaintext highlighter-rouge">%</code>뒤의 괄호안 변수로 대체된다.</p>
 
-괄호안의 변수의 갯수와 문자열 안의 `%s`의 수는 같아야 한다.    
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">"Mike"</span>
+<span class="k">print</span> <span class="s">"Hello %s"</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</code></pre></div></div>
 
+<p>괄호안의 변수의 갯수와 문자열 안의 <code class="language-plaintext highlighter-rouge">%s</code>의 수는 같아야 한다.</p>
 
-```python
-print "The %s who %s %s!" % ("Knights", "say", "Ni")
-# This will print "The Knights who say Ni!"
-```
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"The %s who %s %s!"</span> <span class="o">%</span> <span class="p">(</span><span class="s">"Knights"</span><span class="p">,</span> <span class="s">"say"</span><span class="p">,</span> <span class="s">"Ni"</span><span class="p">)</span>
+<span class="c1"># This will print "The Knights who say Ni!"
+</span></code></pre></div></div>
 
 <p style="page-break-before: always;"></p>
-<br />
+<p><br /></p>
 <hr />
 
+<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-![codecademy](//assets/images/codecademy/00-instruction-01.png)    
+<ul>
+  <li>Now it’s your turn! We have ___ in the code to show you what you need to change!</li>
+  <li>코드상에서 여러분이 바꾸기를 원하는 부분을 보여줄 것입니다.
+    <ul>
+      <li>문자열속 ___ 자리에는 <code class="language-plaintext highlighter-rouge">%s</code> 를 넣으세요.</li>
+      <li>치환할 3개의 변수 앞에는 <code class="language-plaintext highlighter-rouge">%</code>를 넣으세요.</li>
+      <li>Run 을 클릭하세요.</li>
+      <li>콘솔창에서 질문창이 뜰 것입니다.</li>
+      <li>질문에 대한 당신의 답을 입력하고 엔터를 치세요.</li>
+    </ul>
+  </li>
+</ul>
 
-* Now it's your turn! We have ___ in the code to show you what you need to change!    
-* 코드상에서 여러분이 바꾸기를 원하는 부분을 보여줄 것입니다.    
-  * 문자열속 ___ 자리에는 `%s` 를 넣으세요.        
-  * 치환할 3개의 변수 앞에는 `%`를 넣으세요.    
-  * Run 을 클릭하세요.     
-  * 콘솔창에서 질문창이 뜰 것입니다.    
-  * 질문에 대한 당신의 답을 입력하고 엔터를 치세요.    
-
-
-
-<br />
+<p><br /></p>
 <hr />
 
+<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
 
-![codecademy](//assets/images/codecademy/00-hint-01.png)    
+<ul>
+  <li>아래 문법을 잘 기억하세요.</li>
+</ul>
 
-* 아래 문법을 잘 기억하세요.   
-
-```python
-print "%s" % (string_variable)
-```
-* 라인 5에서의 `\` 문자는 계속 연결된다는 의미이다.
-* 파이썬은 라인 5와 6이 연결된다는것을 Python interpreter(해석기)에게 알려주는 것이다.   
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="s">"%s"</span> <span class="o">%</span> <span class="p">(</span><span class="n">string_variable</span><span class="p">)</span>
+</code></pre></div></div>
+<ul>
+  <li>라인 5에서의 <code class="language-plaintext highlighter-rouge">\</code> 문자는 계속 연결된다는 의미이다.</li>
+  <li>파이썬은 라인 5와 6이 연결된다는것을 Python interpreter(해석기)에게 알려주는 것이다.</li>
+</ul>
 
 <p style="page-break-before: always;"></p>
-<br />
+<p><br /></p>
 <hr />
 
+<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-![codecademy](//assets/images/codecademy/00-solution-03.png)    
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"What is your name? "</span><span class="p">)</span>
+<span class="n">quest</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"What is your quest? "</span><span class="p">)</span>
+<span class="n">color</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"What is your favorite color? "</span><span class="p">)</span>
 
+<span class="k">print</span> <span class="s">"Ah, so your name is %s, your quest is %s, "</span> \
+<span class="s">"and your favorite color is %s."</span> <span class="o">%</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">quest</span><span class="p">,</span> <span class="n">color</span><span class="p">)</span>
+</code></pre></div></div>
 
-```python
-name = raw_input("What is your name? ")
-quest = raw_input("What is your quest? ")
-color = raw_input("What is your favorite color? ")
+<p class="notice--info"><strong>설명:</strong>   <br />
+• %s를 변수 치환 % 를 사용하여 치환한다.  <br />
+• Console 에서 질문에 답을 입력하고, Enter 키 를 누른다.  <br />
+• %s, %s, %s 에 %( name, quest, color) 값이 출력 된다.</p>
 
-print "Ah, so your name is %s, your quest is %s, " \
-"and your favorite color is %s." % (name, quest, color)
-```    
-
-**설명:**     
-• %s를 변수 치환 % 를 사용하여 치환한다.    
-• Console 에서 질문에 답을 입력하고, Enter 키 를 누른다.    
-• %s, %s, %s 에 %( name, quest, color) 값이 출력 된다.
-{: .notice--info}
-
-
-**결과**
-```
-What is your name? iampeter
+<p><strong>결과</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>What is your name? iampeter
 What is your quest? earth
 What is your favorite color? yellow
 Ah, so your name is iampeter, your quest is earth, and your favorite color is yellow.
-```     
-</p></p>
+</code></pre></div></div>
 
         
         

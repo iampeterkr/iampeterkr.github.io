@@ -14,7 +14,7 @@ toc: true
 
 LESSON    
 
-This lesson is a follow up to Unit 2: Strings and Console input and will give you practice with the concepts introduced in that lesson.
+This lesson is a follow up to Unit 2: Strings and Console input and will give you practice with the concepts introduced in that lesson.    
 
 
 **설명:** [ 학습방향 ]     

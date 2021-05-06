@@ -440,12 +440,12 @@ var store = [{
         "url": "http://localhost:4000/p2k-string-console-output-14/",
         "teaser":null},{
         "title": "String Formatting with %, Part 2",
-        "excerpt":"LESSON 문자열 포맷을 연습한다. STRING &amp; CONSOLE OUTPUT### 15. String Formatting with %, Part 2 `%s` 자리에는 `%`뒤의 괄호안 변수로 대체된다. ```pythonname = \"Mike\"print \"Hello %s\" % (name)```괄호안의 변수의 갯수와 문자열 안의 `%s`의 수는 같아야 한다. ```pythonprint \"The %s who %s %s!\" % (\"Knights\", \"say\", \"Ni\")# This will print \"The...","categories": [],
+        "excerpt":"LESSON 문자열 포맷을 연습한다. STRING &amp; CONSOLE OUTPUT15. String Formatting with %, Part 2 %s 자리에는 %뒤의 괄호안 변수로 대체된다. name = \"Mike\"print \"Hello %s\" % (name)괄호안의 변수의 갯수와 문자열 안의 %s의 수는 같아야 한다. print \"The %s who %s %s!\" % (\"Knights\", \"say\", \"Ni\")# This will print \"The Knights...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-15/",
         "teaser":null},{
         "title": "And Now, For Something Completely Familiar",
-        "excerpt":"LESSON 지금까지 배운 문자열 전체 복습한다. STRING &amp; CONSOLE OUTPUT### 16. And Now, For Something Completely Familiar여러분은 문자열을 활용하는 여러가지 방법들을 배웠습니다. 문자열을 만드는 3가지 방법은 아래와 같습니다. ```python'Alpha'\"Bravo\"str(3)``` 문자열 메소드들 ```pythonlen(\"Charlie\")\"Delta\".upper()\"Echo\".lower()``` 문자열 출력 ```pythonprint \"Foxtrot\"```개선된 출력방식들... ```pythong = \"Golf\"h = \"Hotel\"print \"%s, %s\" % (g, h)``` ![codecademy](//assets/images/codecademy/00-instruction-01.png) * 한방에...","categories": [],
+        "excerpt":"LESSON 지금까지 배운 문자열 전체 복습한다. STRING &amp; CONSOLE OUTPUT 16. And Now, For Something Completely Familiar 여러분은 문자열을 활용하는 여러가지 방법들을 배웠습니다. 문자열을 만드는 3가지 방법은 아래와 같습니다. 'Alpha'\"Bravo\"str(3)문자열 메소드들 len(\"Charlie\")\"Delta\".upper()\"Echo\".lower()문자열 출력 print \"Foxtrot\"개선된 출력방식들… g = \"Golf\"h = \"Hotel\"print \"%s, %s\" % (g, h) 한방에 진행해 봅시다. 라인...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output-16/",
         "teaser":null},{
@@ -470,7 +470,7 @@ var store = [{
         "url": "http://localhost:4000/p2k-date-and-time-02/",
         "teaser":null},{
         "title": "Date and Time",
-        "excerpt":"Index 1. The datetime Library  [Link] 2. Getting the Current Date and Time  [Link] 3. Extracting Information 4. Hot Date 5. Pretty Time 6. Grand Finale ","categories": [],
+        "excerpt":"Index 1. The datetime Library  [Link] 2. Getting the Current Date and Time  [Link] 3. Extracting Information  [Link] 4. Hot Date 5. Pretty Time 6. Grand Finale ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-date-and-time-main/",
         "teaser":null},{
