@@ -15,7 +15,7 @@ var store = [{
         "url": "http://localhost:4000/login/",
         "teaser":null},{
         "title": "Syllabus",
-        "excerpt":"1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output B. Date and Time 3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § [P3-Kor] [P3-Eng] [P2-Kor] [P2-Eng] B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp;...","categories": [],
+        "excerpt":"1. Python Syntax A. Python Syntax 2. Strings and Console Output A. String &amp; Console Output B. Date and Time 3. Conditionals and Control Flow A. Conditionals &amp; Control Flow § B. PygLatin §4. Functions A. Functions § B. Taking a Vacation § 5. Lists &amp; Dictionaries A. Python Lists...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/syllabus/",
         "teaser":null},{
@@ -458,6 +458,11 @@ var store = [{
         "excerpt":"LESSON This lesson will introduce you to strings and console output in Python, including creating string literals, calling a variety of string methods, and using the “print” keyword. 설명: [ 학습방향 ] 이 장에서는 문자열의 콘솔 출력, 생성, 함수 등 콘솔에 출력하는 방법을 학습한다. STRING &amp; CONSOLE OUTPUT1. Strings Another...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/p2k-string-console-output/",
+        "teaser":null},{
+        "title": "The datetime Library",
+        "excerpt":"LESSON 이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다. DATA AND TIME1. The datetime Library 여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다. 이럴때, 파이썬에서는 `datetime` 클래스를 사용한다. `datetime`은 날짜와 시간을 보기좋게 출력해준다. ![codecademy](//assets/images/codecademy/00-instruction-01.png) * `Run`을 클릭후 실행하세요. ![codecademy](//assets/images/codecademy/00-hint-01.png) * skip![codecademy](//assets/images/codecademy/00-solution-03.png) ```pythonfrom datetime import datetime```**설명:** •...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/p2k-date-and-time-01/",
         "teaser":null},{
         "title": "Date and Time",
         "excerpt":"Index 1. The datetime Library  [Link] 2. Getting the Current Date and Time 3. Extracting Information 4. Hot Date 5. Pretty Time 6. Grand Finale ","categories": [],

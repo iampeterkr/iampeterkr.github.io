@@ -37,10 +37,6 @@ redirect_from:
 
 <b>3.	Conditionals and Control Flow</b>      
 * A.	Conditionals & Control Flow [§]({{site.baseurl}}/conditionals-control-flow/)     
-[[P3-Kor]({{site.baseurl}}/conditionals-control-flow/)] 
-[[P3-Eng]({{site.baseurl}}/conditionals-control-flow/)] 
-[[P2-Kor]({{site.baseurl}}/conditionals-control-flow/)] 
-[[P2-Eng]({{site.baseurl}}/conditionals-control-flow/)]     
 * B.	PygLatin [§]({{site.baseurl}}/pyglatin/)   
 <hr/>     
 

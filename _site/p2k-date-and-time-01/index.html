@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Variables -  Peter’s Blog</title>
-<meta name="description" content="We learn about Variables of Python Syntax.">
+<!-- begin _includes/seo.html --><title>The datetime Library -  Peter’s Blog</title>
+<meta name="description" content="We learn about The datetime Library.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content=" Peter's Blog ">
-<meta property="og:title" content="Variables">
-<meta property="og:url" content="http://localhost:4000/p2k-python-syntax-05/">
+<meta property="og:title" content="The datetime Library">
+<meta property="og:url" content="http://localhost:4000/p2k-date-and-time-01/">
 
 
-  <meta property="og:description" content="We learn about Variables of Python Syntax.">
+  <meta property="og:description" content="We learn about The datetime Library.">
 
 
 
@@ -40,7 +40,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/p2k-python-syntax-05/">
+<link rel="canonical" href="http://localhost:4000/p2k-date-and-time-01/">
 
 
 
@@ -823,15 +823,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Variables">
-    <meta itemprop="description" content="We learn about Variables of Python Syntax.">
+    <meta itemprop="headline" content="The datetime Library">
+    <meta itemprop="description" content="We learn about The datetime Library.">
     
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Variables
+          <h1 id="page-title" class="page__title" itemprop="headline">The datetime Library
 </h1>
           
         </header>
@@ -839,78 +839,94 @@
 
       <section class="page__content" itemprop="text">
         
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-the-datetime-library">1. The datetime Library</a></li>
+</ul>
+
+
+<!-- google add starts -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 0;">
+    <ins class="adsbygoogle"
+        style="display:block; border-bottom: initial;"
+        data-ad-client="ca-pub-7193702121518663"
+        data-ad-format="auto"
+        data-ad-format="fluid">
+        </ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+<!-- google add end -->
+
+
+      
+
+
+            </nav>
+          </aside>
+        
         <hr style="border: solid 1px #dddddd ;" />
 
 <p>LESSON</p>
 
-<p>이 장에서는 변수를 배울 것이다.</p>
+<p>이 장에서는 2장의 연장선으로, 다양한 문자열을 콘솔에 출력하는 방법을 연습한다.</p>
 
 <hr style="border: solid 1px #dddddd ;" />
 
 <p><br />
 <img src="//assets/images/codecademy/00-learn-01.png" alt="codecademy" /></p>
-<font size="3" face="돋움">PYTHON SYNTAX</font>
-<h3 id="5-variables">5. Variables</h3>
+<font size="3" face="돋움">DATA AND TIME</font>
 
-<p>Python 프로그래밍에서, 시간의 변화에 따라 데이타를 처리하는 시스템을 만든다고 가정해 보자.   <br />
-그 데이타는 비행기의 위치가 될수도 있고, 하루중 시간 또는 여러분이 시청하고 있는 텔레비젼 쇼의 시간이 될 수도 있다. <br />
-중요한것은 이것들은 시간에 따라 값이 달라질 수 있는 것이다. <br />
-Python 은 변수를 사용하여 내용이 달라지는 것을 정의하여 사용한다.</p>
+<h3 id="1-the-datetime-library">1. The datetime Library</h3>
+<p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">greeting_message</span> <span class="o">=</span> <span class="s">"Welcome to Codecademy!"</span>
-<span class="n">current_excercise</span> <span class="o">=</span> <span class="mi">5</span>
-</code></pre></div></div>
+여러분은 무슨일들이 발생 했을때, 해당 시간을 표시해 두고 싶을 것이다. 이럴때, 파이썬에서는 `datetime` 클래스를 사용한다.     
+`datetime`은 날짜와 시간을 보기좋게 출력해준다.     
 
-<p>위의 예에서, 우리는 <code class="language-plaintext highlighter-rouge">greeting_message</code> 로 불리는 변수를 정의하였다.   <br />
-그리고, 이 변수에 “Welcome to Codecademy!”를 저장 하였다.  <br />
-또한, <code class="language-plaintext highlighter-rouge">current_exercise</code> 라는 변수에 숫자 5를 저장 하였다.</p>
-
-<p class="notice--info"><strong>설명:</strong> [ 정리 ]     <br />
-• Ch5. Variables 에서는 변수를 학습한다.  <br />
-• 변수는 문자열이나, 숫자를 저장하기 위한 상자 이름이다.   <br />
-• 우리는 greeting_message 라는 변수 상자를 만든다.  <br />
-• 그 변수 상자에 <em>Welcome to Codecademy!</em> 라는 문자열을 저장한다.  <br />
-• greeting_message 는 문자를 담은 변수 상자가 된다.  <br />
-• Python 에서는 greeting_message 를 변수라 부른다.  <br />
-• 마찬가지로 우리는 숫자를 담기 위한 current_exercise 라는 변수 상자를 만든다.  <br />
-• 그 변수 상자에 숫자 5 를 담는다.  <br />
-• current_exercise 는 숫자를 담은 변수 상자가 된다. <br />
-• 우리는 이것을 변수 current_exercise 라고 부른다.</p>
 
 <p style="page-break-before: always;"></p>
-<p><br /></p>
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-instruction-01.png" alt="codecademy" /></p>
 
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">todays_date</code> 이름의 변수를 만들고, 그 변수에 오늘 날짜를 저장하라.</li>
-</ul>
+![codecademy](//assets/images/codecademy/00-instruction-01.png)    
 
-<p><br /></p>
+* `Run`을 클릭후 실행하세요.    
+
+
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-hint-01.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">todays_date</span> <span class="o">=</span> <span class="s">"March 31, 2023"</span>
-</code></pre></div></div>
+![codecademy](//assets/images/codecademy/00-hint-01.png)    
+* skip
 
-<p class="notice--info"><strong>설명:</strong> [ Hint ]  <br />
-• 변수 todays_date 를 만들고 거기에 <em>March 31, 2023</em> 문자열을 넣는다.</p>
-<p><br /></p>
+
+<br />
 <hr />
 
-<p><img src="//assets/images/codecademy/00-solution-03.png" alt="codecademy" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">todays_date</span> <span class="o">=</span> <span class="s">"December 25, 2021"</span>
-</code></pre></div></div>
+![codecademy](//assets/images/codecademy/00-solution-03.png)    
 
-<p class="notice--info"><strong>설명:</strong> [ Solution ]   <br />
-• 변수 todays_date 에 문자열을 넣는다.</p>
 
-<p><strong>결과</strong></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#skip
-</code></pre></div></div>
+```python
+from datetime import datetime
+```
+
+**설명:**     
+• 클래스 datetime 으로 부터 datetime 을 import 한다.
+{: .notice--info}    
+
+
+**결과**  
+```
+#skip
+```    
+</p>
 
         
         
@@ -929,11 +945,11 @@ Python 은 변수를 사용하여 내용이 달라지는 것을 정의하여 사
       
   <nav class="pagination">
     
-      <a href="/p2k-python-syntax-04/" class="pagination--pager" title="Handling Errors
+      <a href="/p2k-string-console-output/" class="pagination--pager" title="String &amp; Console Output
 ">Previous</a>
     
     
-      <a href="/p2k-python-syntax-06/" class="pagination--pager" title="Arithmetic
+      <a href="/p2k-date-and-time-main/" class="pagination--pager" title="Date and Time
 ">Next</a>
     
   </nav>
