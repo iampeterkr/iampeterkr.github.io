@@ -20,7 +20,7 @@ LESSON
 <hr style="border: solid 1px #dddddd ;">    
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
-<font size="3"  face="돋움">DATA AND TIME</font> 
+<font size="3"  face="돋움">DATA AND TIME</font>     
 
 ### 1. The datetime Library    
 
@@ -36,9 +36,10 @@ LESSON
 <hr/>
 
 
-![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)   
+![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-instruction-01.png)    
 
 * `Run` 을 클릭후 실행하세요.    
+
 
 
 <br>

@@ -31,7 +31,8 @@ LESSON
 ```python
 from datetime import datetime
 print datetime.now()
-```
+```     
+
 첫번째 라인에서 `datetime` 라이브러리를 불러오고 사용할 것입니다.    
 두번째 라인에서 현재 날짜와 시간을 출력할 것입니다.    
 
