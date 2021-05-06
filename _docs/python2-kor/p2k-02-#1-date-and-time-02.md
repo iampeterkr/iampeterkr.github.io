@@ -23,12 +23,11 @@ LESSON
 <font size="3"  face="돋움">DATA AND TIME</font> 
 
 ### 2. Getting the Current Date and Time    
-<p>    
+<br>    
 
 여러분은 `datetime.now()` 함수를 사용하여, 현재 날짜와 시간을 추출할 수가 있습니다.    
 
-
-```python
+```python   
 from datetime import datetime
 print datetime.now()
 ```

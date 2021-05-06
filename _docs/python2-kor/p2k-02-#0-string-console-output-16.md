@@ -21,11 +21,11 @@ LESSON
 <br>
 ![codecademy]({{ site.baseurl }}/assets/images/codecademy/00-learn-01.png)    
 <font size="3"  face="돋움">STRING & CONSOLE OUTPUT</font> 
-<p>
+<br>
 
 ### 16. And Now, For Something Completely Familiar
+<br>
 
-<p>
 여러분은 문자열을 활용하는 여러가지 방법들을 배웠습니다.    
 문자열을 만드는 3가지 방법은 아래와 같습니다.    
 
